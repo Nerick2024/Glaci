@@ -4,12 +4,14 @@ import { useTranslation } from "@/i18n";
 import Trans from "@/i18n/Trans.astro";
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
+import Contact from "@/components/Contact.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="O M S M A R T" >
 <Hero/>
+<Contact/>
 </Layout>
 

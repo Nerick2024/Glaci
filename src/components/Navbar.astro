@@ -1,49 +1,48 @@
 ---
-import { getLangFromUrl, useTranslation, translatedPathFor } from "@/i18n";
+import { getLangFromUrl, useTranslation } from "@/i18n";
 import LanguagePicker from "@/i18n/LanguagePicker.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
 
-<div class="absolute z-10 w-full flex flex-row justify-center lg:justify-between items-center gap-5 px-28 py-10">
-  <div
-    class="h-17 w-max object-contain"
-    data-os-animation="bounceIn"
-    data-os-animation-delay=".7s"
-  >
-    <a href="index.html">
-      <img loading="lazy" src="/imagenes/logo.png" alt="Logo" />
+<header
+  class="top-0 left-0 z-10 fixed flex justify-between items-center bg-black/5 backdrop-blur-sm px-4 sm:px-8 lg:px-28 py-6 border-white/25 border-b w-full backd"
+>
+  <!-- Logo -->
+  <div class="z-50 w-max h-17 object-contain flex items-center justify-center">
+    <a href={`/${lang}/`}>
+      <img
+        loading="lazy"
+        src="/imagenes/logo.png"
+        alt="Logo"
+        class="w-28 lg:w-40 h-auto"
+      />
     </a>
   </div>
+
+  <!-- Desktop Navbar -->
   <nav
-    id="menu"
-    class="absolute z-999 top-12 right-[5%] h-11 lg:flex hidden items-center justify-end gap-6 text-white text-[18px] font-semibold max-[940px]:hidden"
+    class="hidden lg:flex justify-end items-center gap-6 h-11 font-semibold text-[18px] text-white"
   >
-    <!-- ECOSISTEMA -->
-    <div class="relative group">
+    <div class="group relative">
       <a
         href={`/${lang}/`}
-        class="relative z-30 transition-colors duration-500 hover:text-cyan-400 font-semibold"
+        class="z-30 relative font-semibold hover:text-cyan-400 transition-colors duration-500"
       >
         {i18n.NAVBAR.SMART_ECOSYSTEM}
       </a>
-
-      <!-- SUBMENU -->
       <div
-        class="absolute left-0 top-full min-w-[320px] bg-[#050647]/90 p-[10px] rounded-[8px] shadow-[0_8px_20px_rgba(0,0,0,0.4)] flex flex-col gap-2 opacity-0 -translate-y-[6px] pointer-events-none transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto z-20"
+        class="top-full left-0 z-20 absolute flex flex-col gap-2 bg-[#050647]/90 opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] min-w-[320px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
       >
         {
           i18n.NAVBAR.SMART_ECOSYSTEM_ITEMS.map((item) => (
             <a
               href={item.HREF}
-              class="block p-2 rounded-md hover:bg-cyan-400/10 hover:text-cyan-400"
+              class="block hover:bg-cyan-400/10 p-2 rounded-md hover:text-cyan-400"
             >
-              <>
-                <strong>{item.TITLE}</strong>
-                <br />
-              </>
-              <span class="text-base font-medium text-gray-200">
+              <strong>{item.TITLE_NAV}</strong>
+              <span class="block font-medium text-gray-200 text-base">
                 {item.SUBTITLE}
               </span>
             </a>
@@ -51,34 +50,33 @@ const i18n = await useTranslation(lang);
         }
       </div>
     </div>
-
-    <!-- LINKS -->
     <a
       href="#somosom"
-      class="transition-colors duration-500 hover:text-cyan-400 font-semibold"
+      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
       >{i18n.NAVBAR.ABOUT_US}</a
     >
     <a
       href="#contacto"
-      class="transition-colors duration-500 hover:text-cyan-400 font-semibold"
+      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
       >{i18n.NAVBAR.CONTACT}</a
     >
     <a
-      href="blog/"
-      class="transition-colors duration-500 hover:text-cyan-400 font-semibold"
+      href="/blog"
+      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
       >{i18n.NAVBAR.BLOG}</a
     >
     <LanguagePicker />
     <a
-      href="blog/"
-      class="relative transition-colors duration-500 group text-cyan-400 hover:text-white duration-150 font-semibold flex flex-row items-center justify-center gap-4 border border-white/25 p-2 pl-4 rounded-full overflow-hidden"
-      >{i18n.NAVBAR.INFORMATION}
+      href="/blog"
+      class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-cyan-400 hover:text-white transition-colors duration-500"
+    >
+      {i18n.NAVBAR.INFORMATION}
       <span
-        class="bg-gradient-to-r from-[var(--color-title)] to-[var(--color-blue)] group-hover:from-white group-hover:to-white transition-all duration-1000 px-4 py-1 rounded-full"
+        class="bg-gradient-to-r from-[var(--color-title)] group-hover:from-white to-[var(--color-blue)] group-hover:to-white px-4 py-1 rounded-full transition-all duration-1000"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5.5 rotate-90 fill-white group-hover:fill-[var(--color-blue)] transition-all duration-300 pointer-events-none"
+          class="fill-white group-hover:fill-[var(--color-blue)] h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
           viewBox="0 0 16 16"
         >
           <path
@@ -87,35 +85,94 @@ const i18n = await useTranslation(lang);
           ></path>
         </svg>
         <span
-          class="h-full w-0 -z-10 group-hover:w-full transition-all duration-400 absolute bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] top-0 left-0"
+          class="top-0 left-0 -z-10 absolute bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] w-0 group-hover:w-full h-full transition-all duration-400"
         ></span>
       </span>
     </a>
   </nav>
-</div>
-<nav
-  id="menu2"
-  class="absolute z-999 w-full h-11 items-center justify-center gap-4 text-white text-[18px] font-semibold lg:hidden flex"
->
-  <a
-    href="#somos"
-    class="hover:text-cyan-400 transition-colors font-semibold text-xs"
-    >{i18n.NAVBAR.SMART_ECOSYSTEM}</a
+
+  <!-- Mobile Menu Button -->
+  <div class="lg:hidden z-50">
+    <button id="menu-toggle" class="text-white">
+      <svg
+        id="menu-open-icon"
+        class="w-8 h-8"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+      <svg
+        id="menu-close-icon"
+        class="hidden w-8 h-8"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="lg:hidden fixed inset-0 bg-[#050647]/95 opacity-0 backdrop-blur-sm w-full h-screen transition-opacity duration-300 ease-in-out pointer-events-none"
   >
-  <a
-    href="#somosom"
-    class="hover:text-cyan-400 transition-colors font-semibold text-xs"
-    >{i18n.NAVBAR.ABOUT_US}</a
-  >
-  <a
-    href="#contacto"
-    class="hover:text-cyan-400 transition-colors font-semibold text-xs"
-    >{i18n.NAVBAR.CONTACT}</a
-  >
-  <a
-    href="blog/"
-    class="hover:text-cyan-400 transition-colors font-semibold text-xs"
-    >{i18n.NAVBAR.BLOG}</a
-  >
-  <LanguagePicker />
-</nav>
+    <nav
+      class="flex flex-col justify-center items-center gap-8 h-full font-medium text-white text-2xl"
+    >
+      <a href={`/${lang}/`} class="hover:text-cyan-400 transition-colors"
+        >Smart City</a
+      >
+      <a href="#somosom" class="hover:text-cyan-400 transition-colors"
+        >{i18n.NAVBAR.ABOUT_US}</a
+      >
+      <a href="#contacto" class="hover:text-cyan-400 transition-colors"
+        >{i18n.NAVBAR.CONTACT}</a
+      >
+      <a href="/blog" class="hover:text-cyan-400 transition-colors"
+        >{i18n.NAVBAR.BLOG}</a
+      >
+      <LanguagePicker />
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const openIcon = document.getElementById("menu-open-icon");
+  const closeIcon = document.getElementById("menu-close-icon");
+  const body = document.querySelector("body");
+  const navLinks = mobileMenu.querySelectorAll("a");
+
+  const toggleMenu = () => {
+    mobileMenu.classList.toggle("opacity-0");
+    mobileMenu.classList.toggle("pointer-events-none");
+    openIcon.classList.toggle("hidden");
+    closeIcon.classList.toggle("hidden");
+    body.classList.toggle("overflow-hidden");
+  };
+
+  menuToggle.addEventListener("click", toggleMenu);
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      if (!mobileMenu.classList.contains("opacity-0")) {
+        toggleMenu();
+      }
+    });
+  });
+</script>

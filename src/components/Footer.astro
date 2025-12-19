@@ -8,13 +8,16 @@ const i18n = await useTranslation(lang);
 
 <div
   id="footer"
-  class="z-10 flex lg:flex-row flex-col justify-between items-center gap-5 px-4 lg:px-28 py-10 border-white/25 border-t w-full"
+  class="z-10 flex lg:flex-row flex-col justify-between items-center gap-5 px-4 lg:px-28 py-10 border-white/50 border-t w-full"
 >
   <div class="flex justify-center items-center gap-6 text-white">
     <p class="text-sm">Copyright © OM SMART {new Date().getFullYear()}</p>
   </div>
   <div class="flex justify-center animate-bounce duration-1000">
-    <a href="/#hero" class="px-0.5 py-4 border-[1.8px] border-white rounded-full">
+    <a
+      href="#hero"
+      class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
+    >
       <img
         src="/icons/arrow.svg"
         alt="arrow"

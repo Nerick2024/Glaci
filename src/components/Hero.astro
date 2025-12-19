@@ -48,6 +48,7 @@ const nodeLayouts = [
 ---
 
 <main
+  id="hero"
   class="relative lg:flex justify-center items-center h-screen min-h-screen overflow-hidden"
 >
   <!-- BACKGROUND -->
@@ -119,7 +120,9 @@ const nodeLayouts = [
     class="hidden bottom-0 absolute items-end lg:grid grid-cols-3 px-28 w-full text-white"
   >
     <div class="flex flex-col justify-center items-center gap-6 w-fit">
-      <p class="w-fit font-semibold text-[var(--color-title)] text-xl text-center">
+      <p
+        class="w-fit font-semibold text-[var(--color-title)] text-xl text-center"
+      >
         <span class="font-extrabold">+</span>
         {i18n.HERO.FOOTER_LEFT_LINE1}<br />{i18n.HERO.FOOTER_LEFT_LINE2}
       </p>
@@ -197,7 +200,8 @@ const nodeLayouts = [
         {i18n.HERO.FOOTER_LEFT_BUTTON}
         <span
           class="font-bold text-xl transition-transform group-hover:translate-x-1"
-          >→</span>
+          >→</span
+        >
       </a>
     </div>
     <div class="mt-5 text-center">
@@ -213,7 +217,10 @@ const nodeLayouts = [
       </div>
     </div>
   </div>
-  <div class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"></div>
+  <div
+    class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"
+  >
+  </div>
 </main>
 
 <footer class="px-8 lg:px-28 py-4 lg:text-left text-center">

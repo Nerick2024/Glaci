@@ -1,5 +1,5 @@
 ---
-import "../style/global.css";
+import "../styles/globals.css";
 import Navbar from "@/components/Navbar.astro";
 import Footer from "@/components/Footer.astro";
 import { getLangFromUrl } from "@/i18n";
@@ -10,7 +10,6 @@ export interface Props {
 
 const { title } = Astro.props;
 ---
-
 <!doctype html>
 <html lang={lang}>
   <head>
@@ -35,7 +34,7 @@ const { title } = Astro.props;
 	--color-text:#ffff;
 	--color-text2:#d5d5d5;
 	--color-blue:#00aaff;
-	--color-bg-1:#000b65;
+	--color-bg-1:#000000;
 	--color-bg-2:#011377;
 	--color-bg-3:#050653;
 	--color-bg-subtitle:#0b0c48;
@@ -46,7 +45,7 @@ const { title } = Astro.props;
   }
 
   html{
-    background-color: #000000;
+    background-color: var(--color-bg-1);
   }
   /* TÍTULOS */
   h1,

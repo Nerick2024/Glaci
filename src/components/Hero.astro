@@ -51,7 +51,7 @@ const nodeLayouts = [
   class="relative lg:flex justify-center items-center h-screen min-h-screen overflow-hidden"
 >
   <!-- BACKGROUND -->
-  <div class="-z-20 fixed inset-0 w-full h-full overflow-hidden">
+  <div class="-z-20 absolute inset-0 w-full h-full overflow-hidden">
     <video
       id="bg-video"
       class="border-0 w-full h-full object-cover pointer-events-none"
@@ -119,7 +119,7 @@ const nodeLayouts = [
     class="hidden bottom-0 absolute items-end lg:grid grid-cols-3 px-28 w-full text-white"
   >
     <div class="flex flex-col justify-center items-center gap-6 w-fit">
-      <p class="w-fit font-semibold text-cyan-400 text-xl text-center">
+      <p class="w-fit font-semibold text-[var(--color-title)] text-xl text-center">
         <span class="font-extrabold">+</span>
         {i18n.HERO.FOOTER_LEFT_LINE1}<br />{i18n.HERO.FOOTER_LEFT_LINE2}
       </p>
@@ -165,7 +165,7 @@ const nodeLayouts = [
 
   <!-- MOBILE/TABLET VIEW -->
   <div
-    class="lg:hidden flex flex-col justify-center items-center m-auto pt-12 px-10 w-full h-screen text-white"
+    class="lg:hidden flex flex-col justify-center items-center m-auto px-10 pt-12 w-full h-screen text-white"
   >
     <h1 class="font-light text-gray-300 text-3xl text-center">
       {i18n.HERO.CENTER_SUBTITLE}
@@ -186,7 +186,7 @@ const nodeLayouts = [
       }
     </div>
     <div class="flex flex-col items-center gap-6 mt-5 text-center">
-      <p class="font-semibold text-cyan-400 text-base">
+      <p class="font-semibold text-[var(--color-title)] text-base">
         <span class="font-extrabold">+</span>
         {i18n.HERO.FOOTER_LEFT_LINE1}<br />{i18n.HERO.FOOTER_LEFT_LINE2}
       </p>
@@ -213,6 +213,7 @@ const nodeLayouts = [
       </div>
     </div>
   </div>
+  <div class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"></div>
 </main>
 
 <footer class="px-8 lg:px-28 py-4 lg:text-left text-center">

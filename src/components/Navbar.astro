@@ -10,7 +10,7 @@ const i18n = await useTranslation(lang);
   class="top-0 left-0 z-10 fixed flex justify-between items-center bg-black/5 backdrop-blur-sm px-4 sm:px-8 lg:px-28 py-6 border-white/25 border-b w-full backd"
 >
   <!-- Logo -->
-  <div class="z-50 w-max h-17 object-contain flex items-center justify-center">
+  <div class="z-50 flex justify-center items-center w-max h-17 object-contain">
     <a href={`/${lang}/`}>
       <img
         loading="lazy"
@@ -28,7 +28,7 @@ const i18n = await useTranslation(lang);
     <div class="group relative">
       <a
         href={`/${lang}/`}
-        class="z-30 relative font-semibold hover:text-cyan-400 transition-colors duration-500"
+        class="z-30 relative font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >
         {i18n.NAVBAR.SMART_ECOSYSTEM}
       </a>
@@ -39,7 +39,7 @@ const i18n = await useTranslation(lang);
           i18n.NAVBAR.SMART_ECOSYSTEM_ITEMS.map((item) => (
             <a
               href={item.HREF}
-              class="block hover:bg-cyan-400/10 p-2 rounded-md hover:text-cyan-400"
+              class="block hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)]"
             >
               <strong>{item.TITLE_NAV}</strong>
               <span class="block font-medium text-gray-200 text-base">
@@ -52,23 +52,23 @@ const i18n = await useTranslation(lang);
     </div>
     <a
       href="#somosom"
-      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
+      class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.ABOUT_US}</a
     >
     <a
       href="#contacto"
-      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
+      class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.CONTACT}</a
     >
     <a
       href="/blog"
-      class="font-semibold hover:text-cyan-400 transition-colors duration-500"
+      class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.BLOG}</a
     >
     <LanguagePicker />
     <a
       href="/blog"
-      class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-cyan-400 hover:text-white transition-colors duration-500"
+      class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-[var(--color-title)] hover:text-white transition-colors duration-500"
     >
       {i18n.NAVBAR.INFORMATION}
       <span
@@ -133,16 +133,16 @@ const i18n = await useTranslation(lang);
     <nav
       class="flex flex-col justify-center items-center gap-8 h-full font-medium text-white text-2xl"
     >
-      <a href={`/${lang}/`} class="hover:text-cyan-400 transition-colors"
+      <a href={`/${lang}/`} class="hover:text-[var(--color-title)] transition-colors"
         >Smart City</a
       >
-      <a href="#somosom" class="hover:text-cyan-400 transition-colors"
+      <a href="#somosom" class="hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.ABOUT_US}</a
       >
-      <a href="#contacto" class="hover:text-cyan-400 transition-colors"
+      <a href="#contacto" class="hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.CONTACT}</a
       >
-      <a href="/blog" class="hover:text-cyan-400 transition-colors"
+      <a href="/blog" class="hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.BLOG}</a
       >
       <LanguagePicker />

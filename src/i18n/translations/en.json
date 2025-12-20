@@ -7,37 +7,43 @@
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Governance",
         "TITLE_TEXT": "Smart Governance",
-        "SUBTITLE": "Digital Government and Transparency."
+        "SUBTITLE": "Digital Government and Transparency.",
+        "DESCRIPTION": "<b>We integrate strategies to improve and optimize the processes of public administration and government</b>, in addition to promoting the principles of openness and transparency to bring governments, citizens, and companies closer based on Information and Communication Technologies."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Economy",
         "TITLE_TEXT": "Smart Economy",
-        "SUBTITLE": "Financing and Business Models."
+        "SUBTITLE": "Financing and Business Models.",
+        "DESCRIPTION": "<b>We generate development plans</b> that encourage the spirit of innovation, creative ability, and the capacity for change and transformation."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Mobility and<br>Infrastructure",
         "TITLE_TEXT": "Smart Mobility and Infrastructure",
-        "SUBTITLE": "Connected Mobility and Infrastructure."
+        "SUBTITLE": "Connected Mobility and Infrastructure.",
+        "DESCRIPTION": "<b>We manage sustainable transport systems</b> that are environmentally friendly and have effective energy consumption, using ICTs to monitor and provide a more suitable service offer to different users."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Environment",
         "TITLE_TEXT": "Smart Environment",
-        "SUBTITLE": "Sustainability and ESG Services."
+        "SUBTITLE": "Sustainability and ESG Services.",
+        "DESCRIPTION": "<b>guidance</b> in the development and implementation of clean energies and the <b>efficient use</b> of water and waste <b>management</b>, based on the <b>correct management of projects and sustainable use of natural resources</b>."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Habitat and<br>Services",
         "TITLE_TEXT": "Smart Habitat and Services",
-        "SUBTITLE": "Security and Quality of Life."
+        "SUBTITLE": "Security and Quality of Life.",
+        "DESCRIPTION": "<b>We encourage and guide</b> the creation of networks and infrastructures that allow participation in areas such as e-health, e-culture, e-tourism, and e-security."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Society",
         "TITLE_TEXT": "Smart Society",
-        "SUBTITLE": "Society and Digital Inclusion."
+        "SUBTITLE": "Society and Digital Inclusion.",
+        "DESCRIPTION": "We guide the <b>structuring and administration</b> of the project, <b>manage</b> associations and financing, and efficiently <b>design</b> public infrastructures and services."
       }
     ],
     "ABOUT_US": "About Us",

@@ -7,37 +7,43 @@
         "HREF": "",
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
         "TITLE_TEXT": "Gobernanza Inteligente",
-        "SUBTITLE": "Gobierno Digital y Transparencia."
+        "SUBTITLE": "Gobierno Digital y Transparencia.",
+        "DESCRIPTION": "<b>Integramos estrategias para mejorar y optimizar los procesos de la administración pública y el gobierno</b>, además de fomentar los principios de apertura y transparencia para lograr acercar a los gobiernos, ciudadanía y empresas basándose en las Tecnologías de la Información y comunicación."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Economía</strong><br>Inteligente",
         "TITLE_TEXT": "Economía Inteligente",
-        "SUBTITLE": "Financiación y Modelos de Negocio."
+        "SUBTITLE": "Financiación y Modelos de Negocio.",
+        "DESCRIPTION": "<b>Generamos planes de desarrollo</b> que fomentan el espíritu de innovación, la habilidad creativa y la capacidad de cambio y transformación."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Movilidad e<br>Infraestructuras</strong><br>Inteligentes",
         "TITLE_TEXT": "Movilidad e Infraestructuras Inteligentes",
-        "SUBTITLE": "Movilidad e Infraestructura Conectada."
+        "SUBTITLE": "Movilidad e Infraestructura Conectada.",
+        "DESCRIPTION": "<b>Gestionamos sistemas de transporte</b> sostenibles, respetuosos con el medio ambiente y con un gasto energético efectivo, empleando TIC’s para dar seguimiento y una oferta más adecuada de servicio a los diferentes usuarios."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Medio Ambiente</strong><br>Inteligente",
         "TITLE_TEXT": "Medio Ambiente Inteligente",
-        "SUBTITLE": "Sostenibilidad y Servicios ESG."
+        "SUBTITLE": "Sostenibilidad y Servicios ESG.",
+        "DESCRIPTION": "<b>orientación</b> en el desarrollo e implementación de energías limpias y el <b>uso eficiente</b> de agua y <b>gestión</b> de los residuos, basado en la <b>correcta gestión de los proyectos y uso sostenible de recursos naturales</b>."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Hábitat y Servicios</strong><br>Intelligentes",
         "TITLE_TEXT": "Hábitat y Servicios Intelligentes",
-        "SUBTITLE": "Seguridad y Calidad de Vida."
+        "SUBTITLE": "Seguridad y Calidad de Vida.",
+        "DESCRIPTION": "<b>Fomentamos y orientamos</b> en la creación de redes e infraestructuras que permitan participación en ámbitos como e-health, e-culture, e-tourism y e-security."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Sociedad</strong><br>Inteligente",
         "TITLE_TEXT": "Sociedad Inteligente",
-        "SUBTITLE": "Sociedad e Inclusión Digital."
+        "SUBTITLE": "Sociedad e Inclusión Digital.",
+        "DESCRIPTION": "Orientamos en la <b>estructuración y administración</b> del proyecto, <b>gestionamos</b> asociaciones y financiamiento y <b>diseñamos</b> eficientemente infraestructuras y servicios públicos."
       }
     ],
     "ABOUT_US": "Somos",

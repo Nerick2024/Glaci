@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslation } from "@/i18n";
+import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
 import LanguagePicker from "@/i18n/LanguagePicker.astro";
 
 const lang = getLangFromUrl(Astro.url);
@@ -38,10 +38,10 @@ const i18n = await useTranslation(lang);
         {
           i18n.NAVBAR.SMART_ECOSYSTEM_ITEMS.map((item) => (
             <a
-              href={item.HREF}
+              href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
               class="block hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)]"
             >
-              <strong>{item.TITLE_NAV}</strong>
+              <strong>{item.TITLE_TEXT}</strong>
               <span class="block font-medium text-gray-200 text-base">
                 {item.SUBTITLE}
               </span>
@@ -131,18 +131,40 @@ const i18n = await useTranslation(lang);
     class="lg:hidden fixed inset-0 bg-[#050647]/95 opacity-0 backdrop-blur-sm w-full h-screen transition-opacity duration-300 ease-in-out pointer-events-none"
   >
     <nav
-      class="flex flex-col justify-center items-center gap-8 h-full font-medium text-white text-2xl"
+      class="flex flex-col justify-center items-center gap-6 h-full font-medium text-white text-lg overflow-y-auto pt-24 pb-10"
     >
-      <a href={`/${lang}/`} class="hover:text-[var(--color-title)] transition-colors"
-        >Smart City</a
-      >
-      <a href="#somosom" class="hover:text-[var(--color-title)] transition-colors"
+      <div class="group relative text-center">
+        <a
+          href={`/${lang}/`}
+          class="text-2xl font-medium hover:text-[var(--color-title)] transition-colors"
+          >{i18n.NAVBAR.SMART_ECOSYSTEM}</a
+        >
+        <div class="flex flex-col gap-3 mt-3">
+          {
+            i18n.NAVBAR.SMART_ECOSYSTEM_ITEMS.map((item) => (
+              <a
+                href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
+                class="block p-1 rounded-md text-base hover:text-[var(--color-title)]"
+              >
+                {item.TITLE_TEXT}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      <a
+        href="#somos"
+        class="text-2xl font-medium hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.ABOUT_US}</a
       >
-      <a href="#contacto" class="hover:text-[var(--color-title)] transition-colors"
+      <a
+        href="#contact"
+        class="text-2xl font-medium hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.CONTACT}</a
       >
-      <a href="/blog" class="hover:text-[var(--color-title)] transition-colors"
+      <a
+        href="/blog"
+        class="text-2xl font-medium hover:text-[var(--color-title)] transition-colors"
         >{i18n.NAVBAR.BLOG}</a
       >
       <LanguagePicker />

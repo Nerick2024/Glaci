@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslation } from "@/i18n";
+import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -88,21 +88,23 @@ const nodeLayouts = [
         smartEcosystemItems.map((item, index) => {
           const layout = nodeLayouts[index];
           return (
-            <g class={layout.gClass} transform={layout.transform}>
-              <circle class="outer-node" r="12" />
-              <circle class="inner-node" r="5" />
-              <foreignObject {...layout.foProps}>
-                <div class={layout.divClass}>
-                  <span class="font-bold text-[#bdbdbd] text-[11px]">
-                    0{index + 1}.
-                  </span>
-                  <span
-                    class="block text-[13px] text-white"
-                    set:html={item.TITLE}
-                  />
-                </div>
-              </foreignObject>
-            </g>
+            <a href={`/${lang}/${slugify(item.TITLE_TEXT)}`}>
+              <g class={layout.gClass} transform={layout.transform}>
+                <circle class="outer-node" r="12" />
+                <circle class="inner-node" r="5" />
+                <foreignObject {...layout.foProps}>
+                  <div class={layout.divClass}>
+                    <span class="font-bold text-[#bdbdbd] text-[11px]">
+                      0{index + 1}.
+                    </span>
+                    <span
+                      class="block text-[13px] text-white"
+                      set:html={item.TITLE}
+                    />
+                  </div>
+                </foreignObject>
+              </g>
+            </a>
           );
         })
       }
@@ -180,10 +182,10 @@ const nodeLayouts = [
       {
         smartEcosystemItems.map((item) => (
           <a
-            href={item.HREF || "#"}
+            href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
             class="block bg-black/25 hover:bg-white/10 bg-opacity-25 backdrop-blur-sm px-5 py-2.5 border border-white/20 rounded-full font-semibold text-center transition-colors duration-300"
           >
-            {item.TITLE_NAV}
+            {item.TITLE_TEXT}
           </a>
         ))
       }

@@ -1,60 +1,210 @@
 {
   "NAVBAR": {
-    "SMART_ECOSYSTEM": "Écosystème Smart",
+    "SMART_ECOSYSTEM": "Écosystème Intelligent",
     "SMART": "Intelligent",
+    "TITLE_AREA": "Principaux domaines de développement",
+    "BUTTON_AREA": "Demander plus d'informations",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
         "TITLE": "<strong>Gouvernance</strong><br>Intelligente",
         "TITLE_TEXT": "Gouvernance Intelligente",
         "SUBTITLE": "Gouvernement Numérique et Transparence.",
-        "DESCRIPTION": "<b>Nous intégrons des stratégies pour améliorer et optimiser les processus de l'administration publique et du gouvernement</b>, en plus de promouvoir les principes d'ouverture et de transparence pour rapprocher les gouvernements, les citoyens et les entreprises en se basant sur les Technologies de l'Information et de la Communication."
+        "DESCRIPTION": "<b>Nous intégrons des stratégies pour améliorer et optimiser les processus de l'administration publique et du gouvernement</b>, en plus de promouvoir les principes d'ouverture et de transparence pour rapprocher les gouvernements, les citoyens et les entreprises en s'appuyant sur les Technologies de l'Information et de la Communication.",
+        "AREA1": [
+          {
+            "TITLE": "Participation et inclusion",
+            "DESCRIPTION": "Conception d'un plan de participation citoyenne pour la prise de décision, le développement de projets et les politiques publiques"
+          },
+          {
+            "TITLE": "Services publics et sociaux",
+            "DESCRIPTION": "Intégration et interconnexion de services avec accès via des plateformes complètes"
+          },
+          {
+            "TITLE": "Transparence et accessibilité à l'information",
+            "DESCRIPTION": "Développement d'outils pour la représentation et l'accès à l'information"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Efficacité de la gestion mondiale",
+            "DESCRIPTION": "Mise en œuvre des technologies de l'information et de la communication dans les gouvernements pour identifier les problèmes et construire des solutions adaptées aux scénarios réels"
+          },
+          {
+            "TITLE": "Gouvernance à Plusieurs Niveaux",
+            "DESCRIPTION": "Organisation de domaines fonctionnels, faciliter la création de programmes de financement, la mise en œuvre de réglementations et la formation de réseaux qui regroupent la demande et permettent d'introduire des services innovants"
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Économie</strong><br>Intelligente",
         "TITLE_TEXT": "Économie Intelligente",
-        "SUBTITLE": "Financement et Modèles d’Affaires.",
-        "DESCRIPTION": "<b>Nous générons des plans de développement</b> qui favorisent l'esprit d'innovation, la capacité créative et la capacité de changement et de transformation."
+        "SUBTITLE": "Financement et Modèles d'Affaires.",
+        "DESCRIPTION": "<b>Nous générons des plans de développement</b> qui encouragent l'esprit d'innovation, la capacité de création et la capacité de changement et de transformation.",
+        "AREA1": [
+          {
+            "TITLE": "Innovation",
+            "DESCRIPTION": "Génération de mesures pour la promotion et la coopération entre l'administration, les entreprises et l'éducation"
+          },
+          {
+            "TITLE": "Productivité",
+            "DESCRIPTION": "Génération d'infrastructures physiques et technologiques pour optimiser la productivité"
+          },
+          {
+            "TITLE": "Interconnectivité",
+            "DESCRIPTION": "Génération de réseaux d'affaires et de stratégies pour obtenir une présence sur Internet"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Flexibilité du marché du travail",
+            "DESCRIPTION": "Création de mesures pour améliorer les conditions de travail telles que la lutte contre le chômage, l'amélioration de l'accès au marché du travail et le développement de propositions technologiques"
+          },
+          {
+            "TITLE": "Entrepreneuriat et Start-Ups",
+            "DESCRIPTION": "Éducation, formation et création d'environnements et d'infrastructures axés sur le soutien aux entreprises"
+          }
+        ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Mobilité et<br>Infrastructure</strong><br>Intelligentes",
-        "TITLE_TEXT": "Mobilité et Infrastructure Intelligentes",
-        "SUBTITLE": "Mobilité et Infrastructure Connectées.",
-        "DESCRIPTION": "<b>Nous gérons des systèmes de transport durables</b>, respectueux de l'environnement et avec une consommation d'énergie efficace, en utilisant les TIC pour assurer le suivi et une offre de services plus adaptée aux différents utilisateurs."
+        "TITLE": "<strong>Mobilité et<br>Infrastructures</strong><br>Intelligentes",
+        "TITLE_TEXT": "Mobilité et Infrastructures Intelligentes",
+        "SUBTITLE": "Mobilité et Infrastructure Connectée.",
+        "DESCRIPTION": "<b>Nous gérons des systèmes de transport durables</b>, respectueux de l'environnement et avec une dépense énergétique efficace, en utilisant les TIC pour assurer le suivi et une offre de services plus adéquate aux différents utilisateurs.",
+        "AREA1": [
+          {
+            "TITLE": "Accessibilité",
+            "DESCRIPTION": "Stratégies pour l'amélioration de l'accessibilité physique, numérique, socio-économique et culturelle"
+          },
+          {
+            "TITLE": "Options propres et non motorisées",
+            "DESCRIPTION": "Promouvoir des alternatives durables comme le transport non motorisé et écologique."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestion du trafic, des transports en commun, de la logistique et des TIC",
+            "DESCRIPTION": "Optimiser le flux de véhicules et les transports en commun grâce aux technologies de l'information et de la communication."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Environnement</strong><br>Intelligent",
         "TITLE_TEXT": "Environnement Intelligent",
         "SUBTITLE": "Durabilité et Services ESG.",
-        "DESCRIPTION": "<b>orientation</b> dans le développement et la mise en œuvre d'énergies propres et l'<b>utilisation efficace</b> de l'eau et la <b>gestion</b> des déchets, basée sur la <b>gestion correcte des projets et l'utilisation durable des ressources naturelles</b>."
+        "DESCRIPTION": "<b>orientation</b> dans le développement et la mise en œuvre d'énergies propres et l'<b>utilisation efficace</b> de l'eau et la <b>gestion</b> des déchets, basée sur la <b>gestion correcte des projets et l'utilisation durable des ressources naturelles</b>.",
+        "AREA1": [
+          {
+            "TITLE": "Surveillance de l'environnement et des réseaux de distribution",
+            "DESCRIPTION": "Supervision des conditions environnementales et de l'état des réseaux de distribution."
+          },
+          {
+            "TITLE": "Efficacité énergétique",
+            "DESCRIPTION": "Optimisation de la consommation d'énergie pour réduire les coûts et les émissions."
+          },
+          {
+            "TITLE": "Urbanisme et réhabilitation des bâtiments",
+            "DESCRIPTION": "Conception et amélioration des espaces urbains et récupération des infrastructures existantes."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestion des déchets",
+            "DESCRIPTION": "Gestion complète des déchets pour minimiser l'impact environnemental."
+          },
+          {
+            "TITLE": "Protection de l'environnement",
+            "DESCRIPTION": "Actions pour préserver les écosystèmes et les ressources naturelles."
+          },
+          {
+            "TITLE": "Sensibilisation et changement d'habitudes",
+            "DESCRIPTION": "Promotion de pratiques durables et éducation environnementale dans la société."
+          }
+        ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Habitat et<br>Services</strong><br>Intelligents",
+        "TITLE": "<strong>Habitat et Services</strong><br>Intelligents",
         "TITLE_TEXT": "Habitat et Services Intelligents",
         "SUBTITLE": "Sécurité et Qualité de Vie.",
-        "DESCRIPTION": "<b>Nous encourageons et orientons</b> la création de réseaux et d'infrastructures qui permettent la participation dans des domaines tels que l'e-santé, l'e-culture, l'e-tourisme et l'e-sécurité."
+        "DESCRIPTION": "<b>Nous encourageons et guidons</b> dans la création de réseaux et d'infrastructures qui permettent la participation dans des domaines tels que l'e-santé, l'e-culture, l'e-tourisme et l'e-sécurité.",
+        "AREA1": [
+          {
+            "TITLE": "Tourisme",
+            "DESCRIPTION": "Génération de plateformes intégrées pour la présentation et la prestation de services touristiques."
+          },
+          {
+            "TITLE": "Culture et loisirs",
+            "DESCRIPTION": "Promotion d'activités culturelles et récréatives via des solutions numériques."
+          },
+          {
+            "TITLE": "Santé et soins",
+            "DESCRIPTION": "Application de technologies pour améliorer les soins médicaux et le bien-être."
+          },
+          {
+            "TITLE": "Gestion de l'espace public",
+            "DESCRIPTION": "Optimisation de l'administration et de l'utilisation des zones urbaines."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Sécurité",
+            "DESCRIPTION": "Mise en œuvre de systèmes de sécurité électronique pour protéger les citoyens."
+          },
+          {
+            "TITLE": "Accessibilité technologique",
+            "DESCRIPTION": "Faciliter l'accès aux outils numériques pour tous les secteurs sociaux."
+          },
+          {
+            "TITLE": "Bien-être et inclusion sociale",
+            "DESCRIPTION": "Promotion de l'intégration sociale et amélioration de la qualité de vie."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Société</strong><br>Intelligente",
         "TITLE_TEXT": "Société Intelligente",
         "SUBTITLE": "Société et Inclusion Numérique.",
-        "DESCRIPTION": "Nous orientons dans la <b>structuration et l'administration</b> du projet, <b>gérons</b> les associations et le financement et <b>concevons</b> efficacement les infrastructures et les services publics."
+        "DESCRIPTION": "Nous guidons dans la <b>structuration et l'administration</b> du projet, nous <b>gérons</b> les associations et le financement et nous <b>concevons</b> des infrastructures et des services publics efficaces.",
+        "AREA1": [
+          {
+            "TITLE": "Créativité",
+            "DESCRIPTION": "Promotion des compétences, de l'art et de la culture, et génération d'opportunités basées sur celles-ci."
+          },
+          {
+            "TITLE": "Formation professionnelle par la technologie",
+            "DESCRIPTION": "Mise en œuvre de stratégies d'apprentissage à fort impact."
+          },
+          {
+            "TITLE": "Société inclusive",
+            "DESCRIPTION": "Inclusion dans les politiques et les mesures, ainsi que la génération de mesures de soutien à la société."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestion de la vie urbaine et création de communauté",
+            "DESCRIPTION": "Soutien à la création de réseaux urbains et de plateformes d'organisations communautaires et de diffusion."
+          },
+          {
+            "TITLE": "Éducation numérique",
+            "DESCRIPTION": "Plateformes d'accès à distance à l'éducation, génération d'installations pour l'apprentissage tout au long de la vie et intégration de solutions technologiques."
+          }
+        ]
       }
     ],
-    "ABOUT_US": "À propos",
+    "ABOUT_US": "À propos de nous",
     "CONTACT": "Contact",
     "BLOG": "Blog",
-    "INFORMATION": "Recevez plus d’informations"
+    "INFORMATION": "Recevoir plus d'informations"
   },
   "HERO": {
-    "CENTER_SUBTITLE": "Implémentation",
-    "CENTER_TITLE": "Smart City",
-    "FOOTER_LEFT_LINE1": "Orientation en",
+    "CENTER_SUBTITLE": "Mise en œuvre",
+    "CENTER_TITLE": "Ville Intelligente",
+    "FOOTER_LEFT_LINE1": "Conseils en",
     "FOOTER_LEFT_LINE2": "mise en œuvre réglementaire",
     "FOOTER_LEFT_BUTTON": "villes et communautés",
     "FOOTER_RIGHT_TEXT": "Suivez-nous sur"
@@ -82,18 +232,18 @@
     }
   ],
   "ABOUT": {
-    "LABEL": "Smart City.",
+    "LABEL": "Ville Intelligente.",
     "TITLE1": "Interaction et transformation urbaine durable",
-    "TEXT1": "Un système holistique où le capital humain et social interagissent, en utilisant des solutions basées sur les TIC.",
-    "TITLE2": "L’objectif d’une Smart City est de parvenir à une gestion efficace",
-    "TEXT2": "répondant aux besoins de la ville et de ses citoyens.",
-    "TITLE3": "Conseil et assistance en gestion de Smart Cities",
+    "TEXT1": "Un système holistique où interagissent le capital humain et social, en utilisant des solutions basées sur les TIC.",
+    "TITLE2": "L'objectif d'une Ville Intelligente est d'atteindre une gestion efficace",
+    "TEXT2": "satisfaisant les besoins de la ville et de ses citoyens.",
+    "TITLE3": "Conseil et assistance en gestion de villes intelligentes",
     "TEXT3": "Services nationaux et internationaux avec une approche éthique, durable et innovante."
   },
   "CONTACT_FORM": {
-    "HEADING": "Contactez-nous si vous avez des questions ou des commentaires sur le sujet, ou <span class=\"text-[var(--color-title)]\">inscrivez-vous</span> pour recevoir plus d’informations sur les Smart Cities.",
+    "HEADING": "Contactez-nous si vous avez des questions ou des commentaires sur le sujet, ou <span class=\"text-[var(--color-title)]\">inscrivez-vous</span> pour recevoir plus d'informations sur les villes intelligentes.",
     "NAME_PLACEHOLDER": "Nom",
-    "EMAIL_PLACEHOLDER": "Mail",
+    "EMAIL_PLACEHOLDER": "Courriel",
     "MESSAGE_PLACEHOLDER": "Message",
     "SUBMIT_BUTTON": "Envoyer"
   },
@@ -101,7 +251,7 @@
     "MISSION_TITLE": "Mission",
     "MISSION_TEXT": "Concevoir des solutions intelligentes pour le développement technologique et durable des villes et des communautés, en recherchant toujours l'inclusion et l'accessibilité des personnes.",
     "VISION_TITLE": "Vision",
-    "VISION_TEXT": "Développer et créer des projets de ville et d'établissements humains dans le monde entier, qui favorisent l'inclusivité et garantissent l'accessibilité, la sécurité, l'optimisation des ressources, l'abordabilité et la durabilité pour atteindre la prospérité et la qualité de vie.",
+    "VISION_TEXT": "Développer et créer des projets de villes et d'établissements humains dans le monde entier, qui favorisent l'inclusivité et garantissent l'accessibilité, la sécurité, l'optimisation des ressources, l'abordabilité et la durabilité pour atteindre la prospérité et la qualité de vie.",
     "VALUES_TITLE": "Valeurs",
     "VALUES_LIST": [
       "Excellence",

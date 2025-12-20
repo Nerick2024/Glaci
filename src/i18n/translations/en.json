@@ -2,48 +2,198 @@
   "NAVBAR": {
     "SMART_ECOSYSTEM": "Smart Ecosystem",
     "SMART": "Smart",
+    "TITLE_AREA": "Main areas of development",
+    "BUTTON_AREA": "Request more information",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Governance",
         "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency.",
-        "DESCRIPTION": "<b>We integrate strategies to improve and optimize the processes of public administration and government</b>, in addition to promoting the principles of openness and transparency to bring governments, citizens, and companies closer based on Information and Communication Technologies."
+        "DESCRIPTION": "<b>We integrate strategies to improve and optimize the processes of public administration and government</b>, in addition to promoting the principles of openness and transparency to bring governments, citizens and companies closer together based on Information and Communication Technologies.",
+        "AREA1": [
+          {
+            "TITLE": "Participation and inclusion",
+            "DESCRIPTION": "Design of a citizen participation plan for decision-making, project development and public policies"
+          },
+          {
+            "TITLE": "Public and social services",
+            "DESCRIPTION": "Integration and interconnection of services with access through comprehensive platforms"
+          },
+          {
+            "TITLE": "Transparency and accessibility to information",
+            "DESCRIPTION": "Development of tools for representation and access to information"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Efficiency in global management",
+            "DESCRIPTION": "Implementation of information and communication technologies in governments to identify problems and build solutions attached to real scenarios"
+          },
+          {
+            "TITLE": "Multi-Level Governance",
+            "DESCRIPTION": "Organization of functional areas, facilitate the creation of financing programs, regulatory implementation and formation of networks that group demand and allow the introduction of innovative services"
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Economy",
         "TITLE_TEXT": "Smart Economy",
         "SUBTITLE": "Financing and Business Models.",
-        "DESCRIPTION": "<b>We generate development plans</b> that encourage the spirit of innovation, creative ability, and the capacity for change and transformation."
+        "DESCRIPTION": "<b>We generate development plans</b> that encourage the spirit of innovation, creative ability and the capacity for change and transformation.",
+        "AREA1": [
+          {
+            "TITLE": "Innovation",
+            "DESCRIPTION": "Generation of measures for the promotion and cooperation between administration, companies and education"
+          },
+          {
+            "TITLE": "Productivity",
+            "DESCRIPTION": "Generation of physical and technological infrastructures to optimize productivity"
+          },
+          {
+            "TITLE": "Interconnectivity",
+            "DESCRIPTION": "Generation of business networks and strategies to achieve an internet presence"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Flexibility of the labor market",
+            "DESCRIPTION": "Creation of measures to improve labor conditions such as combating unemployment, improving access to the labor market and developing technological proposals"
+          },
+          {
+            "TITLE": "Entrepreneurship and Start-Ups",
+            "DESCRIPTION": "Education, training and creation of environments and infrastructures focused on business support"
+          }
+        ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Mobility and<br>Infrastructure",
+        "TITLE": "<strong>Smart<br>Mobility and</strong><br>Infrastructure",
         "TITLE_TEXT": "Smart Mobility and Infrastructure",
-        "SUBTITLE": "Connected Mobility and Infrastructure.",
-        "DESCRIPTION": "<b>We manage sustainable transport systems</b> that are environmentally friendly and have effective energy consumption, using ICTs to monitor and provide a more suitable service offer to different users."
+        "SUBTITLE": "Mobility and Connected Infrastructure.",
+        "DESCRIPTION": "<b>We manage sustainable transport systems</b>, respectful of the environment and with effective energy expenditure, using ICTs to monitor and provide a more appropriate service to different users.",
+        "AREA1": [
+          {
+            "TITLE": "Accessibility",
+            "DESCRIPTION": "Strategies for improving physical, digital, socioeconomic and cultural accessibility"
+          },
+          {
+            "TITLE": "Clean and Non-motorized options",
+            "DESCRIPTION": "Promote sustainable alternatives such as non-motorized and ecological transport."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Traffic management, public transport, logistics and ICTs",
+            "DESCRIPTION": "Optimize traffic flow and public transport through information and communication technologies."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Environment",
         "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services.",
-        "DESCRIPTION": "<b>guidance</b> in the development and implementation of clean energies and the <b>efficient use</b> of water and waste <b>management</b>, based on the <b>correct management of projects and sustainable use of natural resources</b>."
+        "DESCRIPTION": "<b>orientation</b> in the development and implementation of clean energies and the <b>efficient use</b> of water and <b>management</b> of waste, based on the <b>correct management of projects and sustainable use of natural resources</b>.",
+        "AREA1": [
+          {
+            "TITLE": "Environmental monitoring and distribution networks",
+            "DESCRIPTION": "Supervision of environmental conditions and the state of distribution networks."
+          },
+          {
+            "TITLE": "Energy efficiency",
+            "DESCRIPTION": "Optimization of energy consumption to reduce costs and emissions."
+          },
+          {
+            "TITLE": "Urban planning and building rehabilitation",
+            "DESCRIPTION": "Design and improvement of urban spaces and recovery of existing infrastructure."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Waste management",
+            "DESCRIPTION": "Comprehensive waste management to minimize environmental impact."
+          },
+          {
+            "TITLE": "Environmental protection",
+            "DESCRIPTION": "Actions to preserve ecosystems and natural resources."
+          },
+          {
+            "TITLE": "Awareness and change of habits",
+            "DESCRIPTION": "Promotion of sustainable practices and environmental education in society."
+          }
+        ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Habitat and<br>Services",
+        "TITLE": "<strong>Smart<br>Habitat and</strong><br>Services",
         "TITLE_TEXT": "Smart Habitat and Services",
         "SUBTITLE": "Security and Quality of Life.",
-        "DESCRIPTION": "<b>We encourage and guide</b> the creation of networks and infrastructures that allow participation in areas such as e-health, e-culture, e-tourism, and e-security."
+        "DESCRIPTION": "<b>We promote and guide</b> in the creation of networks and infrastructures that allow participation in areas such as e-health, e-culture, e-tourism and e-security.",
+        "AREA1": [
+          {
+            "TITLE": "Tourism",
+            "DESCRIPTION": "Generation of integrated platforms for the presentation and provision of tourist services."
+          },
+          {
+            "TITLE": "Culture and leisure",
+            "DESCRIPTION": "Promotion of cultural and recreational activities through digital solutions."
+          },
+          {
+            "TITLE": "Health and care",
+            "DESCRIPTION": "Application of technologies to improve medical care and well-being."
+          },
+          {
+            "TITLE": "Management of public space",
+            "DESCRIPTION": "Optimization of the administration and use of urban areas."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Security",
+            "DESCRIPTION": "Implementation of e-security systems to protect citizens."
+          },
+          {
+            "TITLE": "Technological accessibility",
+            "DESCRIPTION": "Facilitate access to digital tools for all social sectors."
+          },
+          {
+            "TITLE": "Well-being and social inclusion",
+            "DESCRIPTION": "Promotion of social integration and improvement of the quality of life."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Society",
         "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion.",
-        "DESCRIPTION": "We guide the <b>structuring and administration</b> of the project, <b>manage</b> associations and financing, and efficiently <b>design</b> public infrastructures and services."
+        "DESCRIPTION": "We guide in the <b>structuring and administration</b> of the project, we <b>manage</b> associations and financing and we <b>design</b> efficient infrastructures and public services.",
+        "AREA1": [
+          {
+            "TITLE": "Creativity",
+            "DESCRIPTION": "Promotion of skills, art and culture, and generation of opportunities based on these."
+          },
+          {
+            "TITLE": "Job training through technology",
+            "DESCRIPTION": "Implementation of high-impact learning strategies."
+          },
+          {
+            "TITLE": "Inclusive society",
+            "DESCRIPTION": "Inclusion in policies and measures, as well as generation of measures to support society."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Management of urban life and community creation",
+            "DESCRIPTION": "Support for the creation of urban networks and platforms of community-based organizations and dissemination."
+          },
+          {
+            "TITLE": "Digital education",
+            "DESCRIPTION": "Platforms for remote access to education, generation of facilities for lifelong learning and integration of technological solutions."
+          }
+        ]
       }
     ],
     "ABOUT_US": "About Us",
@@ -84,24 +234,24 @@
   "ABOUT": {
     "LABEL": "Smart City.",
     "TITLE1": "Interaction and sustainable urban transformation",
-    "TEXT1": "A holistic system where human and social capital interact, using ICT-based solutions.",
+    "TEXT1": "A holistic system where human and social capital interact, using solutions based on ICTs.",
     "TITLE2": "The purpose of a Smart City is to achieve efficient management",
-    "TEXT2": "meeting the needs of the city and its citizens.",
-    "TITLE3": "Consulting and advisory in smart city management",
-    "TEXT3": "National and international services with an ethical, sustainable, and innovative approach."
+    "TEXT2": "satisfying the needs of the city and its citizens.",
+    "TITLE3": "Consulting and advice on smart city management",
+    "TEXT3": "National and international services with an ethical, sustainable and innovative approach."
   },
   "CONTACT_FORM": {
-    "HEADING": "Contact us if you have questions or comments about the topic, or <span class=\"text-[var(--color-title)]\">register</span> to receive more information about smart cities.",
+    "HEADING": "Contact us if you have questions or comments on the subject, or <span class=\"text-[var(--color-title)]\">register</span> to receive more information about smart cities.",
     "NAME_PLACEHOLDER": "Name",
     "EMAIL_PLACEHOLDER": "Mail",
     "MESSAGE_PLACEHOLDER": "Message",
-    "SUBMIT_BUTTON": "Submit"
+    "SUBMIT_BUTTON": "Send"
   },
   "INFORMATION": {
     "MISSION_TITLE": "Mission",
     "MISSION_TEXT": "To devise intelligent solutions for the technological and sustainable development of cities and communities, always seeking the inclusion and accessibility of people.",
     "VISION_TITLE": "Vision",
-    "VISION_TEXT": "To develop and create city and human settlement projects worldwide that promote inclusivity and guarantee accessibility, security, resource optimization, affordability, and sustainability to achieve prosperity and quality of life.",
+    "VISION_TEXT": "To develop and create city and human settlement projects worldwide, which promote inclusiveness and guarantee accessibility, security, resource optimization, affordability and sustainability to achieve prosperity and quality of life.",
     "VALUES_TITLE": "Values",
     "VALUES_LIST": [
       "Excellence",

@@ -2,48 +2,198 @@
   "NAVBAR": {
     "SMART_ECOSYSTEM": "Ecosistema Smart",
     "SMART": "Inteligente",
+    "TITLE_AREA": "Principales áreas de desarrollo",
+    "BUTTON_AREA":"Solicita mas Información",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
         "TITLE_TEXT": "Gobernanza Inteligente",
         "SUBTITLE": "Gobierno Digital y Transparencia.",
-        "DESCRIPTION": "<b>Integramos estrategias para mejorar y optimizar los procesos de la administración pública y el gobierno</b>, además de fomentar los principios de apertura y transparencia para lograr acercar a los gobiernos, ciudadanía y empresas basándose en las Tecnologías de la Información y comunicación."
+        "DESCRIPTION": "<b>Integramos estrategias para mejorar y optimizar los procesos de la administración pública y el gobierno</b>, además de fomentar los principios de apertura y transparencia para lograr acercar a los gobiernos, ciudadanía y empresas basándose en las Tecnologías de la Información y comunicación.",
+        "AREA1": [
+          {
+            "TITLE": "Participación e inclusión",
+            "DESCRIPTION": "Diseño de plan de participación ciudadana para toma de decisiones, desarrollo de proyectos y políticas públicas"
+          },
+          {
+            "TITLE": "Servicios publicos y sociales",
+            "DESCRIPTION": "Integración e interconexión de servicios con acceso mediante plataformas integrales"
+          },
+          {
+            "TITLE": "Transparencia y accesibilidad a la información",
+            "DESCRIPTION": "Desarrollo de herramientas para representación y acceso a la información"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Eficiencia en gestión mundial",
+            "DESCRIPTION": "Implementación de tecnologías de la información y comunicación en gobiernos para identificación de problemas y construcción de soluciones apegadas a panoramas reales"
+          },
+          {
+            "TITLE": "Gobernanza Multi-Nivel",
+            "DESCRIPTION": "Organización de áreas funcionales, facilitar la creación de programas de financiación, implementación normativa y formación de redes que agrupen demanda y permitan introducir servicios innovadores"
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Economía</strong><br>Inteligente",
         "TITLE_TEXT": "Economía Inteligente",
         "SUBTITLE": "Financiación y Modelos de Negocio.",
-        "DESCRIPTION": "<b>Generamos planes de desarrollo</b> que fomentan el espíritu de innovación, la habilidad creativa y la capacidad de cambio y transformación."
+        "DESCRIPTION": "<b>Generamos planes de desarrollo</b> que fomentan el espíritu de innovación, la habilidad creativa y la capacidad de cambio y transformación.",
+        "AREA1": [
+          {
+            "TITLE": "Innovación",
+            "DESCRIPTION": "Generación de medidas para el fomento y cooperación entre administración, empresas y educación"
+          },
+          {
+            "TITLE": "Productividad",
+            "DESCRIPTION": "Generación de infraestructuras físicas y tecnológicas para optimizar productividad"
+          },
+          {
+            "TITLE": "Interconectividad",
+            "DESCRIPTION": "Generación de redes de negocios y estrategias para lograr presencia en internet"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Flexibilidad del mercado laboral",
+            "DESCRIPTION": "Creación de medidas para mejorar condiciones laborales como combatir desempleo, mejora de acceso a mercado laboral y desarrollo de propuestas tecnológicas"
+          },
+          {
+            "TITLE": "Emprendimiento y Start-Ups",
+            "DESCRIPTION": "Educación, capacitación y creación de entornos e infraestructuras enfocadas al apoyo empresarial"
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Movilidad e<br>Infraestructuras</strong><br>Inteligentes",
         "TITLE_TEXT": "Movilidad e Infraestructuras Inteligentes",
         "SUBTITLE": "Movilidad e Infraestructura Conectada.",
-        "DESCRIPTION": "<b>Gestionamos sistemas de transporte</b> sostenibles, respetuosos con el medio ambiente y con un gasto energético efectivo, empleando TIC’s para dar seguimiento y una oferta más adecuada de servicio a los diferentes usuarios."
+        "DESCRIPTION": "<b>Gestionamos sistemas de transporte</b> sostenibles, respetuosos con el medio ambiente y con un gasto energético efectivo, empleando TIC’s para dar seguimiento y una oferta más adecuada de servicio a los diferentes usuarios.",
+        "AREA1": [
+          {
+            "TITLE": "Accesibilidad",
+            "DESCRIPTION": "Estrategias para la mejora de accesibilidad física, digital, socioeconómica y cultural"
+          },
+          {
+            "TITLE": "Opciones limpias y No-motorizadas",
+            "DESCRIPTION": "Fomentar alternativas sostenibles como transporte no motorizado y ecológico."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestión del tráfico, transporte público, logística y TIC´s",
+            "DESCRIPTION": "Optimizar el flujo vehicular y el transporte público mediante tecnologías de la información y la comunicación."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Medio Ambiente</strong><br>Inteligente",
         "TITLE_TEXT": "Medio Ambiente Inteligente",
         "SUBTITLE": "Sostenibilidad y Servicios ESG.",
-        "DESCRIPTION": "<b>orientación</b> en el desarrollo e implementación de energías limpias y el <b>uso eficiente</b> de agua y <b>gestión</b> de los residuos, basado en la <b>correcta gestión de los proyectos y uso sostenible de recursos naturales</b>."
+        "DESCRIPTION": "<b>orientación</b> en el desarrollo e implementación de energías limpias y el <b>uso eficiente</b> de agua y <b>gestión</b> de los residuos, basado en la <b>correcta gestión de los proyectos y uso sostenible de recursos naturales</b>.",
+        "AREA1": [
+          {
+            "TITLE": "Monitoreo medioambiental y de las redes de distribución",
+            "DESCRIPTION": "Supervisión de condiciones ambientales y del estado de las redes de distribución."
+          },
+          {
+            "TITLE": "Eficiencia energética",
+            "DESCRIPTION": "Optimización del consumo energético para reducir costos y emisiones."
+          },
+          {
+            "TITLE": "Planeación urbana y rehabilitación de edificios",
+            "DESCRIPTION": "Diseño y mejora de espacios urbanos y recuperación de infraestructura existente."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestión de residuos",
+            "DESCRIPTION": "Manejo integral de desechos para minimizar impacto ambiental."
+          },
+          {
+            "TITLE": "Protección medioambiental",
+            "DESCRIPTION": "Acciones para preservar ecosistemas y recursos naturales."
+          },
+          {
+            "TITLE": "Concientización y cambio de hábitos",
+            "DESCRIPTION": "Promoción de prácticas sostenibles y educación ambiental en la sociedad."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Hábitat y Servicios</strong><br>Intelligentes",
         "TITLE_TEXT": "Hábitat y Servicios Intelligentes",
         "SUBTITLE": "Seguridad y Calidad de Vida.",
-        "DESCRIPTION": "<b>Fomentamos y orientamos</b> en la creación de redes e infraestructuras que permitan participación en ámbitos como e-health, e-culture, e-tourism y e-security."
+        "DESCRIPTION": "<b>Fomentamos y orientamos</b> en la creación de redes e infraestructuras que permitan participación en ámbitos como e-health, e-culture, e-tourism y e-security.",
+        "AREA1": [
+          {
+            "TITLE": "Turismo",
+            "DESCRIPTION": "Generación de plataformas integradas para la presentación y prestación de servicios turísticos."
+          },
+          {
+            "TITLE": "Cultura y ocio",
+            "DESCRIPTION": "Impulso de actividades culturales y recreativas mediante soluciones digitales."
+          },
+          {
+            "TITLE": "Salud y cuidados",
+            "DESCRIPTION": "Aplicación de tecnologías para mejorar la atención médica y el bienestar."
+          },
+          {
+            "TITLE": "Gestión del espacio público",
+            "DESCRIPTION": "Optimización de la administración y uso de áreas urbanas."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Seguridad",
+            "DESCRIPTION": "Implementación de sistemas de e-security para proteger a la ciudadanía."
+          },
+          {
+            "TITLE": "Accesibilidad tecnológica",
+            "DESCRIPTION": "Facilitar el acceso a herramientas digitales para todos los sectores sociales."
+          },
+          {
+            "TITLE": "Bienestar e inclusión social",
+            "DESCRIPTION": "Promoción de la integración social y mejora de la calidad de vida."
+          }
+        ]
       },
       {
         "HREF": "",
         "TITLE": "<strong>Sociedad</strong><br>Inteligente",
         "TITLE_TEXT": "Sociedad Inteligente",
         "SUBTITLE": "Sociedad e Inclusión Digital.",
-        "DESCRIPTION": "Orientamos en la <b>estructuración y administración</b> del proyecto, <b>gestionamos</b> asociaciones y financiamiento y <b>diseñamos</b> eficientemente infraestructuras y servicios públicos."
+        "DESCRIPTION": "Orientamos en la <b>estructuración y administración</b> del proyecto, <b>gestionamos</b> asociaciones y financiamiento y <b>diseñamos</b> eficientemente infraestructuras y servicios públicos.",
+        "AREA1": [
+          {
+            "TITLE": "Creatividad",
+            "DESCRIPTION": "Fomento de habilidades, arte y cultura, y generación de oportunidades con base a estas."
+          },
+          {
+            "TITLE": "Capacitación laboral a través de tecnología",
+            "DESCRIPTION": "Implementación de estrategias de aprendizaje de alto impacto."
+          },
+          {
+            "TITLE": "Sociedad inclusiva",
+            "DESCRIPTION": "Inclusión en políticas y medidas, así como generación de medidas de apoyo a la sociedad."
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "Gestión de la vida urbana y creación de comunidad",
+            "DESCRIPTION": "Apoyo a la creación de redes y plataformas urbanas de organizaciones basadas en la comunidad y difusión."
+          },
+          {
+            "TITLE": "Educación digital",
+            "DESCRIPTION": "Plataformas de acceso remoto a educación, generación de instalaciones para aprendizaje permanente e integración de soluciones tecnológicas."
+          }
+        ]
       }
     ],
     "ABOUT_US": "Somos",

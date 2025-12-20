@@ -15,7 +15,7 @@ interface Props {
 >
     <div class="flex lg:flex-row flex-col justify-center items-center gap-8 mx-auto w-full max-w-4xl h-full">
         <div class="flex justify-center lg:justify-start items-center w-full lg:w-1/2 h-1/3 lg:h-full">
-            <h3 class="text-white text-4xl text-center" set:html={item.TITLE}>
+            <h3 class="text-white text-4xl text-center smart-ecosystem-title" set:html={item.TITLE}>
             </h3>
         </div>
         <div class="flex justify-start items-center w-full lg:w-1/2 h-1/3 lg:h-full">
@@ -25,7 +25,7 @@ interface Props {
 </section>
 
 <style>
-    h3 :global(strong) {
+    .smart-ecosystem-title :global(strong) {
         color: var(--color-title);
     }
 </style>

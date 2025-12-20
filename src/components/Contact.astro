@@ -6,7 +6,7 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
 
-<div class="bg-transparent text-white py-12 px-4">
+<div id="contact" class="bg-transparent text-white py-12 px-4">
     <div class="max-w-4xl mx-auto text-center">
         <p class="mb-8 text-gray-300" set:html={i18n.CONTACT_FORM.HEADING}></p>
         <form class="flex flex-col lg:flex-row items-center justify-center gap-4">

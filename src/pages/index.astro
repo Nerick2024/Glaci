@@ -5,6 +5,7 @@ import Trans from "@/i18n/Trans.astro";
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
 import Contact from "@/components/Contact.astro";
+import About from "@/components/About.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
@@ -12,6 +13,7 @@ const t = await useTranslation(lang as any);
 
 <Layout title="O M S M A R T" >
 <Hero/>
+<About/>
 <Contact/>
 </Layout>
 

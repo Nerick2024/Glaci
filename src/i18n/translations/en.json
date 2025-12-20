@@ -6,37 +6,37 @@
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Governance",
-        "TITLE_NAV": "Smart Governance",
+        "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Economy",
-        "TITLE_NAV": "Smart Economy",
+        "TITLE_TEXT": "Smart Economy",
         "SUBTITLE": "Financing and Business Models."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Mobility and<br>Infrastructure",
-        "TITLE_NAV": "Smart Mobility and Infrastructure",
+        "TITLE_TEXT": "Smart Mobility and Infrastructure",
         "SUBTITLE": "Connected Mobility and Infrastructure."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Environment",
-        "TITLE_NAV": "Smart Environment",
+        "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Habitat and<br>Services",
-        "TITLE_NAV": "Smart Habitat and Services",
+        "TITLE_TEXT": "Smart Habitat and Services",
         "SUBTITLE": "Security and Quality of Life."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Smart</strong><br>Society",
-        "TITLE_NAV": "Smart Society",
+        "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion."
       }
     ],

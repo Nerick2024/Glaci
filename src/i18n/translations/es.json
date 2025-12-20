@@ -6,37 +6,37 @@
       {
         "HREF": "",
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
-        "TITLE_NAV": "Gobernanza Inteligente",
+        "TITLE_TEXT": "Gobernanza Inteligente",
         "SUBTITLE": "Gobierno Digital y Transparencia."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Economía</strong><br>Inteligente",
-        "TITLE_NAV": "Economía Inteligente",
+        "TITLE_TEXT": "Economía Inteligente",
         "SUBTITLE": "Financiación y Modelos de Negocio."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Movilidad e<br>Infraestructuras</strong><br>Inteligentes",
-        "TITLE_NAV": "Movilidad e Infraestructuras Inteligentes",
+        "TITLE_TEXT": "Movilidad e Infraestructuras Inteligentes",
         "SUBTITLE": "Movilidad e Infraestructura Conectada."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Medio Ambiente</strong><br>Inteligente",
-        "TITLE_NAV": "Medio Ambiente Inteligente",
+        "TITLE_TEXT": "Medio Ambiente Inteligente",
         "SUBTITLE": "Sostenibilidad y Servicios ESG."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Hábitat y Servicios</strong><br>Intelligentes",
-        "TITLE_NAV": "Hábitat y Servicios Intelligentes",
+        "TITLE_TEXT": "Hábitat y Servicios Intelligentes",
         "SUBTITLE": "Seguridad y Calidad de Vida."
       },
       {
         "HREF": "",
         "TITLE": "<strong>Sociedad</strong><br>Inteligente",
-        "TITLE_NAV": "Sociedad Inteligente",
+        "TITLE_TEXT": "Sociedad Inteligente",
         "SUBTITLE": "Sociedad e Inclusión Digital."
       }
     ],

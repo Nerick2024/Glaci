@@ -2,8 +2,14 @@
   "NAVBAR": {
     "SMART_ECOSYSTEM": "Écosystème Intelligent",
     "SMART": "Intelligent",
-    "TITLE_AREA": "Principaux domaines de développement",
-    "BUTTON_AREA": "Demander plus d'informations",
+    "ABOUT_US": "À propos de nous",
+    "CONTACT": "Contact",
+    "BLOG": "Blog",
+    "INFORMATION": "Recevoir plus d'informations"
+  },
+  "AREAS": {
+    "TITLE": "Principaux domaines de développement",
+    "BUTTON": "Demander plus d'informations",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
@@ -195,11 +201,7 @@
           }
         ]
       }
-    ],
-    "ABOUT_US": "À propos de nous",
-    "CONTACT": "Contact",
-    "BLOG": "Blog",
-    "INFORMATION": "Recevoir plus d'informations"
+    ]
   },
   "HERO": {
     "CENTER_SUBTITLE": "Mise en œuvre",

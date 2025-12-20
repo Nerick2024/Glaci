@@ -2,8 +2,14 @@
   "NAVBAR": {
     "SMART_ECOSYSTEM": "Ecosistema Smart",
     "SMART": "Inteligente",
-    "TITLE_AREA": "Principales áreas de desarrollo",
-    "BUTTON_AREA":"Solicita mas Información",
+    "ABOUT_US": "Somos",
+    "CONTACT": "Contacto",
+    "BLOG": "Blog",
+    "INFORMATION": "Recibe más informacion"
+  },
+  "AREAS": {
+    "TITLE": "Principales áreas de desarrollo",
+    "BUTTON": "Solicita mas Información",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
@@ -195,11 +201,7 @@
           }
         ]
       }
-    ],
-    "ABOUT_US": "Somos",
-    "CONTACT": "Contacto",
-    "BLOG": "Blog",
-    "INFORMATION": "Recibe más informacion"
+    ]
   },
   "HERO": {
     "CENTER_SUBTITLE": "Implementación",

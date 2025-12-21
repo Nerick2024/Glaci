@@ -10,13 +10,17 @@
   "AREAS": {
     "TITLE": "Main areas of development",
     "BUTTON": "Request more information",
+    "SUCCESS_STORIES_TITLE": "Success Stories",
+    "SUCCESS_STORIES_LOCATE": "Location",
+    "SUCCESS_STORIES_YEAR": "Year",
+    "SUCCESS_STORIES_BUTTON": "View related projects",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Governance",
+        "TITLE": "<strong>Governance</strong><br>Smart",
         "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency.",
-        "DESCRIPTION": "<b>We integrate strategies to improve and optimize the processes of public administration and government</b>, in addition to promoting the principles of openness and transparency to bring governments, citizens and companies closer together based on Information and Communication Technologies.",
+        "DESCRIPTION": "<b>We integrate strategies to improve and optimize public administration and government processes</b>, as well as promote principles of openness and transparency to bring governments, citizens and businesses closer together based on Information and Communication Technologies.",
         "AREA1": [
           {
             "TITLE": "Participation and inclusion",
@@ -27,84 +31,171 @@
             "DESCRIPTION": "Integration and interconnection of services with access through comprehensive platforms"
           },
           {
-            "TITLE": "Transparency and accessibility to information",
+            "TITLE": "Transparency and access to information",
             "DESCRIPTION": "Development of tools for representation and access to information"
           }
         ],
         "AREA2": [
           {
             "TITLE": "Efficiency in global management",
-            "DESCRIPTION": "Implementation of information and communication technologies in governments to identify problems and build solutions attached to real scenarios"
+            "DESCRIPTION": "Implementation of information and communication technologies in governments to identify problems and build solutions aligned with real scenarios"
           },
           {
             "TITLE": "Multi-Level Governance",
-            "DESCRIPTION": "Organization of functional areas, facilitate the creation of financing programs, regulatory implementation and formation of networks that group demand and allow the introduction of innovative services"
+            "DESCRIPTION": "Organization of functional areas, facilitating creation of funding programs, regulatory implementation and formation of networks that aggregate demand and allow introduction of innovative services"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "RANCHO LA COFRADÍA",
+            "DESCRIPTION": "Sustainable development project of 68.1 hectares that promotes balanced growth in Tlajomulco. It integrates areas of agriculture, livestock, industry, entertainment, education and infrastructure, using advanced methodologies such as BIM and Lean Construction to strengthen sustainable development goals.",
+            "LOCATE": "Tlajomulco, Jalisco, Mexico",
+            "DATE": "2025",
+            "IMG": ["/projects/COFRADIA/img1.webp"]
+          },
+          {
+            "TITLE": "INTEGRATED TECHNOLOGICAL SOLUTIONS PROJECTS",
+            "DESCRIPTION": "Turnkey comprehensive project that guarantees connected, secure and operational spaces. We handle the entire process, from design and planning to final delivery, ensuring each system operates optimally from day one. The solution integrates efficient communication networks, access control, video surveillance, power backup and multimedia tools, optimizing daily operations and ensuring continuity during power failures, as well as equipping rooms for in-person or virtual meetings.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
           }
         ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Economy",
+        "TITLE": "<strong>Economy</strong><br>Smart",
         "TITLE_TEXT": "Smart Economy",
         "SUBTITLE": "Financing and Business Models.",
-        "DESCRIPTION": "<b>We generate development plans</b> that encourage the spirit of innovation, creative ability and the capacity for change and transformation.",
+        "DESCRIPTION": "<b>We create development plans</b> that foster the spirit of innovation, creative ability and capacity for change and transformation.",
         "AREA1": [
           {
             "TITLE": "Innovation",
-            "DESCRIPTION": "Generation of measures for the promotion and cooperation between administration, companies and education"
+            "DESCRIPTION": "Creation of measures to promote cooperation between government, businesses and education"
           },
           {
             "TITLE": "Productivity",
-            "DESCRIPTION": "Generation of physical and technological infrastructures to optimize productivity"
+            "DESCRIPTION": "Development of physical and technological infrastructures to optimize productivity"
           },
           {
             "TITLE": "Interconnectivity",
-            "DESCRIPTION": "Generation of business networks and strategies to achieve an internet presence"
+            "DESCRIPTION": "Creation of business networks and strategies to achieve an online presence"
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Flexibility of the labor market",
+            "TITLE": "Labor market flexibility",
             "DESCRIPTION": "Creation of measures to improve labor conditions such as combating unemployment, improving access to the labor market and developing technological proposals"
           },
           {
             "TITLE": "Entrepreneurship and Start-Ups",
             "DESCRIPTION": "Education, training and creation of environments and infrastructures focused on business support"
           }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "ROSEWOOD RESIDENCES MAYACOBA",
+            "DESCRIPTION": "Exclusive residential and tourist development in the Riviera Maya, composed of three large private residences with luxury finishes and custom furnishings. The design integrates materials and details that harmonize with lagoons, golf courses and mangroves, offering privacy and connection with nature. The project combines elegance, comfort and a unique natural environment in a gated community.",
+            "LOCATE": "Chetumal, Quintana Roo, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/ROSEWOOD/rosewood-1.webp",
+              "/projects/ROSEWOOD/img1.webp",
+              "/projects/ROSEWOOD/img2.webp",
+              "/projects/ROSEWOOD/img3.webp",
+              "/projects/ROSEWOOD/img4.webp",
+              "/projects/ROSEWOOD/img5.webp",
+              "/projects/ROSEWOOD/img6.webp",
+              "/projects/ROSEWOOD/img7.webp",
+              "/projects/ROSEWOOD/img8.webp",
+              "/projects/ROSEWOOD/img9.webp",
+              "/projects/ROSEWOOD/img10.webp"
+            ]
+          },
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata is a 16-hectare tourism and real estate development that integrates residences, commercial spaces and wellness areas in harmony with the natural environment. Inspired by the UN SDGs, it incorporates renewable energy, water management, reforestation and biodiversity protection. It promotes an inclusive and resilient community focused on tourism and sustainable development.",
+            "LOCATE": "Bahía de Banderas, Nayarit, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "MOLINOS DE SALVATIERRA",
+            "DESCRIPTION": "157 LOTS AND 29 HOUSES ",
+            "DATE": "Location: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "INDUSTRIAL WAREHOUSE",
+            "DESCRIPTION": "8,500 m²",
+            "DATE": " Location: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
+          }
         ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart<br>Mobility and</strong><br>Infrastructure",
+        "TITLE": "<strong>Mobility and<br>Infrastructure</strong><br>Smart",
         "TITLE_TEXT": "Smart Mobility and Infrastructure",
-        "SUBTITLE": "Mobility and Connected Infrastructure.",
-        "DESCRIPTION": "<b>We manage sustainable transport systems</b>, respectful of the environment and with effective energy expenditure, using ICTs to monitor and provide a more appropriate service to different users.",
+        "SUBTITLE": "Connected Mobility and Infrastructure.",
+        "DESCRIPTION": "<b>We manage sustainable transportation systems</b> that are environmentally friendly and energy-efficient, using ICTs to monitor and offer more appropriate services to different users.",
         "AREA1": [
           {
             "TITLE": "Accessibility",
-            "DESCRIPTION": "Strategies for improving physical, digital, socioeconomic and cultural accessibility"
+            "DESCRIPTION": "Strategies to improve physical, digital, socioeconomic and cultural accessibility"
           },
           {
-            "TITLE": "Clean and Non-motorized options",
+            "TITLE": "Clean and non-motorized options",
             "DESCRIPTION": "Promote sustainable alternatives such as non-motorized and ecological transport."
           }
         ],
         "AREA2": [
           {
             "TITLE": "Traffic management, public transport, logistics and ICTs",
-            "DESCRIPTION": "Optimize traffic flow and public transport through information and communication technologies."
+            "DESCRIPTION": "Optimize vehicle flow and public transport through information and communication technologies."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "INTEGRATED TECHNOLOGICAL SOLUTIONS PROJECTS",
+            "DESCRIPTION": "Turnkey comprehensive project that guarantees connected, secure and operational spaces. We handle the entire process, from design and planning to final delivery, ensuring each system operates optimally from day one. The solution integrates efficient communication networks, access control, video surveillance, power backup and multimedia tools, optimizing daily operations and ensuring continuity during power failures, as well as equipping rooms for in-person or virtual meetings.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          },
+          {
+            "TITLE": "INDUSTRIAL WAREHOUSE",
+            "DESCRIPTION": "8,500 m²",
+            "DATE": " Location: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Environment",
+        "TITLE": "<strong>Environment</strong><br>Smart",
         "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services.",
-        "DESCRIPTION": "<b>orientation</b> in the development and implementation of clean energies and the <b>efficient use</b> of water and <b>management</b> of waste, based on the <b>correct management of projects and sustainable use of natural resources</b>.",
+        "DESCRIPTION": "<b>Guidance</b> in the development and implementation of clean energies and the <b>efficient use</b> of water and <b>waste management</b>, based on <b>proper project management and sustainable use of natural resources</b>.",
         "AREA1": [
           {
-            "TITLE": "Environmental monitoring and distribution networks",
+            "TITLE": "Environmental monitoring and distribution network monitoring",
             "DESCRIPTION": "Supervision of environmental conditions and the state of distribution networks."
           },
           {
@@ -119,28 +210,83 @@
         "AREA2": [
           {
             "TITLE": "Waste management",
-            "DESCRIPTION": "Comprehensive waste management to minimize environmental impact."
+            "DESCRIPTION": "Comprehensive waste handling to minimize environmental impact."
           },
           {
             "TITLE": "Environmental protection",
             "DESCRIPTION": "Actions to preserve ecosystems and natural resources."
           },
           {
-            "TITLE": "Awareness and change of habits",
+            "TITLE": "Awareness and habit change",
             "DESCRIPTION": "Promotion of sustainable practices and environmental education in society."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata is a 16-hectare tourism and real estate development that integrates residences, commercial spaces and wellness areas in harmony with the natural environment. Inspired by the UN SDGs, it incorporates renewable energy, water management, reforestation and biodiversity protection. It promotes an inclusive and resilient community focused on tourism and sustainable development.",
+            "LOCATE": "Bahía de Banderas, Nayarit, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "TEPOZTLÁN",
+            "DESCRIPTION": "Sustainable real estate development of 9.7 hectares that integrates 68 homes with low environmental impact design. The project applies LEED principles, water reuse, renewable energy and modular construction. Inspired by the SDGs, it includes wellness spaces, bike lanes and sports areas, as well as commercial and community areas that promote social cohesion and respect local identity.",
+            "LOCATE": "Cuernavaca, Morelos, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "HACIENDA CAPULÍN",
+            "DESCRIPTION": "Residential and tourist development of 66 luxury apartments that combines conscious design and sustainability, aligned with the UN SDGs. Integrated into a privileged natural setting, it preserves century-old trees and maintains historic architecture. Offers amenities such as a pool, padel courts, jacuzzi and restaurant. Uses technologies and sustainable practices to optimize resources and minimize environmental impact.",
+            "LOCATE": "Silao, Guanajuato, Mexico",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Cancha Padel_02.webp",
+              "/projects/CAPULIN/CAP_Fachada Oeste con Hacienda.webp",
+              "/projects/CAPULIN/Cap_FAchada Oeste.webp",
+              "/projects/CAPULIN/CAP_Hacienda,patiocentral.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_01.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_02.webp",
+              "/projects/CAPULIN/CAP_Patio int_Fachada oeste.webp",
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Piscina.webp",
+              "/projects/CAPULIN/CAP_Vista Aerea_01.webp"
+            ]
           }
         ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart<br>Habitat and</strong><br>Services",
+        "TITLE": "<strong>Habitat and Services</strong><br>Smart",
         "TITLE_TEXT": "Smart Habitat and Services",
         "SUBTITLE": "Security and Quality of Life.",
-        "DESCRIPTION": "<b>We promote and guide</b> in the creation of networks and infrastructures that allow participation in areas such as e-health, e-culture, e-tourism and e-security.",
+        "DESCRIPTION": "<b>We promote and guide</b> the creation of networks and infrastructures that enable participation in areas such as e-health, e-culture, e-tourism and e-security.",
         "AREA1": [
           {
             "TITLE": "Tourism",
-            "DESCRIPTION": "Generation of integrated platforms for the presentation and provision of tourist services."
+            "DESCRIPTION": "Creation of integrated platforms for the presentation and provision of tourism services."
           },
           {
             "TITLE": "Culture and leisure",
@@ -151,7 +297,7 @@
             "DESCRIPTION": "Application of technologies to improve medical care and well-being."
           },
           {
-            "TITLE": "Management of public space",
+            "TITLE": "Public space management",
             "DESCRIPTION": "Optimization of the administration and use of urban areas."
           }
         ],
@@ -162,42 +308,171 @@
           },
           {
             "TITLE": "Technological accessibility",
-            "DESCRIPTION": "Facilitate access to digital tools for all social sectors."
+            "DESCRIPTION": "Facilitating access to digital tools for all social sectors."
           },
           {
             "TITLE": "Well-being and social inclusion",
-            "DESCRIPTION": "Promotion of social integration and improvement of the quality of life."
+            "DESCRIPTION": "Promotion of social integration and improvement of quality of life."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "NUEVO CELAYA",
+            "DESCRIPTION": "400 HOMES",
+            "DATE": "Location: Nuevo Celaya, 38027 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
+          },
+          {
+            "TITLE": "ARBOLEDAS DEL PEDREGAL",
+            "DESCRIPTION": "ARBOLEDAS DEL PEDREGAL",
+            "DATE": "Location: 212 Sor Juana Inés de la Cruz, 38090 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
+          },
+          {
+            "TITLE": "TECHNOLOGICAL RESIDENTIAL",
+            "DESCRIPTION": "200 HOMES",
+            "DATE": " Location: Residencial Tecnológico, 38010 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL SAN ANGEL",
+            "DESCRIPTION": "46 APARTMENTS AND COMMERCIAL PREMISES",
+            "DATE": "Location: José María Pino Suárez 202, 38078 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
+          },
+          {
+            "TITLE": "FRACCIONAMIENTO MONTES",
+            "DESCRIPTION": "40 HOMES",
+            "DATE": " Location: De Morelos 319, 38000 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL BUGAMBILIAS",
+            "DESCRIPTION": "40 HOMES",
+            "DATE": "Location: Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL SAN JAVIER",
+            "DESCRIPTION": "150 APARTMENTS",
+            "DATE": "Location: San Javier 101, 36020 Guanajuato, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
+          },
+          {
+            "TITLE": "LOS PORTALES",
+            "DESCRIPTION": "Residential development of 52,775 m² focused on the well-being of older adults. It includes 52 single-family homes and 54 duplexes in a secure, gated environment, with smart home technology and health monitoring. Based on the UN SDGs, it promotes energy efficiency, responsible water use and sustainability. Each home is designed as a smart, comfortable and future-ready residence.",
+            "LOCATE": "San Miguel de Allende, Guanajuato, Mexico",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "MOLINOS DE SALVATIERRA",
+            "DESCRIPTION": "157 LOTS AND 29 HOUSES ",
+            "DATE": "Location: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "INTEGRATED TECHNOLOGICAL SOLUTIONS PROJECTS",
+            "DESCRIPTION": "Turnkey comprehensive project that guarantees connected, secure and operational spaces. We handle the entire process, from design and planning to final delivery, ensuring each system operates optimally from day one. The solution integrates efficient communication networks, access control, video surveillance, power backup and multimedia tools, optimizing daily operations and ensuring continuity during power failures, as well as equipping rooms for in-person or virtual meetings.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
           }
         ]
       },
       {
         "HREF": "",
-        "TITLE": "<strong>Smart</strong><br>Society",
+        "TITLE": "<strong>Society</strong><br>Smart",
         "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion.",
-        "DESCRIPTION": "We guide in the <b>structuring and administration</b> of the project, we <b>manage</b> associations and financing and we <b>design</b> efficient infrastructures and public services.",
+        "DESCRIPTION": "We provide guidance in <b>structuring and managing</b> the project, <b>we manage</b> partnerships and financing and <b>we design</b> infrastructures and public services efficiently.",
         "AREA1": [
           {
             "TITLE": "Creativity",
             "DESCRIPTION": "Promotion of skills, art and culture, and generation of opportunities based on these."
           },
           {
-            "TITLE": "Job training through technology",
+            "TITLE": "Work training through technology",
             "DESCRIPTION": "Implementation of high-impact learning strategies."
           },
           {
             "TITLE": "Inclusive society",
-            "DESCRIPTION": "Inclusion in policies and measures, as well as generation of measures to support society."
+            "DESCRIPTION": "Inclusion in policies and measures, as well as creation of support measures for society."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Management of urban life and community creation",
-            "DESCRIPTION": "Support for the creation of urban networks and platforms of community-based organizations and dissemination."
+            "TITLE": "Urban life management and community building",
+            "DESCRIPTION": "Support for creating networks and urban platforms for community-based organizations and outreach."
           },
           {
             "TITLE": "Digital education",
-            "DESCRIPTION": "Platforms for remote access to education, generation of facilities for lifelong learning and integration of technological solutions."
+            "DESCRIPTION": "Remote access education platforms, creation of lifelong learning facilities and integration of technological solutions."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "TEPOZTLÁN",
+            "DESCRIPTION": "Sustainable real estate development of 9.7 hectares that integrates 68 homes with low environmental impact design. The project applies LEED principles, water reuse, renewable energy and modular construction. Inspired by the SDGs, it includes wellness spaces, bike lanes and sports areas, as well as commercial and community areas that promote social cohesion and respect local identity.",
+            "LOCATE": "Cuernavaca, Morelos, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "RANCHO LA COFRADÍA",
+            "DESCRIPTION": "Sustainable development project of 68.1 hectares that promotes balanced growth in Tlajomulco. It integrates areas of agriculture, livestock, industry, entertainment, education and infrastructure, using advanced methodologies such as BIM and Lean Construction to strengthen sustainable development goals.",
+            "LOCATE": "Tlajomulco, Jalisco, Mexico",
+            "DATE": "2025",
+            "IMG": ["/projects/COFRADIA/img1.webp"]
+          },
+          {
+            "TITLE": "LOS PORTALES",
+            "DESCRIPTION": "Residential development of 52,775 m² focused on the well-being of older adults. It includes 52 single-family homes and 54 duplexes in a secure, gated environment, with smart home technology and health monitoring. Based on the UN SDGs, it promotes energy efficiency, responsible water use and sustainability. Each home is designed as a smart, comfortable and future-ready residence.",
+            "LOCATE": "San Miguel de Allende, Guanajuato, Mexico",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata is a 16-hectare tourism and real estate development that integrates residences, commercial spaces and wellness areas in harmony with the natural environment. Inspired by the UN SDGs, it incorporates renewable energy, water management, reforestation and biodiversity protection. It promotes an inclusive and resilient community focused on tourism and sustainable development.",
+            "LOCATE": "Bahía de Banderas, Nayarit, Mexico",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
           }
         ]
       }

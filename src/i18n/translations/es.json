@@ -10,6 +10,10 @@
   "AREAS": {
     "TITLE": "Principales áreas de desarrollo",
     "BUTTON": "Solicita mas Información",
+    "SUCCESS_STORIES_TITLE": "Casos de Éxito",
+    "SUCCESS_STORIES_LOCATE": "Ubicación",
+    "SUCCESS_STORIES_YEAR": "Año",
+    "SUCCESS_STORIES_BUTTON": "Ver proyectos relacionados",
     "SMART_ECOSYSTEM_ITEMS": [
       {
         "HREF": "",
@@ -39,6 +43,25 @@
           {
             "TITLE": "Gobernanza Multi-Nivel",
             "DESCRIPTION": "Organización de áreas funcionales, facilitar la creación de programas de financiación, implementación normativa y formación de redes que agrupen demanda y permitan introducir servicios innovadores"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "RANCHO LA COFRADÍA",
+            "DESCRIPTION": "Proyecto de desarrollo sostenible de 68.1 hectáreas que impulsa un crecimiento equilibrado en Tlajomulco. Integra áreas de agricultura, ganadería, industria, entretenimiento, educación e infraestructura, utilizando metodologías avanzadas como BIM y Lean Construction para fortalecer los objetivos de desarrollo sostenible.",
+            "LOCATE": "Tlajomulco, Jalisco, México",
+            "DATE": "2025",
+            "IMG": ["/projects/COFRADIA/img1.webp"]
+          },
+          {
+            "TITLE": "PROYECTOS DE SOLUCIONES TECNOLÓGICAS INTEGRALES",
+            "DESCRIPTION": "Proyecto integral llave en mano que garantiza espacios conectados, seguros y operativos. Nos encargamos de todo el proceso, desde el diseño y planeación hasta la entrega final, asegurando que cada sistema funcione de forma óptima desde el primer día. La solución integra redes de comunicación eficientes, control de accesos, videovigilancia, respaldo eléctrico y herramientas multimedia, optimizando la operación diaria y asegurando continuidad ante fallas eléctricas, además de equipar salas para reuniones presenciales o virtuales.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
           }
         ]
       },
@@ -71,6 +94,56 @@
             "TITLE": "Emprendimiento y Start-Ups",
             "DESCRIPTION": "Educación, capacitación y creación de entornos e infraestructuras enfocadas al apoyo empresarial"
           }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "ROSEWOOD RESIDENCES MAYACOBA",
+            "DESCRIPTION": "Desarrollo residencial y turístico exclusivo en la Riviera Maya, compuesto por tres residencias privadas de gran escala con acabados de lujo y mobiliario a medida. El diseño integra materiales y detalles que armonizan con lagunas, campos de golf y manglares, ofreciendo privacidad y conexión con la naturaleza. El proyecto combina elegancia, confort y un entorno natural único en una comunidad cerrada.",
+            "LOCATE": "Chetumal, Quintana Roo, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/ROSEWOOD/rosewood-1.webp",
+              "/projects/ROSEWOOD/img1.webp",
+              "/projects/ROSEWOOD/img2.webp",
+              "/projects/ROSEWOOD/img3.webp",
+              "/projects/ROSEWOOD/img4.webp",
+              "/projects/ROSEWOOD/img5.webp",
+              "/projects/ROSEWOOD/img6.webp",
+              "/projects/ROSEWOOD/img7.webp",
+              "/projects/ROSEWOOD/img8.webp",
+              "/projects/ROSEWOOD/img9.webp",
+              "/projects/ROSEWOOD/img10.webp"
+            ]
+          },
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata es un desarrollo turístico e inmobiliario de 16 hectáreas que integra residencias, espacios comerciales y zonas de bienestar en armonía con el entorno natural. Inspirado en los ODS de la ONU, incorpora energías renovables, gestión hídrica, reforestación y protección de la biodiversidad. Promueve una comunidad inclusiva y resiliente, enfocada en el turismo y desarrollo sostenible.",
+            "LOCATE": "Bahía de Banderas, Nayarit, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "MOLINOS DE SALVATIERRA",
+            "DESCRIPTION": "157 TERRENOS Y 29 CASAS ",
+            "DATE": "Ubicación: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "NAVE INDUSTRIAL",
+            "DESCRIPTION": "8,500 M2",
+            "DATE": " Ubicación: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
+          }
         ]
       },
       {
@@ -93,6 +166,24 @@
           {
             "TITLE": "Gestión del tráfico, transporte público, logística y TIC´s",
             "DESCRIPTION": "Optimizar el flujo vehicular y el transporte público mediante tecnologías de la información y la comunicación."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "PROYECTOS DE SOLUCIONES TECNOLÓGICAS INTEGRALES",
+            "DESCRIPTION": "Proyecto integral llave en mano que garantiza espacios conectados, seguros y operativos. Nos encargamos de todo el proceso, desde el diseño y planeación hasta la entrega final, asegurando que cada sistema funcione de forma óptima desde el primer día. La solución integra redes de comunicación eficientes, control de accesos, videovigilancia, respaldo eléctrico y herramientas multimedia, optimizando la operación diaria y asegurando continuidad ante fallas eléctricas, además de equipar salas para reuniones presenciales o virtuales.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          },
+          {
+            "TITLE": "NAVE INDUSTRIAL",
+            "DESCRIPTION": "8,500 M2",
+            "DATE": " Ubicación: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
@@ -128,6 +219,61 @@
           {
             "TITLE": "Concientización y cambio de hábitos",
             "DESCRIPTION": "Promoción de prácticas sostenibles y educación ambiental en la sociedad."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata es un desarrollo turístico e inmobiliario de 16 hectáreas que integra residencias, espacios comerciales y zonas de bienestar en armonía con el entorno natural. Inspirado en los ODS de la ONU, incorpora energías renovables, gestión hídrica, reforestación y protección de la biodiversidad. Promueve una comunidad inclusiva y resiliente, enfocada en el turismo y desarrollo sostenible.",
+            "LOCATE": "Bahía de Banderas, Nayarit, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "TEPOZTLÁN",
+            "DESCRIPTION": "Desarrollo inmobiliario sostenible de 9.7 hectáreas que integra 68 viviendas con diseño de bajo impacto ambiental. El proyecto aplica principios LEED, reutilización de agua, energías renovables y construcción modular. Inspirado en los ODS, incluye espacios de bienestar, ciclovías y zonas deportivas, además de áreas comerciales y comunitarias que promueven la cohesión social y respetan la identidad local.",
+            "LOCATE": "Cuernavaca, Morelos, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "HACIENDA CAPULÍN",
+            "DESCRIPTION": "Desarrollo residencial y turístico de 66 departamentos de lujo que combina diseño consciente y sostenibilidad, alineado con los ODS de la ONU. Integrado en un entorno natural privilegiado, preserva árboles centenarios y mantiene la arquitectura histórica. Ofrece amenidades como alberca, canchas de pádel, jacuzzi y restaurante. Utiliza tecnologías y prácticas sostenibles para optimizar recursos y minimizar el impacto ambiental.",
+            "LOCATE": "Silao, Guanajuato, México",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Cancha Padel_02.webp",
+              "/projects/CAPULIN/CAP_Fachada Oeste con Hacienda.webp",
+              "/projects/CAPULIN/Cap_FAchada Oeste.webp",
+              "/projects/CAPULIN/CAP_Hacienda,patiocentral.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_01.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_02.webp",
+              "/projects/CAPULIN/CAP_Patio int_Fachada oeste.webp",
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Piscina.webp",
+              "/projects/CAPULIN/CAP_Vista Aerea_01.webp"
+            ]
           }
         ]
       },
@@ -168,6 +314,79 @@
             "TITLE": "Bienestar e inclusión social",
             "DESCRIPTION": "Promoción de la integración social y mejora de la calidad de vida."
           }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "NUEVO CELAYA",
+            "DESCRIPTION": "400 VIVIENDAS",
+            "DATE": "Ubicación: Nuevo Celaya, 38027 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
+          },
+          {
+            "TITLE": "ARBOLEDAS DEL PEDREGAL",
+            "DESCRIPTION": "ARBOLEDAS DEL PEDREGAL",
+            "DATE": "Ubicación: 212 Sor Juana Inés de la Cruz,  38090 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL TECNOLÓGICO",
+            "DESCRIPTION": "200 VIVIENDAS",
+            "DATE": " Ubicación: Residencial Tecnológico, 38010 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL SAN ANGEL",
+            "DESCRIPTION": "46 DEPARTAMENTOS LOCALES COMERCIALES",
+            "DATE": "Ubicación: José María Pino Suárez 202, 38078 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
+          },
+          {
+            "TITLE": "FRACCIONAMIENTO MONTES",
+            "DESCRIPTION": "40 VIVIENDAS",
+            "DATE": " Ubicación: De Morelos 319, 38000 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL BUGAMBILIAS",
+            "DESCRIPTION": " 40 VIVIENDAS",
+            "DATE": "Ubicación: Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
+          },
+          {
+            "TITLE": "RESIDENCIAL SAN JAVIER",
+            "DESCRIPTION": "150 DEPARTAMENTOS ",
+            "DATE": "Ubicación: San Javier 101, 36020 Guanajuato, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
+          },
+          {
+            "TITLE": "LOS PORTALES",
+            "DESCRIPTION": "Desarrollo residencial de 52,775 m² enfocado en el bienestar de adultos mayores. Integra 52 casas unifamiliares y 54 dúplex en un entorno seguro y cerrado, con tecnología inteligente para el control del hogar y monitoreo de salud. Basado en los ODS de la ONU, promueve eficiencia energética, uso responsable del agua y sostenibilidad. Cada vivienda está diseñada como un hogar inteligente, cómodo y adaptado al futuro.",
+            "LOCATE": "San Miguel de Allende, Guanajuato, México",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "MOLINOS DE SALVATIERRA",
+            "DESCRIPTION": "157 TERRENOS Y 29 CASAS ",
+            "DATE": "Ubicación: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "PROYECTOS DE SOLUCIONES TECNOLÓGICAS INTEGRALES",
+            "DESCRIPTION": "Proyecto integral llave en mano que garantiza espacios conectados, seguros y operativos. Nos encargamos de todo el proceso, desde el diseño y planeación hasta la entrega final, asegurando que cada sistema funcione de forma óptima desde el primer día. La solución integra redes de comunicación eficientes, control de accesos, videovigilancia, respaldo eléctrico y herramientas multimedia, optimizando la operación diaria y asegurando continuidad ante fallas eléctricas, además de equipar salas para reuniones presenciales o virtuales.",
+            "LOCATE": "San Juan del Río, Querétaro",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          }
         ]
       },
       {
@@ -198,6 +417,62 @@
           {
             "TITLE": "Educación digital",
             "DESCRIPTION": "Plataformas de acceso remoto a educación, generación de instalaciones para aprendizaje permanente e integración de soluciones tecnológicas."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "TEPOZTLÁN",
+            "DESCRIPTION": "Desarrollo inmobiliario sostenible de 9.7 hectáreas que integra 68 viviendas con diseño de bajo impacto ambiental. El proyecto aplica principios LEED, reutilización de agua, energías renovables y construcción modular. Inspirado en los ODS, incluye espacios de bienestar, ciclovías y zonas deportivas, además de áreas comerciales y comunitarias que promueven la cohesión social y respetan la identidad local.",
+            "LOCATE": "Cuernavaca, Morelos, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "RANCHO LA COFRADÍA",
+            "DESCRIPTION": "Proyecto de desarrollo sostenible de 68.1 hectáreas que impulsa un crecimiento equilibrado en Tlajomulco. Integra áreas de agricultura, ganadería, industria, entretenimiento, educación e infraestructura, utilizando metodologías avanzadas como BIM y Lean Construction para fortalecer los objetivos de desarrollo sostenible.",
+            "LOCATE": "Tlajomulco, Jalisco, México",
+            "DATE": "2025",
+            "IMG": ["/projects/COFRADIA/img1.webp"]
+          },
+          {
+            "TITLE": "LOS PORTALES",
+            "DESCRIPTION": "Desarrollo residencial de 52,775 m² enfocado en el bienestar de adultos mayores. Integra 52 casas unifamiliares y 54 dúplex en un entorno seguro y cerrado, con tecnología inteligente para el control del hogar y monitoreo de salud. Basado en los ODS de la ONU, promueve eficiencia energética, uso responsable del agua y sostenibilidad. Cada vivienda está diseñada como un hogar inteligente, cómodo y adaptado al futuro.",
+            "LOCATE": "San Miguel de Allende, Guanajuato, México",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "XHALATA",
+            "DESCRIPTION": "Xhalata es un desarrollo turístico e inmobiliario de 16 hectáreas que integra residencias, espacios comerciales y zonas de bienestar en armonía con el entorno natural. Inspirado en los ODS de la ONU, incorpora energías renovables, gestión hídrica, reforestación y protección de la biodiversidad. Promueve una comunidad inclusiva y resiliente, enfocada en el turismo y desarrollo sostenible.",
+            "LOCATE": "Bahía de Banderas, Nayarit, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
           }
         ]
       }

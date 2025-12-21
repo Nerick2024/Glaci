@@ -1,0 +1,93 @@
+---
+import { getLangFromUrl, useTranslation } from "@/i18n";
+
+const { projects } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = await useTranslation(lang);
+---
+
+<section class="flex flex-col gap-16 p-4 md:p-10">
+  <div class="flex justify-center items-center">
+    <h2 class="font-bold text-white text-4xl sm:text-5xl">{t.AREAS.SUCCESS_STORIES_TITLE}</h2>
+  </div>
+
+  <div class="flex flex-col gap-12 md:gap-20">
+    {
+      projects.map((project: any, idx: number) => {
+        const images = Array.isArray(project.IMG)
+          ? project.IMG
+          : [project.IMG];
+        const isEven = idx % 2 === 0;
+
+        return (
+          <article class={`grid grid-cols-1 md:grid-cols-12 gap-6 items-center`}>
+            {/* Bloque de Texto */}
+            <aside
+              class:list={[
+                "md:col-span-5 flex flex-col justify-center order-1",
+                isEven ? "md:order-1" : "md:order-2",
+              ]}
+            >
+              <div class="group flex flex-col bg-white/5 backdrop-blur-md p-5 md:p-6 border border-white/10 rounded-sm h-full text-white">
+                <h3 class="mb-1 pb-4 border-white/20 border-b-[1px] font-bold text-2xl md:text-3xl">
+                  {project.TITLE}
+                </h3>
+
+                <div class="flex flex-col gap-3 opacity-90 pt-4 text-sm md:text-base leading-relaxed">
+                  {project.DATE && (
+                    <p class="mb-0 font-semibold">
+                      {t.AREAS.SUCCESS_STORIES_YEAR || "Año"}:{" "}
+                      <span class="font-normal">{project.DATE}</span>
+                    </p>
+                  )}
+                  {project.LOCATE && (
+                    <p class="mb-0 font-semibold">
+                      {t.AREAS.SUCCESS_STORIES_LOCATE || "Ubicación"}:{" "}
+                      <span class="font-normal">{project.LOCATE}</span>
+                    </p>
+                  )}
+                  {project.DESCRIPTION && (
+                    <p class="mb-0" set:html={project.DESCRIPTION} />
+                  )}
+                </div>
+              </div>
+            </aside>
+
+            {/* Bloque de Imágenes */}
+            <div
+              class:list={[
+                "md:col-span-7 order-2",
+                isEven ? "md:order-2" : "md:order-1",
+              ]}
+            >
+              {images.length === 1 ? (
+                <figure class="border border-white/20 rounded-sm overflow-hidden">
+                  <img
+                    src={images[0]}
+                    alt={project.TITLE || "Imagen del proyecto"}
+                    loading="lazy"
+                    class="w-full h-auto max-h-[70vh] object-cover"
+                  />
+                </figure>
+              ) : (
+                <div class="gap-4 columns-2">
+                  {images.map((src: string, j: number) => (
+                    <figure class="mb-4 border border-white/20 rounded-sm overflow-hidden break-inside-avoid">
+                      <img
+                        src={src}
+                        alt={`${project.TITLE || "Imagen"} #${j + 1}`}
+                        loading="lazy"
+                        class="block w-full h-auto object-cover"
+                      />
+                    </figure>
+                  ))}
+                </div>
+              )}
+            </div>
+          </article>
+        );
+      })
+    }
+  </div>
+</section>

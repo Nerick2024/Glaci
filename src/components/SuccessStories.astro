@@ -4,7 +4,7 @@ import { getLangFromUrl, useTranslation } from "@/i18n";
 const { projects } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
-const t = await useTranslation(lang);
+const i18n = await useTranslation(lang);
 ---
 
 <section class="flex flex-col gap-16">
@@ -12,7 +12,7 @@ const t = await useTranslation(lang);
         <h2
             class="font-bold text-white text-4xl sm:text-5xl text-center smart-ecosystem-title"
         >
-            {t.AREAS.SUCCESS_STORIES_TITLE}
+            {i18n.AREAS.SUCCESS_STORIES_TITLE}
         </h2>
     </div>
 
@@ -40,7 +40,7 @@ const t = await useTranslation(lang);
                                 {project.DATE && (
                                     <p class="mb-2">
                                         <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
-                                            {t.AREAS.SUCCESS_STORIES_YEAR}:
+                                            {i18n.AREAS.SUCCESS_STORIES_YEAR}:
                                         </strong>
                                         <span class="text-white text-base lg:text-lg">
                                             {project.DATE}
@@ -50,7 +50,7 @@ const t = await useTranslation(lang);
                                 {project.LOCATE && (
                                     <p class="mb-2">
                                         <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
-                                            {t.AREAS.SUCCESS_STORIES_LOCATE}:
+                                            {i18n.AREAS.SUCCESS_STORIES_LOCATE}:
                                         </strong>
                                         <span class="text-white text-base lg:text-lg">
                                             {project.LOCATE}

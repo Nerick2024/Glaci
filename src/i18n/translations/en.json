@@ -16,7 +16,6 @@
     "SUCCESS_STORIES_BUTTON": "View related projects",
     "SMART_ECOSYSTEM_ITEMS": [
       {
-        "HREF": "",
         "TITLE": "<strong>Governance</strong><br>Smart",
         "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency.",
@@ -45,6 +44,29 @@
             "DESCRIPTION": "Organization of functional areas, facilitating creation of funding programs, regulatory implementation and formation of networks that aggregate demand and allow introduction of innovative services"
           }
         ],
+        "TITLE_SERVICE": "Digital Governance Services",
+        "SERVICE": [
+          {
+            "IMG": "/icons/portal.svg",
+            "TITLE": "Digital One-Stop Shop",
+            "DESCRIPTION": "Development of portals for digitizing procedures (business licenses, property tax, water services), reducing corruption and waiting times."
+          },
+          {
+            "IMG": "/icons/plataformas_de_participacion.svg",
+            "TITLE": "Citizen Participation Platforms",
+            "DESCRIPTION": "Apps or portals for Participatory Budgeting and geolocated citizen reports (potholes, broken streetlights)."
+          },
+          {
+            "IMG": "/icons/dashboard.svg",
+            "TITLE": "Transparency Dashboards (Open Data)",
+            "DESCRIPTION": "Open data portals that allow citizens to visualize how public funds are spent (mandatory by law in many states)."
+          },
+          {
+            "IMG": "/icons/seguridad.svg",
+            "TITLE": "Government Cybersecurity",
+            "DESCRIPTION": "Protection of sensitive data from municipal registries and critical systems."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "RANCHO LA COFRADÍA",
@@ -66,7 +88,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Economy</strong><br>Smart",
         "TITLE_TEXT": "Smart Economy",
         "SUBTITLE": "Financing and Business Models.",
@@ -93,6 +114,29 @@
           {
             "TITLE": "Entrepreneurship and Start-Ups",
             "DESCRIPTION": "Education, training and creation of environments and infrastructures focused on business support"
+          }
+        ],
+        "TITLE_SERVICE": "Financial and Structuring Services",
+        "SERVICE": [
+          {
+            "IMG": "/icons/asociaciones.svg",
+            "TITLE": "PPP Scheme Management (Public-Private Partnerships)",
+            "DESCRIPTION": "Consulting to structure projects where private investment recovers capital over the long term"
+          },
+          {
+            "IMG": "/icons/energy.svg",
+            "TITLE": "ESCO Models (Energy Service Companies)",
+            "DESCRIPTION": "Implementation of projects that 'pay for themselves' through the savings generated (e.g. LED replacement, energy efficiency in water pumping)"
+          },
+          {
+            "IMG": "/icons/arrendamiento.svg",
+            "TITLE": "Operating and Financial Leasing",
+            "DESCRIPTION": "Offering infrastructure as a service (OpEx) to avoid client decapitalization (cameras, lighting, fleets)"
+          },
+          {
+            "IMG": "/icons/fondos.svg",
+            "TITLE": "International Funds Management",
+            "DESCRIPTION": "Advisory services to access 'Green Bonds' or funds from organizations such as the IDB or the World Bank for modernization projects"
           }
         ],
         "PROJECTS": [
@@ -135,13 +179,13 @@
           {
             "TITLE": "MOLINOS DE SALVATIERRA",
             "DESCRIPTION": "157 LOTS AND 29 HOUSES ",
-            "DATE": "Location: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
           },
           {
             "TITLE": "INDUSTRIAL WAREHOUSE",
             "DESCRIPTION": "8,500 m²",
-            "DATE": " Location: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "LOCATE": "Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
@@ -168,6 +212,29 @@
             "DESCRIPTION": "Optimize vehicle flow and public transport through information and communication technologies."
           }
         ],
+        "TITLE_SERVICE": "Smart Mobility Solutions",
+        "SERVICE": [
+          {
+            "IMG": "/icons/semaforo.svg",
+            "TITLE": "Intelligent Traffic Light Systems",
+            "DESCRIPTION": "Smart mobility solutions."
+          },
+          {
+            "IMG": "/icons/estacionamiento.svg",
+            "TITLE": "Parking Management",
+            "DESCRIPTION": "Occupancy sensors and digital parking meter apps (parking guidance)."
+          },
+          {
+            "IMG": "/icons/electromovilidad.svg",
+            "TITLE": "Electromobility Infrastructure",
+            "DESCRIPTION": "Installation and management of charging stations (public and for government fleets)."
+          },
+          {
+            "IMG": "/icons/alumbrado.svg",
+            "TITLE": "Remotely Managed Public Lighting",
+            "DESCRIPTION": "Streetlights that automatically report failures and allow dimming during low-traffic hours to save energy."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "INTEGRATED TECHNOLOGICAL SOLUTIONS PROJECTS",
@@ -182,13 +249,12 @@
           {
             "TITLE": "INDUSTRIAL WAREHOUSE",
             "DESCRIPTION": "8,500 m²",
-            "DATE": " Location: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "LOCATE": "Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Environment</strong><br>Smart",
         "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services.",
@@ -219,6 +285,34 @@
           {
             "TITLE": "Awareness and habit change",
             "DESCRIPTION": "Promotion of sustainable practices and environmental education in society."
+          }
+        ],
+        "TITLE_SERVICE": "Regulatory Compliance and Corporate/Governmental Sustainability",
+        "SERVICE": [
+          {
+            "IMG": "/icons/consultoria.svg",
+            "TITLE": "ESG Consulting (Environmental, Social, and Governance)",
+            "DESCRIPTION": "Helping industrial parks and cities comply with regulations to attract foreign investment."
+          },
+          {
+            "IMG": "/icons/gestion_hidrica.svg",
+            "TITLE": "Water Management (Smart Water)",
+            "DESCRIPTION": "Telemetry for wells and water network sectorization to detect non-visible leaks (critical amid Mexico’s water crisis)."
+          },
+          {
+            "IMG": "/icons/co2.svg",
+            "TITLE": "Net Zero Strategy",
+            "DESCRIPTION": "GHG (Greenhouse Gas) emissions inventory and decarbonization plans."
+          },
+          {
+            "IMG": "/icons/calidad_aire.svg",
+            "TITLE": "Air Quality Monitoring",
+            "DESCRIPTION": "Environmental sensor networks to automatically activate contingency protocols."
+          },
+          {
+            "IMG": "/icons/residuos.svg",
+            "TITLE": "Smart Waste Management",
+            "DESCRIPTION": "Fill-level sensors in containers and route optimization to reduce fuel consumption."
           }
         ],
         "PROJECTS": [
@@ -278,7 +372,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Habitat and Services</strong><br>Smart",
         "TITLE_TEXT": "Smart Habitat and Services",
         "SUBTITLE": "Security and Quality of Life.",
@@ -315,47 +408,65 @@
             "DESCRIPTION": "Promotion of social integration and improvement of quality of life."
           }
         ],
+        "TITLE_SERVICE": "Services Focused on Daily Well-being and Safety",
+        "SERVICE": [
+          {
+            "IMG": "/icons/centro_de_comando.svg",
+            "TITLE": "Citizen Security and Intelligence",
+            "DESCRIPTION": "Command Centers (C2/C4) with analytical video surveillance (gunshot detection, loitering, license plate recognition) and connected panic buttons."
+          },
+          {
+            "IMG": "/icons/parque_inteligente.svg",
+            "TITLE": "Public Space Management",
+            "DESCRIPTION": "Smart parks with adaptive lighting, automated irrigation, and urban furniture with USB/Solar charging."
+          },
+          {
+            "IMG": "/icons/estructural.svg",
+            "TITLE": "Structural Health Monitoring",
+            "DESCRIPTION": "Sensors on bridges and public buildings for civil protection (seismic alerts or wear detection)."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "NUEVO CELAYA",
             "DESCRIPTION": "400 HOMES",
-            "DATE": "Location: Nuevo Celaya, 38027 Celaya, Gto.",
+            "LOCATE": "Nuevo Celaya, 38027 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
           },
           {
             "TITLE": "ARBOLEDAS DEL PEDREGAL",
             "DESCRIPTION": "ARBOLEDAS DEL PEDREGAL",
-            "DATE": "Location: 212 Sor Juana Inés de la Cruz, 38090 Celaya, Gto.",
+            "LOCATE": "212 Sor Juana Inés de la Cruz, 38090 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
           },
           {
             "TITLE": "TECHNOLOGICAL RESIDENTIAL",
             "DESCRIPTION": "200 HOMES",
-            "DATE": " Location: Residencial Tecnológico, 38010 Celaya, Gto.",
+            "LOCATE": "Residencial Tecnológico, 38010 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
           },
           {
             "TITLE": "RESIDENCIAL SAN ANGEL",
             "DESCRIPTION": "46 APARTMENTS AND COMMERCIAL PREMISES",
-            "DATE": "Location: José María Pino Suárez 202, 38078 Celaya, Gto.",
+            "LOCATE": "José María Pino Suárez 202, 38078 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
           },
           {
             "TITLE": "FRACCIONAMIENTO MONTES",
             "DESCRIPTION": "40 HOMES",
-            "DATE": " Location: De Morelos 319, 38000 Celaya, Gto.",
+            "LOCATE": "De Morelos 319, 38000 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
           },
           {
             "TITLE": "RESIDENCIAL BUGAMBILIAS",
             "DESCRIPTION": "40 HOMES",
-            "DATE": "Location: Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
+            "LOCATE": "Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
           },
           {
             "TITLE": "RESIDENCIAL SAN JAVIER",
             "DESCRIPTION": "150 APARTMENTS",
-            "DATE": "Location: San Javier 101, 36020 Guanajuato, Gto.",
+            "LOCATE": "San Javier 101, 36020 Guanajuato, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
           },
           {
@@ -374,7 +485,7 @@
           {
             "TITLE": "MOLINOS DE SALVATIERRA",
             "DESCRIPTION": "157 LOTS AND 29 HOUSES ",
-            "DATE": "Location: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
           },
           {
@@ -390,7 +501,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Society</strong><br>Smart",
         "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion.",
@@ -417,6 +527,29 @@
           {
             "TITLE": "Digital education",
             "DESCRIPTION": "Remote access education platforms, creation of lifelong learning facilities and integration of technological solutions."
+          }
+        ],
+        "TITLE_SERVICE": "Human-Centered Technology with an Inclusive Approach",
+        "SERVICE": [
+          {
+            "IMG": "/icons/wifi.svg",
+            "TITLE": "Digital Inclusion (Digital Divide)",
+            "DESCRIPTION": "Deployment of free Wi-Fi hotspots in underserved areas and digital community centers."
+          },
+          {
+            "IMG": "/icons/accesibilidad.svg",
+            "TITLE": "Accessible Technology",
+            "DESCRIPTION": "Design of apps and citizen kiosks under WCAG (Web Content Accessibility Guidelines) standards for people with visual or motor disabilities."
+          },
+          {
+            "IMG": "/icons/robotica.svg",
+            "TITLE": "STEM Education",
+            "DESCRIPTION": "Equipping smart classrooms and robotics labs for public schools."
+          },
+          {
+            "IMG": "/icons/telemedicina.svg",
+            "TITLE": "Municipal Telemedicine",
+            "DESCRIPTION": "Health kiosks in rural areas connected to central hospitals for basic diagnostics."
           }
         ],
         "PROJECTS": [

@@ -1,132 +1,39 @@
+---
+const { service, title } = Astro.props;
+---
+
 <section class="">
   <div class="flex justify-center items-center bg-[var(--color-blue)] py-8">
     <h2
       class="font-bold text-white text-4xl sm:text-5xl text-center smart-ecosystem-title"
     >
-      Servicios de Movilidad Inteligente
+      {title}
     </h2>
   </div>
   <div
-    class="flex flex-col lg:grid lg:grid-cols-2 gap-8 mx-auto max-w-6xl px-5 py-24"
+    class="flex flex-wrap items-center justify-center gap-8 mx-auto max-w-6xl px-5 py-24"
   >
-    <article
-      class="relative flex items-start gap-4 bg-white/5 shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/15 rounded-lg focus-visible:outline-none overflow-visible transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform"
-    >
-      <div
-        class="top-3 bottom-3 left-0 absolute bg-[var(--color-title)] rounded-r-md w-1 pointer-events-none"
-      >
-      </div>
+    {
+      service.map((item: any) => (
+        <article class="relative flex items-start w-[45%] gap-4 bg-[rgba(255,255,255,0.01)] shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/15 rounded-lg focus-visible:outline-none transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform">
+          <div class="top-3 bottom-3 -left-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"></div>
 
-      <div
-        class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300"
-      >
-        <img
-          src="/icons/semaforo.svg"
-          alt="Semaforización Inteligente"
-          width="38"
-          height="38"
-        />
-      </div>
+          <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
+            <img
+              src={item.IMG}
+              alt="Semaforización Inteligente"
+              class="w-10 object-contain"
+            />
+          </div>
 
-      <div class="flex-1">
-        <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
-          Semaforización Inteligente
-        </h3>
-        <p class="text-white text-base lg:text-lg">
-          Sistemas adaptativos que cambian los tiempos del semáforo según el
-          flujo real de autos, no por tiempos fijos.
-        </p>
-      </div>
-    </article>
-
-    <article
-      class="relative flex items-start gap-4 bg-white/5 shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/15 rounded-lg focus-visible:outline-none overflow-visible transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform"
-    >
-      <div
-        class="top-3 bottom-3 left-0 absolute bg-[var(--color-title)] rounded-r-md w-1 pointer-events-none"
-      >
-      </div>
-
-      <div
-        class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300"
-      >
-        <img
-          src="/icons/estacionamiento.svg"
-          alt="Gestión de Estacionamientos"
-          width="38"
-          height="38"
-        />
-      </div>
-
-      <div class="flex-1">
-        <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
-          Gestión de Estacionamientos
-        </h3>
-        <p class="text-white text-base lg:text-lg">
-          Sensores de ocupación y apps de parquímetros digitales (parking
-          guidance).
-        </p>
-      </div>
-    </article>
-
-    <article
-      class="relative flex items-start gap-4 bg-white/5 shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/15 rounded-lg focus-visible:outline-none overflow-visible transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform"
-    >
-      <div
-        class="top-3 bottom-3 left-0 absolute bg-[var(--color-title)] rounded-r-md w-1 pointer-events-none"
-      >
-      </div>
-
-      <div
-        class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300"
-      >
-        <img
-          src="/icons/electromovilidad.svg"
-          alt="Infraestructura para Electromovilidad"
-          width="38"
-          height="38"
-        />
-      </div>
-
-      <div class="flex-1">
-        <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
-          Infraestructura para Electromovilidad
-        </h3>
-        <p class="text-white text-base lg:text-lg">
-          Instalación y gestión de electrolineras (públicas y para flotas de
-          gobierno).
-        </p>
-      </div>
-    </article>
-
-    <article
-      class="relative flex items-start gap-4 bg-white/5 shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/15 rounded-lg focus-visible:outline-none overflow-visible transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform"
-    >
-      <div
-        class="top-3 bottom-3 left-0 absolute bg-[var(--color-title)] rounded-r-md w-1 pointer-events-none"
-      >
-      </div>
-
-      <div
-        class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300"
-      >
-        <img
-          src="/icons/alumbrado.svg"
-          alt="Alumbrado Público Telegestionado"
-          width="38"
-          height="38"
-        />
-      </div>
-
-      <div class="flex-1">
-        <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
-          Alumbrado Público Telegestionado
-        </h3>
-        <p class="text-white text-base lg:text-lg">
-          Luminarias que reportan fallas automáticamente y permiten dimming
-          (bajar intensidad) en horas de baja afluencia para ahorrar energía.
-        </p>
-      </div>
-    </article>
+          <div class="flex-1">
+            <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              {item.TITLE}
+            </h3>
+            <p class="text-white text-base lg:text-lg">{item.DESCRIPTION}</p>
+          </div>
+        </article>
+      ))
+    }
   </div>
 </section>

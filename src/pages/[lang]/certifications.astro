@@ -1,0 +1,75 @@
+---
+import { getLangFromUrl, useTranslation } from "@/i18n";
+import { translations } from "@/i18n/config";
+
+import Layout from "@/layouts/Layout.astro";
+
+import Contact from "@/components/Contact.astro";
+
+export function getStaticPaths() {
+  return Object.keys(translations).map((lang) => ({ params: { lang } }));
+}
+
+const lang = getLangFromUrl(Astro.url);
+
+const t = await useTranslation(lang);
+---
+
+<Layout title="O M S M A R T">
+  <section class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+    <div class="relative max-w-5xl mx-auto px-6 py-24">
+      <!-- Menú superior -->
+      <nav
+        class="flex justify-center gap-10 text-sm border-b border-white/30 pb-6 mb-16"
+      >
+        <a href="#" class="hover:text-cyan-400 transition"
+          >Certificaciones ISO</a
+        >
+        <a href="#" class="hover:text-cyan-400 transition">ISO 37101</a>
+        <a href="#" class="hover:text-cyan-400 transition">ISO 37120</a>
+        <a href="#" class="hover:text-cyan-400 transition">ISO 37122</a>
+        <a href="#" class="hover:text-cyan-400 transition">ISO 37123</a>
+      </nav>
+
+      <!-- Contenido principal -->
+      <div class="grid md:grid-cols-2 gap-16 items-start">
+        <!-- Texto izquierdo -->
+        <div>
+          <h2 class="text-4xl font-light mb-4">Certificaciones ISO</h2>
+
+          <h3 class="text-3xl font-light text-cyan-400 mb-8">
+            Smart City – Smart Communities
+          </h3>
+
+          <div class="w-24 h-[2px] bg-cyan-400 mb-8"></div>
+
+          <p class="text-sm leading-relaxed text-white/90 mb-6">
+            <span class="font-semibold text-cyan-400">
+              OM Smart Technology & Consulting
+            </span>
+            acompaña los procesos de gestión e implementación de soluciones basadas
+            en las normativas ISO.
+          </p>
+
+          <p class="text-sm leading-relaxed text-white/90">
+            Estas permiten evaluar de manera objetiva el desarrollo de las
+            ciudades y comunidades sostenibles, mediante estandarización de
+            procesos y con un análisis cualitativo y cuantitativo.
+          </p>
+        </div>
+
+        <!-- Texto derecho -->
+        <div>
+          <p class="text-sm leading-relaxed text-white/90">
+            La Organización Internacional de la Normalización o Estandarización,
+            a través de su comité técnico 268 para ciudades y comunidades
+            sostenibles, ha desarrollado las siguientes Normas en este campo de
+            aplicación.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Contact />
+</Layout>

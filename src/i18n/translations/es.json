@@ -16,7 +16,6 @@
     "SUCCESS_STORIES_BUTTON": "Ver proyectos relacionados",
     "SMART_ECOSYSTEM_ITEMS": [
       {
-        "HREF": "",
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
         "TITLE_TEXT": "Gobernanza Inteligente",
         "SUBTITLE": "Gobierno Digital y Transparencia.",
@@ -45,13 +44,38 @@
             "DESCRIPTION": "Organización de áreas funcionales, facilitar la creación de programas de financiación, implementación normativa y formación de redes que agrupen demanda y permitan introducir servicios innovadores"
           }
         ],
+        "TITLE_SERVICE": "Servicios de Gobernanza Digital",
+        "SERVICE": [
+          {
+            "IMG": "/icons/portal.svg",
+            "TITLE": "Ventanilla Única Digital",
+            "DESCRIPTION": "Desarrollo de portales para digitalización de trámites (licencias de funcionamiento, predial, agua) reduciendo la corrupción y tiempos de espera."
+          },
+          {
+            "IMG": "/icons/plataformas_de_participacion.svg",
+            "TITLE": "Plataformas de Participación Ciudadana",
+            "DESCRIPTION": "Apps o portales para 'Presupuesto Participativo' y reportes ciudadanos geolocalizados (baches, luminarias fundidas)."
+          },
+          {
+            "IMG": "/icons/dashboard.svg",
+            "TITLE": "Dashboards de Transparencia (Open Data)",
+            "DESCRIPTION": "Portales de datos abiertos para que la ciudadanía visualice en qué se gasta el recurso público (obligatorio por ley en muchos estados)."
+          },
+          {
+            "IMG": "/icons/seguridad.svg",
+            "TITLE": "Ciberseguridad Gubernamental",
+            "DESCRIPTION": "Protección de datos sensibles del padrón municipal y sistemas críticos."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "RANCHO LA COFRADÍA",
             "DESCRIPTION": "Proyecto de desarrollo sostenible de 68.1 hectáreas que impulsa un crecimiento equilibrado en Tlajomulco. Integra áreas de agricultura, ganadería, industria, entretenimiento, educación e infraestructura, utilizando metodologías avanzadas como BIM y Lean Construction para fortalecer los objetivos de desarrollo sostenible.",
             "LOCATE": "Tlajomulco, Jalisco, México",
             "DATE": "2025",
-            "IMG": ["/projects/COFRADIA/img1.webp"]
+            "IMG": [
+              "/projects/COFRADIA/img1.webp"
+            ]
           },
           {
             "TITLE": "PROYECTOS DE SOLUCIONES TECNOLÓGICAS INTEGRALES",
@@ -66,7 +90,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Economía</strong><br>Inteligente",
         "TITLE_TEXT": "Economía Inteligente",
         "SUBTITLE": "Financiación y Modelos de Negocio.",
@@ -93,6 +116,29 @@
           {
             "TITLE": "Emprendimiento y Start-Ups",
             "DESCRIPTION": "Educación, capacitación y creación de entornos e infraestructuras enfocadas al apoyo empresarial"
+          }
+        ],
+        "TITLE_SERVICE": "Servicios Financieros y de Estructuración",
+        "SERVICE": [
+          {
+            "IMG": "/icons/asociaciones.svg",
+            "TITLE": "Gestión de Esquemas APP (Asociaciones Público Privadas)",
+            "DESCRIPTION": "Consultoría para estructurar proyectos donde la inversión privada recupera capital a largo plazo"
+          },
+          {
+            "IMG": "/icons/energy.svg",
+            "TITLE": "Modelos ESCO (Energy Service Companies)",
+            "DESCRIPTION": "Implementación de proyectos que 'se pagan solos' con los ahorros generados (ej. cambio a LED, eficiencia energética en bombeo de agua)"
+          },
+          {
+            "IMG": "/icons/arrendamiento.svg",
+            "TITLE": "Arrendamiento Puro y Financiero",
+            "DESCRIPTION": "Oferta de infraestructura como servicio (OpEx) para evitar descapitalización del cliente (cámaras, luminarias, flotillas)"
+          },
+          {
+            "IMG": "/icons/fondos.svg",
+            "TITLE": "Gestión de Fondos Internacionales",
+            "DESCRIPTION": "Asesoría para acceder a 'Bonos Verdes' o fondos de organismos como el BID o Banco Mundial para proyectos de modernización"
           }
         ],
         "PROJECTS": [
@@ -135,19 +181,18 @@
           {
             "TITLE": "MOLINOS DE SALVATIERRA",
             "DESCRIPTION": "157 TERRENOS Y 29 CASAS ",
-            "DATE": "Ubicación: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
           },
           {
             "TITLE": "NAVE INDUSTRIAL",
             "DESCRIPTION": "8,500 M2",
-            "DATE": " Ubicación: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "LOCATE": " Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Movilidad e<br>Infraestructuras</strong><br>Inteligentes",
         "TITLE_TEXT": "Movilidad e Infraestructuras Inteligentes",
         "SUBTITLE": "Movilidad e Infraestructura Conectada.",
@@ -168,6 +213,29 @@
             "DESCRIPTION": "Optimizar el flujo vehicular y el transporte público mediante tecnologías de la información y la comunicación."
           }
         ],
+        "TITLE_SERVICE": "Soluciones de Movilidad Inteligente",
+        "SERVICE": [
+          {
+            "IMG": "/icons/semaforo.svg",
+            "TITLE": "Semaforización Inteligente",
+            "DESCRIPTION": "Soluciones de Movilidad Inteligente"
+          },
+          {
+            "IMG": "/icons/estacionamiento.svg",
+            "TITLE": "Gestión de Estacionamientos",
+            "DESCRIPTION": "Sensores de ocupación y apps de parquímetros digitales (parking guidance)."
+          },
+          {
+            "IMG": "/icons/electromovilidad.svg",
+            "TITLE": "Infraestructura para Electromovilidad",
+            "DESCRIPTION": "Instalación y gestión de electrolineras (públicas y para flotas de gobierno)."
+          },
+          {
+            "IMG": "/icons/alumbrado.svg",
+            "TITLE": "Alumbrado Público Telegestionado",
+            "DESCRIPTION": "Luminarias que reportan fallas automáticamente y permiten dimming(bajar intensidad) en horas de baja afluencia para ahorrar energía."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "PROYECTOS DE SOLUCIONES TECNOLÓGICAS INTEGRALES",
@@ -182,13 +250,12 @@
           {
             "TITLE": "NAVE INDUSTRIAL",
             "DESCRIPTION": "8,500 M2",
-            "DATE": " Ubicación: Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
+            "LOCATE": "Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Medio Ambiente</strong><br>Inteligente",
         "TITLE_TEXT": "Medio Ambiente Inteligente",
         "SUBTITLE": "Sostenibilidad y Servicios ESG.",
@@ -219,6 +286,34 @@
           {
             "TITLE": "Concientización y cambio de hábitos",
             "DESCRIPTION": "Promoción de prácticas sostenibles y educación ambiental en la sociedad."
+          }
+        ],
+        "TITLE_SERVICE": "Cumplimiento normativo y sostenibilidad corporativa/gubernamental",
+        "SERVICE": [
+          {
+            "IMG": "/icons/consultoria.svg",
+            "TITLE": "Consultoría ESG (Environmental, Social, and Governance)",
+            "DESCRIPTION": "Ayudar a parques industriales y ciudades a cumplir normativas para atraer inversión extranjera."
+          },
+          {
+            "IMG": "/icons/gestion_hidrica.svg",
+            "TITLE": "Gestión Hídrica (Smart Water)",
+            "DESCRIPTION": "Telemetría para pozos, sectorización de redes de agua potable para detectar fugas no visibles (vital ante la crisis hídrica en México)."
+          },
+          {
+            "IMG": "/icons/co2.svg",
+            "TITLE": "Estrategia Net Zero",
+            "DESCRIPTION": "Inventario de emisiones de GEI (Gases de Efecto Invernadero) y planes de descarbonización."
+          },
+          {
+            "IMG": "/icons/calidad_aire.svg",
+            "TITLE": "Monitoreo de Calidad del Aire",
+            "DESCRIPTION": "Redes de sensores ambientales para activar protocolos de contingencia automáticamente."
+          },
+          {
+            "IMG": "/icons/residuos.svg",
+            "TITLE": "Gestión Inteligente de Residuos",
+            "DESCRIPTION": "Sensores de nivel en contenedores y optimización de rutas de recolección para reducir consumo de combustible."
           }
         ],
         "PROJECTS": [
@@ -278,7 +373,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Hábitat y Servicios</strong><br>Intelligentes",
         "TITLE_TEXT": "Hábitat y Servicios Intelligentes",
         "SUBTITLE": "Seguridad y Calidad de Vida.",
@@ -315,47 +409,65 @@
             "DESCRIPTION": "Promoción de la integración social y mejora de la calidad de vida."
           }
         ],
+        "TITLE_SERVICE": "Servicios enfocados en el bienestar diario y la seguridad",
+        "SERVICE": [
+          {
+            "IMG": "/icons/centro_de_comando.svg",
+            "TITLE": "Seguridad Ciudadana e Inteligencia",
+            "DESCRIPTION": "Centros de Comando (C2/C4) con videovigilancia analítica (detección de disparos, merodeo, lectura de placas) y botones de pánico conectados."
+          },
+          {
+            "IMG": "/icons/parque_inteligente.svg",
+            "TITLE": "Gestión de Espacios Públicos",
+            "DESCRIPTION": "Parques inteligentes con iluminación adaptativa, riego automatizado y mobiliario urbano con carga USB/Solar."
+          },
+          {
+            "IMG": "/icons/estructural.svg",
+            "TITLE": "Monitoreo de Salud Estructural",
+            "DESCRIPTION": "Sensores en puentes y edificios públicos para protección civil (alertas sísmicas o desgaste)."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "NUEVO CELAYA",
             "DESCRIPTION": "400 VIVIENDAS",
-            "DATE": "Ubicación: Nuevo Celaya, 38027 Celaya, Gto.",
+            "LOCATE": "Nuevo Celaya, 38027 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
           },
           {
             "TITLE": "ARBOLEDAS DEL PEDREGAL",
             "DESCRIPTION": "ARBOLEDAS DEL PEDREGAL",
-            "DATE": "Ubicación: 212 Sor Juana Inés de la Cruz,  38090 Celaya, Gto.",
+            "LOCATE": "212 Sor Juana Inés de la Cruz,  38090 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
           },
           {
             "TITLE": "RESIDENCIAL TECNOLÓGICO",
             "DESCRIPTION": "200 VIVIENDAS",
-            "DATE": " Ubicación: Residencial Tecnológico, 38010 Celaya, Gto.",
+            "LOCATE": " Residencial Tecnológico, 38010 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
           },
           {
             "TITLE": "RESIDENCIAL SAN ANGEL",
             "DESCRIPTION": "46 DEPARTAMENTOS LOCALES COMERCIALES",
-            "DATE": "Ubicación: José María Pino Suárez 202, 38078 Celaya, Gto.",
+            "LOCATE": "José María Pino Suárez 202, 38078 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
           },
           {
             "TITLE": "FRACCIONAMIENTO MONTES",
             "DESCRIPTION": "40 VIVIENDAS",
-            "DATE": " Ubicación: De Morelos 319, 38000 Celaya, Gto.",
+            "LOCATE": " De Morelos 319, 38000 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
           },
           {
             "TITLE": "RESIDENCIAL BUGAMBILIAS",
             "DESCRIPTION": " 40 VIVIENDAS",
-            "DATE": "Ubicación: Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
+            "LOCATE": "Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
           },
           {
             "TITLE": "RESIDENCIAL SAN JAVIER",
             "DESCRIPTION": "150 DEPARTAMENTOS ",
-            "DATE": "Ubicación: San Javier 101, 36020 Guanajuato, Gto.",
+            "LOCATE": "San Javier 101, 36020 Guanajuato, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
           },
           {
@@ -374,7 +486,7 @@
           {
             "TITLE": "MOLINOS DE SALVATIERRA",
             "DESCRIPTION": "157 TERRENOS Y 29 CASAS ",
-            "DATE": "Ubicación: Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
+            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
             "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
           },
           {
@@ -390,7 +502,6 @@
         ]
       },
       {
-        "HREF": "",
         "TITLE": "<strong>Sociedad</strong><br>Inteligente",
         "TITLE_TEXT": "Sociedad Inteligente",
         "SUBTITLE": "Sociedad e Inclusión Digital.",
@@ -419,6 +530,29 @@
             "DESCRIPTION": "Plataformas de acceso remoto a educación, generación de instalaciones para aprendizaje permanente e integración de soluciones tecnológicas."
           }
         ],
+        "TITLE_SERVICE": "Tecnología con rostro humano y enfoque inclusivo",
+        "SERVICE": [
+          {
+            "IMG": "/icons/wifi.svg",
+            "TITLE": "Inclusión Digital (Brecha Digital)",
+            "DESCRIPTION": "Despliegue de puntos de Wi-Fi gratuito en zonas marginadas y centros comunitarios digitales."
+          },
+          {
+            "IMG": "/icons/accesibilidad.svg",
+            "TITLE": "Tecnología Accesible",
+            "DESCRIPTION": "Diseño de apps y kioscos ciudadanos bajo estándares WCAG (Web Content Accessibility Guidelines) para personas con discapacidad visual o motriz."
+          },
+          {
+            "IMG": "/icons/robotica.svg",
+            "TITLE": "Educación STEM",
+            "DESCRIPTION": "Equipamiento de aulas inteligentes y laboratorios de robótica para escuelas públicas."
+          },
+          {
+            "IMG": "/icons/telemedicina.svg",
+            "TITLE": "Telemedicina Municipal",
+            "DESCRIPTION": "Kioscos de salud en zonas rurales conectados a hospitales centrales para diagnósticos básicos."
+          }
+        ],
         "PROJECTS": [
           {
             "TITLE": "TEPOZTLÁN",
@@ -442,7 +576,9 @@
             "DESCRIPTION": "Proyecto de desarrollo sostenible de 68.1 hectáreas que impulsa un crecimiento equilibrado en Tlajomulco. Integra áreas de agricultura, ganadería, industria, entretenimiento, educación e infraestructura, utilizando metodologías avanzadas como BIM y Lean Construction para fortalecer los objetivos de desarrollo sostenible.",
             "LOCATE": "Tlajomulco, Jalisco, México",
             "DATE": "2025",
-            "IMG": ["/projects/COFRADIA/img1.webp"]
+            "IMG": [
+              "/projects/COFRADIA/img1.webp"
+            ]
           },
           {
             "TITLE": "LOS PORTALES",
@@ -539,5 +675,37 @@
       "Innovación",
       "Profesionalismo"
     ]
-  }
+  },
+  "CERTIFICATIONS": [
+    {
+      "NUMBER": "Certificaciones ISO",
+      "TITLE": "Smart City – Smart Communities",
+      "DESCRIPTION_LEFT": "<b class='text-(--color-title)'>OM Smart Technology & Consulting </b> acompaña los procesos de gestión e implementación de soluciones basadas en las normativas ISO. <br/> <br/> Estas permiten evaluar de manera objetiva el desarrollo de las ciudades y comunidades sostenibles, mediante estandarización de procesos y con un análisis cualitativo y cuantitativo.",
+      "DESCRIPTION_RIGHT": "La Organización Internacional de la Normalización o Estandarización, a través de su comité técnico 268 para ciudades y comunidades sostenibles ha desarrollado las siguientes Normas en este campo de aplicación."
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37101</b>",
+      "TITLE": "Desarrollo sostenible en las comunidades - Sistema de Gestión para el desarrollo Sostenible",
+      "DESCRIPTION_LEFT": "<b class='text-(--color-title)'>Sus principales metas son:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Construir consenso del desarrollo sostenible</li><li>Mejorar la sostenibilidad, smartness y resiliencia de todas sus acciones</li><li>Desarrollar enfoques intersectoriales, multidisciplinarios, de valor del ciclo de vida y de costeo total.</li><li>Fomentar sinergias</li><li>Incrementar eficiencia y atractivo de las comunidades</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>Alcances:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Aplicable a comunidades de todos los tamaños, estructuras y tipos</li><li>Aplicable a países desarrollados, en desarrollo</li><li>Aplicable a nivel local, regional o nacional</li><li>Aplicable en áreas urbanas o rurales</li></ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37120</b>",
+      "TITLE": "Desarrollo sostenible de las comunidades – Indicadores de los servicios de la ciudad y la calidad de vida",
+      "DESCRIPTION_LEFT": "Esta norma complementa la serie de indicadores para medir el desempeño en comunidades; incluye a los servicios de la ciudad y la calidad de vida en ciudades inteligentes y ciudades resilientes.<br/> <br/> Estos indicadores permiten evaluar y a su vez planificar con base a posibles necesidades futuras y establece como principales metas:<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Medición de gestión de desempeño de servicios y calidad a lo largo del tiempo</li><li>Posibilidad de comparación para aprender acerca de las medidas de desempeño</li><li>Desarrollo de políticas y establecimiento de prioridades</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>Alcances:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicadores agregables a áreas administrativas muy grandes</li> <li>Aplicables a la evaluación de eficiencia de los recursos de la ciudad</li> <li>En conjunto con otros indicadores permite tener un enfoque más integral y holístico para el análisis de la sostenibilidad</li> </ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37122</b>",
+      "TITLE": "Ciudades y comunidades sostenibles - Indicadores para Ciudades Inteligentes",
+      "DESCRIPTION_LEFT": "Presenta un punto de referencia para la sostenibilidad de las ciudades, las cuales requieren de indicadores adicionales a los establecidos para evaluar los servicios de la ciudad y la calidad de vida. En conjunto con la aplicación de la Normativa ISO 37120 ayuda a las ciudades a implementar políticas, programas y proyectos para ciudades inteligentes.<br/> <br/> <b class='text-(--color-title)'>Alcances:</b> <br/> <br/> En conjunto con la norma ISO 37120 precisa proporcionar un conjunto completo de indicadores para medir el progreso hacia una ciudad inteligente.",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>Sus metas son:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Aplicar métodos de liderazgo colaborativo</li> <li>Utilizar información de datos y tecnologías para brindar mejora a servicios y a la calidad de vida</li> <li>Proporcionar mejor entorno de vida a partir de políticas inteligentes y la puesta a disponibilidad de tecnologías a los ciudadanos</li> <li>Generar soluciones innovadoras a cuestiones medioambientales y de sostenibilidad</li> <li>Identificar necesidades y beneficios de infraestructuras inteligentes</li> <li>Facilitar innovación y crecimiento</li> <li>Construir economía dinámica e innovadora que logre ser resiliente</li> </ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37123</b>",
+      "TITLE": "Ciudades y Comunidades Sostenibles – Indicadores para Ciudades Resilientes",
+      "DESCRIPTION_LEFT": "Una ciudad resiliente es capaz de prepararse, recuperarse y adaptarse a los choques y tensiones. Esta norma en conjunto con los indicadores planteados en la norma ISO 37120 permiten la evaluación de Ciudades Resilientes y también la toma de acciones para gestionar y mitigar el estrés humano y natural en relación a la degradación ambiental e inestabilidad económica que causan impactos negativos persistentes. <br/> <br/> Presenta indicadores puntuales y también presenta indicadores estructurados de acuerdo con un proceso de gestión de riesgos y gestión de desastres; seguimiento de cumplimiento a Objetivos del Desarrollo sostenible y estructurados de conformidad con lo establecido en el Marco de Sendai para la reducción del riesgo de desastres, estos tienen como metas ayudar a las ciudades a:",
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepararse, recuperarse y adaptarse a los choques y tensiones</li> <li>Generar aprendizaje con base en la comparación de medidas de rendimiento y compartiendo buenas prácticas.</li> </ul> <br/> <br/> <b class='text-(--color-title)'>Alcances:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Aplicable para medición de resiliencia en ciudades</li> <li>Aplicable a cualquier ciudad, municipio o gobierno local</li> <li>Aplicable independientemente de su tamaño o ubicación</li> </ul>"
+    }
+  ]
 }

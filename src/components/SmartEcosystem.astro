@@ -2,30 +2,244 @@
 const { item } = Astro.props;
 
 interface Props {
-    item: {
-        TITLE: string;
-        DESCRIPTION: string;
-    };
+  item: {
+    TITLE: string;
+    DESCRIPTION: string;
+  };
 }
 ---
 
 <section
-    id="hero"
-    class="flex flex-col justify-center items-center gap-8 mx-auto px-4 w-full h-screen"
+  id="hero"
+  class="relative flex flex-col justify-center items-center gap-8 mx-auto w-full h-screen"
 >
-    <div class="flex lg:flex-row flex-col justify-center items-center gap-8 mx-auto w-full max-w-4xl h-full">
-        <div class="flex justify-center lg:justify-start items-center w-full lg:w-1/2 h-1/3 lg:h-full">
-            <h3 class="text-white text-4xl text-center smart-ecosystem-title" set:html={item.TITLE}>
-            </h3>
-        </div>
-        <div class="flex justify-start items-center w-full lg:w-1/2 h-1/3 lg:h-full">
-            <p class="text-white text-lg text-center lg:text-left" set:html={item.DESCRIPTION}></p>
-        </div>
+  <div
+    class="flex lg:flex-row flex-col justify-center items-center gap-8 mx-auto w-full max-w-4xl h-full"
+  >
+    <div
+      class="relative flex justify-center items-center w-full lg:w-1/2 overflow-visible"
+    >
+      <div
+        id="canvas-container"
+        class="absolute -inset-y-32 inset-x-0 md:-inset-x-24 lg:-inset-48"
+      >
+      </div>
+      <div
+        class="z-10 relative flex justify-center items-center bg-black shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-blue)] rounded-full h-[250px] md:h-[280px] aspect-square"
+      >
+        <h3
+          class="text-white text-3xl md:text-4xl text-center smart-ecosystem-title"
+          set:html={item.TITLE}
+        />
+      </div>
     </div>
+    <div class="flex justify-start items-center px-4 w-full lg:w-1/2">
+      <p
+        class="text-white text-lg lg:text-left text-center"
+        set:html={item.DESCRIPTION}
+      />
+    </div>
+  </div>
 </section>
 
 <style>
-    .smart-ecosystem-title :global(strong) {
-        color: var(--color-title);
-    }
+  .smart-ecosystem-title :global(strong) {
+    color: var(--color-title);
+  }
 </style>
+
+<script>
+  import * as THREE from "https://cdn.skypack.dev/three@0.132.2";
+
+  // --- Control Variables ---
+  // Size: Larger values make it bigger. Default is 1.0.
+  const sizeMultiplier = 0.8;
+  // Speed: Larger values make it faster. Default is 0.0004.
+  const speedMultiplier = 0.0008;
+  // Sharpness: Larger values make the waves more pronounced and spiky. Default is 1.0.
+  const sharpnessMultiplier = 1.4;
+
+  let scene, camera, renderer;
+  const particleSystems = [];
+
+  function init() {
+    const container = document.getElementById("canvas-container");
+    if (!container || container.clientWidth === 0) return;
+
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(
+      75,
+      container.clientWidth / container.clientHeight,
+      0.1,
+      1000
+    );
+    camera.position.z = 5;
+
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(container.clientWidth, container.clientHeight);
+    container.appendChild(renderer.domElement);
+
+    // Create multiple particle systems for a layered effect
+    // Layer 1: Main, dense layer
+    particleSystems.push(
+      createParticleSystem({
+        particleCount: 8000,
+        radius: 2.5 * sizeMultiplier,
+        color: 0x00ccff,
+        size: 0.025,
+        opacity: 0.8,
+        waveConfig: {
+          f1: 5,
+          a1: 0.1,
+          f2: 4,
+          a2: 0.15,
+          f3: 8,
+          a3: 0.08,
+          f4: 10,
+          a4: 0.05,
+        },
+      })
+    );
+    // Layer 2: Outer, sparser layer
+    particleSystems.push(
+      createParticleSystem({
+        particleCount: 4000,
+        radius: 2.8 * sizeMultiplier,
+        color: 0x00ccff,
+        size: 0.03,
+        opacity: 0.4,
+        waveConfig: {
+          f1: 4,
+          a1: 0.12,
+          f2: 3,
+          a2: 0.18,
+          f3: 6,
+          a3: 0.1,
+          f4: 8,
+          a4: 0.08,
+        },
+      })
+    );
+    // Layer 3: Inner, subtle layer
+    particleSystems.push(
+      createParticleSystem({
+        particleCount: 4000,
+        radius: 2.2 * sizeMultiplier,
+        color: 0x00aaff,
+        size: 0.02,
+        opacity: 0.6,
+        waveConfig: {
+          f1: 6,
+          a1: 0.08,
+          f2: 5,
+          a2: 0.12,
+          f3: 10,
+          a3: 0.05,
+          f4: 12,
+          a4: 0.03,
+        },
+      })
+    );
+
+    window.addEventListener("resize", onWindowResize, false);
+    animate();
+  }
+
+  function createParticleSystem(options) {
+    const { particleCount, radius, color, size, opacity, waveConfig } = options;
+
+    const particles = new THREE.BufferGeometry();
+    const positions = new Float32Array(particleCount * 3);
+    const sphericalData = new Float32Array(particleCount * 3);
+
+    for (let i = 0; i < particleCount; i++) {
+      const i3 = i * 3;
+      const phi = Math.acos(-1 + (2 * i) / particleCount);
+      const theta = Math.sqrt(particleCount * Math.PI) * phi;
+
+      sphericalData[i3] = radius;
+      sphericalData[i3 + 1] = phi;
+      sphericalData[i3 + 2] = theta;
+
+      positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+      positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+      positions[i3 + 2] = radius * Math.cos(phi);
+    }
+
+    particles.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+    particles.setAttribute(
+      "sphericalData",
+      new THREE.BufferAttribute(sphericalData, 3)
+    );
+    particles.userData.waveConfig = waveConfig; // Store wave config
+
+    const particleMaterial = new THREE.PointsMaterial({
+      color: color,
+      size: size,
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      opacity: opacity,
+      sizeAttenuation: true,
+    });
+
+    const particleSystem = new THREE.Points(particles, particleMaterial);
+    scene.add(particleSystem);
+    return particleSystem;
+  }
+
+  function onWindowResize() {
+    const container = document.getElementById("canvas-container");
+    if (!container || container.clientWidth === 0) return;
+
+    camera.aspect = container.clientWidth / container.clientHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(container.clientWidth, container.clientHeight);
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+
+    const time = Date.now() * speedMultiplier;
+
+    particleSystems.forEach((particleSystem, index) => {
+      const positions = particleSystem.geometry.attributes.position.array;
+      const sphericalData =
+        particleSystem.geometry.attributes.sphericalData.array;
+      const particleCount = particleSystem.geometry.attributes.position.count;
+      const wc = particleSystem.geometry.userData.waveConfig;
+      const timeOffset = time + index * 0.5; // Desynchronize animations
+
+      for (let i = 0; i < particleCount; i++) {
+        const i3 = i * 3;
+        const baseRadius = sphericalData[i3];
+        const phi = sphericalData[i3 + 1];
+        const theta = sphericalData[i3 + 2];
+
+        let displacement = Math.sin(phi * wc.f1 + timeOffset) * wc.a1;
+        displacement += Math.cos(theta * wc.f2 + timeOffset * 0.8) * wc.a2;
+        displacement +=
+          Math.sin(phi * wc.f3 + theta * (wc.f3 / 2) + timeOffset * 1.2) *
+          wc.a3;
+        displacement +=
+          Math.sin(phi * wc.f4 + theta * (wc.f4 / 2) + timeOffset * 1.5) *
+          wc.a4;
+
+        displacement *= sharpnessMultiplier;
+
+        const finalRadius = baseRadius + displacement;
+
+        positions[i3] = finalRadius * Math.sin(phi) * Math.cos(theta);
+        positions[i3 + 1] = finalRadius * Math.sin(phi) * Math.sin(theta);
+        positions[i3 + 2] = finalRadius * Math.cos(phi);
+      }
+
+      particleSystem.geometry.attributes.position.needsUpdate = true;
+      particleSystem.rotation.x += 0.0001 * (index * 0.2 + 1);
+      particleSystem.rotation.y += 0.0002 * (index * 0.2 + 1);
+    });
+
+    renderer.render(scene, camera);
+  }
+
+  setTimeout(init, 100);
+</script>

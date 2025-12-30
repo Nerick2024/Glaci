@@ -2,9 +2,9 @@
  * Supported languages object.
  */
 export const locales = {
-  es: "Español",
-  en: "English",
-  fr: "Français",
+  es: "ES",
+  en: "EN",
+  fr: "FR",
 };
 
 /**

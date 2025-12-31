@@ -5,6 +5,7 @@ export const locales = {
   es: "ES",
   en: "EN",
   fr: "FR",
+  ch: "CH",
 };
 
 /**
@@ -19,6 +20,7 @@ export const translations = {
   es: () => import("./translations/es.json").then((module) => module.default),
   en: () => import("./translations/en.json").then((module) => module.default),
   fr: () => import("./translations/fr.json").then((module) => module.default),
+  ch: () => import("./translations/ch.json").then((module) => module.default),
 } as const;
 
 /**

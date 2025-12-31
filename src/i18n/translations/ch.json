@@ -1,0 +1,711 @@
+{
+  "NAVBAR": {
+    "SMART_ECOSYSTEM": "智慧生态系统",
+    "SMART": "智慧",
+    "ABOUT_US": "关于我们",
+    "CONTACT": "联系我们",
+    "BLOG": "博客",
+    "INFORMATION": "获取更多信息"
+  },
+  "AREAS": {
+    "TITLE": "主要发展领域",
+    "BUTTON": "请求更多信息",
+    "SUCCESS_STORIES_TITLE": "成功案例",
+    "SUCCESS_STORIES_LOCATE": "地点",
+    "SUCCESS_STORIES_YEAR": "年份",
+    "SUCCESS_STORIES_BUTTON": "查看相关项目",
+    "SMART_ECOSYSTEM_ITEMS": [
+      {
+        "TITLE": "<strong>智慧</strong><br>治理",
+        "TITLE_TEXT": "智慧治理",
+        "SUBTITLE": "数字政府与透明度",
+        "DESCRIPTION": "<b>我们整合战略以改进和优化公共行政和政府的流程</b>，同时促进开放和透明原则，以基于信息通信技术拉近政府、公民和企业之间的距离。",
+        "AREA1": [
+          {
+            "TITLE": "参与和包容",
+            "DESCRIPTION": "设计公民参与计划，用于决策、项目开发和公共政策制定"
+          },
+          {
+            "TITLE": "公共与社会服务",
+            "DESCRIPTION": "服务整合与互联，通过综合平台访问"
+          },
+          {
+            "TITLE": "透明度与信息可访问性",
+            "DESCRIPTION": "开发信息展示与访问工具"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "全球管理效率",
+            "DESCRIPTION": "在政府中实施信息通信技术，以识别问题并根据实际情况构建解决方案"
+          },
+          {
+            "TITLE": "多层次治理",
+            "DESCRIPTION": "组织职能领域，促进资助计划创建、法规实施和网络组建，以整合需求并引入创新服务"
+          }
+        ],
+        "TITLE_SERVICE": "数字治理服务",
+        "SERVICE": [
+          {
+            "IMG": "/icons/portal.svg",
+            "TITLE": "数字单一窗口",
+            "DESCRIPTION": "开发门户网站以数字化流程（营业执照、房产税、水费），减少腐败和等待时间。"
+          },
+          {
+            "IMG": "/icons/plataformas_de_participacion.svg",
+            "TITLE": "公民参与平台",
+            "DESCRIPTION": "用于'参与式预算'和地理位置公民报告（坑洞、损坏路灯）的应用程序或门户网站。"
+          },
+          {
+            "IMG": "/icons/dashboard.svg",
+            "TITLE": "透明度仪表板（开放数据）",
+            "DESCRIPTION": "开放数据门户，让公民可视化公共资源的用途（许多州法律规定必须如此）。"
+          },
+          {
+            "IMG": "/icons/seguridad.svg",
+            "TITLE": "政府网络安全",
+            "DESCRIPTION": "保护市政登记敏感数据和关键系统。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "拉科夫拉迪亚牧场",
+            "DESCRIPTION": "占地68.1公顷的可持续发展项目，促进特拉霍穆尔科的均衡增长。整合农业、畜牧业、工业、娱乐、教育和基础设施领域，使用BIM和精益建筑等先进方法，以加强可持续发展目标。",
+            "LOCATE": "墨西哥哈利斯科州特拉霍穆尔科",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/COFRADIA/img1.webp"
+            ]
+          },
+          {
+            "TITLE": "综合科技解决方案项目",
+            "DESCRIPTION": "交钥匙综合项目，确保空间互联、安全和可操作。我们负责从设计规划到最终交付的全过程，确保每个系统从第一天起就实现最佳运行。该解决方案整合了高效的通信网络、门禁控制、视频监控、电力备份和多媒体工具，优化日常运营并确保电力故障时的连续性，同时还为面对面或虚拟会议配备会议室。",
+            "LOCATE": "克雷塔罗州圣胡安德尔里奥",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "TITLE": "<strong>智慧</strong><br>经济",
+        "TITLE_TEXT": "智慧经济",
+        "SUBTITLE": "融资与商业模式",
+        "DESCRIPTION": "<b>我们制定发展计划</b>，以培养创新精神、创造能力以及变革和转型的能力。",
+        "AREA1": [
+          {
+            "TITLE": "创新",
+            "DESCRIPTION": "制定促进政府、企业和教育之间合作与支持的措施"
+          },
+          {
+            "TITLE": "生产力",
+            "DESCRIPTION": "建设物理和技术基础设施以优化生产力"
+          },
+          {
+            "TITLE": "互联互通",
+            "DESCRIPTION": "建立商业网络和战略以实现互联网存在"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "劳动力市场灵活性",
+            "DESCRIPTION": "制定措施以改善劳动条件，如应对失业、改善劳动力市场准入和发展技术提案"
+          },
+          {
+            "TITLE": "创业与初创企业",
+            "DESCRIPTION": "提供教育、培训并创建专注于企业支持的环境和基础设施"
+          }
+        ],
+        "TITLE_SERVICE": "金融与结构化服务",
+        "SERVICE": [
+          {
+            "IMG": "/icons/asociaciones.svg",
+            "TITLE": "PPP（公私合作伙伴关系）方案管理",
+            "DESCRIPTION": "为结构化项目提供咨询，其中私人投资长期收回资本"
+          },
+          {
+            "IMG": "/icons/energy.svg",
+            "TITLE": "ESCO（能源服务公司）模式",
+            "DESCRIPTION": "实施通过产生的节约'自付费用'的项目（例如，改用LED、水泵能效提升）"
+          },
+          {
+            "IMG": "/icons/arrendamiento.svg",
+            "TITLE": "纯租赁和融资租赁",
+            "DESCRIPTION": "提供基础设施即服务（OpEx），以避免客户资金占用（摄像头、路灯、车队）"
+          },
+          {
+            "IMG": "/icons/fondos.svg",
+            "TITLE": "国际基金管理",
+            "DESCRIPTION": "为获取'绿色债券'或泛美开发银行、世界银行等机构的现代化项目资金提供咨询"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "玫瑰木玛雅科巴住宅",
+            "DESCRIPTION": "位于里维埃拉玛雅的独家住宅和旅游开发项目，由三处大型私人住宅组成，配备豪华装修和定制家具。设计融合了与泻湖、高尔夫球场和红树林和谐共存的材料和细节，提供隐私和与自然的连接。该项目在封闭社区中融合了优雅、舒适和独特的自然环境。",
+            "LOCATE": "墨西哥金塔纳罗奥州切图马尔",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/ROSEWOOD/rosewood-1.webp",
+              "/projects/ROSEWOOD/img1.webp",
+              "/projects/ROSEWOOD/img2.webp",
+              "/projects/ROSEWOOD/img3.webp",
+              "/projects/ROSEWOOD/img4.webp",
+              "/projects/ROSEWOOD/img5.webp",
+              "/projects/ROSEWOOD/img6.webp",
+              "/projects/ROSEWOOD/img7.webp",
+              "/projects/ROSEWOOD/img8.webp",
+              "/projects/ROSEWOOD/img9.webp",
+              "/projects/ROSEWOOD/img10.webp"
+            ]
+          },
+          {
+            "TITLE": "沙拉塔",
+            "DESCRIPTION": "沙拉塔是一个占地16公顷的旅游和房地产开发项目，整合了住宅、商业空间和健康区域，与自然环境和谐共存。受联合国可持续发展目标启发，融入了可再生能源、水资源管理、重新造林和生物多样性保护。促进包容性和有韧性的社区，专注于旅游和可持续发展。",
+            "LOCATE": "墨西哥纳亚里特州班德拉斯湾",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "萨尔瓦铁拉磨坊",
+            "DESCRIPTION": "157块土地和29栋房屋",
+            "LOCATE": "墨西哥瓜纳华托州萨尔瓦铁拉，Virrey de Sarmiento 27，38900",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "工业仓库",
+            "DESCRIPTION": "8,500平方米",
+            "LOCATE": "墨西哥墨西哥州特基西斯特兰，Ejido de Tequisitlan, Manzana 003，56020",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
+          }
+        ]
+      },
+      {
+        "TITLE": "<strong>智慧移动与<br>基础设施</strong>",
+        "TITLE_TEXT": "智慧移动与基础设施",
+        "SUBTITLE": "互联移动与基础设施",
+        "DESCRIPTION": "<b>我们管理可持续的</b>交通系统，对环境友好且能源消耗有效，利用信息和通信技术进行跟踪，并为不同用户提供更合适的服务。",
+        "AREA1": [
+          {
+            "TITLE": "可访问性",
+            "DESCRIPTION": "改善物理、数字、社会经济和文化可访问性的策略"
+          },
+          {
+            "TITLE": "清洁和非机动化选择",
+            "DESCRIPTION": "促进可持续替代方案，如非机动化和生态交通。"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "交通管理、公共交通、物流和信息通信技术",
+            "DESCRIPTION": "通过信息和通信技术优化车辆流动和公共交通。"
+          }
+        ],
+        "TITLE_SERVICE": "智慧移动解决方案",
+        "SERVICE": [
+          {
+            "IMG": "/icons/semaforo.svg",
+            "TITLE": "智能交通信号",
+            "DESCRIPTION": "智慧移动解决方案"
+          },
+          {
+            "IMG": "/icons/estacionamiento.svg",
+            "TITLE": "停车管理",
+            "DESCRIPTION": "占用传感器和数字停车计时器应用程序（停车引导）。"
+          },
+          {
+            "IMG": "/icons/electromovilidad.svg",
+            "TITLE": "电动出行基础设施",
+            "DESCRIPTION": "安装和管理充电站（公共和用于政府车队）。"
+          },
+          {
+            "IMG": "/icons/alumbrado.svg",
+            "TITLE": "远程管理公共照明",
+            "DESCRIPTION": "可自动报告故障的路灯，并允许在低流量时段调光（降低亮度）以节省能源。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "综合科技解决方案项目",
+            "DESCRIPTION": "交钥匙综合项目，确保空间互联、安全和可操作。我们负责从设计规划到最终交付的全过程，确保每个系统从第一天起就实现最佳运行。该解决方案整合了高效的通信网络、门禁控制、视频监控、电力备份和多媒体工具，优化日常运营并确保电力故障时的连续性，同时还为面对面或虚拟会议配备会议室。",
+            "LOCATE": "克雷塔罗州圣胡安德尔里奥",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          },
+          {
+            "TITLE": "工业仓库",
+            "DESCRIPTION": "8,500平方米",
+            "LOCATE": "墨西哥墨西哥州特基西斯特兰，Ejido de Tequisitlan, Manzana 003，56020",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
+          }
+        ]
+      },
+      {
+        "TITLE": "<strong>智慧</strong><br>环境",
+        "TITLE_TEXT": "智慧环境",
+        "SUBTITLE": "可持续发展与ESG服务",
+        "DESCRIPTION": "在清洁能源的开发和实施以及水资源的高效利用和废物管理方面提供<b>指导</b>，基于<b>正确的项目管理和自然资源的可持续利用</b>。",
+        "AREA1": [
+          {
+            "TITLE": "环境与分销网络监控",
+            "DESCRIPTION": "监控环境条件和分销网络状态。"
+          },
+          {
+            "TITLE": "能源效率",
+            "DESCRIPTION": "优化能源消耗以降低成本和排放。"
+          },
+          {
+            "TITLE": "城市规划与建筑改造",
+            "DESCRIPTION": "设计和改善城市空间，修复现有基础设施。"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "废物管理",
+            "DESCRIPTION": "综合处理废物以最小化环境影响。"
+          },
+          {
+            "TITLE": "环境保护",
+            "DESCRIPTION": "保护生态系统和自然资源的行动。"
+          },
+          {
+            "TITLE": "意识提升与习惯改变",
+            "DESCRIPTION": "在社会中推广可持续实践和环境教育。"
+          }
+        ],
+        "TITLE_SERVICE": "法规遵从性与企业/政府可持续发展",
+        "SERVICE": [
+          {
+            "IMG": "/icons/consultoria.svg",
+            "TITLE": "ESG（环境、社会和治理）咨询",
+            "DESCRIPTION": "帮助工业园区和城市遵守法规以吸引外国投资。"
+          },
+          {
+            "IMG": "/icons/gestion_hidrica.svg",
+            "TITLE": "水资源管理（智慧水务）",
+            "DESCRIPTION": "水井遥测，饮用水网络分区以检测不可见泄漏（对于墨西哥的水危机至关重要）。"
+          },
+          {
+            "IMG": "/icons/co2.svg",
+            "TITLE": "净零战略",
+            "DESCRIPTION": "温室气体排放清单和脱碳计划。"
+          },
+          {
+            "IMG": "/icons/calidad_aire.svg",
+            "TITLE": "空气质量监测",
+            "DESCRIPTION": "环境传感器网络，用于自动启动应急协议。"
+          },
+          {
+            "IMG": "/icons/residuos.svg",
+            "TITLE": "智慧废物管理",
+            "DESCRIPTION": "容器液位传感器和收集路线优化，以减少燃料消耗。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "沙拉塔",
+            "DESCRIPTION": "沙拉塔是一个占地16公顷的旅游和房地产开发项目，整合了住宅、商业空间和健康区域，与自然环境和谐共存。受联合国可持续发展目标启发，融入了可再生能源、水资源管理、重新造林和生物多样性保护。促进包容性和有韧性的社区，专注于旅游和可持续发展。",
+            "LOCATE": "墨西哥纳亚里特州班德拉斯湾",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          },
+          {
+            "TITLE": "特波兹特兰",
+            "DESCRIPTION": "占地9.7公顷的可持续房地产开发项目，整合了68栋低环境影响设计的住宅。该项目应用LEED原则、水回用、可再生能源和模块化建筑。受可持续发展目标启发，包括健康空间、自行车道和运动区，以及促进社会凝聚力并尊重当地身份的商业和社区区域。",
+            "LOCATE": "墨西哥莫雷洛斯州库埃纳瓦卡",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "卡普林庄园",
+            "DESCRIPTION": "一个拥有66套豪华公寓的住宅和旅游开发项目，结合了有意识的设计和可持续性，与联合国可持续发展目标保持一致。融入特权自然环境，保留了百年古树并维护了历史建筑。提供游泳池、匹克球场、按摩浴缸和餐厅等设施。使用可持续技术和实践来优化资源并最小化环境影响。",
+            "LOCATE": "墨西哥瓜纳华托州西劳",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Cancha Padel_02.webp",
+              "/projects/CAPULIN/CAP_Fachada Oeste con Hacienda.webp",
+              "/projects/CAPULIN/Cap_FAchada Oeste.webp",
+              "/projects/CAPULIN/CAP_Hacienda,patiocentral.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_01.webp",
+              "/projects/CAPULIN/CAP_Jaccuzi_02.webp",
+              "/projects/CAPULIN/CAP_Patio int_Fachada oeste.webp",
+              "/projects/CAPULIN/CAP_Patio interior 01.webp",
+              "/projects/CAPULIN/CAP_Piscina.webp",
+              "/projects/CAPULIN/CAP_Vista Aerea_01.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "TITLE": "<strong>智慧栖息地与<br>服务</strong>",
+        "TITLE_TEXT": "智慧栖息地与服务",
+        "SUBTITLE": "安全与生活质量",
+        "DESCRIPTION": "<b>我们促进和指导</b>创建允许参与电子健康、电子文化、电子旅游和电子安全等领域网络和基础设施的构建。",
+        "AREA1": [
+          {
+            "TITLE": "旅游",
+            "DESCRIPTION": "创建综合平台以展示和提供旅游服务。"
+          },
+          {
+            "TITLE": "文化与休闲",
+            "DESCRIPTION": "通过数字解决方案推动文化和娱乐活动。"
+          },
+          {
+            "TITLE": "健康与护理",
+            "DESCRIPTION": "应用技术改善医疗服务和福祉。"
+          },
+          {
+            "TITLE": "公共空间管理",
+            "DESCRIPTION": "优化城市区域的管理和使用。"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "安全",
+            "DESCRIPTION": "实施电子安全系统以保护公民。"
+          },
+          {
+            "TITLE": "技术可访问性",
+            "DESCRIPTION": "为所有社会部门提供数字工具的访问便利。"
+          },
+          {
+            "TITLE": "福祉与社会包容",
+            "DESCRIPTION": "促进社会融合和提高生活质量。"
+          }
+        ],
+        "TITLE_SERVICE": "专注于日常福祉和安全的服务",
+        "SERVICE": [
+          {
+            "IMG": "/icons/centro_de_comando.svg",
+            "TITLE": "公民安全与情报",
+            "DESCRIPTION": "配备分析视频监控（枪声检测、徘徊检测、车牌读取）和连接紧急按钮的指挥中心（C2/C4）。"
+          },
+          {
+            "IMG": "/icons/parque_inteligente.svg",
+            "TITLE": "公共空间管理",
+            "DESCRIPTION": "配备自适应照明、自动灌溉和带USB/太阳能充电的街头家具的智慧公园。"
+          },
+          {
+            "IMG": "/icons/estructural.svg",
+            "TITLE": "结构健康监测",
+            "DESCRIPTION": "桥梁和公共建筑上的传感器，用于民防（地震或磨损警报）。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "新塞拉亚",
+            "DESCRIPTION": "400套住宅",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，新塞拉亚，38027",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
+          },
+          {
+            "TITLE": "埃尔佩德雷加尔林荫道",
+            "DESCRIPTION": "埃尔佩德雷加尔林荫道",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，Sor Juana Inés de la Cruz 212，38090",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
+          },
+          {
+            "TITLE": "科技住宅区",
+            "DESCRIPTION": "200套住宅",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，科技住宅区，38010",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
+          },
+          {
+            "TITLE": "圣天使住宅区",
+            "DESCRIPTION": "46套公寓及商业店铺",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，José María Pino Suárez 202，38078",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
+          },
+          {
+            "TITLE": "蒙特斯分区",
+            "DESCRIPTION": "40套住宅",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，De Morelos 319，38000",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
+          },
+          {
+            "TITLE": "布甘比利亚斯住宅区",
+            "DESCRIPTION": "40套住宅",
+            "LOCATE": "墨西哥瓜纳华托州塞拉亚，Av. San José de Guanajuato, Providencia，38020",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
+          },
+          {
+            "TITLE": "圣哈维尔住宅区",
+            "DESCRIPTION": "150套公寓",
+            "LOCATE": "墨西哥瓜纳华托州瓜纳华托市，San Javier 101，36020",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
+          },
+          {
+            "TITLE": "门廊",
+            "DESCRIPTION": "占地52,775平方米的住宅开发项目，专注于老年人福祉。在一个安全封闭的环境中整合了52栋独户住宅和54套复式住宅，采用智能技术进行家庭控制和健康监测。基于联合国可持续发展目标，促进能源效率、负责任用水和可持续性。每套住宅都设计为智能、舒适且面向未来的家。",
+            "LOCATE": "墨西哥瓜纳华托州圣米格尔德阿连德",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "萨尔瓦铁拉磨坊",
+            "DESCRIPTION": "157块土地和29栋房屋",
+            "LOCATE": "墨西哥瓜纳华托州萨尔瓦铁拉，Virrey de Sarmiento 27，38900",
+            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
+          },
+          {
+            "TITLE": "综合科技解决方案项目",
+            "DESCRIPTION": "交钥匙综合项目，确保空间互联、安全和可操作。我们负责从设计规划到最终交付的全过程，确保每个系统从第一天起就实现最佳运行。该解决方案整合了高效的通信网络、门禁控制、视频监控、电力备份和多媒体工具，优化日常运营并确保电力故障时的连续性，同时还为面对面或虚拟会议配备会议室。",
+            "LOCATE": "克雷塔罗州圣胡安德尔里奥",
+            "DATE": "",
+            "IMG": [
+              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
+              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "TITLE": "<strong>智慧</strong><br>社会",
+        "TITLE_TEXT": "智慧社会",
+        "SUBTITLE": "社会与数字包容",
+        "DESCRIPTION": "我们在项目的<b>结构化和行政管理</b>方面提供指导，<b>管理</b>合作伙伴关系和融资，并高效地<b>设计</b>基础设施和公共服务。",
+        "AREA1": [
+          {
+            "TITLE": "创造力",
+            "DESCRIPTION": "促进技能、艺术和文化，并以此为基础创造机会。"
+          },
+          {
+            "TITLE": "通过技术进行职业培训",
+            "DESCRIPTION": "实施高影响力学习策略。"
+          },
+          {
+            "TITLE": "包容性社会",
+            "DESCRIPTION": "在政策和措施中体现包容性，并制定支持社会的措施。"
+          }
+        ],
+        "AREA2": [
+          {
+            "TITLE": "城市生活管理与社区建设",
+            "DESCRIPTION": "支持创建基于社区的组织网络和城市平台并进行传播。"
+          },
+          {
+            "TITLE": "数字教育",
+            "DESCRIPTION": "远程教育访问平台，创建终身学习设施并整合技术解决方案。"
+          }
+        ],
+        "TITLE_SERVICE": "具有人文面孔和包容性方法的技术",
+        "SERVICE": [
+          {
+            "IMG": "/icons/wifi.svg",
+            "TITLE": "数字包容（数字鸿沟）",
+            "DESCRIPTION": "在边缘化地区和社区数字中心部署免费Wi-Fi热点。"
+          },
+          {
+            "IMG": "/icons/accesibilidad.svg",
+            "TITLE": "无障碍技术",
+            "DESCRIPTION": "按照WCAG（网络内容无障碍指南）标准为视障或行动不便人士设计应用程序和市民信息亭。"
+          },
+          {
+            "IMG": "/icons/robotica.svg",
+            "TITLE": "STEM教育",
+            "DESCRIPTION": "为公立学校配备智慧教室和机器人实验室。"
+          },
+          {
+            "IMG": "/icons/telemedicina.svg",
+            "TITLE": "市政远程医疗",
+            "DESCRIPTION": "农村地区的健康信息亭，连接至中心医院进行基本诊断。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "特波兹特兰",
+            "DESCRIPTION": "占地9.7公顷的可持续房地产开发项目，整合了68栋低环境影响设计的住宅。该项目应用LEED原则、水回用、可再生能源和模块化建筑。受可持续发展目标启发，包括健康空间、自行车道和运动区，以及促进社会凝聚力并尊重当地身份的商业和社区区域。",
+            "LOCATE": "墨西哥莫雷洛斯州库埃纳瓦卡",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
+              "/projects/TEPOZTLAN/Portada.webp",
+              "/projects/TEPOZTLAN/02.webp",
+              "/projects/TEPOZTLAN/03.webp",
+              "/projects/TEPOZTLAN/04.webp",
+              "/projects/TEPOZTLAN/05.webp",
+              "/projects/TEPOZTLAN/06.webp",
+              "/projects/TEPOZTLAN/07.webp",
+              "/projects/TEPOZTLAN/08.webp"
+            ]
+          },
+          {
+            "TITLE": "拉科夫拉迪亚牧场",
+            "DESCRIPTION": "占地68.1公顷的可持续发展项目，促进特拉霍穆尔科的均衡增长。整合农业、畜牧业、工业、娱乐、教育和基础设施领域，使用BIM和精益建筑等先进方法，以加强可持续发展目标。",
+            "LOCATE": "墨西哥哈利斯科州特拉霍穆尔科",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/COFRADIA/img1.webp"
+            ]
+          },
+          {
+            "TITLE": "门廊",
+            "DESCRIPTION": "占地52,775平方米的住宅开发项目，专注于老年人福祉。在一个安全封闭的环境中整合了52栋独户住宅和54套复式住宅，采用智能技术进行家庭控制和健康监测。基于联合国可持续发展目标，促进能源效率、负责任用水和可持续性。每套住宅都设计为智能、舒适且面向未来的家。",
+            "LOCATE": "墨西哥瓜纳华托州圣米格尔德阿连德",
+            "DATE": "2025",
+            "IMG": [
+              "/projects/SAN_MIGUEL/PORTALES.webp",
+              "/projects/SAN_MIGUEL/img1.webp",
+              "/projects/SAN_MIGUEL/img2.webp",
+              "/projects/SAN_MIGUEL/img3.webp",
+              "/projects/SAN_MIGUEL/img4.webp"
+            ]
+          },
+          {
+            "TITLE": "沙拉塔",
+            "DESCRIPTION": "沙拉塔是一个占地16公顷的旅游和房地产开发项目，整合了住宅、商业空间和健康区域，与自然环境和谐共存。受联合国可持续发展目标启发，融入了可再生能源、水资源管理、重新造林和生物多样性保护。促进包容性和有韧性的社区，专注于旅游和可持续发展。",
+            "LOCATE": "墨西哥纳亚里特州班德拉斯湾",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/XHALATA/img1.webp",
+              "/projects/XHALATA/img2.webp",
+              "/projects/XHALATA/img3.webp",
+              "/projects/XHALATA/img4.webp",
+              "/projects/XHALATA/img5.webp",
+              "/projects/XHALATA/img6.webp",
+              "/projects/XHALATA/img7.webp",
+              "/projects/XHALATA/img8.webp",
+              "/projects/XHALATA/img9.webp"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "HERO": {
+    "CENTER_SUBTITLE": "实施",
+    "CENTER_TITLE": "智慧城市",
+    "FOOTER_LEFT_LINE1": "法规实施",
+    "FOOTER_LEFT_LINE2": "指导",
+    "FOOTER_LEFT_BUTTON": "城市与社区",
+    "FOOTER_RIGHT_TEXT": "关注我们"
+  },
+  "NETWORKS": [
+    {
+      "IMG": "/icons/networks/facebook.png",
+      "TITLE": "脸书",
+      "HREF": ""
+    },
+    {
+      "IMG": "/icons/networks/twitter.png",
+      "TITLE": "推特",
+      "HREF": ""
+    },
+    {
+      "IMG": "/icons/networks/instagram.png",
+      "TITLE": "Instagram",
+      "HREF": ""
+    },
+    {
+      "IMG": "/icons/networks/linkedin.png",
+      "TITLE": "领英",
+      "HREF": ""
+    }
+  ],
+  "ABOUT": {
+    "LABEL": "智慧城市",
+    "TITLE1": "可持续的城市互动与转型",
+    "TEXT1": "一个人类资本和社会资本相互作用，并运用基于信息通信技术解决方案的整体系统。",
+    "TITLE2": "智慧城市的目的是实现高效管理",
+    "TEXT2": "满足城市及其公民的需求。",
+    "TITLE3": "智慧城市管理咨询与顾问服务",
+    "TEXT3": "具有道德、可持续和创新视角的国内及国际服务。"
+  },
+  "CONTACT_FORM": {
+    "HEADING": "如果您对该主题有疑问或意见，请联系我们，或<span class=\"text-[var(--color-title)]\">注册</span>以获取更多关于智慧城市的信息。",
+    "NAME_PLACEHOLDER": "姓名",
+    "EMAIL_PLACEHOLDER": "邮箱",
+    "MESSAGE_PLACEHOLDER": "留言",
+    "SUBMIT_BUTTON": "发送"
+  },
+  "INFORMATION": {
+    "MISSION_TITLE": "使命",
+    "MISSION_TEXT": "为城市和社区的技术与可持续发展构思智慧解决方案，始终寻求人民的包容性和可访问性。",
+    "VISION_TITLE": "愿景",
+    "VISION_TEXT": "在全球范围内开发和创建城市及人类住区项目，这些项目应促进包容性，并确保可访问性、安全性、资源优化、可负担性和可持续性，以实现繁荣和生活质量。",
+    "VALUES_TITLE": "价值观",
+    "VALUES_LIST": [
+      "卓越",
+      "责任",
+      "激情",
+      "领导力",
+      "道德",
+      "创新",
+      "专业精神"
+    ]
+  },
+  "CERTIFICATIONS": [
+    {
+      "NUMBER": "ISO认证",
+      "TITLE": "智慧城市 – 智慧社区",
+      "DESCRIPTION_LEFT": "<b class='text-(--color-title)'>OM Smart Technology & Consulting </b> 陪伴基于ISO法规的解决方案管理和实施过程。<br/> <br/> 这些法规允许通过流程标准化以及定性和定量分析，客观评估城市和可持续社区的发展。",
+      "DESCRIPTION_RIGHT": "国际标准化组织通过其负责可持续城市和社区的技术委员会268制定了以下应用领域的标准。"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37101</b>",
+      "TITLE": "社区可持续发展 - 可持续发展管理体系",
+      "DESCRIPTION_LEFT": "<b class='text-(--color-title)'>其主要目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>建立可持续发展的共识</li><li>提高所有行动的可持续性、智慧性和韧性</li><li>发展跨部门、多学科、全生命周期价值和总成本核算的方法。</li><li>促进协同效应</li><li>提高社区的效率和吸引力</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>适用于所有规模、结构和类型的社区</li><li>适用于发达国家、发展中国家</li><li>适用于地方、区域或国家层面</li><li>适用于城市或农村地区</li></ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37120</b>",
+      "TITLE": "社区可持续发展 – 城市服务和生活质量指标",
+      "DESCRIPTION_LEFT": "该标准补充了衡量社区绩效的系列指标；包括智慧城市和韧性城市的城市服务和生活质量指标。<br/> <br/> 这些指标允许进行评估，并基于未来可能的需求进行规划，其主要目标包括：<br/> <br/> <ul class='list-disc list-outside pl-5'><li>衡量服务和质量的绩效管理随时间的变化</li><li>通过比较学习绩效衡量方法的可能性</li><li>制定政策和确定优先事项</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>指标可汇总到非常大的行政区域</li> <li>适用于评估城市资源效率</li> <li>与其他指标结合使用，可以对可持续性进行更全面、更整体的分析</li> </ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37122</b>",
+      "TITLE": "可持续城市和社区 - 智慧城市指标",
+      "DESCRIPTION_LEFT": "为城市的可持续性提供了一个基准，城市需要除评估城市服务和生活质量之外的额外指标。与ISO 37120标准结合应用，帮助城市实施智慧城市的政策、计划和项目。<br/> <br/> <b class='text-(--color-title)'>范围：</b> <br/> <br/> 与ISO 37120标准一起，旨在提供一套完整的指标来衡量向智慧城市迈进的进展。",
+      "DESCRIPTION_RIGHT": "<b class='text-(--color-title)'>其目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>应用协作式领导方法</li> <li>利用数据和信息技术改善服务和提高生活质量</li> <li>通过智慧政策和向市民提供技术来提供更好的生活环境</li> <li>针对环境和可持续性问题产生创新解决方案</li> <li>识别智慧基础设施的需求和效益</li> <li>促进创新和增长</li> <li>建设具有韧性、充满活力和创新性的经济</li> </ul>"
+    },
+    {
+      "NUMBER": "ISO <b class='text-(--color-title)'>37123</b>",
+      "TITLE": "可持续城市和社区 – 韧性城市指标",
+      "DESCRIPTION_LEFT": "韧性城市能够准备、恢复和适应冲击和压力。该标准与ISO 37120中提出的指标结合，允许评估韧性城市，并采取行动管理和缓解与导致持续负面影响的环境退化和经济不稳定相关的人类和自然压力。<br/> <br/> 提出了具体指标，也提出了根据风险管理和灾害管理过程构建的结构化指标；跟踪对可持续发展目标的遵守情况，并根据《仙台减少灾害风险框架》的规定构建，这些指标旨在帮助城市：",
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>准备、恢复和适应冲击和压力</li> <li>通过绩效衡量比较和分享最佳实践来学习。</li> </ul> <br/> <br/> <b class='text-(--color-title)'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于衡量城市的韧性</li> <li>适用于任何城市、市或地方政府</li> <li>无论其规模或位置如何均适用</li> </ul>"
+    }
+  ]
+}

@@ -53,14 +53,15 @@ interface Props {
 
   // --- Control Variables ---
   // Size: Larger values make it bigger. Default is 1.0.
-  const sizeMultiplier = 0.8;
+  const sizeMultiplier = 0.84;
   // Speed: Larger values make it faster. Default is 0.0004.
-  const speedMultiplier = 0.0008;
+  const speedMultiplier = 0.0009;
   // Sharpness: Larger values make the waves more pronounced and spiky. Default is 1.0.
   const sharpnessMultiplier = 1.4;
 
   let scene, camera, renderer;
   const particleSystems = [];
+  const mouse = new THREE.Vector2(-100, -100); // Initialize off-screen
 
   function init() {
     const container = document.getElementById("canvas-container");
@@ -142,6 +143,8 @@ interface Props {
     );
 
     window.addEventListener("resize", onWindowResize, false);
+    renderer.domElement.addEventListener("mousemove", onMouseMove, false);
+    renderer.domElement.addEventListener("mouseleave", onMouseLeave, false);
     animate();
   }
 
@@ -151,6 +154,7 @@ interface Props {
     const particles = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
     const sphericalData = new Float32Array(particleCount * 3);
+    const originalPositions = new Float32Array(particleCount * 3);
 
     for (let i = 0; i < particleCount; i++) {
       const i3 = i * 3;
@@ -161,15 +165,27 @@ interface Props {
       sphericalData[i3 + 1] = phi;
       sphericalData[i3 + 2] = theta;
 
-      positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
-      positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
-      positions[i3 + 2] = radius * Math.cos(phi);
+      const x = radius * Math.sin(phi) * Math.cos(theta);
+      const y = radius * Math.sin(phi) * Math.sin(theta);
+      const z = radius * Math.cos(phi);
+
+      positions[i3] = x;
+      positions[i3 + 1] = y;
+      positions[i3 + 2] = z;
+
+      originalPositions[i3] = x;
+      originalPositions[i3 + 1] = y;
+      originalPositions[i3 + 2] = z;
     }
 
     particles.setAttribute("position", new THREE.BufferAttribute(positions, 3));
     particles.setAttribute(
       "sphericalData",
       new THREE.BufferAttribute(sphericalData, 3)
+    );
+    particles.setAttribute(
+      "originalPosition",
+      new THREE.BufferAttribute(originalPositions, 3)
     );
     particles.userData.waveConfig = waveConfig; // Store wave config
 
@@ -196,15 +212,32 @@ interface Props {
     renderer.setSize(container.clientWidth, container.clientHeight);
   }
 
+  function onMouseMove(event) {
+    const container = document.getElementById("canvas-container");
+    if (!container) return;
+    const rect = container.getBoundingClientRect();
+    mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+    mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  }
+
+  function onMouseLeave() {
+    mouse.x = -100;
+    mouse.y = -100;
+  }
+
   function animate() {
     requestAnimationFrame(animate);
 
     const time = Date.now() * speedMultiplier;
+    const raycaster = new THREE.Raycaster();
+    raycaster.setFromCamera(mouse, camera);
 
     particleSystems.forEach((particleSystem, index) => {
       const positions = particleSystem.geometry.attributes.position.array;
       const sphericalData =
         particleSystem.geometry.attributes.sphericalData.array;
+      const originalPositions =
+        particleSystem.geometry.attributes.originalPosition.array;
       const particleCount = particleSystem.geometry.attributes.position.count;
       const wc = particleSystem.geometry.userData.waveConfig;
       const timeOffset = time + index * 0.5; // Desynchronize animations
@@ -215,6 +248,7 @@ interface Props {
         const phi = sphericalData[i3 + 1];
         const theta = sphericalData[i3 + 2];
 
+        // --- Wave Animation ---
         let displacement = Math.sin(phi * wc.f1 + timeOffset) * wc.a1;
         displacement += Math.cos(theta * wc.f2 + timeOffset * 0.8) * wc.a2;
         displacement +=
@@ -223,14 +257,43 @@ interface Props {
         displacement +=
           Math.sin(phi * wc.f4 + theta * (wc.f4 / 2) + timeOffset * 1.5) *
           wc.a4;
-
         displacement *= sharpnessMultiplier;
-
         const finalRadius = baseRadius + displacement;
 
-        positions[i3] = finalRadius * Math.sin(phi) * Math.cos(theta);
-        positions[i3 + 1] = finalRadius * Math.sin(phi) * Math.sin(theta);
-        positions[i3 + 2] = finalRadius * Math.cos(phi);
+        let x = finalRadius * Math.sin(phi) * Math.cos(theta);
+        let y = finalRadius * Math.sin(phi) * Math.sin(theta);
+        let z = finalRadius * Math.cos(phi);
+
+        // --- Mouse Interaction ---
+        const particlePos = new THREE.Vector3(x, y, z);
+        const mouseWorldPos = new THREE.Vector3(mouse.x, mouse.y, 0.5);
+        mouseWorldPos.unproject(camera);
+        const dir = mouseWorldPos.sub(camera.position).normalize();
+        const distanceToParticle = particlePos.distanceTo(
+          camera.position
+        );
+        const mousePoint = camera.position
+          .clone()
+          .add(dir.multiplyScalar(distanceToParticle));
+
+        const dist = particlePos.distanceTo(mousePoint);
+        const maxDist = 1; // Interaction radius
+
+        if (dist < maxDist) {
+          const force = (maxDist - dist) * 0.8;
+          const direction = particlePos.clone().sub(mousePoint).normalize();
+          particlePos.add(direction.multiplyScalar(force));
+
+          // Gradually return to original position
+          positions[i3] += (particlePos.x - positions[i3]) * 0.08;
+          positions[i3 + 1] += (particlePos.y - positions[i3 + 1]) * 0.08;
+          positions[i3 + 2] += (particlePos.z - positions[i3 + 2]) * 0.08;
+        } else {
+          // Gradually return to wave-animated position if not interacting
+          positions[i3] += (x - positions[i3]) * 0.05;
+          positions[i3 + 1] += (y - positions[i3 + 1]) * 0.05;
+          positions[i3 + 2] += (z - positions[i3 + 2]) * 0.05;
+        }
       }
 
       particleSystem.geometry.attributes.position.needsUpdate = true;
@@ -243,3 +306,4 @@ interface Props {
 
   setTimeout(init, 100);
 </script>
+

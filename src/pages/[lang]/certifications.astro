@@ -11,65 +11,103 @@ export function getStaticPaths() {
 }
 
 const lang = getLangFromUrl(Astro.url);
-
-const t = await useTranslation(lang);
+const i18n = await translations[lang]();
 ---
 
 <Layout title="O M S M A R T">
-  <section class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+  <section
+    class="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
+  >
     <div class="relative max-w-5xl mx-auto px-6 py-24">
       <!-- Menú superior -->
       <nav
         class="flex justify-center gap-10 text-sm border-b border-white/30 pb-6 mb-16"
       >
-        <a href="#" class="hover:text-cyan-400 transition"
-          >Certificaciones ISO</a
-        >
-        <a href="#" class="hover:text-cyan-400 transition">ISO 37101</a>
-        <a href="#" class="hover:text-cyan-400 transition">ISO 37120</a>
-        <a href="#" class="hover:text-cyan-400 transition">ISO 37122</a>
-        <a href="#" class="hover:text-cyan-400 transition">ISO 37123</a>
+        {
+          i18n.CERTIFICATIONS.map((cert, index) => (
+            <a
+              href="#"
+              class="hover:text-[var(--color-title)] transition nav-link text-center"
+              data-index={index}
+              set:html={cert.NAV_TITLE.replace(/<b[^>]*>/g, "").replace(
+                /<\/b>/g,
+                ""
+              )}
+            />
+          ))
+        }
       </nav>
 
       <!-- Contenido principal -->
-      <div class="grid md:grid-cols-2 gap-16 items-start">
+      <div class="flex flex-col items-start">
         <!-- Texto izquierdo -->
-        <div>
-          <h2 class="text-4xl font-light mb-4">Certificaciones ISO</h2>
-
-          <h3 class="text-3xl font-light text-cyan-400 mb-8">
-            Smart City – Smart Communities
-          </h3>
-
-          <div class="w-24 h-[2px] bg-cyan-400 mb-8"></div>
-
-          <p class="text-sm leading-relaxed text-white/90 mb-6">
-            <span class="font-semibold text-cyan-400">
-              OM Smart Technology & Consulting
-            </span>
-            acompaña los procesos de gestión e implementación de soluciones basadas
-            en las normativas ISO.
-          </p>
-
-          <p class="text-sm leading-relaxed text-white/90">
-            Estas permiten evaluar de manera objetiva el desarrollo de las
-            ciudades y comunidades sostenibles, mediante estandarización de
-            procesos y con un análisis cualitativo y cuantitativo.
-          </p>
+        <div class="w-full">
+          <h2
+            id="cert-nav-title"
+            class="text-4xl font-light mb-4"
+            set:html={i18n.CERTIFICATIONS[0].NAV_TITLE}
+          />
+          <h3
+            id="cert-title"
+            class="text-3xl font-light text-[var(--color-title)] mb-8 md:mb-16"
+            set:html={i18n.CERTIFICATIONS[0].TITLE}
+          />
+          <div class="w-full h-[2px] bg-[var(--color-title)]/25 mb-8 md:mb-16 rounded-full overflow-hidden">
+            <div class="h-2 w-1/5 bg-[var(--color-title)]"></div>
+          </div>
         </div>
-
         <!-- Texto derecho -->
-        <div>
-          <p class="text-sm leading-relaxed text-white/90">
-            La Organización Internacional de la Normalización o Estandarización,
-            a través de su comité técnico 268 para ciudades y comunidades
-            sostenibles, ha desarrollado las siguientes Normas en este campo de
-            aplicación.
-          </p>
+        <div class="flex flex-col md:flex-row gap-12 md:gap-24 text-justify">
+          <div
+            id="cert-desc-left"
+            class="text-sm leading-relaxed text-white/90 w-full lg:w-1/2"
+            set:html={i18n.CERTIFICATIONS[0].DESCRIPTION_LEFT}
+          />
+          <div
+            id="cert-desc-right"
+            class="text-sm leading-relaxed text-white/90 w-full lg:w-1/2"
+            set:html={i18n.CERTIFICATIONS[0].DESCRIPTION_RIGHT}
+          />
         </div>
       </div>
     </div>
   </section>
-
   <Contact />
 </Layout>
+
+<script define:vars={{ certifications: i18n.CERTIFICATIONS }}>
+  document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navTitleEl = document.getElementById("cert-nav-title");
+    const titleEl = document.getElementById("cert-title");
+    const descLeftEl = document.getElementById("cert-desc-left");
+    const descRightEl = document.getElementById("cert-desc-right");
+    const contentElements = [navTitleEl, titleEl, descLeftEl, descRightEl];
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const index = e.target.closest("a").dataset.index;
+        const cert = certifications[index];
+
+        // Fade out
+        contentElements.forEach((el) => (el.style.opacity = "0"));
+
+        setTimeout(() => {
+          navTitleEl.innerHTML = cert.NAV_TITLE;
+          titleEl.innerHTML = cert.TITLE;
+          descLeftEl.innerHTML = cert.DESCRIPTION_LEFT;
+          descRightEl.innerHTML = cert.DESCRIPTION_RIGHT;
+
+          // Fade in
+          contentElements.forEach((el) => (el.style.opacity = "1"));
+        }, 300); // Match timeout with CSS transition duration
+      });
+    });
+
+    // Add transition style
+    contentElements.forEach(
+      (el) => (el.style.transition = "opacity 0.3s ease-in-out")
+    );
+  });
+</script>

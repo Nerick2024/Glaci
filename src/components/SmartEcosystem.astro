@@ -14,7 +14,7 @@ interface Props {
   class="relative flex flex-col justify-center items-center gap-8 mx-auto w-full h-screen"
 >
   <div
-    class="flex lg:flex-row flex-col justify-center items-center gap-8 mx-auto w-full max-w-4xl h-full"
+    class="flex lg:flex-row flex-col justify-center items-center gap-8 lg:gap-16 mx-auto w-full max-w-5xl h-full"
   >
     <div
       class="relative flex justify-center items-center w-full lg:w-1/2 overflow-visible"
@@ -25,15 +25,20 @@ interface Props {
       >
       </div>
       <div
-        class="relative flex justify-center items-center bg-black shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-blue)] rounded-full h-[250px] md:h-[280px] aspect-square"
-      >
+        data-aos="zoom-in"
+        class="relative flex justify-center items-center bg-black shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-blue)] rounded-full h-[240px] md:h-[260px]  aspect-square"
+        >
         <h3
-          class="text-white text-3xl md:text-4xl text-center smart-ecosystem-title"
-          set:html={item.TITLE}
+        class="text-white text-3xl md:text-4xl text-center smart-ecosystem-title"
+        set:html={item.TITLE}
         />
       </div>
     </div>
-    <div class="flex justify-start items-center px-4 w-full lg:w-1/2">
+    <div
+    data-aos="fade-right"
+    data-aos-duration="1800"
+      class="flex justify-start items-center px-4 w-full lg:w-1/2"
+    >
       <p
         class="text-white text-lg lg:text-left text-center"
         set:html={item.DESCRIPTION}
@@ -269,9 +274,7 @@ interface Props {
         const mouseWorldPos = new THREE.Vector3(mouse.x, mouse.y, 0.5);
         mouseWorldPos.unproject(camera);
         const dir = mouseWorldPos.sub(camera.position).normalize();
-        const distanceToParticle = particlePos.distanceTo(
-          camera.position
-        );
+        const distanceToParticle = particlePos.distanceTo(camera.position);
         const mousePoint = camera.position
           .clone()
           .add(dir.multiplyScalar(distanceToParticle));
@@ -306,4 +309,3 @@ interface Props {
 
   setTimeout(init, 100);
 </script>
-

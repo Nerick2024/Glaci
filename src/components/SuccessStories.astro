@@ -31,12 +31,14 @@ const i18n = await useTranslation(lang);
               ]}
             >
               <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 class="mb-2 w-full font-semibold text-[var(--color-title)] text-2xl lg:text-left text-center"
                 set:html={project.TITLE}
               />
               <div class="mt-6 text-white text-lg lg:text-left text-center">
                 {project.DATE && (
-                  <p class="mb-2">
+                  <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
                     <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
                       {i18n.AREAS.SUCCESS_STORIES_YEAR}:
                     </strong>
@@ -46,7 +48,7 @@ const i18n = await useTranslation(lang);
                   </p>
                 )}
                 {project.LOCATE && (
-                  <p class="mb-2">
+                  <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
                     <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
                       {i18n.AREAS.SUCCESS_STORIES_LOCATE}:
                     </strong>
@@ -57,6 +59,8 @@ const i18n = await useTranslation(lang);
                 )}
                 {project.DESCRIPTION && (
                   <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
                     class="text-white text-base lg:text-lg"
                     set:html={project.DESCRIPTION}
                   />
@@ -79,7 +83,6 @@ const i18n = await useTranslation(lang);
                   <img
                     src={images[0]}
                     alt={project.TITLE}
-                    loading="lazy"
                     class="w-full h-auto max-h-[70vh] object-cover group-hover:scale-105 transition-all duration-400 ease-in-out"
                   />
                 </figure>
@@ -94,7 +97,6 @@ const i18n = await useTranslation(lang);
                       <img
                         src={src}
                         alt={`${project.TITLE} #${j + 1}`}
-                        loading="lazy"
                         class="block w-full h-auto object-cover group-hover:scale-105 transition-all duration-400 ease-in-out"
                       />
                     </figure>

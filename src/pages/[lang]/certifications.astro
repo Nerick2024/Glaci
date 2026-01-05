@@ -14,7 +14,7 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
 
-<Layout title="O M S M A R T">
+<Layout title="G L A C I">
   <section
     class="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
   >
@@ -52,7 +52,9 @@ const i18n = await translations[lang]();
             class="text-3xl font-light text-[var(--color-title)] mb-8 md:mb-16"
             set:html={i18n.CERTIFICATIONS[0].TITLE}
           />
-          <div class="w-full h-[2px] bg-[var(--color-title)]/25 mb-8 md:mb-16 rounded-full overflow-hidden">
+          <div
+            class="w-full h-[2px] bg-[var(--color-title)]/25 mb-8 md:mb-16 rounded-full overflow-hidden"
+          >
             <div class="h-2 w-1/5 bg-[var(--color-title)]"></div>
           </div>
         </div>
@@ -123,7 +125,6 @@ const i18n = await translations[lang]();
 </script>
 
 <style>
-
   .nav-link {
     position: relative;
     padding-bottom: 5px; /* Keep padding for text spacing */

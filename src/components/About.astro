@@ -171,7 +171,7 @@ const i18n = await useTranslation(lang);
           >
             <img
               src={`/imagenes/${e.img}`}
-              class={`${e.brilla ? "brilla" : ""} w-full h-auto object-contain`}
+              class={`${e.brilla ? "brilla" : ""} w-full h-auto object-contain grayscale-100`}
               style={e.brilla ? `--blink-delay:${e.blink || "0s"}` : ""}
               alt={`edificio-${e.id}`}
             />
@@ -185,7 +185,7 @@ const i18n = await useTranslation(lang);
     <img
       src="/imagenes/edificios.png"
       id="edimagen"
-      class="w-full max-w-[1200px] h-auto object-contain"
+      class="w-full max-w-[1200px] h-auto object-contain grayscale-100"
       alt="edificios"
     />
   </center>
@@ -204,7 +204,7 @@ const i18n = await useTranslation(lang);
         }
       });
     },
-    { threshold: 0.2 },
+    { threshold: 0.2 }
   );
 
   document
@@ -557,13 +557,15 @@ const i18n = await useTranslation(lang);
   @keyframes blinkGlow {
     0% {
       opacity: 1;
+      filter: grayscale(100%);
     }
     50% {
       opacity: 0.4;
-      filter: brightness(1.35);
+      filter: grayscale(100%) brightness(1.35);
     }
     100% {
       opacity: 1;
+      filter: grayscale(100%);
     }
   }
 </style>

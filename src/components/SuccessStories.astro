@@ -83,6 +83,7 @@ const i18n = await useTranslation(lang);
                   <img
                     src={images[0]}
                     alt={project.TITLE}
+                    loading="eager"
                     class="w-full h-auto max-h-[70vh] object-cover group-hover:scale-105 transition-all duration-400 ease-in-out"
                   />
                 </figure>
@@ -97,6 +98,7 @@ const i18n = await useTranslation(lang);
                       <img
                         src={src}
                         alt={`${project.TITLE} #${j + 1}`}
+                        loading="eager"
                         class="block w-full h-auto object-cover group-hover:scale-105 transition-all duration-400 ease-in-out"
                       />
                     </figure>

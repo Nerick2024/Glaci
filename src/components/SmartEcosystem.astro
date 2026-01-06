@@ -48,9 +48,23 @@ interface Props {
 </section>
 
 <style>
-  .smart-ecosystem-title :global(strong) {
-    color: var(--color-title);
-  }
+.smart-ecosystem-title :global(strong) {
+  background: linear-gradient(
+    120deg,
+    #ffffff,
+    #e6e6e6,
+    #bfbfbf,
+    #f5f5f5,
+    #ffffff
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
+}
+
 </style>
 
 <script type="">
@@ -91,7 +105,7 @@ interface Props {
       createParticleSystem({
         particleCount: 8000,
         radius: 2.5 * sizeMultiplier,
-        color: 0x00ccff,
+        color: 0xffffff,
         size: 0.025,
         opacity: 0.8,
         waveConfig: {
@@ -111,7 +125,7 @@ interface Props {
       createParticleSystem({
         particleCount: 4000,
         radius: 2.8 * sizeMultiplier,
-        color: 0x00ccff,
+        color: 0xffffff,
         size: 0.03,
         opacity: 0.4,
         waveConfig: {
@@ -131,7 +145,7 @@ interface Props {
       createParticleSystem({
         particleCount: 4000,
         radius: 2.2 * sizeMultiplier,
-        color: 0x00aaff,
+        color: 0xffffff,
         size: 0.02,
         opacity: 0.6,
         waveConfig: {

@@ -654,7 +654,7 @@
     "TEXT3": "具有道德、可持续和创新视角的国内及国际服务。"
   },
   "CONTACT_FORM": {
-    "HEADING": "如果您对该主题有疑问或意见，请联系我们，或<span class=\"text-[var(--color-title)]\">注册</span>以获取更多关于智慧城市的信息。",
+    "HEADING": "如果您对该主题有疑问或意见，请联系我们，或<span class=\"text-metal\">注册</span>以获取更多关于智慧城市的信息。",
     "NAME_PLACEHOLDER": "姓名",
     "EMAIL_PLACEHOLDER": "邮箱",
     "MESSAGE_PLACEHOLDER": "留言",
@@ -680,32 +680,32 @@
     {
       "NAV_TITLE": "ISO认证",
       "TITLE": "智慧城市 – 智慧社区",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> 支持基于ISO标准的管理和实施过程。<br/> <br/> 这些标准通过流程标准化以及定性和定量分析，能够客观评估城市和可持续社区的发展。",
+      "DESCRIPTION_LEFT": "<b class='text-metal'>OM Smart Technology & Consulting </b> 支持基于ISO标准的管理和实施过程。<br/> <br/> 这些标准通过流程标准化以及定性和定量分析，能够客观评估城市和可持续社区的发展。",
       "DESCRIPTION_RIGHT": "国际标准化组织通过其可持续城市和社区技术委员会268，制定了以下适用领域的标准。"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37101</b>",
       "TITLE": "社区可持续发展 – 可持续发展的管理体系",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>主要目标：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>建立可持续发展的共识</li><li>提升所有行动的可持续性、智慧性和韧性</li><li>发展跨部门、多学科、生命周期价值和总成本的方法</li><li>促进协同效应</li><li>提高社区的效率和吸引力</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>适用于各种规模、结构和类型的社区</li><li>适用于发达国家和发展中国家</li><li>适用于地方、区域或国家层面</li><li>适用于城市或农村地区</li></ul>"
+      "DESCRIPTION_LEFT": "<b class='text-metal'>主要目标：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>建立可持续发展的共识</li><li>提升所有行动的可持续性、智慧性和韧性</li><li>发展跨部门、多学科、生命周期价值和总成本的方法</li><li>促进协同效应</li><li>提高社区的效率和吸引力</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>适用于各种规模、结构和类型的社区</li><li>适用于发达国家和发展中国家</li><li>适用于地方、区域或国家层面</li><li>适用于城市或农村地区</li></ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37120</b>",
       "TITLE": "社区可持续发展 – 城市服务与生活质量指标",
       "DESCRIPTION_LEFT": "该标准补充了用于衡量社区绩效的指标系列；包括智慧城市和韧性城市中的城市服务和生活质量。<br/> <br/> 这些指标可用于评估并规划未来可能的需求，主要目标包括：<br/> <br/> <ul class='list-disc list-outside pl-5'><li>衡量服务绩效管理和质量随时间的变化</li><li>提供比较的可能性，以学习绩效措施</li><li>制定政策和确定优先事项</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于非常大的行政区域</li> <li>适用于评估城市资源效率</li> <li>与其他指标结合使用，可提供更全面和整体的可持续性分析方法</li> </ul>"
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于非常大的行政区域</li> <li>适用于评估城市资源效率</li> <li>与其他指标结合使用，可提供更全面和整体的可持续性分析方法</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37122</b>",
       "TITLE": "可持续城市与社区 – 智慧城市指标",
-      "DESCRIPTION_LEFT": "为城市的可持续性提供参考，这些城市需要额外的指标来评估城市服务和生活质量。结合ISO 37120的应用，它帮助城市实施智慧城市的政策、项目和计划。<br/> <br/> <b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> 与ISO 37120结合，提供完整的指标集来衡量智慧城市的进展。",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>主要目标：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>应用协作式领导方法</li> <li>利用数据和技术提升服务和生活质量</li> <li>通过智慧政策和向市民提供技术，改善生活环境</li> <li>为环境和可持续性问题提供创新解决方案</li> <li>识别智慧基础设施的需求和优势</li> <li>促进创新和增长</li> <li>建设一个动态且创新的经济，使其具备韧性</li> </ul>"
+      "DESCRIPTION_LEFT": "为城市的可持续性提供参考，这些城市需要额外的指标来评估城市服务和生活质量。结合ISO 37120的应用，它帮助城市实施智慧城市的政策、项目和计划。<br/> <br/> <b class='text-metal'>适用范围：</b> <br/> <br/> 与ISO 37120结合，提供完整的指标集来衡量智慧城市的进展。",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>主要目标：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>应用协作式领导方法</li> <li>利用数据和技术提升服务和生活质量</li> <li>通过智慧政策和向市民提供技术，改善生活环境</li> <li>为环境和可持续性问题提供创新解决方案</li> <li>识别智慧基础设施的需求和优势</li> <li>促进创新和增长</li> <li>建设一个动态且创新的经济，使其具备韧性</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37123</b>",
       "TITLE": "可持续城市与社区 – 韧性城市指标",
       "DESCRIPTION_LEFT": "韧性城市能够为冲击和压力做好准备、恢复并适应。该标准与ISO 37120中的指标结合，可用于评估韧性城市，并采取行动管理和减轻与环境退化和经济不稳定相关的人类和自然压力，这些压力会造成持续的负面影响。<br/> <br/> 它提出了具体指标，并根据风险管理和灾害管理流程进行结构化；监测可持续发展目标的落实，并与《仙台减少灾害风险框架》保持一致。这些目标旨在帮助城市：",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>为冲击和压力做好准备、恢复并适应</li> <li>通过绩效比较和分享最佳实践来生成学习</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于城市韧性测量</li> <li>适用于任何城市、自治市或地方政府</li> <li>适用于任何规模或位置</li> </ul>"
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>为冲击和压力做好准备、恢复并适应</li> <li>通过绩效比较和分享最佳实践来生成学习</li> </ul> <br/> <br/> <b class='text-metal'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于城市韧性测量</li> <li>适用于任何城市、自治市或地方政府</li> <li>适用于任何规模或位置</li> </ul>"
     }
   ]
 }

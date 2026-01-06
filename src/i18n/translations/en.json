@@ -655,7 +655,7 @@
     "TEXT3": "National and international services with an ethical, sustainable and innovative approach."
   },
   "CONTACT_FORM": {
-    "HEADING": "Contact us if you have questions or comments on the subject, or <span class=\"text-[var(--color-title)]\">register</span> to receive more information about smart cities.",
+    "HEADING": "Contact us if you have questions or comments on the subject, or <span class=\"text-metal\">register</span> to receive more information about smart cities.",
     "NAME_PLACEHOLDER": "Name",
     "EMAIL_PLACEHOLDER": "Mail",
     "MESSAGE_PLACEHOLDER": "Message",
@@ -681,32 +681,32 @@
     {
       "NAV_TITLE": "ISO Certifications",
       "TITLE": "Smart City – Smart Communities",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> supports the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow for an objective evaluation of the development of sustainable cities and communities, through process standardization and qualitative and quantitative analysis.",
+      "DESCRIPTION_LEFT": "<b class='text-metal'>OM Smart Technology & Consulting </b> supports the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow for an objective evaluation of the development of sustainable cities and communities, through process standardization and qualitative and quantitative analysis.",
       "DESCRIPTION_RIGHT": "The International Organization for Standardization, through its Technical Committee 268 for sustainable cities and communities, has developed the following Standards in this field of application."
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37101</b>",
       "TITLE": "Sustainable development in communities – Management System for Sustainable Development",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Its main goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Build consensus on sustainable development</li><li>Improve sustainability, smartness, and resilience of all actions</li><li>Develop cross-sectoral, multidisciplinary approaches, life-cycle value, and total costing</li><li>Promote synergies</li><li>Increase efficiency and attractiveness of communities</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable to communities of all sizes, structures, and types</li><li>Applicable to developed and developing countries</li><li>Applicable at local, regional, or national levels</li><li>Applicable in urban or rural areas</li></ul>"
+      "DESCRIPTION_LEFT": "<b class='text-metal'>Its main goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Build consensus on sustainable development</li><li>Improve sustainability, smartness, and resilience of all actions</li><li>Develop cross-sectoral, multidisciplinary approaches, life-cycle value, and total costing</li><li>Promote synergies</li><li>Increase efficiency and attractiveness of communities</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable to communities of all sizes, structures, and types</li><li>Applicable to developed and developing countries</li><li>Applicable at local, regional, or national levels</li><li>Applicable in urban or rural areas</li></ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37120</b>",
       "TITLE": "Sustainable development of communities – Indicators for city services and quality of life",
       "DESCRIPTION_LEFT": "This standard complements the series of indicators to measure community performance; it includes city services and quality of life in smart and resilient cities.<br/> <br/> These indicators allow evaluation and planning based on possible future needs and establish as main goals:<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Measurement of service performance management and quality over time</li><li>Possibility of comparison to learn about performance measures</li><li>Policy development and priority setting</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicators applicable to very large administrative areas</li> <li>Applicable to evaluating city resource efficiency</li> <li>Together with other indicators, it allows for a more comprehensive and holistic approach to sustainability analysis</li> </ul>"
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicators applicable to very large administrative areas</li> <li>Applicable to evaluating city resource efficiency</li> <li>Together with other indicators, it allows for a more comprehensive and holistic approach to sustainability analysis</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37122</b>",
       "TITLE": "Sustainable cities and communities – Indicators for Smart Cities",
-      "DESCRIPTION_LEFT": "Provides a benchmark for the sustainability of cities, which require additional indicators beyond those established to evaluate city services and quality of life. Together with the application of ISO 37120, it helps cities implement policies, programs, and projects for smart cities.<br/> <br/> <b class='text-[var(--color-title)]'>Scope:</b> <br/> <br/> Together with ISO 37120, it specifies providing a complete set of indicators to measure progress toward a smart city.",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Its goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Apply collaborative leadership methods</li> <li>Use data and technologies to improve services and quality of life</li> <li>Provide a better living environment through smart policies and making technologies available to citizens</li> <li>Generate innovative solutions to environmental and sustainability issues</li> <li>Identify needs and benefits of smart infrastructures</li> <li>Facilitate innovation and growth</li> <li>Build a dynamic and innovative economy that can be resilient</li> </ul>"
+      "DESCRIPTION_LEFT": "Provides a benchmark for the sustainability of cities, which require additional indicators beyond those established to evaluate city services and quality of life. Together with the application of ISO 37120, it helps cities implement policies, programs, and projects for smart cities.<br/> <br/> <b class='text-metal'>Scope:</b> <br/> <br/> Together with ISO 37120, it specifies providing a complete set of indicators to measure progress toward a smart city.",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Its goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Apply collaborative leadership methods</li> <li>Use data and technologies to improve services and quality of life</li> <li>Provide a better living environment through smart policies and making technologies available to citizens</li> <li>Generate innovative solutions to environmental and sustainability issues</li> <li>Identify needs and benefits of smart infrastructures</li> <li>Facilitate innovation and growth</li> <li>Build a dynamic and innovative economy that can be resilient</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37123</b>",
       "TITLE": "Sustainable Cities and Communities – Indicators for Resilient Cities",
       "DESCRIPTION_LEFT": "A resilient city is able to prepare for, recover from, and adapt to shocks and stresses. This standard, together with the indicators set out in ISO 37120, enables the evaluation of Resilient Cities and also the implementation of actions to manage and mitigate human and natural stress related to environmental degradation and economic instability that cause persistent negative impacts. <br/> <br/> It presents specific indicators and also structured indicators according to a risk management and disaster management process; monitoring compliance with Sustainable Development Goals and structured in accordance with the Sendai Framework for Disaster Risk Reduction. These aim to help cities:",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepare for, recover from, and adapt to shocks and stresses</li> <li>Generate learning based on performance measure comparison and sharing of best practices</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable for measuring resilience in cities</li> <li>Applicable to any city, municipality, or local government</li> <li>Applicable regardless of size or location</li> </ul>"
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepare for, recover from, and adapt to shocks and stresses</li> <li>Generate learning based on performance measure comparison and sharing of best practices</li> </ul> <br/> <br/> <b class='text-metal'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable for measuring resilience in cities</li> <li>Applicable to any city, municipality, or local government</li> <li>Applicable regardless of size or location</li> </ul>"
     }
   ]
 }

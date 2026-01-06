@@ -54,7 +54,7 @@ function getPath(lang: string) {
 ---
 
 <div class="relative group">
-    <button class="h-10 px-4 rounded-full border border-white/25 bg-transparent text-[var(--color-title)] shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2">
+    <button class="h-10 px-4 rounded-full border border-white/25 bg-transparent text-metal shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2">
         <span>{currentLang.toUpperCase()}</span>
         <svg class="fill-current h-4 w-4 transition-transform duration-300 group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
     </button>
@@ -63,7 +63,7 @@ function getPath(lang: string) {
             Object.entries(locales).map(([lang, label]) => {
                 if(lang !== currentLang) {
                     return (
-                        <a href={getPath(lang)} class="block text-center text-white hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)] transition-colors">
+                        <a href={getPath(lang)} class="block text-center text-white hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-metal transition-colors">
                             {lang.toUpperCase()}
                         </a>
                     )

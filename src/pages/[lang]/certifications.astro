@@ -27,7 +27,7 @@ const i18n = await translations[lang]();
           i18n.CERTIFICATIONS.map((cert, index) => (
             <a
               href="#"
-              class="hover:text-[var(--color-title)] transition nav-link text-center"
+              class="hover:text-metal transition nav-link text-center"
               data-index={index}
               set:html={cert.NAV_TITLE.replace(/<b[^>]*>/g, "").replace(
                 /<\/b>/g,
@@ -49,7 +49,7 @@ const i18n = await translations[lang]();
           />
           <h3
             id="cert-title"
-            class="text-3xl font-light text-[var(--color-title)] mb-8 md:mb-16"
+            class="text-3xl font-light text-metal mb-8 md:mb-16"
             set:html={i18n.CERTIFICATIONS[0].TITLE}
           />
           <div

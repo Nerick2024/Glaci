@@ -24,12 +24,12 @@ const area2 = item.AREA2 || [];
         {
           area1.map((area: any, index: number) => (
             <div data-aos="fade-right" data-aos-duration="1000">
-              <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              <h3 class="mb-2 font-semibold text-metal text-2xl">
                 {area.TITLE}
               </h3>
               <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
               {index < area1.length - 1 && (
-                <p class="my-4 text-[var(--color-title)] text-xl">● ● ●</p>
+                <p class="my-4 text-metal text-xl">● ● ●</p>
               )}
             </div>
           ))
@@ -38,7 +38,7 @@ const area2 = item.AREA2 || [];
         <a
           data-aos="zoom-in"
           href="#contact"
-          class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 mt-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-black transition-colors"
+          class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 mt-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-metal hover:text-black transition-colors"
         >
           <span>{i18n.AREAS.BUTTON}</span>
           <svg
@@ -58,12 +58,12 @@ const area2 = item.AREA2 || [];
         {
           area2.map((area: any, index: number) => (
             <div data-aos="fade-left" data-aos-duration="1000">
-              <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              <h3 class="mb-2 font-semibold text-metal text-2xl">
                 {area.TITLE}
               </h3>
               <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
               {index < area2.length - 1 && (
-                <p class="my-4 text-[var(--color-title)] text-xl">● ● ●</p>
+                <p class="my-4 text-metal text-xl">● ● ●</p>
               )}
             </div>
           ))

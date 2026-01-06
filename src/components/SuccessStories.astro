@@ -33,13 +33,13 @@ const i18n = await useTranslation(lang);
               <h3
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                class="mb-2 w-full font-semibold text-[var(--color-title)] text-2xl lg:text-left text-center"
+                class="mb-2 w-full font-semibold text-metal text-2xl lg:text-left text-center"
                 set:html={project.TITLE}
               />
               <div class="mt-6 text-white text-lg lg:text-left text-center">
                 {project.DATE && (
                   <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
-                    <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
+                    <strong class="font-semibold text-metal text-base lg:text-lg">
                       {i18n.AREAS.SUCCESS_STORIES_YEAR}:
                     </strong>
                     <span class="text-white text-base lg:text-lg">
@@ -49,7 +49,7 @@ const i18n = await useTranslation(lang);
                 )}
                 {project.LOCATE && (
                   <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
-                    <strong class="font-semibold text-[var(--color-title)] text-base lg:text-lg">
+                    <strong class="font-semibold text-metal text-base lg:text-lg">
                       {i18n.AREAS.SUCCESS_STORIES_LOCATE}:
                     </strong>
                     <span class="text-white text-base lg:text-lg">

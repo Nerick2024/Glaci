@@ -655,7 +655,7 @@
     "TEXT3": "Services nationaux et internationaux avec une approche éthique, durable et innovante."
   },
   "CONTACT_FORM": {
-    "HEADING": "Contactez-nous si vous avez des questions ou des commentaires sur le sujet, ou <span class=\"text-[var(--color-title)]\">inscrivez-vous</span> pour recevoir plus d'informations sur les villes intelligentes.",
+    "HEADING": "Contactez-nous si vous avez des questions ou des commentaires sur le sujet, ou <span class=\"text-metal\">inscrivez-vous</span> pour recevoir plus d'informations sur les villes intelligentes.",
     "NAME_PLACEHOLDER": "Nom",
     "EMAIL_PLACEHOLDER": "E-mail",
     "MESSAGE_PLACEHOLDER": "Message",
@@ -681,32 +681,32 @@
     {
       "NAV_TITLE": "Certifications ISO",
       "TITLE": "Ville intelligente – Communautés intelligentes",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les normes ISO. <br/> <br/> Celles-ci permettent d’évaluer objectivement le développement des villes et communautés durables, grâce à la standardisation des processus et à une analyse qualitative et quantitative.",
+      "DESCRIPTION_LEFT": "<b class='text-metal'>OM Smart Technology & Consulting </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les normes ISO. <br/> <br/> Celles-ci permettent d’évaluer objectivement le développement des villes et communautés durables, grâce à la standardisation des processus et à une analyse qualitative et quantitative.",
       "DESCRIPTION_RIGHT": "L’Organisation internationale de normalisation, à travers son comité technique 268 pour les villes et communautés durables, a développé les normes suivantes dans ce domaine d’application."
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37101</b>",
       "TITLE": "Développement durable dans les communautés – Système de gestion pour le développement durable",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Ses principaux objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Construire un consensus sur le développement durable</li><li>Améliorer la durabilité, l’intelligence et la résilience de toutes les actions</li><li>Développer des approches intersectorielles, multidisciplinaires, basées sur la valeur du cycle de vie et le coût total</li><li>Favoriser les synergies</li><li>Accroître l’efficacité et l’attractivité des communautés</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable aux communautés de toutes tailles, structures et types</li><li>Applicable aux pays développés et en développement</li><li>Applicable aux niveaux local, régional ou national</li><li>Applicable aux zones urbaines ou rurales</li></ul>"
+      "DESCRIPTION_LEFT": "<b class='text-metal'>Ses principaux objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Construire un consensus sur le développement durable</li><li>Améliorer la durabilité, l’intelligence et la résilience de toutes les actions</li><li>Développer des approches intersectorielles, multidisciplinaires, basées sur la valeur du cycle de vie et le coût total</li><li>Favoriser les synergies</li><li>Accroître l’efficacité et l’attractivité des communautés</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable aux communautés de toutes tailles, structures et types</li><li>Applicable aux pays développés et en développement</li><li>Applicable aux niveaux local, régional ou national</li><li>Applicable aux zones urbaines ou rurales</li></ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37120</b>",
       "TITLE": "Développement durable des communautés – Indicateurs des services urbains et de la qualité de vie",
       "DESCRIPTION_LEFT": "Cette norme complète la série d’indicateurs pour mesurer la performance des communautés ; elle inclut les services urbains et la qualité de vie dans les villes intelligentes et résilientes.<br/> <br/> Ces indicateurs permettent d’évaluer et de planifier en fonction des besoins futurs possibles et fixent comme principaux objectifs :<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Mesurer la gestion de la performance des services et de la qualité dans le temps</li><li>Permettre la comparaison pour apprendre des mesures de performance</li><li>Développer des politiques et établir des priorités</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicateurs applicables à de très grandes zones administratives</li> <li>Applicables à l’évaluation de l’efficacité des ressources urbaines</li> <li>En combinaison avec d’autres indicateurs, ils permettent une approche plus intégrée et holistique de l’analyse de la durabilité</li> </ul>"
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicateurs applicables à de très grandes zones administratives</li> <li>Applicables à l’évaluation de l’efficacité des ressources urbaines</li> <li>En combinaison avec d’autres indicateurs, ils permettent une approche plus intégrée et holistique de l’analyse de la durabilité</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37122</b>",
       "TITLE": "Villes et communautés durables – Indicateurs pour les villes intelligentes",
-      "DESCRIPTION_LEFT": "Fournit une référence pour la durabilité des villes, qui nécessitent des indicateurs supplémentaires pour évaluer les services urbains et la qualité de vie. Avec l’application de la norme ISO 37120, elle aide les villes à mettre en œuvre des politiques, programmes et projets pour les villes intelligentes.<br/> <br/> <b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> Avec la norme ISO 37120, elle fournit un ensemble complet d’indicateurs pour mesurer les progrès vers une ville intelligente.",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Ses objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Appliquer des méthodes de leadership collaboratif</li> <li>Utiliser les données et technologies pour améliorer les services et la qualité de vie</li> <li>Offrir un meilleur environnement de vie grâce à des politiques intelligentes et à la mise à disposition des technologies aux citoyens</li> <li>Générer des solutions innovantes aux problèmes environnementaux et de durabilité</li> <li>Identifier les besoins et avantages des infrastructures intelligentes</li> <li>Faciliter l’innovation et la croissance</li> <li>Construire une économie dynamique et innovante capable d’être résiliente</li> </ul>"
+      "DESCRIPTION_LEFT": "Fournit une référence pour la durabilité des villes, qui nécessitent des indicateurs supplémentaires pour évaluer les services urbains et la qualité de vie. Avec l’application de la norme ISO 37120, elle aide les villes à mettre en œuvre des politiques, programmes et projets pour les villes intelligentes.<br/> <br/> <b class='text-metal'>Portée :</b> <br/> <br/> Avec la norme ISO 37120, elle fournit un ensemble complet d’indicateurs pour mesurer les progrès vers une ville intelligente.",
+      "DESCRIPTION_RIGHT": "<b class='text-metal'>Ses objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Appliquer des méthodes de leadership collaboratif</li> <li>Utiliser les données et technologies pour améliorer les services et la qualité de vie</li> <li>Offrir un meilleur environnement de vie grâce à des politiques intelligentes et à la mise à disposition des technologies aux citoyens</li> <li>Générer des solutions innovantes aux problèmes environnementaux et de durabilité</li> <li>Identifier les besoins et avantages des infrastructures intelligentes</li> <li>Faciliter l’innovation et la croissance</li> <li>Construire une économie dynamique et innovante capable d’être résiliente</li> </ul>"
     },
     {
-      "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
+      "NAV_TITLE": "ISO <b class='text-metal'>37123</b>",
       "TITLE": "Villes et communautés durables – Indicateurs pour les villes résilientes",
       "DESCRIPTION_LEFT": "Une ville résiliente est capable de se préparer, de se rétablir et de s’adapter aux chocs et tensions. Cette norme, avec les indicateurs de la norme ISO 37120, permet l’évaluation des villes résilientes et la mise en œuvre d’actions pour gérer et atténuer le stress humain et naturel lié à la dégradation environnementale et à l’instabilité économique. <br/> <br/> Elle présente des indicateurs spécifiques et structurés selon un processus de gestion des risques et des catastrophes ; suivi de la conformité aux Objectifs de développement durable et alignés sur le Cadre de Sendai pour la réduction des risques de catastrophes. Ces objectifs visent à aider les villes à :",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Se préparer, se rétablir et s’adapter aux chocs et tensions</li> <li>Générer un apprentissage basé sur la comparaison des mesures de performance et le partage des bonnes pratiques</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable à la mesure de la résilience des villes</li> <li>Applicable à toute ville, municipalité ou gouvernement local</li> <li>Applicable indépendamment de la taille ou de l’emplacement</li> </ul>"
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Se préparer, se rétablir et s’adapter aux chocs et tensions</li> <li>Générer un apprentissage basé sur la comparaison des mesures de performance et le partage des bonnes pratiques</li> </ul> <br/> <br/> <b class='text-metal'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable à la mesure de la résilience des villes</li> <li>Applicable à toute ville, municipalité ou gouvernement local</li> <li>Applicable indépendamment de la taille ou de l’emplacement</li> </ul>"
     }
   ]
 }

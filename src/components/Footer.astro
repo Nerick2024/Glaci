@@ -25,7 +25,7 @@ const i18n = await useTranslation(lang);
   </div>
   <a
     href="blog/"
-    class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-cyan-400 hover:text-white transition-colors duration-150 duration-500"
+    class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-metal hover:text-white transition-colors duration-150 duration-500"
     >{i18n.NAVBAR.INFORMATION}
     <span
       class="bg-gradient-to-r from-[var(--color-title)] group-hover:from-white to-[var(--color-blue)] group-hover:to-white px-4 py-1 rounded-full transition-all duration-1000"
@@ -51,7 +51,7 @@ const i18n = await useTranslation(lang);
       {
         i18n.NETWORKS.map((item) => (
           <a href={item.HREF} class="hover:scale-110 transition-all">
-            <img src={item.IMG} alt={item.TITLE} class="w-auto h-10" />
+            <img src={item.IMG} alt={item.TITLE} class="w-auto h-10 grayscale-100" />
           </a>
         ))
       }

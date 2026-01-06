@@ -107,15 +107,15 @@ const nodeLayouts = [
           );
         })
       }
-      <g transform="translate(310,310)" text-anchor="middle">
-        <text class="fill-[#bdbdbd] text-[30px]" y="-10"
-          >{i18n.HERO.CENTER_SUBTITLE}</text
-        >
-        <text class="fill-white font-extrabold text-[56px]" y="36"
-          >{i18n.HERO.CENTER_TITLE}</text
-        >
-      </g>
     </svg>
+    <div class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center">
+      <p class="text-[#bdbdbd] text-[30px] mb-0 leading-1"
+        >{i18n.HERO.CENTER_SUBTITLE}</p
+      >
+      <p class="text-metal font-extrabold text-[56px]" 
+        >{i18n.HERO.CENTER_TITLE}</p
+      >
+    </div>
   </div>
   <div
     class="hidden bottom-0 items-end lg:grid grid-cols-3 px-28 w-full text-white"

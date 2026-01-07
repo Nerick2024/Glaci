@@ -65,7 +65,11 @@ const nodeLayouts = [
 
   <!-- DESKTOP VIEW -->
   <div class="hidden lg:block w-screen lg:h-[500px] 2xl:h-[700px] diagram">
-    <svg data-aos="zoom-in" class="w-full h-full overflow-visible" viewBox="0 0 620 620">
+    <svg
+      data-aos="zoom-in"
+      class="w-full h-full overflow-visible"
+      viewBox="0 0 620 620"
+    >
       <defs>
         <mask id="nodes-mask">
           <rect width="100%" height="100%" fill="white"></rect>
@@ -90,7 +94,12 @@ const nodeLayouts = [
               <g class={layout.gClass} transform={layout.transform}>
                 <circle class="outer-node" r="12" />
                 <circle class="inner-node" r="5" />
-                <foreignObject data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200" {...layout.foProps}>
+                <foreignObject
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-delay="200"
+                  {...layout.foProps}
+                >
                   <div class={layout.divClass}>
                     <span class="font-bold text-[#bdbdbd] text-[11px]">
                       0{index + 1}.
@@ -106,15 +115,17 @@ const nodeLayouts = [
           );
         })
       }
-      <g transform="translate(310,310)" text-anchor="middle">
-        <text class="fill-[#bdbdbd] text-[30px]" y="-10"
-          >{i18n.HERO.CENTER_SUBTITLE}</text
-        >
-        <text class="fill-white font-extrabold text-[56px]" y="36"
-          >{i18n.HERO.CENTER_TITLE}</text
-        >
-      </g>
     </svg>
+    <div
+      class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
+    >
+      <p class="text-[#bdbdbd] text-[30px] mb-0 leading-1">
+        {i18n.HERO.CENTER_SUBTITLE}
+      </p>
+      <p class="text-white font-extrabold text-[56px]">
+        {i18n.HERO.CENTER_TITLE}
+      </p>
+    </div>
   </div>
   <div
     class="hidden bottom-0 items-end lg:grid grid-cols-3 px-28 w-full text-white"

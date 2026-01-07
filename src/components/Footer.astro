@@ -24,15 +24,16 @@ const i18n = await useTranslation(lang);
     </a>
   </div>
   <a
-    href="blog/"
-    class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-metal hover:text-white transition-colors duration-150 duration-500"
-    >{i18n.NAVBAR.INFORMATION}
+    href="/blog"
+    class="group relative flex flex-row justify-center text-white items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold hover:text-black transition-colors duration-500"
+  >
+    {i18n.NAVBAR.INFORMATION}
     <span
       class="bg-gradient-to-r from-[var(--color-title)] group-hover:from-white to-[var(--color-blue)] group-hover:to-white px-4 py-1 rounded-full transition-all duration-1000"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="fill-white group-hover:fill-[var(--color-blue)] h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
+        class="fill-white group-hover:fill-black h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
         viewBox="0 0 16 16"
       >
         <path
@@ -51,7 +52,11 @@ const i18n = await useTranslation(lang);
       {
         i18n.NETWORKS.map((item) => (
           <a href={item.HREF} class="hover:scale-110 transition-all">
-            <img src={item.IMG} alt={item.TITLE} class="w-auto h-10 grayscale-100" />
+            <img
+              src={item.IMG}
+              alt={item.TITLE}
+              class="w-auto h-10 grayscale-100"
+            />
           </a>
         ))
       }

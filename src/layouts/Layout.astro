@@ -42,10 +42,10 @@ const { title } = Astro.props;
   @import url("https://fonts.googleapis.com/css?family=Montserrat:300,900|Titillium+Web:400,600,700&display=swap");
 
   :root {
-    --color-title: #b0b0b0;
+    --color-title: #b6b6b6;
     --color-text: #ffff;
-    --color-text2: #d5d5d5;
-    --color-blue: #696969;
+    --color-text2: #bebebe;
+    --color-blue: #747474;
     --color-bg-1: #000000;
     --color-bg-2: #011377;
     --color-bg-3: #050653;
@@ -66,34 +66,45 @@ const { title } = Astro.props;
   h2 {
     font-family: "Montserrat", sans-serif;
   }
-.text-metal {
-  font-weight: 900;
-  background: linear-gradient(
-    110deg,
-    #ffffff 0%,
-    #ffffff 6%,
-    #f9f9f9 12%,
-    #e0e0e0 24%,
-    #8a8a8a 40%,
-    #ffffff 55%,
-    #dcdcdc 70%,
-    #ffffff 85%,
-    #ffffff 100%
-  );
-  background-size: 350% 350%;
-  animation: metal-shine 3s linear infinite;
+  .text-metal {
+    font-weight: 900;
+    background: linear-gradient(
+      110deg,
+      #b8bdc2 0%,
+      #9aa0a6 20%,
+      #7d8389 35%,
 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+      rgba(255, 255, 255, 0.95) 45%,
+      rgba(255, 255, 255, 0.95) 48%,
 
-  /* RESPLANDOR BLANCO FUERTE */
-  text-shadow:
-    0 0 6px  rgba(255, 255, 255, 0.5),
-    0 0 14px rgba(255, 255, 255, 0.4),
-    0 0 30px rgba(255, 255, 255, 0.3),
-    0 0 60px rgba(255, 255, 255, 0.1);
-}
+      #7d8389 52%,
+      #9aa0a6 68%,
+      #b8bdc2 100%
+    );
+
+    background-size: 450% 450%;
+    animation: metal-shine 9s ease-in-out infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: brightness(1.25);
+
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  @keyframes metal-shine {
+    0%,
+    70% {
+      background-position: 0% 50%;
+    }
+    85% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
   /* TEXTO NORMAL */
   h3,
@@ -108,11 +119,4 @@ const { title } = Astro.props;
   textarea {
     font-family: "Titillium Web", sans-serif;
   }
-
-@keyframes metal-shine {
-  0%   { background-position:   0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position:   0% 50%; }
-}
-
 </style>

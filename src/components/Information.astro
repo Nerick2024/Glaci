@@ -4,7 +4,7 @@ import { getLangFromUrl, useTranslation, translatedPathFor } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
-<div id="somos" class="bg-black px-4 md:px-8 py-16 text-white">
+<div id="somos" class="bg-[var(--color-bg-2)] px-4 md:px-8 py-16 text-white">
     <div class="items-start gap-16 grid md:grid-cols-2 mx-auto max-w-7xl">
       
       <!-- Left Column: Misión & Visión -->

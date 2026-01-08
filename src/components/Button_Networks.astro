@@ -6,7 +6,7 @@ const { i18n } = Astro.props;
   {
     i18n.NETWORKS.map((item: any) => (
       <a href={item.HREF} title={item.TITLE} target="_blank" rel="noreferrer"class="hover:scale-110 transition-all">
-        <img src={item.IMG} alt={item.TITLE} class="w-auto h-9 grayscale-100 brightness-110 pointer-events-none" />
+        <img src={item.IMG} alt={item.TITLE} class="w-auto h-9 hover:brightness-125 pointer-events-none" />
       </a>
     ))
   }

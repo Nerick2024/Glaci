@@ -1,6 +1,7 @@
 ---
 import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
 import LanguagePicker from "@/i18n/LanguagePicker.astro";
+import ButtonMoreInformation from "./Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -66,29 +67,7 @@ const i18n = await useTranslation(lang);
       >{i18n.NAVBAR.BLOG}</a
     >
     <LanguagePicker />
-    <a
-      href="/blog"
-      class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 border border-white/25 rounded-full overflow-hidden font-semibold text-[var(--color-title)] hover:text-white transition-colors duration-500"
-    >
-      {i18n.NAVBAR.INFORMATION}
-      <span
-        class="bg-gradient-to-r from-[var(--color-title)] group-hover:from-white to-[var(--color-blue)] group-hover:to-white px-4 py-1 rounded-full transition-all duration-1000"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="fill-white group-hover:fill-[var(--color-blue)] h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
-          ></path>
-        </svg>
-        <span
-          class="top-0 left-0 -z-10 absolute bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] w-0 group-hover:w-full h-full transition-all duration-400"
-        ></span>
-      </span>
-    </a>
+    <ButtonMoreInformation i18n={i18n} />
   </nav>
 
   <!-- Mobile Menu Button -->

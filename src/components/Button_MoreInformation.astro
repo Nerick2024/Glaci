@@ -1,0 +1,61 @@
+---
+const { i18n } = Astro.props;
+---
+
+<a
+  href="/blog"
+  class="group relative flex flex-row justify-center items-center gap-4 p-2 pl-4 text-white border border-white/25 rounded-full overflow-hidden font-semibold text-white transition-all duration-500"
+>
+  {i18n.NAVBAR.INFORMATION}
+  <span
+    class="bg-gradient-to-r from-white to-[var(--color-blue)] to-white px-4 py-1 rounded-full transition-all duration-1000"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="fill-[var(--color-blue)] h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+      ></path>
+    </svg>
+    <span
+      class="top-0 left-0 -z-10 absolute bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] w-full h-full"
+    ></span>
+  </span>
+</a>
+<style>
+  a {
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    box-shadow: 0 0 15px 0px rgba(255, 255, 255, 0.2);
+    filter: brightness(1.2);
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    );
+    transition: left 0.5s;
+    animation: shine 10s infinite;
+  }
+  @keyframes shine {
+    0% {
+      transform: translateX(-100%);
+    }
+    10%,
+    100% {
+      transform: translateX(200%);
+    }
+  }
+</style>

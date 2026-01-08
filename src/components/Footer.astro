@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslation } from "@/i18n";
+import Button_Networks from "@/components/Button_Networks.astro";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
@@ -9,7 +10,7 @@ const i18n = await useTranslation(lang);
   class="z-10 flex lg:flex-row flex-col justify-between items-center gap-5 px-4 lg:px-28 py-10 border-white/50 border-t w-full"
 >
   <div class="flex justify-center items-center gap-6 text-white">
-    <p class="text-sm">Copyright © OM SMART {new Date().getFullYear()}</p>
+    <p class="text-sm">Copyright © GLACI {new Date().getFullYear()}</p>
   </div>
   <div class="flex justify-center animate-bounce duration-1000">
     <a
@@ -47,14 +48,6 @@ const i18n = await useTranslation(lang);
   </a>
   <div class="flex flex-row justify-end items-center gap-6">
     <p class="font-light text-white text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-    <div class="flex items-center gap-3">
-      {
-        i18n.NETWORKS.map((item) => (
-          <a href={item.HREF} class="hover:scale-110 transition-all">
-            <img src={item.IMG} alt={item.TITLE} class="w-auto h-10" />
-          </a>
-        ))
-      }
-    </div>
+    <Button_Networks i18n={i18n} />
   </div>
 </div>

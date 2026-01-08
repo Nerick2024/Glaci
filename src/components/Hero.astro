@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
+import Button_Networks from "@/components/Button_Networks.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -51,11 +52,12 @@ const nodeLayouts = [
   id="hero"
   class="relative lg:flex flex-col justify-center items-center pt-28 min-h-screen overflow-hidden"
 >
+  <!-- <div class="absolute top-0 left-0 h-full w-full"></div> -->
   <!-- BACKGROUND -->
   <div class="-z-20 absolute inset-0 w-full h-full overflow-hidden">
     <video
       id="bg-video"
-      class="border-0 w-full h-full object-cover pointer-events-none"
+      class="border-0 w-full h-full object-cover pointer-events-none opacity-75"
       src="/video/blue-2.mp4"
       autoplay
       muted
@@ -105,7 +107,7 @@ const nodeLayouts = [
                       0{index + 1}.
                     </span>
                     <span
-                      class="block text-[13px] text-white"
+                      class="block text-[20px] text-white"
                       set:html={item.TITLE}
                     />
                   </div>
@@ -119,7 +121,7 @@ const nodeLayouts = [
     <div
       class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
     >
-      <p class="text-[#bdbdbd] text-[30px] mb-0 leading-1">
+      <p class="text-[#fff] text-[30px] mb-0 leading-1">
         {i18n.HERO.CENTER_SUBTITLE}
       </p>
       <p class="text-white font-extrabold text-[56px]">
@@ -165,15 +167,7 @@ const nodeLayouts = [
     </div>
     <div class="flex flex-row justify-end items-center gap-6">
       <p class="font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-      <div class="flex items-center gap-3">
-        {
-          i18n.NETWORKS.map((item) => (
-            <a href={item.HREF} class="hover:scale-110 transition-all">
-              <img src={item.IMG} alt={item.TITLE} class="w-auto h-10" />
-            </a>
-          ))
-        }
-      </div>
+      <Button_Networks i18n={i18n} />
     </div>
   </div>
 
@@ -217,15 +211,7 @@ const nodeLayouts = [
     </div>
     <div class="mt-5 text-center">
       <p class="mb-4 font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-      <div class="flex justify-center items-center gap-4">
-        {
-          i18n.NETWORKS.map((item) => (
-            <a href={item.HREF} class="hover:scale-110 transition-all">
-              <img src={item.IMG} alt={item.TITLE} class="w-auto h-9" />
-            </a>
-          ))
-        }
-      </div>
+      <Button_Networks i18n={i18n} />
     </div>
   </div>
   <div
@@ -235,7 +221,7 @@ const nodeLayouts = [
 </main>
 
 <footer class="px-8 lg:px-28 py-4 lg:text-left text-center">
-  <p class="text-white/80 text-sm">Copyright © OM SMART {currentYear}</p>
+  <p class="text-white/80 text-sm">Copyright © GLACI {currentYear}</p>
 </footer>
 
 <style>

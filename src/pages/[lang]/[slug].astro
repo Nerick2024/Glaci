@@ -8,6 +8,7 @@ import Layout from "@/layouts/Layout.astro";
 
 import { useTranslation, slugify } from "@/i18n";
 import { translations } from "@/i18n/config";
+import Stars from "@/components/Stars.astro";
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -29,7 +30,7 @@ const { lang, slug } = Astro.params;
 
 // Redirigimos a la página de inicio en español como opción por defecto.
 if (!lang) {
-  return Astro.redirect('/es/');
+  return Astro.redirect("/es/");
 }
 
 const t = await useTranslation(lang as any);
@@ -48,6 +49,9 @@ if (!item) {
   <SmartEcosystem item={{ TITLE: item.TITLE, DESCRIPTION: item.DESCRIPTION }} />
   <Areas item={item} />
   <Service service={item.SERVICE} title={item.TITLE_SERVICE} />
-  <SuccessStories projects={item.PROJECTS}/>
-  <Contact/>
+  <SuccessStories projects={item.PROJECTS} />
+  <Contact />
+  <div class="h-full w-full fixed top-0 left-0 -z-10 pointer-events-none">
+    <Stars />
+  </div>
 </Layout>

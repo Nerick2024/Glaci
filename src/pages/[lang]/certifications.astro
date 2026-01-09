@@ -5,6 +5,7 @@ import { translations } from "@/i18n/config";
 import Layout from "@/layouts/Layout.astro";
 
 import Contact from "@/components/Contact.astro";
+import Stars from "@/components/Stars.astro";
 
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));
@@ -18,6 +19,9 @@ const i18n = await translations[lang]();
   <section
     class="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
   >
+    <div class="-z-10">
+      <Stars />
+    </div>
     <div class="w-full md:max-w-5xl mx-auto px-8 py-24 mt-12 md:mt-0">
       <!-- Menú superior -->
       <nav

@@ -30,45 +30,59 @@ const ROUTE_KEYS = Array.from(routeKeys);
 
 const path = Astro.url.pathname;
 function detectRouteKey() {
-    const parts = path.split("/").filter(Boolean);
-    const langInPath = parts[0] || currentLang;
-    const slug = parts[1] || "";
+  const parts = path.split("/").filter(Boolean);
+  const langInPath = parts[0] || currentLang;
+  const slug = parts[1] || "";
 
-    for (const key of ROUTE_KEYS) {
-      if (key === "home" && (slug === "" || slug === undefined)) return "home";
-      if (SLUGS[langInPath] && SLUGS[langInPath][key] === slug) return key;
-    }
-    return null;
+  for (const key of ROUTE_KEYS) {
+    if (key === "home" && (slug === "" || slug === undefined)) return "home";
+    if (SLUGS[langInPath] && SLUGS[langInPath][key] === slug) return key;
   }
+  return null;
+}
 
 const routeKey = detectRouteKey();
 
 function getPath(lang: string) {
-    let newPath = `/${lang}/`;
-      if (routeKey && routeKey !== "home") {
-        const newSlug = SLUGS[lang] && SLUGS[lang][routeKey];
-        if (newSlug) newPath = `/${lang}/${newSlug}/`;
-      }
-    return newPath;
+  let newPath = `/${lang}/`;
+  if (routeKey && routeKey !== "home") {
+    const newSlug = SLUGS[lang] && SLUGS[lang][routeKey];
+    if (newSlug) newPath = `/${lang}/${newSlug}/`;
+  }
+  return newPath;
 }
 ---
 
 <div class="relative group">
-    <button class="h-10 px-4 rounded-full border border-white/25 bg-transparent text-[var(--color-title)] shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2">
-        <span>{currentLang.toUpperCase()}</span>
-        <svg class="fill-current h-4 w-4 transition-transform duration-300 group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-    </button>
-    <div class="top-full left-0 z-20 absolute flex w-full flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto">
-        {
-            Object.entries(locales).map(([lang, label]) => {
-                if(lang !== currentLang) {
-                    return (
-                        <a href={getPath(lang)} class="block text-center text-white hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)] transition-colors">
-                            {lang.toUpperCase()}
-                        </a>
-                    )
-                }
-            })
+  <button
+    class="h-10 px-4 rounded-full border border-white/25 bg-transparent text-[var(--color-title)] shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2"
+  >
+    <span>{currentLang.toUpperCase()}</span>
+    <svg
+      class="fill-current h-4 w-4 transition-transform duration-300 group-hover:rotate-180"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      ><path
+        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+      ></path></svg
+    >
+  </button>
+  <div
+    class="top-full backdrop-blur-md left-0 z-20 absolute flex w-full flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
+  >
+    {
+      Object.entries(locales).map(([lang, label]) => {
+        if (lang !== currentLang) {
+          return (
+            <a
+              href={getPath(lang)}
+              class="block text-center text-white hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)] transition-colors"
+            >
+              {lang.toUpperCase()}
+            </a>
+          );
         }
-    </div>
+      })
+    }
+  </div>
 </div>

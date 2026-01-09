@@ -8,7 +8,7 @@ const i18n = await useTranslation(lang);
 ---
 
 <header
-  class="top-0 left-0 z-10 fixed flex justify-between items-center bg-black/5 backdrop-blur-sm px-4 sm:px-8 lg:px-28 py-4 border-white/25 border-b w-full backd"
+  class="top-0 left-0 z-10 fixed flex justify-between items-center px-4 sm:px-8 lg:px-28 py-4 border-white/25 border-b w-full backd"
 >
   <!-- Logo -->
   <div class="z-50 flex justify-center items-center w-max h-17 object-contain">
@@ -34,7 +34,7 @@ const i18n = await useTranslation(lang);
         {i18n.NAVBAR.SMART_ECOSYSTEM}
       </a>
       <div
-        class="top-full left-0 z-20 absolute flex flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] min-w-[320px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
+        class="dropdown-menu top-full left-0 z-20 absolute flex flex-col gap-2 opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] min-w-[320px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
       >
         {
           i18n.AREAS.SMART_ECOSYSTEM_ITEMS.map((item) => (
@@ -150,6 +150,24 @@ const i18n = await useTranslation(lang);
     </nav>
   </div>
 </header>
+
+<style>
+  header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: -5;
+  }
+
+  .dropdown-menu {
+    background-color: var(--color-bg-dropdown);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+</style>
 
 <script is:inline>
   const menuToggle = document.getElementById("menu-toggle");

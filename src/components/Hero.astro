@@ -19,7 +19,7 @@ const nodeLayouts = [
     transform: "translate(310, 90)",
     gClass: "group cursor-pointer item up",
     foProps: { x: -100, y: -135, width: 200, height: 100 },
-    divClass: "flex flex-col justify-end h-full text-center",
+    divClass: "flex flex-col justify-end h-full text-center pb-1",
   },
   {
     transform: "translate(500.526, 200)",
@@ -50,7 +50,7 @@ const nodeLayouts = [
 
 <main
   id="hero"
-  class="relative lg:flex flex-col justify-center items-center pt-28 min-h-screen overflow-hidden"
+  class="relative lg:flex flex-col justify-center items-center pt-30 min-h-screen overflow-hidden"
 >
   <!-- <div class="absolute top-0 left-0 h-full w-full"></div> -->
   <!-- BACKGROUND -->
@@ -58,7 +58,7 @@ const nodeLayouts = [
     <video
       id="bg-video"
       class="border-0 w-full h-full object-cover pointer-events-none opacity-75"
-      src="/video/blue-2.mp4"
+      src="/video/bg4.mp4"
       autoplay
       muted
       loop
@@ -107,7 +107,7 @@ const nodeLayouts = [
                       0{index + 1}.
                     </span>
                     <span
-                      class="block text-[20px] text-white"
+                      class="block text-white text-[18px] 2xl:text-[20px] leading-5"
                       set:html={item.TITLE}
                     />
                   </div>
@@ -141,12 +141,12 @@ const nodeLayouts = [
       </p>
       <a
         href={`/${lang}/certifications`}
-        class="group flex justify-between items-center gap-4 bg-white px-6 py-3 rounded-full w-fit font-bold text-black text-lg"
+        class="group flex justify-between text-[var(--color-bg-2)] items-center gap-4 bg-white px-6 py-3 rounded-full w-fit font-bold text-lg"
       >
         {i18n.HERO.FOOTER_LEFT_BUTTON}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="fill-black h-6 rotate-90"
+          class="fill-[var(--color-bg-2)] h-6 rotate-90"
           viewBox="0 0 16 16"
         >
           <path
@@ -260,7 +260,7 @@ const nodeLayouts = [
     stroke: transparent;
   }
   strong {
-    font-weight: 800; /* font-extrabold */
-    font-size: 14px; /* text-[14px] */
+    font-weight: 800;
+    font-size: 14px;
   }
 </style>

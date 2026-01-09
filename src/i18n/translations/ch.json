@@ -624,22 +624,22 @@
   },
   "NETWORKS": [
     {
-      "IMG": "/icons/networks/facebook.png",
+      "IMG": "/icons/networks/facebook.webp",
       "TITLE": "脸书",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/twitter.png",
+      "IMG": "/icons/networks/twitter.webp",
       "TITLE": "推特",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/instagram.png",
+      "IMG": "/icons/networks/instagram.webp",
       "TITLE": "Instagram",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/linkedin.png",
+      "IMG": "/icons/networks/linkedin.webp",
       "TITLE": "领英",
       "HREF": ""
     }

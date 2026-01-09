@@ -625,22 +625,22 @@
   },
   "NETWORKS": [
     {
-      "IMG": "/icons/networks/facebook.png",
+      "IMG": "/icons/networks/facebook.webp",
       "TITLE": "FACEBOOK",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/twitter.png",
+      "IMG": "/icons/networks/twitter.webp",
       "TITLE": "TWITTER",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/instagram.png",
+      "IMG": "/icons/networks/instagram.webp",
       "TITLE": "INSTAGRAM",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/linkedin.png",
+      "IMG": "/icons/networks/linkedin.webp",
       "TITLE": "LINKEDIN",
       "HREF": ""
     }

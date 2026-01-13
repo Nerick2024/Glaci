@@ -2,9 +2,11 @@
 const { i18n } = Astro.props;
 ---
 
-<form>
+<form id="registerInfoForm" class="flex flex-col" novalidate>
   <div class="mt-4">
     <input
+      name="name"
+      id="ri-name"
       type="text"
       placeholder={i18n.REGISTER_INFORMATION.FORM.NAME_PLACEHOLDER}
       class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
@@ -12,6 +14,8 @@ const { i18n } = Astro.props;
   </div>
   <div class="mt-4">
     <input
+      name="position"
+      id="ri-position"
       type="text"
       placeholder={i18n.REGISTER_INFORMATION.FORM.POSITION_PLACEHOLDER}
       class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
@@ -19,6 +23,8 @@ const { i18n } = Astro.props;
   </div>
   <div class="mt-4">
     <input
+      name="company"
+      id="ri-company"
       type="text"
       placeholder={i18n.REGISTER_INFORMATION.FORM.COMPANY_PLACEHOLDER}
       class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
@@ -27,6 +33,8 @@ const { i18n } = Astro.props;
 
   <div class="mt-4">
     <input
+      name="email"
+      id="ri-email"
       type="email"
       placeholder={i18n.REGISTER_INFORMATION.FORM.EMAIL_PLACEHOLDER}
       class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
@@ -38,7 +46,8 @@ const { i18n } = Astro.props;
       {i18n.REGISTER_INFORMATION.FORM.INTEREST_LABEL}
     </p>
     <select
-      id="interest"
+      name="interest"
+      id="ri-interest"
       class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
     >
       <option value="" disabled selected>
@@ -54,16 +63,124 @@ const { i18n } = Astro.props;
 
   <div class="mt-4">
     <textarea
+      name="message"
+      id="ri-message"
       placeholder={i18n.REGISTER_INFORMATION.FORM.MESSAGE_PLACEHOLDER}
       class="bg-gray-100 p-4 rounded-xl w-full focus:outline-none"></textarea>
   </div>
 
   <div class="mt-6">
     <button
+      id="ri-submit"
       type="submit"
       class="bg-cyan-400 w-full py-4 rounded-full font-semibold text-white"
     >
       {i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
     </button>
   </div>
+
+  <!-- Mensajes de estado -->
+  <p id="registerMsg" class="mt-4 text-sm text-gray-300" aria-live="polite"></p>
 </form>
+
+<script type="">
+  (function () {
+    const form = document.getElementById("registerInfoForm");
+    const submitBtn = document.getElementById("ri-submit");
+    const msgEl = document.getElementById("registerMsg");
+
+    // helper email simple
+    const isEmail = (s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      msgEl.textContent = "";
+      submitBtn.disabled = true;
+
+      const name = (document.getElementById("ri-name").value || "").trim();
+      const position = (
+        document.getElementById("ri-position").value || ""
+      ).trim();
+      const company = (
+        document.getElementById("ri-company").value || ""
+      ).trim();
+      const email = (document.getElementById("ri-email").value || "").trim();
+      const interest = (
+        document.getElementById("ri-interest").value || ""
+      ).trim();
+      const message = (
+        document.getElementById("ri-message").value || ""
+      ).trim();
+
+      // validaciones básicas
+      if (!name || !position || !company || !email || !interest || !message) {
+        msgEl.textContent = "Por favor completa todos los campos.";
+        submitBtn.disabled = false;
+        return;
+      }
+      if (!isEmail(email)) {
+        msgEl.textContent = "Por favor ingresa un email válido.";
+        submitBtn.disabled = false;
+        return;
+      }
+      if (
+        name.length > 200 ||
+        position.length > 200 ||
+        company.length > 200 ||
+        email.length > 200 ||
+        interest.length > 200 ||
+        message.length > 5000
+      ) {
+        msgEl.textContent =
+          "Alguno de los campos excede la longitud permitida.";
+        submitBtn.disabled = false;
+        return;
+      }
+
+      // show sending
+      msgEl.textContent = "Enviando...";
+
+      try {
+        // usamos FormData para mantener compatibilidad
+        const fd = new FormData();
+        fd.append("name", name);
+        fd.append("position", position);
+        fd.append("company", company);
+        fd.append("email", email);
+        fd.append("interest", interest);
+        fd.append("message", message);
+
+        const res = await fetch("http://localhost:3000/api/register-info", {
+          method: "POST",
+          body: fd,
+          credentials: "omit", // o 'include' si necesitas cookies
+        });
+
+        // algunos servidores pueden devolver no-JSON; manejamos eso
+        const text = await res.text();
+        let data = {};
+        try {
+          data = JSON.parse(text);
+        } catch (err) {
+          data = null;
+        }
+
+        if (res.ok && data && data.success) {
+          msgEl.textContent =
+            "Información enviada. Gracias — te responderemos pronto.";
+          form.reset();
+        } else {
+          // Prioriza el error del backend, si existe
+          const serverError = data && (data.error || data.message);
+          msgEl.textContent =
+            serverError || "Hubo un error al enviar. Intenta más tarde.";
+        }
+      } catch (err) {
+        console.error("Register fetch error:", err);
+        msgEl.textContent = "Error de red. Intenta de nuevo.";
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  })();
+</script>

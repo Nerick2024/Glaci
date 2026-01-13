@@ -7,18 +7,144 @@ const i18n = await translations[lang]();
 ---
 
 <div id="contact" class="bg-transparent text-white py-12 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-        <p class="mb-8 text-gray-300" set:html={i18n.CONTACT_FORM.HEADING}></p>
-        <form class="flex flex-col lg:flex-row items-center justify-center gap-4">
-            <input type="text" placeholder={i18n.CONTACT_FORM.NAME_PLACEHOLDER} class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold">
-            <input type="email" placeholder={i18n.CONTACT_FORM.EMAIL_PLACEHOLDER} class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold">
-            <input type="text" placeholder={i18n.CONTACT_FORM.MESSAGE_PLACEHOLDER} class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold">
-            <button type="submit" class="w-full lg:w-auto bg-white text-black rounded-full px-8 py-3 font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
-                {i18n.CONTACT_FORM.SUBMIT_BUTTON}
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                </svg>
-            </button>
-        </form>
-    </div>
+  <div class="max-w-4xl mx-auto text-center">
+    <p class="mb-8 text-gray-300" set:html={i18n.CONTACT_FORM.HEADING} />
+
+    <!-- Añadí id/name al form e inputs para que el fetch funcione -->
+    <form
+      id="contactForm"
+      class="flex flex-col lg:flex-row items-center justify-center gap-4"
+      novalidate
+    >
+      <input
+        name="name"
+        id="cf-name"
+        type="text"
+        placeholder={i18n.CONTACT_FORM.NAME_PLACEHOLDER}
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+      />
+
+      <input
+        name="email"
+        id="cf-email"
+        type="email"
+        placeholder={i18n.CONTACT_FORM.EMAIL_PLACEHOLDER}
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+      />
+
+      <input
+        name="message"
+        id="cf-message"
+        type="text"
+        placeholder={i18n.CONTACT_FORM.MESSAGE_PLACEHOLDER}
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+      />
+
+      <button
+        id="cf-submit"
+        type="submit"
+        class="w-full lg:w-auto bg-white text-black rounded-full px-8 py-3 font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
+      >
+        {i18n.CONTACT_FORM.SUBMIT_BUTTON}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </form>
+
+    <!-- Mensajes de estado -->
+    <p id="contactMsg" class="mt-4 text-sm text-gray-300" aria-live="polite">
+    </p>
+  </div>
 </div>
+
+<script type="">
+  (function () {
+    const form = document.getElementById("contactForm");
+    const submitBtn = document.getElementById("cf-submit");
+    const msgEl = document.getElementById("contactMsg");
+
+    // helper email simple
+    const isEmail = (s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      msgEl.textContent = "";
+      submitBtn.disabled = true;
+
+      const name = (document.getElementById("cf-name").value || "").trim();
+      const email = (document.getElementById("cf-email").value || "").trim();
+      const message = (
+        document.getElementById("cf-message").value || ""
+      ).trim();
+
+      // validaciones básicas
+      if (!name || !email || !message) {
+        msgEl.textContent = "Por favor completa todos los campos.";
+        submitBtn.disabled = false;
+        return;
+      }
+      if (!isEmail(email)) {
+        msgEl.textContent = "Por favor ingresa un email válido.";
+        submitBtn.disabled = false;
+        return;
+      }
+      if (name.length > 200 || email.length > 200 || message.length > 5000) {
+        msgEl.textContent =
+          "Alguno de los campos excede la longitud permitida.";
+        submitBtn.disabled = false;
+        return;
+      }
+
+      // show sending
+      msgEl.textContent = "Enviando...";
+
+      try {
+        // usamos FormData para mantener compatibilidad
+        const fd = new FormData();
+        fd.append("name", name);
+        fd.append("email", email);
+        fd.append("message", message);
+
+        const res = await fetch("http://localhost:3000/api/contact", {
+          method: "POST",
+          body: fd,
+          credentials: "omit", // o 'include' si necesitas cookies
+        });
+
+        // algunos servidores pueden devolver no-JSON; manejamos eso
+        const text = await res.text();
+        let data = {};
+        try {
+          data = JSON.parse(text);
+        } catch (err) {
+          data = null;
+        }
+
+        if (res.ok && data && data.success) {
+          msgEl.textContent =
+            "Mensaje enviado. Gracias — te responderemos pronto.";
+          form.reset();
+        } else {
+          // Prioriza el error del backend, si existe
+          const serverError = data && (data.error || data.message);
+          msgEl.textContent =
+            serverError || "Hubo un error al enviar. Intenta más tarde.";
+        }
+      } catch (err) {
+        console.error("Contact fetch error:", err);
+        msgEl.textContent = "Error de red. Intenta de nuevo.";
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  })();
+</script>

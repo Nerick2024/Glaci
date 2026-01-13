@@ -681,7 +681,7 @@
     {
       "NAV_TITLE": "ISO Certifications",
       "TITLE": "Smart City – Smart Communities",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> supports the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow for an objective evaluation of the development of sustainable cities and communities, through process standardization and qualitative and quantitative analysis.",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> supports the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow for an objective evaluation of the development of sustainable cities and communities, through process standardization and qualitative and quantitative analysis.",
       "DESCRIPTION_RIGHT": "The International Organization for Standardization, through its Technical Committee 268 for sustainable cities and communities, has developed the following Standards in this field of application."
     },
     {
@@ -711,7 +711,7 @@
   ],
   "REGISTER_INFORMATION": {
     "TITLE": "Do you need <br/> information?",
-    "SUBTITLE": "At OM SMART <br/> we are at your service.",
+    "SUBTITLE": "At GLACI <br/> we are at your service.",
     "TEXT": "If you are interested in learning more about the topic or if you have any questions or suggestions, we invite you to fill out the registration form with real information so we can contact you properly and provide you with the tools and information you need.",
     "WARNING": "* Rest assured that your data will be handled securely.",
     "FORM": {

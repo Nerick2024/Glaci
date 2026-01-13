@@ -681,7 +681,7 @@
     {
       "NAV_TITLE": "Certifications ISO",
       "TITLE": "Ville intelligente – Communautés intelligentes",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les normes ISO. <br/> <br/> Celles-ci permettent d’évaluer objectivement le développement des villes et communautés durables, grâce à la standardisation des processus et à une analyse qualitative et quantitative.",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les normes ISO. <br/> <br/> Celles-ci permettent d’évaluer objectivement le développement des villes et communautés durables, grâce à la standardisation des processus et à une analyse qualitative et quantitative.",
       "DESCRIPTION_RIGHT": "L’Organisation internationale de normalisation, à travers son comité technique 268 pour les villes et communautés durables, a développé les normes suivantes dans ce domaine d’application."
     },
     {
@@ -711,7 +711,7 @@
   ],
   "REGISTER_INFORMATION": {
     "TITLE": "Avez-vous besoin <br/> d’informations ?",
-    "SUBTITLE": "Chez OM SMART <br/> nous sommes à votre disposition.",
+    "SUBTITLE": "Chez GLACI <br/> nous sommes à votre disposition.",
     "TEXT": "Si vous souhaitez en savoir plus sur le sujet ou si vous avez des questions ou des suggestions, nous vous invitons à remplir le formulaire d’inscription avec des informations réelles afin que nous puissions vous contacter correctement et vous fournir les outils et les informations dont vous avez besoin.",
     "WARNING": "* Soyez assuré que vos données seront traitées en toute sécurité.",
     "FORM": {

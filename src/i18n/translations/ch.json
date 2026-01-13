@@ -680,7 +680,7 @@
     {
       "NAV_TITLE": "ISO认证",
       "TITLE": "智慧城市 – 智慧社区",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>OM Smart Technology & Consulting </b> 支持基于ISO标准的管理和实施过程。<br/> <br/> 这些标准通过流程标准化以及定性和定量分析，能够客观评估城市和可持续社区的发展。",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> 支持基于ISO标准的管理和实施过程。<br/> <br/> 这些标准通过流程标准化以及定性和定量分析，能够客观评估城市和可持续社区的发展。",
       "DESCRIPTION_RIGHT": "国际标准化组织通过其可持续城市和社区技术委员会268，制定了以下适用领域的标准。"
     },
     {
@@ -710,7 +710,7 @@
   ],
   "REGISTER_INFORMATION": {
     "TITLE": "需要 <br/> 信息吗？",
-    "SUBTITLE": "在 OM SMART <br/> 我们随时为您服务。",
+    "SUBTITLE": "在 GLACI <br/> 我们随时为您服务。",
     "TEXT": "如果您希望了解更多相关内容，或有任何疑问或建议，我们诚邀您填写注册表并提供真实信息，以便我们能够正确地与您联系，并为您提供所需的工具和信息。",
     "WARNING": "* 请放心，您的数据将被安全处理。",
     "FORM": {

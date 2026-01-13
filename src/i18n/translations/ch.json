@@ -707,5 +707,30 @@
       "DESCRIPTION_LEFT": "韧性城市能够为冲击和压力做好准备、恢复并适应。该标准与ISO 37120中的指标结合，可用于评估韧性城市，并采取行动管理和减轻与环境退化和经济不稳定相关的人类和自然压力，这些压力会造成持续的负面影响。<br/> <br/> 它提出了具体指标，并根据风险管理和灾害管理流程进行结构化；监测可持续发展目标的落实，并与《仙台减少灾害风险框架》保持一致。这些目标旨在帮助城市：",
       "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>为冲击和压力做好准备、恢复并适应</li> <li>通过绩效比较和分享最佳实践来生成学习</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于城市韧性测量</li> <li>适用于任何城市、自治市或地方政府</li> <li>适用于任何规模或位置</li> </ul>"
     }
-  ]
+  ],
+  "REGISTER_INFORMATION": {
+    "TITLE": "需要 <br/> 信息吗？",
+    "SUBTITLE": "在 OM SMART <br/> 我们随时为您服务。",
+    "TEXT": "如果您希望了解更多相关内容，或有任何疑问或建议，我们诚邀您填写注册表并提供真实信息，以便我们能够正确地与您联系，并为您提供所需的工具和信息。",
+    "WARNING": "* 请放心，您的数据将被安全处理。",
+    "FORM": {
+      "TITLE": "注册以获取您感兴趣主题的相关信息。",
+      "SUBTITLE": "您的注册有助于我们向您发送所需的信息。",
+      "NAME_PLACEHOLDER": "姓名",
+      "POSITION_PLACEHOLDER": "职位",
+      "COMPANY_PLACEHOLDER": "公司",
+      "EMAIL_PLACEHOLDER": "电子邮箱",
+      "INTEREST_LABEL": "兴趣话题",
+      "INTEREST_PLACEHOLDER": [
+        "请选择一个选项",
+        "智慧经济",
+        "智慧治理",
+        "智慧交通与基础设施",
+        "智慧环境",
+        "智慧人居与服务"
+      ],
+      "MESSAGE_PLACEHOLDER": "留言",
+      "SUBMIT_BUTTON": "提交"
+    }
+  }
 }

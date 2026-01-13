@@ -708,5 +708,30 @@
       "DESCRIPTION_LEFT": "Une ville résiliente est capable de se préparer, de se rétablir et de s’adapter aux chocs et tensions. Cette norme, avec les indicateurs de la norme ISO 37120, permet l’évaluation des villes résilientes et la mise en œuvre d’actions pour gérer et atténuer le stress humain et naturel lié à la dégradation environnementale et à l’instabilité économique. <br/> <br/> Elle présente des indicateurs spécifiques et structurés selon un processus de gestion des risques et des catastrophes ; suivi de la conformité aux Objectifs de développement durable et alignés sur le Cadre de Sendai pour la réduction des risques de catastrophes. Ces objectifs visent à aider les villes à :",
       "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Se préparer, se rétablir et s’adapter aux chocs et tensions</li> <li>Générer un apprentissage basé sur la comparaison des mesures de performance et le partage des bonnes pratiques</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable à la mesure de la résilience des villes</li> <li>Applicable à toute ville, municipalité ou gouvernement local</li> <li>Applicable indépendamment de la taille ou de l’emplacement</li> </ul>"
     }
-  ]
+  ],
+  "REGISTER_INFORMATION": {
+    "TITLE": "Avez-vous besoin <br/> d’informations ?",
+    "SUBTITLE": "Chez OM SMART <br/> nous sommes à votre disposition.",
+    "TEXT": "Si vous souhaitez en savoir plus sur le sujet ou si vous avez des questions ou des suggestions, nous vous invitons à remplir le formulaire d’inscription avec des informations réelles afin que nous puissions vous contacter correctement et vous fournir les outils et les informations dont vous avez besoin.",
+    "WARNING": "* Soyez assuré que vos données seront traitées en toute sécurité.",
+    "FORM": {
+      "TITLE": "Inscrivez-vous pour demander des informations sur un sujet qui vous intéresse.",
+      "SUBTITLE": "Votre inscription nous permet de vous envoyer les informations demandées.",
+      "NAME_PLACEHOLDER": "Nom",
+      "POSITION_PLACEHOLDER": "Poste",
+      "COMPANY_PLACEHOLDER": "Entreprise",
+      "EMAIL_PLACEHOLDER": "Adresse e-mail",
+      "INTEREST_LABEL": "Sujet d'intérêt",
+      "INTEREST_PLACEHOLDER": [
+        "Sélectionnez une option",
+        "Économie intelligente",
+        "Gouvernance intelligente",
+        "Mobilité et infrastructures intelligentes",
+        "Environnement intelligent",
+        "Habitat et services intelligents"
+      ],
+      "MESSAGE_PLACEHOLDER": "Message",
+      "SUBMIT_BUTTON": "Envoyer"
+    }
+  }
 }

@@ -707,5 +707,30 @@
       "DESCRIPTION_LEFT": "Una ciudad resiliente es capaz de prepararse, recuperarse y adaptarse a los choques y tensiones. Esta norma en conjunto con los indicadores planteados en la norma ISO 37120 permiten la evaluación de Ciudades Resilientes y también la toma de acciones para gestionar y mitigar el estrés humano y natural en relación a la degradación ambiental e inestabilidad económica que causan impactos negativos persistentes. <br/> <br/> Presenta indicadores puntuales y también presenta indicadores estructurados de acuerdo con un proceso de gestión de riesgos y gestión de desastres; seguimiento de cumplimiento a Objetivos del Desarrollo sostenible y estructurados de conformidad con lo establecido en el Marco de Sendai para la reducción del riesgo de desastres, estos tienen como metas ayudar a las ciudades a:",
       "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepararse, recuperarse y adaptarse a los choques y tensiones</li> <li>Generar aprendizaje con base en la comparación de medidas de rendimiento y compartiendo buenas prácticas.</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Alcances:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Aplicable para medición de resiliencia en ciudades</li> <li>Aplicable a cualquier ciudad, municipio o gobierno local</li> <li>Aplicable independientemente de su tamaño o ubicación</li> </ul>"
     }
-  ]
+  ],
+  "REGISTER_INFORMATION": {
+    "TITLE": "¿Requieres <br/> información?",
+    "SUBTITLE": "En OM SMART <br/> estamos a tus disposición.",
+    "TEXT": "Si te interesa saber más acerca del tema o si tienes alguna duda o sugerencia te invitamos a que llenes el formato de registro con datos reales para poder comunicarnos de manera correcta y poder brindarte las herramientas y la información que necesitas.",
+    "WARNING": "* Ten la seguridad de que tus datos se tratarán de manera segura.",
+    "FORM": {
+      "TITLE": "regístrate para solicitar información acerca de algún tema de tu interés.",
+      "SUBTITLE": "Tu registro nos sirve para enviarte los datos necesarios que solicites.",
+      "NAME_PLACEHOLDER": "Nombre",
+      "POSITION_PLACEHOLDER": "Cargo",
+      "COMPANY_PLACEHOLDER": "Empresa",
+      "EMAIL_PLACEHOLDER": "Correo Electronico",
+      "INTEREST_LABEL":"Tema de interés",
+      "INTEREST_PLACEHOLDER": [
+        "Selecciona una Opcion",
+        "Economía Inteligente",
+        "Gobernanza Inteligente",
+        "Movilidad e Infraestructuras Inteligentes",
+        "Medio Ambiente Inteligente",
+        "Hábitat y Servicios Inteligentes"
+      ],
+      "MESSAGE_PLACEHOLDER": "Mensaje",
+      "SUBMIT_BUTTON": "Enviar"
+    }
+  }
 }

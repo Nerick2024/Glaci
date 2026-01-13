@@ -1,0 +1,69 @@
+---
+const { i18n } = Astro.props;
+---
+
+<form>
+  <div class="mt-4">
+    <input
+      type="text"
+      placeholder={i18n.REGISTER_INFORMATION.FORM.NAME_PLACEHOLDER}
+      class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
+    />
+  </div>
+  <div class="mt-4">
+    <input
+      type="text"
+      placeholder={i18n.REGISTER_INFORMATION.FORM.POSITION_PLACEHOLDER}
+      class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
+    />
+  </div>
+  <div class="mt-4">
+    <input
+      type="text"
+      placeholder={i18n.REGISTER_INFORMATION.FORM.COMPANY_PLACEHOLDER}
+      class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
+    />
+  </div>
+
+  <div class="mt-4">
+    <input
+      type="email"
+      placeholder={i18n.REGISTER_INFORMATION.FORM.EMAIL_PLACEHOLDER}
+      class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
+    />
+  </div>
+
+  <div class="flex flex-row mt-4 items-center justify-center">
+    <p class="block text-[var(--color-blue)] w-2/5 text-lg font-semibold">
+      {i18n.REGISTER_INFORMATION.FORM.INTEREST_LABEL}
+    </p>
+    <select
+      id="interest"
+      class="bg-gray-100 p-4 px-6 rounded-full w-full focus:outline-none"
+    >
+      <option value="" disabled selected>
+        {i18n.REGISTER_INFORMATION.FORM.INTEREST_PLACEHOLDER[0]}
+      </option>
+      {
+        i18n.REGISTER_INFORMATION.FORM.INTEREST_PLACEHOLDER.slice(1).map(
+          (option: any) => <option value={option}>{option}</option>
+        )
+      }
+    </select>
+  </div>
+
+  <div class="mt-4">
+    <textarea
+      placeholder={i18n.REGISTER_INFORMATION.FORM.MESSAGE_PLACEHOLDER}
+      class="bg-gray-100 p-4 rounded-xl w-full focus:outline-none"></textarea>
+  </div>
+
+  <div class="mt-6">
+    <button
+      type="submit"
+      class="bg-cyan-400 w-full py-4 rounded-full font-semibold text-white"
+    >
+      {i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
+    </button>
+  </div>
+</form>

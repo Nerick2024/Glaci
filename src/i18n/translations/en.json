@@ -708,5 +708,30 @@
       "DESCRIPTION_LEFT": "A resilient city is able to prepare for, recover from, and adapt to shocks and stresses. This standard, together with the indicators set out in ISO 37120, enables the evaluation of Resilient Cities and also the implementation of actions to manage and mitigate human and natural stress related to environmental degradation and economic instability that cause persistent negative impacts. <br/> <br/> It presents specific indicators and also structured indicators according to a risk management and disaster management process; monitoring compliance with Sustainable Development Goals and structured in accordance with the Sendai Framework for Disaster Risk Reduction. These aim to help cities:",
       "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepare for, recover from, and adapt to shocks and stresses</li> <li>Generate learning based on performance measure comparison and sharing of best practices</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Scope:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable for measuring resilience in cities</li> <li>Applicable to any city, municipality, or local government</li> <li>Applicable regardless of size or location</li> </ul>"
     }
-  ]
+  ],
+  "REGISTER_INFORMATION": {
+    "TITLE": "Do you need <br/> information?",
+    "SUBTITLE": "At OM SMART <br/> we are at your service.",
+    "TEXT": "If you are interested in learning more about the topic or if you have any questions or suggestions, we invite you to fill out the registration form with real information so we can contact you properly and provide you with the tools and information you need.",
+    "WARNING": "* Rest assured that your data will be handled securely.",
+    "FORM": {
+      "TITLE": "Register to request information about a topic of your interest.",
+      "SUBTITLE": "Your registration helps us send you the information you request.",
+      "NAME_PLACEHOLDER": "Name",
+      "POSITION_PLACEHOLDER": "Position",
+      "COMPANY_PLACEHOLDER": "Company",
+      "EMAIL_PLACEHOLDER": "Email",
+      "INTEREST_LABEL": "Topic of interest",
+      "INTEREST_PLACEHOLDER": [
+        "Select an option",
+        "Smart Economy",
+        "Smart Governance",
+        "Smart Mobility and Infrastructure",
+        "Smart Environment",
+        "Smart Habitat and Services"
+      ],
+      "MESSAGE_PLACEHOLDER": "Message",
+      "SUBMIT_BUTTON": "Submit"
+    }
+  }
 }

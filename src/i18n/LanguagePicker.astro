@@ -48,6 +48,12 @@ function getPath(lang: string) {
   if (routeKey && routeKey !== "home") {
     const newSlug = SLUGS[lang] && SLUGS[lang][routeKey];
     if (newSlug) newPath = `/${lang}/${newSlug}/`;
+  } else if (!routeKey) {
+    const pathParts = path.split("/").filter(Boolean);
+    const pagePath = pathParts.slice(1).join("/");
+    if (pagePath) {
+      newPath = `/${lang}/${pagePath}/`;
+    }
   }
   return newPath;
 }

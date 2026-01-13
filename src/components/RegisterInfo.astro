@@ -150,7 +150,7 @@ const { i18n } = Astro.props;
         fd.append("interest", interest);
         fd.append("message", message);
 
-        const res = await fetch("http://localhost:3000/api/register-info", {
+        const res = await fetch("https://glaci.city/api/register-info", {
           method: "POST",
           body: fd,
           credentials: "omit", // o 'include' si necesitas cookies

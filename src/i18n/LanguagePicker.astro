@@ -32,7 +32,7 @@ const path = Astro.url.pathname;
 function detectRouteKey() {
   const parts = path.split("/").filter(Boolean);
   const langInPath = parts[0] || currentLang;
-  const slug = parts[1] || "";
+  const slug = decodeURIComponent(parts[1] || "");
 
   for (const key of ROUTE_KEYS) {
     if (key === "home" && (slug === "" || slug === undefined)) return "home";

@@ -57,6 +57,11 @@ const i18n = await useTranslation(lang);
       >{i18n.NAVBAR.ABOUT_US}</a
     >
     <a
+      href=`/${lang}/our-team`
+      class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
+      >{i18n.NAVBAR.TEAM}</a
+    >
+    <a
       href="#contact"
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.CONTACT}</a
@@ -135,6 +140,11 @@ const i18n = await useTranslation(lang);
         href="#contact"
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.CONTACT}</a
+      >
+      <a
+        href=`/${lang}/our-team`
+        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        >{i18n.NAVBAR.TEAM}</a
       >
       <LanguagePicker />
     </nav>

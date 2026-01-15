@@ -1,32 +1,36 @@
 ---
-import { getLangFromUrl, useTranslation, translatedPathFor } from "@/i18n";
+import {
+  getLangFromUrl,
+  useTranslation,
+  translatedPathFor,
+  slugify,
+} from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
 
-<section class="mx-auto my-12 max-w-7xl">
-    <h2 class="mb-8 font-bold text-4xl text-center">{i18n.TEAM.TITLE}</h2>
-    <div
-        class="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-    >
-        {
-            i18n.TEAM.TEAM.map((director) => (
-                <div class="group relative bg-white shadow-lg rounded-sm overflow-hidden">
-                    <img
-                        src={director.IMG}
-                        alt={director.NAME}
-                        class="w-full h-full object-cover"
-                    />
-                    <div class="right-3 bottom-3 left-3 absolute bg-[var(--color-bg-2)] backdrop-blur-sm p-3 rounded-sm text-white text-center">
-                        <h3 class="mb-1 font-semibold text-base">
-                            {director.NAME}
-                        </h3>
-                        <p class="text-xs uppercase tracking-wider">
-                            {director.POSITION}
-                        </p>
-                    </div>
-                </div>
-            ))
-        }
-    </div>
+<section id="team" class="mx-auto my-12 max-w-7xl scroll-mt-24">
+  <h2 class="mb-8 font-bold text-4xl text-center">{i18n.TEAM.TITLE}</h2>
+  <div
+    class="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+  >
+    {
+      i18n.TEAM.TEAM.map((director) => (
+        <a
+          href={`/${lang}/team/${slugify(director.NAME)}`}
+          class="group relative bg-white shadow-lg rounded-sm overflow-hidden block transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src={director.IMG}
+            alt={director.NAME}
+            class="w-full h-full object-cover"
+          />
+          <div class="right-3 bottom-3 left-3 absolute bg-[var(--color-bg-2)] backdrop-blur-sm p-3 rounded-sm text-white text-center">
+            <h3 class="mb-1 font-semibold text-base">{director.NAME}</h3>
+            <p class="text-xs uppercase tracking-wider">{director.POSITION}</p>
+          </div>
+        </a>
+      ))
+    }
+  </div>
 </section>

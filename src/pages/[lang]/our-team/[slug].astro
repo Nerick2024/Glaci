@@ -1,65 +1,90 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import { getLangFromUrl, useTranslation, useTranslatedPath, slugify, translations, type Locale } from '@/i18n';
+import Layout from "@/layouts/Layout.astro";
+import {
+  getLangFromUrl,
+  useTranslation,
+  useTranslatedPath,
+  slugify,
+  translations,
+  type Locale,
+} from "@/i18n";
 
 export async function getStaticPaths() {
-    const paths = [];
+  const paths = [];
 
-    for (const lang of Object.keys(translations) as Locale[]) {
-        const t = await translations[lang]();
-        if (t.TEAM && t.TEAM.TEAM) {
-            for (const member of t.TEAM.TEAM) {
-                if (member.NAME) {
-                    paths.push({
-                        params: {
-                            lang: lang,
-                            slug: slugify(member.NAME)
-                        }
-                    });
-                }
-            }
+  for (const lang of Object.keys(translations) as Locale[]) {
+    const t = await translations[lang]();
+    if (t.TEAM && t.TEAM.TEAM) {
+      for (const member of t.TEAM.TEAM) {
+        if (member.NAME) {
+          paths.push({
+            params: {
+              lang: lang,
+              slug: slugify(member.NAME),
+            },
+          });
         }
+      }
     }
+  }
 
-    return paths;
+  return paths;
 }
 
 const { lang, slug } = Astro.params;
 
 // Ensure lang and slug are present
 if (!lang || !slug) {
-  return new Response(null, { status: 404, statusText: 'Not found' });
+  return new Response(null, { status: 404, statusText: "Not found" });
 }
 
 const i18n = await useTranslation(lang);
 
 // Find the team member by comparing the slugified name with the slug from the URL
-const member = i18n.TEAM.TEAM.find(member => slugify(member.NAME) === slug);
+const member = i18n.TEAM.TEAM.find((member) => slugify(member.NAME) === slug);
 
 // If no member is found, return a 404
 if (!member) {
-  return new Response(null, { status: 404, statusText: 'Not found' });
+  return new Response(null, { status: 404, statusText: "Not found" });
 }
 
 const { NAME, POSITION, SEMBLANCE, IMG } = member;
 ---
 
 <Layout title={NAME}>
-  <section class="mx-auto my-12 max-w-4xl px-4">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-      <div>
-        <img src={IMG} alt={NAME} class="w-full h-auto object-cover rounded-lg shadow-lg" />
+  <section class="mx-auto my-12 min-h-screen h-screen flex items-center justify-center px-4">
+    <div class="flex flex-row gap-12 items-center max-w-6xl mx-auto">
+      <div class="w-1/3 bg-white rounded-lg shadow-lg overflow-hidden">
+        <img
+          src={IMG}
+          alt={NAME}
+          class="w-full h-auto object-cover"
+        />
       </div>
-      <div class="text-white">
-        <h1 class="text-4xl font-bold mb-2">{NAME}</h1>
-        <h2 class="text-xl font-semibold text-gray-300 mb-4">{POSITION}</h2>
-        <p class="text-gray-400">{SEMBLANCE}</p>
+      <div class="flex flex-col text-white w-2/3">
+        <h2 class="text-4xl font-bold mb-2">{NAME}</h2>
+        <h3 class="text-xl font-semibold text-white/75 mb-4">{POSITION}</h3>
+        <p class="text-white/75 mb-8">{SEMBLANCE}</p>
+        <div class="flex flex-row">
+          <a
+            data-aos="zoom-in"
+            href={useTranslatedPath(lang)("/") + "our-team"}
+            class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 mt-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-black transition-colors"
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-white group-hover:fill-black w-5 h-5 -rotate-90 transition-all"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+            ></path>
+          </svg>
+            <span>{i18n.TEAM.BACK_BUTTON}</span>
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="mt-12 text-center">
-      <a href={useTranslatedPath(lang)('/') + 'our-team'} class="text-white bg-gray-800 hover:bg-gray-900 font-bold py-3 px-6 rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500">
-        {i18n.TEAM.BACK_BUTTON}
-      </a>
     </div>
   </section>
 </Layout>

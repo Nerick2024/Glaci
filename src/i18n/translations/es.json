@@ -736,6 +736,7 @@
   },
   "TEAM": {
     "TITLE": "Conoce Nuestro Equipo",
+    "BACK_BUTTON": "Volver al Equipo",
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",

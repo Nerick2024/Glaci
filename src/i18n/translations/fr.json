@@ -5,6 +5,7 @@
     "ABOUT_US": "À propos",
     "CONTACT": "Contact",
     "BLOG": "Blog",
+    "TEAM": "Notre Équipe",
     "INFORMATION": "Recevez plus d'informations"
   },
   "AREAS": {
@@ -733,5 +734,52 @@
       "MESSAGE_PLACEHOLDER": "Message",
       "SUBMIT_BUTTON": "Envoyer"
     }
+  },
+  "TEAM": {
+    "TITLE": "Découvrez Notre Équipe",
+    "TEAM": [
+      {
+        "NAME": "Osvaldo Mireles",
+        "POSITION": "Directeur de la Technologie (CTO)",
+        "SEMBLANCE": "Expert en technologie et développement durable, spécialisé en Smart Cities, BIM, Blockchain, IA et le Nouvel Agenda Urbain.",
+        "IMG": "/team/osvaldo.webp"
+      },
+      {
+        "NAME": "Jorge Moreno",
+        "POSITION": "Responsable de l’Innovation et des Projets",
+        "SEMBLANCE": "Expert en technologies disruptives, certifié MIT. 13 ans à diriger l’innovation dans les smart cities, l’IoT et les projets durables.",
+        "IMG": "/team/jorge.webp"
+      },
+      {
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "Directeur de l’Architecture et du Design",
+        "SEMBLANCE": "Architecte et chef de projet. Référence en architecture, il a fait la une de ABC, El Mundo et El País pour son parcours.",
+        "IMG": "/team/angel_.webp"
+      },
+      {
+        "NAME": "Guillermo Sánchez",
+        "POSITION": "Directeur de la Planification Urbaine",
+        "SEMBLANCE": "Architecte docteur en planification urbaine. 20 ans d’expérience en stratégies de développement urbain et régional. Expert en villes durables.",
+        "IMG": "/team/guillermo.webp"
+      },
+      {
+        "NAME": "Tania Sánchez",
+        "POSITION": "Architecte Senior / Urbaniste",
+        "SEMBLANCE": "Architecte senior et urbaniste avec une expérience nationale et internationale. Spécialisée en conception urbaine durable et en planification.",
+        "IMG": "/team/tania.webp"
+      },
+      {
+        "NAME": "Héctor Miranda Martínez",
+        "POSITION": "Responsable des Infrastructures et Travaux",
+        "SEMBLANCE": "Expert en construction de voiries avec une vaste expérience en planification, exécution et contrôle qualité de projets d’infrastructure dans les secteurs public et industriel.",
+        "IMG": "/team/HectorM.webp"
+      },
+      {
+        "NAME": "Mauricio Hernandez",
+        "POSITION": "Directeur Financier (CFO)",
+        "SEMBLANCE": "Économiste titulaire d’un doctorat en sciences administratives et d’une spécialisation avancée en finance. Plus de 26 ans d’expérience en planification stratégique et financière, participation à des conseils d’administration et enseignement de troisième cycle.",
+        "IMG": "/team/MauricioH.webp"
+      }
+    ]
   }
 }

@@ -5,6 +5,7 @@
     "ABOUT_US": "Somos",
     "CONTACT": "Contacto",
     "BLOG": "Blog",
+    "TEAM": "Nuestro Equipo",
     "INFORMATION": "Recibe más informacion"
   },
   "AREAS": {
@@ -720,7 +721,7 @@
       "POSITION_PLACEHOLDER": "Cargo",
       "COMPANY_PLACEHOLDER": "Empresa",
       "EMAIL_PLACEHOLDER": "Correo Electronico",
-      "INTEREST_LABEL":"Tema de interés",
+      "INTEREST_LABEL": "Tema de interés",
       "INTEREST_PLACEHOLDER": [
         "Selecciona una Opcion",
         "Economía Inteligente",
@@ -732,5 +733,52 @@
       "MESSAGE_PLACEHOLDER": "Mensaje",
       "SUBMIT_BUTTON": "Enviar"
     }
+  },
+  "TEAM": {
+    "TITLE": "Conoce Nuestro Equipo",
+    "TEAM": [
+      {
+        "NAME": "Osvaldo Mireles",
+        "POSITION": "Director de Tecnología (CTO)",
+        "SEMBLANCE": "Experto en tecnología y desarrollo sostenible con especialización en Smart Cities, BIM, Blockchain, AI y la Nueva Agenda Urbana.",
+        "IMG": "/team/osvaldo.webp"
+      },
+      {
+        "NAME": "Jorge Moreno",
+        "POSITION": "Jefe de Innovación y Proyectos",
+        "SEMBLANCE": "Experto en tecnologías disruptivas, MIT Certified. 13 años liderando innovación en smart cities, IoT y proyectos sostenibles.",
+        "IMG": "/team/jorge.webp"
+      },
+      {
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "Director de Arquitectura y Diseño",
+        "SEMBLANCE": "Arquitecto y gestor de proyectos. Referente en arquitectura, ha sido portada en ABC, El Mundo y El País por su trayectoria.",
+        "IMG": "/team/angel_.webp"
+      },
+      {
+        "NAME": "Guillermo Sánchez",
+        "POSITION": "Director de Planificación Urbana",
+        "SEMBLANCE": "Doctor Arquitecto en Planificación Urbana. 20 años en estrategias de desarrollo urbano y regional. Experto en ciudades sostenibles.",
+        "IMG": "/team/guillermo.webp"
+      },
+      {
+        "NAME": "Tania Sánchez",
+        "POSITION": "Arquitecta Senior / Urbanista",
+        "SEMBLANCE": "Arquitecta senior y urbanista con experiencia nacional e internacional. Especializada en diseño urbano sustentable y planificación.",
+        "IMG": "/team/tania.webp"
+      },
+      {
+        "NAME": "Héctor Miranda Martínez",
+        "POSITION": "Gerente de Infraestructura y Obras",
+        "SEMBLANCE": "Experto en construcción de vías terrestres con amplia experiencia en planeación,  ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
+        "IMG": "/team/HectorM.webp"
+      },
+      {
+        "NAME": "Mauricio Hernandez",
+        "POSITION": "Director Financiero (CFO)",
+        "SEMBLANCE": "Economista con doctorado en Ciencias Administrativas y especialización avanzada en finanzas. Cuenta con más de 26 años de experiencia en planeación estratégica y financiera, participación en consejos de administración y docencia de posgrado.",
+        "IMG": "/team/MauricioH.webp"
+      }
+    ]
   }
 }

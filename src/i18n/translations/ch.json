@@ -742,43 +742,127 @@
         "NAME": "Osvaldo Mireles",
         "POSITION": "首席技术官（CTO）",
         "SEMBLANCE": "技术与可持续发展专家，专注于智慧城市、BIM、区块链、人工智能以及新城市议程。",
-        "IMG": "/team/osvaldo.webp"
+        "IMG": "/team/osvaldo.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Jorge Moreno",
         "POSITION": "创新与项目负责人",
         "SEMBLANCE": "颠覆性技术专家，MIT 认证。拥有 13 年领导智慧城市、物联网及可持续项目创新的经验。",
-        "IMG": "/team/jorge.webp"
+        "IMG": "/team/jorge.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "建筑与设计总监",
         "SEMBLANCE": "建筑师及项目管理者。建筑领域的标杆人物，因其职业成就曾登上《ABC》、《El Mundo》和《El País》封面。",
-        "IMG": "/team/angel_.webp"
+        "IMG": "/team/angel_.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "城市规划总监",
         "SEMBLANCE": "城市规划博士、建筑师。拥有 20 年城市与区域发展战略经验，专注于可持续城市。",
-        "IMG": "/team/guillermo.webp"
+        "IMG": "/team/guillermo.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Tania Sánchez",
         "POSITION": "高级建筑师 / 城市规划师",
         "SEMBLANCE": "具有国内及国际经验的高级建筑师和城市规划师，专注于可持续城市设计与规划。",
-        "IMG": "/team/tania.webp"
+        "IMG": "/team/tania.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Héctor Miranda Martínez",
         "POSITION": "基础设施与工程经理",
         "SEMBLANCE": "道路建设专家，在公共及工业领域的基础设施项目中，拥有丰富的规划、执行和质量控制经验。",
-        "IMG": "/team/HectorM.webp"
+        "IMG": "/team/HectorM.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Mauricio Hernandez",
         "POSITION": "首席财务官（CFO）",
         "SEMBLANCE": "经济学家，拥有管理科学博士学位及高级金融专业背景。拥有超过 26 年的战略与财务规划经验，曾参与董事会并从事研究生教学。",
-        "IMG": "/team/MauricioH.webp"
+        "IMG": "/team/MauricioH.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       }
     ]
   }

@@ -743,43 +743,127 @@
         "NAME": "Osvaldo Mireles",
         "POSITION": "Chief Technology Officer (CTO)",
         "SEMBLANCE": "Expert in technology and sustainable development, specializing in Smart Cities, BIM, Blockchain, AI, and the New Urban Agenda.",
-        "IMG": "/team/osvaldo.webp"
+        "IMG": "/team/osvaldo.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Jorge Moreno",
         "POSITION": "Head of Innovation and Projects",
         "SEMBLANCE": "Expert in disruptive technologies, MIT Certified. 13 years leading innovation in smart cities, IoT, and sustainable projects.",
-        "IMG": "/team/jorge.webp"
+        "IMG": "/team/jorge.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "Director of Architecture and Design",
         "SEMBLANCE": "Architect and project manager. A leading figure in architecture, featured on the front pages of ABC, El Mundo, and El País for his career.",
-        "IMG": "/team/angel_.webp"
+        "IMG": "/team/angel_.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Director of Urban Planning",
         "SEMBLANCE": "PhD Architect in Urban Planning. 20 years of experience in urban and regional development strategies. Expert in sustainable cities.",
-        "IMG": "/team/guillermo.webp"
+        "IMG": "/team/guillermo.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Tania Sánchez",
         "POSITION": "Senior Architect / Urban Planner",
         "SEMBLANCE": "Senior architect and urban planner with national and international experience. Specialized in sustainable urban design and planning.",
-        "IMG": "/team/tania.webp"
+        "IMG": "/team/tania.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Héctor Miranda Martínez",
         "POSITION": "Infrastructure and Construction Manager",
         "SEMBLANCE": "Expert in road infrastructure construction with extensive experience in planning, execution, and quality control of infrastructure projects in public and industrial sectors.",
-        "IMG": "/team/HectorM.webp"
+        "IMG": "/team/HectorM.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       },
       {
         "NAME": "Mauricio Hernandez",
         "POSITION": "Chief Financial Officer (CFO)",
         "SEMBLANCE": "Economist with a PhD in Administrative Sciences and advanced specialization in finance. Over 26 years of experience in strategic and financial planning, board participation, and postgraduate teaching.",
-        "IMG": "/team/MauricioH.webp"
+        "IMG": "/team/MauricioH.webp",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
       }
     ]
   }

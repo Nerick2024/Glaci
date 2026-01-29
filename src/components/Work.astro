@@ -1,0 +1,63 @@
+---
+import { getLangFromUrl } from "@/i18n/utils";
+import { translations } from "@/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await translations[lang]();
+---
+
+<div
+  id="work"
+  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12 my-12"
+>
+  <div class="flex flex-col lg:flex-row gap-8">
+    <div class="flex flex-col w-1/2">
+      <h1
+        class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+      >
+        <span class="text-[var(--color-title)]">+</span>
+        {i18n.WORK.TITLE}
+      </h1>
+      <p class="text-center lg:text-left text-lg">
+        {i18n.WORK.TEXT}
+      </p>
+    </div>
+    <div class="w-full lg:w-1/2 aspect-video relative  perspective-[1200px]">
+      <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute">
+      </div>
+      <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute">
+      </div>
+      <img
+        src="/work/image(1).webp"
+        alt="imagen"
+        loading="lazy"
+        class="border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl h-full w-full object-cover"
+      />
+    </div>
+  </div>
+  <div class="flex flex-col lg:flex-row-reverse gap-8">
+    <div class="flex flex-col w-1/2">
+      <h1
+        class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-right mb-4"
+      >
+        {i18n.WORK.TITLE_2}
+        <span class="text-[var(--color-title)]">+</span>
+      </h1>
+      <p class="text-center lg:text-right text-lg">
+        {i18n.WORK.TEXT_2}
+      </p>
+    </div>
+    <div class="w-full lg:w-1/2 aspect-video relative  perspective-[1200px]">
+      <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute">
+      </div>
+      <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute">
+      </div>
+      <img
+        src="/work/image(2).webp"
+        alt="imagen"
+        loading="lazy"
+        class="border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl h-full w-full object-cover"
+      />
+    </div>
+  </div>
+</div>

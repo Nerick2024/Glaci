@@ -27,7 +27,7 @@ const i18n = await useTranslation(lang);
     class="hidden lg:flex justify-end items-center gap-6 h-11 font-semibold text-[18px] text-white"
   >
       <a
-      href="#home"
+      href={`/${lang}/#home`}
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.HOME}</a
     >

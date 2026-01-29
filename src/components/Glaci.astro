@@ -25,11 +25,12 @@ const i18n = await translations[lang]();
   <div class="flex flex-col lg:flex-row gap-6">
     {
       i18n.GLACI.CARDS.map((card) => (
-        <div class="bg-white/8 border-b border-[var(--color-title)] flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="bg-white/8 relative border border-white/25 flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <p class="font-bold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
             {card.TITLE}
           </p>
           <p class="text-base leading-snug">{card.TEXT}</p>
+          <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full"></div>
         </div>
       ))
     }

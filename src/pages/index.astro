@@ -8,6 +8,7 @@ import Contact from "@/components/Contact.astro";
 import About from "@/components/About.astro";
 import Information from "@/components/Information.astro";
 import AreasOfImpact from "@/components/AreasOfImpact.astro";
+import Glaci from "@/components/Glaci.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
@@ -15,6 +16,7 @@ const t = await useTranslation(lang as any);
 
 <Layout title="G L A C I" >
 <Hero/>
+<Glaci/>
 <AreasOfImpact/>
 <About/>
 <Information/>

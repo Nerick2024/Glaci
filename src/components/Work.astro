@@ -5,13 +5,68 @@ import { translations } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
+<style>
+  .scene { perspective: 1200px; -webkit-perspective: 1200px; }
+
+  .card {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: transform 0.55s cubic-bezier(.2,.9,.2,1), box-shadow 0.55s;
+    will-change: transform;
+    transform-origin: center;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    backface-visibility: hidden;
+  }
+
+  .card-1 {
+    transform: rotateX(-5deg) rotateY(-16deg);
+    box-shadow: 30px -30px 60px rgba(179, 179, 179, 0.25);
+  }
+  .card-1:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+    box-shadow: 0 20px 100px rgba(179, 179, 179, 0.25);
+  }
+
+  .card-2 {
+    transform: rotateX(5deg) rotateY(16deg) ;
+    box-shadow: -30px 40px 60px rgba(179, 179, 179, 0.25);
+  }
+  .card-2:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+    box-shadow: 0 20px 100px rgba(179, 179, 179, 0.25);
+  }
+
+  .decor {
+    transform: translateZ(0); /* <- aquí la clave: no sobresalen en Z */
+    -webkit-transform: translateZ(0);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    will-change: transform;
+    pointer-events: none;
+  }
+
+  .decor-strong { box-shadow: 0 10px 28px rgba(0,0,0,0.22); }
+
+  .card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+</style>
 
 <div
   id="work"
   class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12 my-12"
 >
-  <div class="flex flex-col lg:flex-row gap-8">
-    <div class="flex flex-col lg:w-1/2">
+  <!-- PRIMER BLOQUE -->
+  <div class="flex flex-col lg:flex-row gap-8 items-center">
+    <div class="flex flex-col w-1/2">
       <h1
         class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
       >
@@ -22,21 +77,26 @@ const i18n = await translations[lang]();
         {i18n.WORK.TEXT}
       </p>
     </div>
-    <div class="w-full lg:w-1/2 aspect-video relative  perspective-[1200px]">
-      <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute">
+
+    <!-- Escena con perspectiva -->
+    <div class="w-full lg:w-1/2 aspect-video relative scene">
+      <div class="card card-1 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl">
+        <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor"></div>
+        <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor decor-strong"></div>
+
+        <img
+          src="/work/image(1).webp"
+          alt="imagen"
+          loading="lazy"
+          class="rounded-br-4xl rounded-tl-4xl"
+        />
       </div>
-      <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute">
-      </div>
-      <img
-        src="/work/image(1).webp"
-        alt="imagen"
-        loading="lazy"
-        class="border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl h-full w-full object-cover"
-      />
     </div>
   </div>
-  <div class="flex flex-col lg:flex-row-reverse gap-8">
-    <div class="flex flex-col lg:w-1/2">
+
+  <!-- SEGUNDO BLOQUE -->
+  <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
+    <div class="flex flex-col w-1/2">
       <h1
         class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-right mb-4"
       >
@@ -47,17 +107,19 @@ const i18n = await translations[lang]();
         {i18n.WORK.TEXT_2}
       </p>
     </div>
-    <div class="w-full lg:w-1/2 aspect-video relative  perspective-[1200px]">
-      <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute">
+
+    <div class="w-full lg:w-1/2 aspect-video relative scene">
+      <div class="card card-2 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl">
+        <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor decor-strong"></div>
+        <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor"></div>
+
+        <img
+          src="/work/image(2).webp"
+          alt="imagen"
+          loading="lazy"
+          class="rounded-br-4xl rounded-tl-4xl"
+        />
       </div>
-      <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute">
-      </div>
-      <img
-        src="/work/image(2).webp"
-        alt="imagen"
-        loading="lazy"
-        class="border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl h-full w-full object-cover"
-      />
     </div>
   </div>
 </div>

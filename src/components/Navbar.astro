@@ -26,12 +26,17 @@ const i18n = await useTranslation(lang);
   <nav
     class="hidden lg:flex justify-end items-center gap-6 h-11 font-semibold text-[18px] text-white"
   >
+      <a
+      href="#home"
+      class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
+      >{i18n.NAVBAR.HOME}</a
+    >
     <div class="group relative">
       <a
-        href={`/${lang}/`}
+        href={`/${lang}/#AreasOfImpact`}
         class="z-30 relative font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >
-        {i18n.NAVBAR.SMART_ECOSYSTEM}
+        {i18n.NAVBAR.AREAS_OF_IMPACT}
       </a>
       <div
         class="dropdown-menu top-full left-0 z-20 absolute flex flex-col gap-2 opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] min-w-[320px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
@@ -54,12 +59,12 @@ const i18n = await useTranslation(lang);
     <a
       href="#somos"
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
-      >{i18n.NAVBAR.ABOUT_US}</a
+      >{i18n.NAVBAR.CONSORTIUM}</a
     >
     <a
       href=`/${lang}/our-team`
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
-      >{i18n.NAVBAR.TEAM}</a
+      >{i18n.NAVBAR.TALENT}</a
     >
     <a
       href="#contact"
@@ -67,7 +72,7 @@ const i18n = await useTranslation(lang);
       >{i18n.NAVBAR.CONTACT}</a
     >
     <LanguagePicker />
-    <ButtonMoreInformation i18n={i18n} lang={lang} />
+    <!-- <ButtonMoreInformation i18n={i18n} lang={lang} /> -->
   </nav>
 
   <!-- Mobile Menu Button -->
@@ -112,11 +117,16 @@ const i18n = await useTranslation(lang);
     <nav
       class="flex flex-col justify-center items-center gap-6 pt-24 pb-10 h-full overflow-y-auto font-medium text-white text-lg"
     >
+          <a
+        href="#home"
+        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        >{i18n.NAVBAR.HOME}</a
+      >
       <div class="group relative text-center">
         <a
-          href={`/${lang}/`}
+          href={`/${lang}/AreasOfImpact`}
           class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-          >{i18n.NAVBAR.SMART_ECOSYSTEM}</a
+          >{i18n.NAVBAR.AREAS_OF_IMPACT}</a
         >
         <div class="flex flex-col gap-3 mt-3">
           {
@@ -134,7 +144,7 @@ const i18n = await useTranslation(lang);
       <a
         href="#somos"
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-        >{i18n.NAVBAR.ABOUT_US}</a
+        >{i18n.NAVBAR.CONSORTIUM}</a
       >
       <a
         href="#contact"
@@ -144,7 +154,7 @@ const i18n = await useTranslation(lang);
       <a
         href=`/${lang}/our-team`
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-        >{i18n.NAVBAR.TEAM}</a
+        >{i18n.NAVBAR.TALENT}</a
       >
       <LanguagePicker />
     </nav>

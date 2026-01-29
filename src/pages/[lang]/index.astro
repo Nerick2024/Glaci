@@ -8,6 +8,7 @@ import About from "@/components/About.astro";
 import Contact from "@/components/Contact.astro";
 import Hero from "@/components/Hero.astro";
 import Information from "@/components/Information.astro";
+import AreasOfImpact from "@/components/AreasOfImpact.astro";
 
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));
@@ -20,6 +21,7 @@ const t = await useTranslation(lang);
 
 <Layout title="G L A C I" >
   <Hero/>
+  <AreasOfImpact/>
   <About/>
   <Information/>
   <Contact/>

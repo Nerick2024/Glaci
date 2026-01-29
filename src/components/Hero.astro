@@ -1,138 +1,117 @@
 ---
-import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
+import { getLangFromUrl, useTranslation } from "@/i18n";
 import Button_Networks from "@/components/Button_Networks.astro";
+import Button_StrategicConversation from "@/components/Button_StrategicConversation.astro";
+import Button_MoreInformation from "@/components/Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
-
-const smartEcosystemItems = i18n.AREAS.SMART_ECOSYSTEM_ITEMS;
-const currentYear = new Date().getFullYear();
-
-const nodeLayouts = [
-  {
-    transform: "translate(119.474, 200)",
-    gClass: "group left cursor-pointer item",
-    foProps: { x: -200, y: -50, width: 200, height: 100 },
-    divClass: "flex flex-col justify-center h-full text-center",
-  },
-  {
-    transform: "translate(310, 90)",
-    gClass: "group cursor-pointer item up",
-    foProps: { x: -100, y: -135, width: 200, height: 100 },
-    divClass: "flex flex-col justify-end h-full text-center pb-1",
-  },
-  {
-    transform: "translate(500.526, 200)",
-    gClass: "group right cursor-pointer item",
-    foProps: { x: 0, y: -50, width: 200, height: 100 },
-    divClass: "flex flex-col justify-center h-full text-center",
-  },
-  {
-    transform: "translate(500.526, 420)",
-    gClass: "group right cursor-pointer item",
-    foProps: { x: 0, y: -50, width: 200, height: 100 },
-    divClass: "flex flex-col justify-center h-full text-center",
-  },
-  {
-    transform: "translate(310, 530)",
-    gClass: "group cursor-pointer item down",
-    foProps: { x: -100, y: 35, width: 200, height: 100 },
-    divClass: "text-center",
-  },
-  {
-    transform: "translate(119.474, 420)",
-    gClass: "group left cursor-pointer item",
-    foProps: { x: -200, y: -50, width: 200, height: 100 },
-    divClass: "flex flex-col justify-center h-full text-center",
-  },
-];
 ---
 
-<main
-  id="hero"
-  class="relative lg:flex flex-col justify-center items-center pt-30 min-h-screen overflow-hidden"
->
-  <!-- <div class="absolute top-0 left-0 h-full w-full"></div> -->
-  <!-- BACKGROUND -->
+<style>
+  .hero-title {
+    perspective: 1200px;
+  }
+
+  .text-3d {
+    display: inline-block;
+    font-weight: 800;
+    color: #ffffff;
+    transform-style: preserve-3d;
+    will-change: transform;
+    filter: drop-shadow(14px 18px 25px rgba(0, 0, 0, 0.35));
+  }
+
+  /* izquierda */
+  .text-3d.left {
+    transform: rotateY(-15deg) rotateX(10deg);
+    transform-origin: left center;
+  }
+
+  /* EXTRUSIÓN REAL */
+  .text-3d.extruded {
+    text-shadow:
+      1px 1px var(--color-world),
+      2px 2px var(--color-world),
+      3px 3px var(--color-world),
+      4px 4px var(--color-world),
+      5px 5px var(--color-world),
+      6px 6px var(--color-world),
+      7px 7px var(--color-world);
+  }
+</style>
+
+<main id="home" class="relative min-h-screen h-full flex flex-col p-6 pt-32">
+  <!-- BACKGROUND (igual que antes) -->
   <div class="-z-20 absolute inset-0 w-full h-full overflow-hidden">
     <video
       id="bg-video"
       class="border-0 w-full h-full object-cover pointer-events-none opacity-75"
       src="/video/bg4.mp4"
+      poster="/img/bg-fallback.jpg"
       autoplay
       muted
       loop
       playsinline></video>
   </div>
 
-  <!-- DESKTOP VIEW -->
-  <div class="hidden lg:block w-screen lg:h-[500px] 2xl:h-[700px] diagram">
-    <svg
-      data-aos="zoom-in"
-      class="w-full h-full overflow-visible"
-      viewBox="0 0 620 620"
-    >
-      <defs>
-        <mask id="nodes-mask">
-          <rect width="100%" height="100%" fill="white"></rect>
-          <circle cx="310" cy="90" r="12" fill="black"></circle>
-          <circle cx="500.526" cy="200" r="12" fill="black"></circle>
-          <circle cx="500.526" cy="420" r="12" fill="black"></circle>
-          <circle cx="310" cy="530" r="12" fill="black"></circle>
-          <circle cx="119.474" cy="420" r="12" fill="black"></circle>
-          <circle cx="119.474" cy="200" r="12" fill="black"></circle>
-        </mask>
-      </defs>
-      <polygon
-        class="poly"
-        mask="url(#nodes-mask)"
-        points="310,90 500.526,200 500.526,420 310,530 119.474,420 119.474,200"
-      ></polygon>
-      {
-        smartEcosystemItems.map((item, index) => {
-          const layout = nodeLayouts[index];
-          return (
-            <a href={`/${lang}/${slugify(item.TITLE_TEXT)}`}>
-              <g class={layout.gClass} transform={layout.transform}>
-                <circle class="outer-node" r="12" />
-                <circle class="inner-node" r="5" />
-                <foreignObject
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-delay="200"
-                  {...layout.foProps}
-                >
-                  <div class={layout.divClass}>
-                    <span class="font-bold text-[#bdbdbd] text-[11px]">
-                      0{index + 1}.
-                    </span>
-                    <span
-                      class="block text-white text-[18px] 2xl:text-[20px] leading-5"
-                      set:html={item.TITLE}
-                    />
-                  </div>
-                </foreignObject>
-              </g>
-            </a>
-          );
-        })
-      }
-    </svg>
-    <div
-      class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
-    >
-      <p class="text-[#fff] text-[30px] mb-0 leading-1">
-        {i18n.HERO.CENTER_SUBTITLE}
-      </p>
-      <p class="text-white font-extrabold text-[56px]">
-        {i18n.HERO.CENTER_TITLE}
-      </p>
+  <!-- CONTENT -->
+  <div
+    id="content"
+    class="w-full max-w-7xl mx-auto flex-1 flex flex-col items-center justify-between lg:items-start text-white gap-12 lg:gap-20"
+  >
+    <p class="text-base lg:text-lg text-center font-semibold tracking-wider">
+      {i18n.HERO.TEXT_1}
+    </p>
+    <div class="flex items-center justify-center flex-col gap-12 mx-auto">
+      <h1 class="hero-title text-6xl lg:text-8xl 2xl:text-9xl leading-[0.9]">
+        <span class="text-3d extruded left">
+          {i18n.HERO.TEXT_2_1},
+        </span>
+        <br />
+        <span class="text-3d extruded left">
+          {i18n.HERO.TEXT_2_2}
+        </span>
+
+        <span class="sr-only">
+          {i18n.HERO.TEXT_2_1}
+          {i18n.HERO.TEXT_2_2}
+        </span>
+      </h1>
+      <div class="flex flex-col lg:flex-row gap-6 lg:gap-16">
+        <Button_StrategicConversation i18n={i18n} lang={lang} />
+        <Button_MoreInformation i18n={i18n} lang={lang} />
+      </div>
+    </div>
+    <div class="flex flex-col lg:flex-row gap-6 mb-6 lg:gap-25">
+      <div class="relative glass-effect border border-white/25 p-2 rounded-md">
+        <div
+          class="hidden lg:block top-3 bottom-3 -left-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
+        >
+        </div>
+        <p class="text-xs lg:text-base text-center lg:text-left pl-4">
+          {i18n.HERO.TEXT_3}
+        </p>
+      </div>
+      <div class="relative glass-effect border border-white/25 p-2 rounded-md">
+        <div
+          class="hidden lg:block top-3 bottom-3 -right-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
+        >
+        </div>
+        <p class="text-xs lg:text-base text-center lg:text-right pr-4">
+          {i18n.HERO.TEXT_4}
+        </p>
+      </div>
+
     </div>
   </div>
+  <!-- FOOTER HERO -->
   <div
-    class="hidden bottom-0 items-end lg:grid grid-cols-3 px-28 w-full text-white"
+    class="items-end lg:items-center flex flex-col lg:flex-row justify-between max-w-7xl mx-auto gap-6 w-full text-white"
   >
-    <div class="flex flex-col justify-center items-center gap-6 w-fit">
+    <div
+      class="flex flex-col justify-center items-center gap-6 w-fit mx-auto lg:mx-0"
+    >
       <p
         class="w-fit font-semibold text-[var(--color-title)] text-xl text-center"
       >
@@ -156,8 +135,15 @@ const nodeLayouts = [
         </svg>
       </a>
     </div>
-    <div class="flex justify-center animate-bounce duration-1000">
-      <a href="#about" class="px-0.5 py-4 border-[1.8px] rounded-full">
+
+    <div
+      class="hidden lg:flex justify-center items-center animate-bounce duration-1000"
+    >
+      <a
+        href="#about"
+        class="px-0.5 py-4 border-[1.8px] rounded-full"
+        aria-label="Scroll to about"
+      >
         <img
           src="/icons/arrow.svg"
           alt="arrow"
@@ -165,102 +151,21 @@ const nodeLayouts = [
         />
       </a>
     </div>
-    <div class="flex flex-row justify-end items-center gap-6">
+
+    <div class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0">
       <p class="font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
       <Button_Networks i18n={i18n} />
     </div>
   </div>
 
-  <!-- MOBILE/TABLET VIEW -->
-  <div
-    class="lg:hidden flex flex-col justify-center items-center m-auto px-10 pt-12 w-full h-screen text-white"
-  >
-    <h1 class="font-light text-gray-300 text-3xl text-center">
-      {i18n.HERO.CENTER_SUBTITLE}
-    </h1>
-    <h2 class="mt-1 mb-10 font-semibold text-5xl text-center">
-      {i18n.HERO.CENTER_TITLE}
-    </h2>
-    <div class="flex flex-col gap-4 w-full max-w-md">
-      {
-        smartEcosystemItems.map((item) => (
-          <a
-            href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
-            class="block bg-black/25 hover:bg-white/10 bg-opacity-25 backdrop-blur-sm px-5 py-2.5 border border-white/20 rounded-full font-semibold text-center transition-colors duration-300"
-          >
-            {item.TITLE_TEXT}
-          </a>
-        ))
-      }
-    </div>
-    <div class="flex flex-col items-center gap-6 mt-5 text-center">
-      <p class="font-semibold text-[var(--color-title)] text-base">
-        <span class="font-extrabold">+</span>
-        {i18n.HERO.FOOTER_LEFT_LINE1}<br />{i18n.HERO.FOOTER_LEFT_LINE2}
-      </p>
-      <a
-        href="/#somos"
-        class="group flex items-center gap-3 bg-white px-8 py-3 rounded-full w-fit font-bold text-black text-lg"
-      >
-        {i18n.HERO.FOOTER_LEFT_BUTTON}
-        <span
-          class="font-bold text-xl transition-transform group-hover:translate-x-1"
-          >→</span
-        >
-      </a>
-    </div>
-    <div class="mt-5 text-center">
-      <p class="mb-4 font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-      <Button_Networks i18n={i18n} />
-    </div>
-  </div>
   <div
     class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"
   >
   </div>
 </main>
 
-<footer class="px-8 lg:px-28 py-4 lg:text-left text-center">
-  <p class="text-white/80 text-sm">Copyright © GLACI {currentYear}</p>
+<footer class="px-8 lg:text-left text-center max-w-7xl mx-auto">
+  <p class="text-white/80 text-sm">
+    Copyright © GLACI {new Date().getFullYear()}
+  </p>
 </footer>
-
-<style>
-  .poly {
-    fill: none;
-    stroke: rgba(255, 255, 255, 0.18);
-    stroke-width: 1.6;
-  }
-  @keyframes blink {
-    50% {
-      opacity: 0.3;
-    }
-  }
-  .outer-node {
-    fill: transparent;
-    stroke: rgba(255, 255, 255, 0.9);
-    stroke-width: 1.6px;
-    transition: stroke 0.3s ease;
-  }
-  .inner-node {
-    fill: rgba(255, 255, 255, 0.9);
-    animation: blink 1s infinite ease-in-out;
-    transition:
-      r 0.3s ease,
-      fill 0.3s ease,
-      filter 0.3s ease;
-  }
-  .item:hover .inner-node {
-    animation: none;
-    r: 12;
-    fill: var(--color-title);
-    filter: drop-shadow(0 0 15px var(--color-title))
-      drop-shadow(0 0 5px var(--color-title)) brightness(1.3);
-  }
-  .item:hover .outer-node {
-    stroke: transparent;
-  }
-  strong {
-    font-weight: 800;
-    font-size: 14px;
-  }
-</style>

@@ -3,10 +3,11 @@ const { lang, i18n } = Astro.props;
 ---
 
 <a
-  href={`/${lang}/register`}
+  href={`/${lang}/contact`}
   class="group relative flex flex-row justify-center bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] z-10 items-center gap-4 p-2 pl-4 text-white border border-white/75 rounded-full overflow-hidden font-semibold transition-all duration-500"
 >
- {i18n.NAVBAR.INFORMATION}  <span class="bg-white px-4 py-1 rounded-full">
+  {i18n.HERO.BUTTON_STRATEGIC_CONVERSATION}
+  <span class="bg-white px-4 py-1 rounded-full">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="fill-[var(--color-blue)] h-5.5 rotate-90 transition-all duration-300 pointer-events-none"

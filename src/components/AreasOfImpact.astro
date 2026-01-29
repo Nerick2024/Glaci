@@ -1,0 +1,245 @@
+---
+import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
+import Button_Networks from "@/components/Button_Networks.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await useTranslation(lang);
+
+const smartEcosystemItems = i18n.AREAS.SMART_ECOSYSTEM_ITEMS;
+
+const nodeLayouts = [
+  {
+    transform: "translate(119.474, 200)",
+    gClass: "group left cursor-pointer item",
+    foProps: { x: -200, y: -50, width: 200, height: 100 },
+    divClass: "flex flex-col justify-center h-full text-center",
+  },
+  {
+    transform: "translate(310, 90)",
+    gClass: "group cursor-pointer item up",
+    foProps: { x: -100, y: -135, width: 200, height: 100 },
+    divClass: "flex flex-col justify-end h-full text-center pb-1",
+  },
+  {
+    transform: "translate(500.526, 200)",
+    gClass: "group right cursor-pointer item",
+    foProps: { x: 0, y: -50, width: 200, height: 100 },
+    divClass: "flex flex-col justify-center h-full text-center",
+  },
+  {
+    transform: "translate(500.526, 420)",
+    gClass: "group right cursor-pointer item",
+    foProps: { x: 0, y: -50, width: 200, height: 100 },
+    divClass: "flex flex-col justify-center h-full text-center",
+  },
+  {
+    transform: "translate(310, 530)",
+    gClass: "group cursor-pointer item down",
+    foProps: { x: -100, y: 35, width: 200, height: 100 },
+    divClass: "text-center",
+  },
+  {
+    transform: "translate(119.474, 420)",
+    gClass: "group left cursor-pointer item",
+    foProps: { x: -200, y: -50, width: 200, height: 100 },
+    divClass: "flex flex-col justify-center h-full text-center",
+  },
+];
+---
+
+<div class="border-white/25 border-t mt-12"></div>
+<div
+  id="AreasOfImpact"
+  class="relative lg:flex flex-col lg:flex-row justify-between max-w-6xl gap-8 mx-auto items-center py-10"
+>
+  <div
+    class="text-white lg:w-[40%] flex flex-col gap-4 px-6 mb-6 items-center justify-center lg:items-start"
+  >
+    <h1 class="mt-4 font-normal text-[32px] text-white md:text-[45px]">
+      <span class="text-[var(--color-title)]">+</span>
+      <span class="text-white">
+        {i18n.AREAS.TITLE}
+      </span>
+    </h1>
+    <p class="text-center lg:text-left text-lg">{i18n.AREAS.TEXT}</p>
+    <div class="grid grid-cols-3 gap-4 items-center justify-center">
+      {
+        i18n.AREAS.ICONS.map((icon) => (
+          <div class="w-16 aspect-square rounded-full border border-[var(--color-title)] p-2">
+            <img src={icon} loading="lazy" class="w-full h-full object-contain" />
+          </div>
+        ))
+      }
+    </div>
+    <p class="text-center lg:text-left text-lg">{i18n.AREAS.TEXT_2}</p>
+  </div>
+  <!-- DESKTOP VIEW -->
+  <div class="relative hidden lg:block w-2/4 diagram">
+    <svg
+      data-aos="zoom-in"
+      class="w-full h-full overflow-visible"
+      viewBox="0 0 620 620"
+    >
+      <defs>
+        <mask id="nodes-mask">
+          <rect width="100%" height="100%" fill="white"></rect>
+          <circle cx="310" cy="90" r="12" fill="black"></circle>
+          <circle cx="500.526" cy="200" r="12" fill="black"></circle>
+          <circle cx="500.526" cy="420" r="12" fill="black"></circle>
+          <circle cx="310" cy="530" r="12" fill="black"></circle>
+          <circle cx="119.474" cy="420" r="12" fill="black"></circle>
+          <circle cx="119.474" cy="200" r="12" fill="black"></circle>
+        </mask>
+      </defs>
+      <polygon
+        class="poly"
+        mask="url(#nodes-mask)"
+        points="310,90 500.526,200 500.526,420 310,530 119.474,420 119.474,200"
+      ></polygon>
+      {
+        smartEcosystemItems.map((item, index) => {
+          const layout = nodeLayouts[index];
+          return (
+            <a href={`/${lang}/${slugify(item.TITLE_TEXT)}`}>
+              <g class={layout.gClass} transform={layout.transform}>
+                <circle class="outer-node" r="12" />
+                <circle class="inner-node" r="5" />
+                <foreignObject
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-delay="200"
+                  {...layout.foProps}
+                >
+                  <div class={layout.divClass}>
+                    <span class="font-bold text-[#bdbdbd] text-[12px]">
+                      0{index + 1}.
+                    </span>
+                    <span
+                      class="block text-white text-[18px] 2xl:text-[20px] leading-5"
+                      set:html={item.TITLE}
+                    />
+                  </div>
+                </foreignObject>
+              </g>
+            </a>
+          );
+        })
+      }
+    </svg>
+    <div
+      class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
+    >
+      <p class="text-[#fff] text-[30px] mb-0 leading-2">
+        {i18n.HERO.CENTER_SUBTITLE}
+      </p>
+      <p
+        class="center-title text-3d-center text-white font-extrabold lg:text-4xl 2xl:text-6xl"
+        data-text={i18n.HERO.CENTER_TITLE}
+      >
+        {i18n.HERO.CENTER_TITLE}
+      </p>
+    </div>
+  </div>
+
+  <!-- MOBILE/TABLET VIEW -->
+  <div
+    class="lg:hidden flex flex-col justify-center items-center m-auto p-10 w-full h-fit text-white"
+  >
+    <p class="font-light text-gray-300 text-3xl text-center">
+      {i18n.HERO.CENTER_SUBTITLE}
+    </p>
+    <p
+      class="center-title text-3d-center text-6xl font-extrabold mb-6"
+      data-text={i18n.HERO.CENTER_TITLE}
+    >
+      {i18n.HERO.CENTER_TITLE}
+    </p>
+    <div class="flex flex-wrap gap-4 w-full justify-center max-w-md">
+      {
+        smartEcosystemItems.map((item) => (
+          <a
+            href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
+            class="relative flex bg-white/5 hover:bg-white/20 backdrop-blur-sm px-5 py-2.5 border border-white/20 rounded-lg transition-colors duration-300 w-[45%] items-center justify-center"
+          >
+            <p class="font-semibold text-center">{item.TITLE_TEXT} </p>
+            <div class="absolute bg-[var(--color-title)] h-0.5 w-2/3 rounded-full -bottom-0.5" />
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  .poly {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.18);
+    stroke-width: 1.6;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0.3;
+    }
+  }
+  .outer-node {
+    fill: transparent;
+    stroke: rgba(255, 255, 255, 0.9);
+    stroke-width: 1.6px;
+    transition: stroke 0.3s ease;
+  }
+  .inner-node {
+    fill: rgba(255, 255, 255, 0.9);
+    animation: blink 1s infinite ease-in-out;
+    transition:
+      r 0.3s ease,
+      fill 0.3s ease,
+      filter 0.3s ease;
+  }
+  .item:hover .inner-node {
+    animation: none;
+    r: 12;
+    fill: var(--color-title);
+    filter: drop-shadow(0 0 15px var(--color-title))
+      drop-shadow(0 0 5px var(--color-title)) brightness(1.3);
+  }
+  .item:hover .outer-node {
+    stroke: transparent;
+  }
+  strong {
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .text-3d-center {
+    position: relative;
+    display: inline-block;
+
+    /* TEXTO FRONTAL */
+    color: #ffffff;
+
+    filter: drop-shadow(14px 18px 25px rgba(0, 0, 0, 0.35));
+  }
+
+  /* PROFUNDIDAD REAL */
+  .text-3d-center::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    color: var(--color-world);
+
+    /* extrusión */
+    transform: translateX(1px);
+    text-shadow:
+      1px 1px var(--color-world),
+      2px 2px var(--color-world),
+      3px 3px var(--color-world),
+      4px 4px var(--color-world),
+      5px 5px var(--color-world);
+
+    opacity: 0.95;
+    pointer-events: none;
+  }
+</style>

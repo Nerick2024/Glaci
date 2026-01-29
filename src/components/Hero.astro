@@ -10,7 +10,7 @@ const i18n = await useTranslation(lang);
 
 <style>
   .hero-title {
-    perspective: 1200px;
+    perspective: 1000px;
   }
 
   .text-3d {
@@ -65,16 +65,11 @@ const i18n = await useTranslation(lang);
     </p>
     <div class="flex items-center justify-center flex-col gap-12 mx-auto">
       <h1 class="hero-title text-6xl lg:text-8xl 2xl:text-9xl leading-[0.9]">
-        <span class="text-3d extruded left">
+        <span class="text-3d extruded ">
           {i18n.HERO.TEXT_2_1},
         </span>
         <br />
-        <span class="text-3d extruded left">
-          {i18n.HERO.TEXT_2_2}
-        </span>
-
-        <span class="sr-only">
-          {i18n.HERO.TEXT_2_1}
+        <span class="text-3d extruded ">
           {i18n.HERO.TEXT_2_2}
         </span>
       </h1>

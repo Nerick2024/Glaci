@@ -1,15 +1,26 @@
 {
   "NAVBAR": {
-    "SMART_ECOSYSTEM": "Ecosistema Smart",
-    "SMART": "Inteligente",
-    "ABOUT_US": "Somos",
+    "HOME": "Inicio",
+    "AREAS_OF_IMPACT": "Áreas de Impacto",
+    "CONSORTIUM": "El Consorcio",
+    "TALENT": "Talento",
     "CONTACT": "Contacto",
     "BLOG": "Blog",
-    "TEAM": "Nuestro Equipo",
     "INFORMATION": "Recibe más informacion"
   },
   "AREAS": {
-    "TITLE": "Principales áreas de desarrollo",
+    "TITLE": "Áreas de Impacto",
+    "SUBTITLE": "El desarrollo urbano no ocurre por partes aisladas. Ocurre cuando los sistemas se conectan.",
+    "TEXT": "Trabajamos en áreas clave del desarrollo urbano y territorial:",
+    "TEXT_2": "No como soluciones independientes, sino como ecosistemas integrados.",
+    "ICONS": [
+      "/icons/areas/economia.svg",
+      "/icons/areas/gobernanza.svg",
+      "/icons/areas/movilidadInfraestructura.svg",
+      "/icons/areas/medioAmbienteInteligente.svg",
+      "/icons/areas/habitatyServicios.svg",
+      "/icons/areas/sociedadInteligente.svg"
+    ],
     "BUTTON": "Solicita mas Información",
     "SUCCESS_STORIES_TITLE": "Casos de Éxito",
     "SUCCESS_STORIES_LOCATE": "Ubicación",
@@ -616,12 +627,19 @@
     ]
   },
   "HERO": {
+    "TEXT_1": "GLACI es un consorcio de innovación urbana que integra talento, colaboración multisectorial y estructuración financiera para convertir visiones urbanas en proyectos sostenibles, viables y con impacto real.",
+    "TEXT_2_1": "Smart Cities",
+    "TEXT_2_2": "Smart Future",
+    "TEXT_3": "Alineamos gobiernos, sector privado, academia, inversionistas y organismos multilaterales para estructurar y materializar proyectos urbanos sostenibles, con visión humana y solidez financiera.",
+    "TEXT_4": "Las ciudades no evolucionan solo con ideas, tecnología o recursos. Evolucionan cuando el talento adecuado, la colaboración consciente y el capital bien estructurado avanzan en la misma dirección.",
     "CENTER_SUBTITLE": "Implementación",
     "CENTER_TITLE": "Smart City",
     "FOOTER_LEFT_LINE1": "Orientación en",
     "FOOTER_LEFT_LINE2": "implementación normativa",
     "FOOTER_LEFT_BUTTON": "ciudades y comunidades",
-    "FOOTER_RIGHT_TEXT": "Síguenos en"
+    "FOOTER_RIGHT_TEXT": "Síguenos en",
+    "BUTTON_STRATEGIC_CONVERSATION": "Conversación estratégica",
+    "BUTTON_INFORMATION": "Recibir información"
   },
   "NETWORKS": [
     {
@@ -734,8 +752,93 @@
       "SUBMIT_BUTTON": "Enviar"
     }
   },
+  "GLACI": {
+    "GLACI": "GLACI",
+    "TITLE": "Qué es",
+    "TEXT_1": "GLACI es un consorcio de talento interdisciplinario que impulsa proyectos urbanos y territoriales integrando innovación, conocimiento, gobernanza y estructuración financiera.",
+    "TEXT_2": "Trabajamos donde la complejidad requiere inteligencia colectiva, sensibilidad institucional y viabilidad de largo plazo.",
+    "TITLE_2": "CÓMO TRABAJAMOS",
+    "CARDS": [
+      {
+        "TITLE": "Comprensión profunda",
+        "TEXT": "Escuchamos el territorio, sus actores y su contexto real."
+      },
+      {
+        "TITLE": "Co-creación y estructuración",
+        "TEXT": "Alineamos sectores y diseñamos estructuras técnicas y financieras sólidas."
+      },
+      {
+        "TITLE": "Materialización responsable",
+        "TEXT": "Acompañamos la ejecución con gobernanza, métricas y continuidad."
+      }
+    ]
+  },
+  "WORK": {
+    "TITLE": "Para Quién Trabajamos",
+    "TEXT": "Gobiernos con visión de largo plazo y sentido de legado. Empresas comprometidas con desarrollo sostenible. Academia y centros de conocimiento que aportan rigor e innovación aplicada. Inversionistas y organismos multilaterales que priorizan impacto, transparencia y viabilidad.",
+    "TITLE_2": "CREDENCIALES",
+    "TEXT_2": "Nuestro enfoque se alinea con estándares y mejores prácticas internacionales para ciudades sostenibles e inteligentes, priorizando gobernanza, indicadores, transparencia y continuidad."
+  },
+  "CONSORTIUM": {
+    "TITLE": "Consorcio",
+    "TEXT": "GLACI es un consorcio formado por profesionales, organizaciones y aliados estratégicos con experiencia real en desarrollo urbano, infraestructura, sostenibilidad, finanzas y conocimiento.",
+    "TEXT_2": "Creemos que los grandes desafíos urbanos no se resuelven desde un solo sector.",
+    "TEXT_3": "Se resuelven desde la colaboración consciente."
+  },
+  "GOVERNANCE": {
+    "TITLE_1": "Gobernanza",
+    "SUBTITLE": "Las transformaciones duraderas comienzan con decisiones claras, instituciones confiables y datos compartidos.",
+    "TEXT_1": "GLACI articula actores y estructura proyectos para fortalecer la gobernanza urbana de forma sostenible.",
+    "TITLE_2": "Enfoque",
+    "TEXT_2_1": "Trabajamos para que la gobernanza:",
+    "CARDS": [
+      {
+        "TITLE": "Sea transparente",
+        "ICON": "/icons/governance/transparenet.svg"
+      },
+      {
+        "TITLE": "Sea participativa",
+        "ICON": "/icons/governance/participativa.svg"
+      },
+      {
+        "TITLE": "Sea viable en el tiempo",
+        "ICON": "/icons/governance/participativa.svg"
+      }
+    ],
+    "TEXT_2_2": "Desde la estrategia hasta la implementación.",
+    "TITLE_3": "Qué Habilitamos",
+    "ITEMS": [
+      "Alineación institucional y multisectorial",
+      "Modelos de gobernanza y toma de decisiones",
+      "Plataformas y sistemas de apoyo a la gestión",
+      "Indicadores y métricas de desempeño"
+    ],
+    "TITLE_4": "Experencia / Casos",
+    "TEXT_4_1": "Hemos acompañado proyectos urbanos y territoriales donde la gobernanza fue clave para asegurar continuidad, confianza y resultados medibles."
+  },
   "TEAM": {
-    "TITLE": "Conoce Nuestro Equipo",
+    "TITLE": "Talento",
+    "SUBTITLE": "Detrás de cada proyecto hay personas.",
+    "TEXT": "GLACI reúne talento con:",
+    "CARDS": [
+      {
+        "ICON": "/icons/talento/visionSistematica.svg",
+        "TEXT": "Visión sistémica"
+      },
+      {
+        "ICON": "/icons/talento/experienciaTecnica.svg",
+        "TEXT": "Experiencia técnica y territorial"
+      },
+      {
+        "ICON": "/icons/talento/inteligenciaEmocional.svg",
+        "TEXT": "Alta inteligencia emocional"
+      },
+      {
+        "ICON": "/icons/talento/impactoLargoPlazo.svg",
+        "TEXT": "Compromiso con el impacto a largo plazo"
+      }
+    ],
+    "TEXT_2": "Nuestro equipo combina conocimiento, criterio y responsabilidad.",
     "BACK_BUTTON": "Volver al Equipo",
     "TEAM": [
       {
@@ -793,24 +896,6 @@
         ]
       },
       {
-        "NAME": "Guillermo Sánchez",
-        "POSITION": "Director de Planificación Urbana",
-        "SEMBLANCE": "Doctor Arquitecto en Planificación Urbana. 20 años en estrategias de desarrollo urbano y regional. Experto en ciudades sostenibles.",
-        "IMG": "/team/guillermo.webp",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
         "NAME": "Tania Sánchez",
         "POSITION": "Arquitecta Senior / Urbanista",
         "SEMBLANCE": "Arquitecta senior y urbanista con experiencia nacional e internacional. Especializada en diseño urbano sustentable y planificación.",
@@ -833,24 +918,6 @@
         "POSITION": "Gerente de Infraestructura y Obras",
         "SEMBLANCE": "Experto en construcción de vías terrestres con amplia experiencia en planeación,  ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
         "IMG": "/team/HectorM.webp",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Mauricio Hernandez",
-        "POSITION": "Director Financiero (CFO)",
-        "SEMBLANCE": "Economista con doctorado en Ciencias Administrativas y especialización avanzada en finanzas. Cuenta con más de 26 años de experiencia en planeación estratégica y financiera, participación en consejos de administración y docencia de posgrado.",
-        "IMG": "/team/MauricioH.webp",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",

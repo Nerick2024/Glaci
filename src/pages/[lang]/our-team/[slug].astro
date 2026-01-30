@@ -7,6 +7,7 @@ import {
   translations,
   type Locale,
 } from "@/i18n";
+import Stars from "@/components/Stars.astro";
 
 export async function getStaticPaths() {
   const paths = [];
@@ -48,7 +49,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
   >
     <div
       id="semblanza"
-      class="w-screen relative flex flex-col lg:bg-white text-white left-0"
+      class="w-screen relative flex flex-col glass-effect text-white left-0"
     >
       <div
         class="relative w-full lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-end"
@@ -62,13 +63,13 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
             class="w-full h-auto object-cover pointer-events-none"
           />
         </div>
-        <div class="bg-white h-auto w-full lg:w-[60%] p-6">
-          <h2 class="text-5xl font-bold my-2 text-[var(--color-bg-1)]">
-            {NAME}
+        <div class="h-auto w-full lg:w-[60%] p-6">
+          <h2 class="text-5xl lg:text-6xl my-2">
+            <span class="text-[var(--color-title)]">+</span> {NAME}
           </h2>
           <!-- <h3 class="text-xl font-semibold text-gray-600 mb-2">{POSITION}</h3> -->
-          <div class="rounded-full w-full h-0.5 bg-[var(--color-bg-1)] my-4"></div>
-          <p class="text-gray-600 mb-12 lg:mb-24 font-medium text-lg">
+          <div class="rounded-full w-full h-0.5 bg-white my-4"></div>
+          <p class="text-gray-200 mb-12 lg:mb-24 font-medium text-lg">
             {SEMBLANCE}
           </p>
           <div
@@ -79,7 +80,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
                 NETWORKS.map((network) => (
                   <a
                     href={network.HREF}
-                    class="group p-3 border-2 border-black/75 bg-transparent hover:bg-[var(--color-bg-1)] transition-all hover:scale-110 rounded-full h-14 aspect-square"
+                    class="group p-3 border-2 border-[var(--color-title)]/75 bg-transparent hover:bg-[var(--color-title)]/50 transition-all hover:scale-110 rounded-full h-14 aspect-square"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -112,6 +113,9 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
           </div>
         </div>
       </div>
+    </div>
+    <div class=" -z-10">
+      <Stars/>
     </div>
   </section>
 </Layout>

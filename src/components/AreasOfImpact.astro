@@ -49,33 +49,17 @@ const nodeLayouts = [
 
 <div
   id="AreasOfImpact"
-  class="relative lg:flex flex-col lg:flex-row justify-between max-w-6xl gap-8 mx-auto items-center py-10"
+  class="relative lg:flex flex-col justify-between max-w-6xl gap-6 mx-auto items-center py-10"
 >
-  <div
-    class="text-white lg:w-[40%] flex flex-col gap-4 px-6 lg:px-0 mb-6 items-center justify-center lg:items-start"
-  >
-    <h1 class="mt-4 font-normal text-[32px] text-white md:text-[45px]">
-      <span class="text-[var(--color-title)]">+</span>
-      {i18n.AREAS.TITLE}
-    </h1>
-    <p class="text-center lg:text-left text-lg">{i18n.AREAS.TEXT}</p>
-    <div class="grid grid-cols-3 gap-4 items-center justify-center">
-      {
-        i18n.AREAS.ICONS.map((icon) => (
-          <div class="w-18 aspect-square rounded-full border border-[var(--color-title)] p-3">
-            <img
-              src={icon}
-              loading="lazy"
-              class="w-full h-full object-contain"
-            />
-          </div>
-        ))
-      }
-    </div>
-    <p class="text-center lg:text-left text-lg">{i18n.AREAS.TEXT_2}</p>
-  </div>
+  <h1 class="mt-4 text-center font-normal text-[32px] text-white md:text-[45px]">
+    <span class="text-[var(--color-title)]">+</span>
+    {i18n.AREAS.TITLE}
+    <span class="text-[var(--color-title)]">+</span>
+  </h1>
+  <p class="text-white text-center lg:text-left text-lg">{i18n.AREAS.TEXT}</p>
+
   <!-- DESKTOP VIEW -->
-  <div class="relative hidden lg:block w-2/4 diagram">
+  <div class="relative hidden lg:block diagram w-full max-w-2xl h-auto m-auto my-20">
     <svg
       data-aos="zoom-in"
       class="w-full h-full overflow-visible"
@@ -130,12 +114,8 @@ const nodeLayouts = [
     <div
       class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
     >
-      <p class="text-[#fff] text-[30px] mb-0 leading-2">
-        {i18n.HERO.CENTER_SUBTITLE}
-      </p>
       <p
         class="center-title text-3d-center text-white font-extrabold lg:text-4xl 2xl:text-6xl"
-        data-text={i18n.HERO.CENTER_TITLE}
       >
         {i18n.HERO.CENTER_TITLE}
       </p>
@@ -146,13 +126,7 @@ const nodeLayouts = [
   <div
     class="lg:hidden flex flex-col justify-center items-center m-auto p-10 w-full h-fit text-white"
   >
-    <p class="font-light text-gray-300 text-3xl text-center">
-      {i18n.HERO.CENTER_SUBTITLE}
-    </p>
-    <p
-      class="center-title text-3d-center text-6xl font-extrabold mb-6"
-      data-text={i18n.HERO.CENTER_TITLE}
-    >
+    <p class="center-title text-3d-center text-6xl font-extrabold mb-6">
       {i18n.HERO.CENTER_TITLE}
     </p>
     <div class="flex flex-wrap gap-4 w-full justify-center max-w-md">
@@ -169,6 +143,7 @@ const nodeLayouts = [
       }
     </div>
   </div>
+  <p class="text-white text-center lg:text-left text-lg">{i18n.AREAS.TEXT_2}</p>
 </div>
 
 <style>
@@ -209,38 +184,5 @@ const nodeLayouts = [
   strong {
     font-weight: 800;
     font-size: 14px;
-  }
-
-  .text-3d-center {
-    position: relative;
-    display: inline-block;
-
-    /* TEXTO FRONTAL */
-    color: #ffffff;
-
-    filter: drop-shadow(14px 18px 25px rgba(0, 0, 0, 0.35));
-  }
-
-  /* PROFUNDIDAD REAL */
-  .text-3d-center::before {
-    content: attr(data-text);
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-
-    color: var(--color-world);
-
-    /* extrusión */
-    transform: translateX(1px);
-    text-shadow:
-      1px 1px var(--color-world),
-      2px 2px var(--color-world),
-      3px 3px var(--color-world),
-      4px 4px var(--color-world),
-      5px 5px var(--color-world);
-
-    opacity: 0.95;
-    pointer-events: none;
   }
 </style>

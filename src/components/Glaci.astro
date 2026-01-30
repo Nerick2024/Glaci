@@ -16,17 +16,23 @@ const i18n = await translations[lang]();
   >
     <span class="text-[var(--color-title)]">+</span>
     {i18n.GLACI.TITLE}
-    <span class="text-white font-semibold">{i18n.GLACI.GLACI}</span>
+    <span class="text-white font-bold hover:text-[var(--color-title)] transition-colors">{i18n.GLACI.GLACI}</span>
   </h1>
   <div class="mb-12 gap-6 flex flex-col lg:flex-row items-start justify-center">
     <p class="text-center lg:text-left text-lg flex-1">{i18n.GLACI.TEXT_1}</p>
     <p class="text-center lg:text-left text-lg flex-1">{i18n.GLACI.TEXT_2}</p>
   </div>
+    <h1
+    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+  >
+    <span class="text-[var(--color-title)]">+</span>
+    {i18n.GLACI.TITLE_2}
+  </h1>
   <div class="flex flex-col lg:flex-row gap-6">
     {
       i18n.GLACI.CARDS.map((card) => (
         <div class="bg-white/8 relative border hover:-translate-y-2 transition-transform duration-300 border-white/25 flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-          <p class="font-bold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
+          <p class="font-semibold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
             {card.TITLE}
           </p>
           <p class="text-base leading-snug">{card.TEXT}</p>

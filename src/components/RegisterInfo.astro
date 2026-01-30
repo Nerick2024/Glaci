@@ -55,7 +55,7 @@ const { i18n } = Astro.props;
       </option>
       {
         i18n.REGISTER_INFORMATION.FORM.INTEREST_PLACEHOLDER.slice(1).map(
-          (option: any) => <option value={option}>{option}</option>
+          (option: any) => <option value={option}>{option}</option>,
         )
       }
     </select>
@@ -73,7 +73,7 @@ const { i18n } = Astro.props;
     <button
       id="ri-submit"
       type="submit"
-      class="bg-cyan-400 w-full py-4 rounded-full font-semibold text-white"
+      class="bg-[var(--color-bg-1)] hover:bg-[var(--color-title)] hover:scale-105 transition-all transform gradient-shine w-full py-4 rounded-full text-2xl font-semibold text-white"
     >
       {i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
     </button>
@@ -82,7 +82,47 @@ const { i18n } = Astro.props;
   <!-- Mensajes de estado -->
   <p id="registerMsg" class="mt-4 text-sm text-gray-300" aria-live="polite"></p>
 </form>
+<style>
+ .gradient-shine {
+  position: relative;
+  overflow: hidden;
+}
 
+.gradient-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.6) 50%,
+    transparent 70%
+  );
+  transform: translateX(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.gradient-shine:hover::after {
+  animation: shine 2s infinite;
+  opacity: 1;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
+
+</style>
 <script type="">
   (function () {
     const form = document.getElementById("registerInfoForm");

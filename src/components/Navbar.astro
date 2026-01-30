@@ -26,7 +26,7 @@ const i18n = await useTranslation(lang);
   <nav
     class="hidden lg:flex justify-end items-center gap-6 h-11 font-semibold text-[18px] text-white"
   >
-      <a
+    <a
       href={`/${lang}/#home`}
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.HOME}</a
@@ -67,7 +67,7 @@ const i18n = await useTranslation(lang);
       >{i18n.NAVBAR.TALENT}</a
     >
     <a
-      href="#contact"
+      href={`/${lang}/register`}
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.CONTACT}</a
     >
@@ -117,7 +117,7 @@ const i18n = await useTranslation(lang);
     <nav
       class="flex flex-col justify-center items-center gap-6 pt-24 pb-10 h-full overflow-y-auto font-medium text-white text-lg"
     >
-          <a
+      <a
         href="#home"
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.HOME}</a
@@ -147,7 +147,7 @@ const i18n = await useTranslation(lang);
         >{i18n.NAVBAR.CONSORTIUM}</a
       >
       <a
-        href="#contact"
+        href={`/${lang}/register`}
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.CONTACT}</a
       >

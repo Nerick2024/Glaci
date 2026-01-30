@@ -3,13 +3,13 @@ const { lang, i18n } = Astro.props;
 ---
 
 <a
-  href={`/${lang}/register`}
-  class="group relative flex flex-row justify-center hover:scale-110 bg-gradient-to-l from-[var(--color-title)] to-[var(--color-blue)] z-10 items-center gap-4 p-2 pl-4 text-white border border-white/75 rounded-full overflow-hidden font-semibold transition-all duration-500"
+  href={`/${lang}/register`}  class="group relative flex flex-row hover:scale-110 bg-white hover:bg-[var(--color-title)] z-10 items-center justify-between gap-2 p-2 px-4 text-[var(--color-blue)] hover:text-white border border-white/75 rounded-full overflow-hidden font-semibold transition-all duration-500"
 >
- {i18n.NAVBAR.INFORMATION}  <span class="bg-white px-4 py-1 rounded-full">
+  {i18n.NAVBAR.INFORMATION}
+  <span class="bg-white px-4 py-1 rounded-full">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="fill-[var(--color-blue)] group-hover:animate-bounce h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
+      class="fill-[var(--color-blue)] group-hover:fill-[var(--color-title)] group-hover:animate-bounce h-5.5 rotate-90 transition-all duration-300 pointer-events-none"
       viewBox="0 0 16 16"
     >
       <path
@@ -20,36 +20,42 @@ const { lang, i18n } = Astro.props;
   </span>
 </a>
 <style>
-  a {
-    transition: all 0.3s ease;
+  /* asegúrate de que el enlace tenga posición relativa (ya la tienes en la clase) */
+  a.group {
+    position: relative;
+    overflow: hidden; /* evita que el brillo se salga */
   }
-  a:hover {
-    box-shadow: 0 0 15px 0px rgba(255, 255, 255, 0.2);
-    filter: brightness(1.4);
-  }
-  a::after {
+
+  a.group::after {
     content: "";
     position: absolute;
     top: 0;
-    left: -150%;
-    width: 150%;
+    left: 0;
+    width: 160%;
     height: 100%;
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5),
       transparent
     );
-    transition: left 0.5s;
-    animation: shine 10s infinite;
+    transform: translateX(-100%);
+    pointer-events: none;
+    will-change: transform, opacity;
+    opacity: 0;
   }
+
+  a.group:hover::after,
+  a.group:focus::after {
+    animation: shine 1s linear infinite;
+    opacity: 1;
+  }
+
   @keyframes shine {
-    0% {
-      transform: translateX(-100%);
-    }
-    10%,
-    100% {
-      transform: translateX(200%);
-    }
+    0%   { transform: translateX(-100%); opacity: 0; }
+    10%  { opacity: 1; }
+    50%  { transform: translateX(40%); opacity: 1; }
+    100% { transform: translateX(200%); opacity: 0; }
   }
 </style>
+

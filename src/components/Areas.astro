@@ -17,7 +17,7 @@ const area2 = item.AREA2 || [];
       {i18n.AREAS.TITLE_1}
     </h2>
   </div>
-  <p class="text-white text-base lg:text-lg px-6 mx-auto max-w-5xl mt-16 text-center my-16">{item.AREA_TEXT_1}</p>
+  <p class="text-base lg:text-3xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl mt-16 text-center my-16">{item.AREA_TEXT_1}</p>
   <div class="px-6">
     <div
       class="gap-x-16 gap-y-8 grid grid-cols-1 md:grid-cols-2 mx-auto max-w-6xl md:text-left text-center"
@@ -30,9 +30,6 @@ const area2 = item.AREA2 || [];
                 {area.TITLE}
               </h3>
               <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
-              {index < area1.length - 1 && (
-                <p class="my-4 text-[var(--color-title)] text-xl">● ● ●</p>
-              )}
             </div>
           ))
         }
@@ -64,14 +61,11 @@ const area2 = item.AREA2 || [];
                 {area.TITLE}
               </h3>
               <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
-              {index < area2.length - 1 && (
-                <p class="my-4 text-[var(--color-title)] text-xl">● ● ●</p>
-              )}
             </div>
           ))
         }
       </div>  
     </div>
   </div>
-  <p class="text-white text-base lg:text-lg px-6 mx-auto max-w-5xl text-center my-16">{item.AREA_TEXT_2}</p>
+  <p class="text-base lg:text-3xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl text-center my-16">{item.AREA_TEXT_2}</p>
 </section>

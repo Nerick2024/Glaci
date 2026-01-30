@@ -12,20 +12,24 @@ import Glaci from "@/components/Glaci.astro";
 import Work from "@/components/Work.astro";
 import Governance from "@/components/Governance.astro";
 import Consortium from "@/components/Consortium.astro";
+import Stars from "@/components/Stars.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
 ---
 
-<Layout title="G L A C I" >
-<Hero/>
-<Glaci/>
-<AreasOfImpact/>
-<Consortium/>
-<Work/>
-<!-- <About/> -->
-<!-- <Information/> -->
-<Governance/>
-<Contact/>
+<Layout title="G L A C I">
+  <Hero />
+  <div class="relative">
+    <Glaci />
+    <AreasOfImpact />
+    <Consortium />
+    <Work />
+    <!-- <About/> -->
+    <!-- <Information/> -->
+    <Governance />
+    <div class="fixed w-full h-full pointer-events-none">
+      <Stars />
+    </div>
+  </div>
 </Layout>
-

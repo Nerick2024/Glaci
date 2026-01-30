@@ -1,14 +1,13 @@
 ---
 import { getLangFromUrl, useTranslation } from "@/i18n";
 import Button_Networks from "@/components/Button_Networks.astro";
-import Button_StrategicConversation from "@/components/Button_StrategicConversation.astro";
 import Button_MoreInformation from "@/components/Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
 
-<main id="home" class="relative min-h-screen h-full flex flex-col p-6 pt-32">
+<main id="home" class="relative flex flex-col p-6">
   <!-- BACKGROUND (igual que antes) -->
   <div class="-z-20 absolute inset-0 w-full h-full overflow-hidden">
     <video
@@ -25,84 +24,47 @@ const i18n = await useTranslation(lang);
   <!-- CONTENT -->
   <div
     id="content"
-    class="w-full max-w-7xl mx-auto flex-1 flex flex-col items-center justify-between lg:items-start text-white gap-12 lg:gap-20"
+    class="w-full max-w-7xl mx-auto min-h-screen h-full flex-1 flex flex-col items-center justify-end lg:items-start text-white gap-12 lg:gap-18"
   >
-    <p class="text-base lg:text-lg text-center font-semibold tracking-wider">
+    <img
+      loading="lazy"
+      src="/logo/logo.webp"
+      alt="Logo"
+      class="w-50 lg:w-72 h-auto object-contain"
+    />
+    <p
+      class="text-2xl lg:text-4xl text-left font-semibold tracking-wider w-full max-w-2/3 mb-18"
+    >
       {i18n.HERO.TEXT_1}
     </p>
-    <div class="flex items-center justify-center flex-col gap-12 mx-auto">
-      <p
-        class="hero-title text-6xl lg:text-8xl 2xl:text-9xl font-bold leading-[0.9]"
+  </div>
+  <div class="flex flex-col  max-w-6xl text-white mx-auto lg:flex-row gap-10 my-12 lg:gap-25">
+    <div class="relative glass-effect border border-white/25 p-2 rounded-md">
+      <div
+        class="hidden lg:block top-3 bottom-3 -left-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
       >
-        {i18n.HERO.TEXT_2_1},
-        <br />
-        {i18n.HERO.TEXT_2_2}
+      </div>
+      <p class="text-xs lg:text-base text-center lg:text-left pl-4">
+        {i18n.HERO.TEXT_3}
       </p>
-      <div class="flex flex-col lg:flex-row gap-6 lg:gap-16">
-        <div
-          class="flex group flex-row rounded-full bg-white items-center justify-center overflow-hidden"
-        >
-          <a
-            href={`/${lang}/#contact`}
-            class="text-lg lg:text-xl flex flex-row hover:scale-110 z-10 py-4 text-center px-8 leading-5 text-[var(--color-blue)] font-semibold transition-all duration-500"
-          >
-            {i18n.HERO.BUTTON_STRATEGIC_CONVERSATION}
-          </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1.5rem"
-            height="2em"
-            class="z-10 fill-[var(--color-bg-1)]"
-            viewBox="0 0 20 20"
-            data-astro-cid-bbe6dxrz=""
-            ><path
-              fill-rule="evenodd"
-              d="M10 1a1 1 0 0 1 1 1v16a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1"
-            ></path></svg
-          >
-          <a
-            href={`/${lang}/register`}
-            class="text-lg lg:text-xl flex flex-row hover:scale-110 z-10 py-5 text-center px-8 leading-5 text-[var(--color-blue)] font-semibold transition-all duration-500"
-          >
-            {i18n.NAVBAR.INFORMATION}
-          </a>
-        </div>
-      </div>
     </div>
-    <div class="flex flex-col lg:flex-row gap-6 mb-6 lg:gap-25">
-      <div class="relative glass-effect border border-white/25 p-2 rounded-md">
-        <div
-          class="hidden lg:block top-3 bottom-3 -left-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
-        >
-        </div>
-        <p class="text-xs lg:text-base text-center lg:text-left pl-4">
-          {i18n.HERO.TEXT_3}
-        </p>
+    <div class="relative glass-effect border border-white/25 p-2 rounded-md">
+      <div
+        class="hidden lg:block top-3 bottom-3 -right-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
+      >
       </div>
-      <div class="relative glass-effect border border-white/25 p-2 rounded-md">
-        <div
-          class="hidden lg:block top-3 bottom-3 -right-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
-        >
-        </div>
-        <p class="text-xs lg:text-base text-center lg:text-right pr-4">
-          {i18n.HERO.TEXT_4}
-        </p>
-      </div>
+      <p class="text-xs lg:text-base text-center lg:text-right pr-4">
+        {i18n.HERO.TEXT_4}
+      </p>
     </div>
   </div>
   <!-- FOOTER HERO -->
   <div
-    class="items-end lg:items-center flex flex-col lg:flex-row justify-between max-w-7xl mx-auto gap-6 w-full text-white"
+    class="items-end lg:items-center flex flex-col lg:flex-row justify-between max-w-6xl mx-auto gap-6 w-full text-white"
   >
     <div
       class="flex flex-col justify-center items-center gap-6 w-fit mx-auto lg:mx-0"
     >
-      <p
-        class="w-fit font-semibold text-[var(--color-title)] text-xl text-center"
-      >
-        <span class="font-extrabold">+</span>
-        {i18n.HERO.FOOTER_LEFT_LINE1}<br />{i18n.HERO.FOOTER_LEFT_LINE2}
-      </p>
       <a
         href={`/${lang}/certifications`}
         class="group flex justify-between text-[var(--color-bg-2)] items-center gap-4 bg-white px-6 py-3 rounded-full w-fit font-bold text-lg"
@@ -121,20 +83,8 @@ const i18n = await useTranslation(lang);
       </a>
     </div>
 
-    <div
-      class="hidden lg:flex justify-center items-center animate-bounce duration-1000"
-    >
-      <a
-        href="#about"
-        class="px-0.5 py-4 border-[1.8px] rounded-full"
-        aria-label="Scroll to about"
-      >
-        <img
-          src="/icons/arrow.svg"
-          alt="arrow"
-          class="w-8 h-auto object-contain rotate-180"
-        />
-      </a>
+    <div class="flex justify-center items-center mx-auto">
+      <Button_MoreInformation i18n={i18n} lang={lang} />
     </div>
 
     <div class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0">

@@ -73,9 +73,11 @@ const i18n = await translations[lang]();
         <span class="text-[var(--color-title)]">+</span>
         {i18n.WORK.TITLE}
       </h1>
-      <p class="text-center lg:text-left text-lg">
-        {i18n.WORK.TEXT}
-      </p>
+          <ul class="space-y-2 text-lg pl-5">
+            {i18n.WORK.TEXT.map(value => (
+              <li data-aos-delay="200" data-aos="fade-left" data-aos-duration="1000" class="flex items-center gap-3"><span class="rounded-full w-3 h-3" style="background-color: var(--color-title);"></span>{value}</li>
+            ))}
+          </ul>
     </div>
 
     <!-- Escena con perspectiva -->

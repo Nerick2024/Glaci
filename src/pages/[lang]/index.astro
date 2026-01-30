@@ -12,6 +12,7 @@ import AreasOfImpact from "@/components/AreasOfImpact.astro";
 import Glaci from "@/components/Glaci.astro";
 import Work from "@/components/Work.astro";
 import Governance from "@/components/Governance.astro";
+import Consortium from "@/components/Consortium.astro";
 
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));
@@ -25,6 +26,7 @@ const t = await useTranslation(lang);
 <Layout title="G L A C I" >
   <Hero/>
   <Glaci/>
+  <Consortium/>
   <AreasOfImpact/>
   <Work/>
   <!-- <About/> -->

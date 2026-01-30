@@ -1,0 +1,41 @@
+---
+import { getLangFromUrl } from "@/i18n/utils";
+import { translations } from "@/i18n";
+import Button_StrategicConversation from "./Button_StrategicConversation.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await translations[lang]();
+---
+
+<div
+  id="consortium"
+  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-6 px-6 py-12"
+>
+  <h1
+    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+  >
+    <span class="text-[var(--color-title)]">+</span>
+    {i18n.CONSORTIUM.TITLE}
+  </h1>
+  <div class="flex flex-row gap-6">
+    <p class="my-4 text-[var(--color-title)] text-xl w-1">● ● ●</p>
+    <p
+      class="text-xl lg:text-4xl text-white font-bold hover:text-[var(--color-title)] transition-colors lg:text-left"
+    >
+      {i18n.CONSORTIUM.TEXT}
+    </p>
+  </div>
+  <div
+    class="gap-6 flex flex-col lg:flex-row items-center lg:items-start justify-center w-full max-w-4xl mx-auto"
+  >
+    <p class="text-center lg:text-left text-lg flex-1">
+      {i18n.CONSORTIUM.TEXT_2}
+    </p>
+    <p class="text-center lg:text-left text-lg flex-1">
+      {i18n.CONSORTIUM.TEXT_3}
+    </p>
+  </div>
+  <div class="w-fit mx-auto my-8 ">
+    <Button_StrategicConversation lang={lang} i18n={i18n} />
+  </div>
+</div>

@@ -8,39 +8,6 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
 
-<style>
-  .hero-title {
-    perspective: 1000px;
-  }
-
-  .text-3d {
-    display: inline-block;
-    font-weight: 800;
-    color: #ffffff;
-    transform-style: preserve-3d;
-    will-change: transform;
-    filter: drop-shadow(14px 18px 25px rgba(0, 0, 0, 0.35));
-  }
-
-  /* izquierda */
-  .text-3d.left {
-    transform: rotateY(-15deg) rotateX(10deg);
-    transform-origin: left center;
-  }
-
-  /* EXTRUSIÓN REAL */
-  .text-3d.extruded {
-    text-shadow:
-      1px 1px var(--color-world),
-      2px 2px var(--color-world),
-      3px 3px var(--color-world),
-      4px 4px var(--color-world),
-      5px 5px var(--color-world),
-      6px 6px var(--color-world),
-      7px 7px var(--color-world);
-  }
-</style>
-
 <main id="home" class="relative min-h-screen h-full flex flex-col p-6 pt-32">
   <!-- BACKGROUND (igual que antes) -->
   <div class="-z-20 absolute inset-0 w-full h-full overflow-hidden">
@@ -64,18 +31,42 @@ const i18n = await useTranslation(lang);
       {i18n.HERO.TEXT_1}
     </p>
     <div class="flex items-center justify-center flex-col gap-12 mx-auto">
-      <h1 class="hero-title text-6xl lg:text-8xl 2xl:text-9xl leading-[0.9]">
-        <span class="text-3d extruded ">
-          {i18n.HERO.TEXT_2_1},
-        </span>
+      <p
+        class="hero-title text-6xl lg:text-8xl 2xl:text-9xl font-bold leading-[0.9]"
+      >
+        {i18n.HERO.TEXT_2_1},
         <br />
-        <span class="text-3d extruded ">
-          {i18n.HERO.TEXT_2_2}
-        </span>
-      </h1>
+        {i18n.HERO.TEXT_2_2}
+      </p>
       <div class="flex flex-col lg:flex-row gap-6 lg:gap-16">
-        <Button_StrategicConversation i18n={i18n} lang={lang} />
-        <Button_MoreInformation i18n={i18n} lang={lang} />
+        <div
+          class="flex group flex-row rounded-full bg-white items-center justify-center overflow-hidden"
+        >
+          <a
+            href={`/${lang}/#contact`}
+            class="text-lg lg:text-xl flex flex-row hover:scale-110 z-10 py-4 text-center px-8 leading-5 text-[var(--color-blue)] font-semibold transition-all duration-500"
+          >
+            {i18n.HERO.BUTTON_STRATEGIC_CONVERSATION}
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1.5rem"
+            height="2em"
+            class="z-10 fill-[var(--color-bg-1)]"
+            viewBox="0 0 20 20"
+            data-astro-cid-bbe6dxrz=""
+            ><path
+              fill-rule="evenodd"
+              d="M10 1a1 1 0 0 1 1 1v16a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1"
+            ></path></svg
+          >
+          <a
+            href={`/${lang}/register`}
+            class="text-lg lg:text-xl flex flex-row hover:scale-110 z-10 py-5 text-center px-8 leading-5 text-[var(--color-blue)] font-semibold transition-all duration-500"
+          >
+            {i18n.NAVBAR.INFORMATION}
+          </a>
+        </div>
       </div>
     </div>
     <div class="flex flex-col lg:flex-row gap-6 mb-6 lg:gap-25">
@@ -97,7 +88,6 @@ const i18n = await useTranslation(lang);
           {i18n.HERO.TEXT_4}
         </p>
       </div>
-
     </div>
   </div>
   <!-- FOOTER HERO -->

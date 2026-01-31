@@ -62,7 +62,7 @@ const i18n = await translations[lang]();
 
 <div
   id="work"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12 my-12"
+  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 lg:gap-20 px-6 py-12 my-12"
 >
   <!-- PRIMER BLOQUE -->
   <div class="flex flex-col lg:flex-row gap-8 items-center">
@@ -75,7 +75,7 @@ const i18n = await translations[lang]();
       </h1>
           <ul class="space-y-2 text-lg pl-5">
             {i18n.WORK.TEXT.map(value => (
-              <li data-aos-delay="200" data-aos="fade-left" data-aos-duration="1000" class="flex items-center gap-3"><span class="rounded-full w-3 h-3" style="background-color: var(--color-title);"></span>{value}</li>
+              <li data-aos-delay="200" data-aos="fade-right" data-aos-duration="1000" class="flex items-center gap-3"><span class="rounded-full w-3 h-3" style="background-color: var(--color-title);"></span>{value}</li>
             ))}
           </ul>
     </div>

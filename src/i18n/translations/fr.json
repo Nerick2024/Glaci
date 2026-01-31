@@ -6,620 +6,501 @@
     "TALENT": "Talent",
     "CONTACT": "Contact",
     "BLOG": "Blog",
-    "INFORMATION": "Recevez plus d'information"
+    "INFORMATION": "Recevez plus d'informations"
   },
   "AREAS": {
     "TITLE": "Domaines d'Impact",
+    "TITLE_1": "Approche",
+    "TITLE_2": "Ce que Nous Activons",
+    "TITLE_3": "Expérience / Cas",
     "SUBTITLE": "Le développement urbain ne se produit pas par parties isolées. Il se produit lorsque les systèmes se connectent.",
     "TEXT": "Nous travaillons dans des domaines clés du développement urbain et territorial :",
-    "TEXT_2": "Pas comme des solutions indépendantes, mais comme des écosystèmes intégrés.",
-    "ICONS": [
-      "/icons/areas/economia.svg",
-      "/icons/areas/gobernanza.svg",
-      "/icons/areas/movilidadInfraestructura.svg",
-      "/icons/areas/medioAmbienteInteligente.svg",
-      "/icons/areas/habitatyServicios.svg",
-      "/icons/areas/sociedadInteligente.svg"
-    ],
-    "BUTTON": "Demandez plus d'Information",
-    "SUCCESS_STORIES_TITLE": "Cas de Succès",
-    "SUCCESS_STORIES_LOCATE": "Localisation",
+    "TEXT_2": "Non pas comme des solutions indépendantes, mais comme des écosystèmes intégrés.",
+    "BUTTON": "Demander plus d'Informations",
+    "SUCCESS_STORIES_LOCATE": "Emplacement",
     "SUCCESS_STORIES_YEAR": "Année",
-    "SUCCESS_STORIES_BUTTON": "Voir les projets associés",
+    "SUCCESS_STORIES_BUTTON": "Voir les projets liés",
     "SMART_ECOSYSTEM_ITEMS": [
       {
+        "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>Gouvernance</strong><br>Intelligente",
         "TITLE_TEXT": "Gouvernance Intelligente",
         "SUBTITLE": "Gouvernement Numérique et Transparence.",
-        "DESCRIPTION": "<b>Nous intégrons des stratégies pour améliorer et optimiser les processus de l'administration publique et du gouvernement</b>, en plus de promouvoir les principes d'ouverture et de transparence pour rapprocher les gouvernements, les citoyens et les entreprises basés sur les Technologies de l'Information et de la Communication.",
+        "DESCRIPTION": "Les transformations durables commencent par des décisions claires, des institutions fiables et des données partagées. <br>GLACI articule les acteurs et structure les projets pour renforcer la gouvernance urbaine de manière durable.",
+        "AREA_TEXT_1": "Nous travaillons pour que la gouvernance :",
         "AREA1": [
           {
-            "TITLE": "Participation et inclusion",
-            "DESCRIPTION": "Conception d'un plan de participation citoyenne pour la prise de décisions, le développement de projets et les politiques publiques"
+            "IMG": "",
+            "TITLE": "Soit transparente",
+            "DESCRIPTION": "Garantir un accès ouvert et fiable aux informations publiques via des outils numériques qui renforcent la reddition de comptes"
           },
           {
-            "TITLE": "Services publics et sociaux",
-            "DESCRIPTION": "Intégration et interconnexion de services avec accès via des plateformes intégrales"
-          },
-          {
-            "TITLE": "Transparence et accessibilité de l'information",
-            "DESCRIPTION": "Développement d'outils pour la représentation et l'accès à l'information"
+            "IMG": "",
+            "TITLE": "Soit viable dans le temps",
+            "DESCRIPTION": "Concevoir des plans de participation citoyenne qui assurent la continuité des projets et des politiques publiques au-delà des cycles administratifs"
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Efficacité en gestion mondiale",
-            "DESCRIPTION": "Mise en œuvre des technologies de l'information et de la communication dans les gouvernements pour l'identification de problèmes et la construction de solutions adaptées aux scénarios réels"
-          },
-          {
-            "TITLE": "Gouvernance Multi-Niveaux",
-            "DESCRIPTION": "Organisation des domaines fonctionnels, faciliter la création de programmes de financement, la mise en œuvre normative et la formation de réseaux qui regroupent la demande et permettent l'introduction de services innovants"
+            "IMG": "",
+            "TITLE": "Soit participative",
+            "DESCRIPTION": "Promouvoir les technologies de l'information et de la communication pour que la citoyenneté identifie les problèmes et construise des solutions basées sur des réalités locales"
           }
         ],
-        "TITLE_SERVICE": "Services de Gouvernance Numérique",
+        "AREA_TEXT_2": "De la stratégie à la mise en œuvre.",
         "SERVICE": [
           {
             "IMG": "/icons/portal.svg",
-            "TITLE": "Guichet Unique Numérique",
-            "DESCRIPTION": "Développement de portails pour la digitalisation des démarches (licences d'exploitation, foncier, eau) réduisant la corruption et les temps d'attente."
+            "TITLE": "Alignement institutionnel et multisectoriel",
+            "DESCRIPTION": "Nous générons des espaces de coordination entre institutions, secteurs et acteurs clés pour assurer la cohérence dans les politiques, projets et stratégies de développement"
           },
           {
             "IMG": "/icons/plataformas_de_participacion.svg",
-            "TITLE": "Plateformes de Participation Citoyenne",
-            "DESCRIPTION": "Applications ou portails pour le 'Budget Participatif' et les rapports citoyens géolocalisés (nids-de-poule, lampadaires défectueux)."
+            "TITLE": "Modèles de gouvernance et de prise de décisions",
+            "DESCRIPTION": "Nous concevons des cadres de gouvernance qui intègrent la participation citoyenne, les preuves techniques et la vision stratégique pour des décisions plus légitimes et durables"
           },
           {
             "IMG": "/icons/dashboard.svg",
-            "TITLE": "Tableaux de Bord de Transparence (Open Data)",
-            "DESCRIPTION": "Portails de données ouvertes pour que les citoyens visualisent comment sont dépensées les ressources publiques (obligatoire par la loi dans de nombreux États)."
+            "TITLE": "Plateformes et systèmes de soutien à la gestion",
+            "DESCRIPTION": "Nous mettons en œuvre des solutions numériques qui facilitent la gestion publique, optimisent les processus et renforcent la capacité de réponse institutionnelle"
           },
           {
             "IMG": "/icons/seguridad.svg",
-            "TITLE": "Cybersécurité Gouvernementale",
-            "DESCRIPTION": "Protection des données sensibles du registre municipal et des systèmes critiques."
+            "TITLE": "Indicateurs et métriques de performance",
+            "DESCRIPTION": "Nous définissons et surveillons des indicateurs qui permettent d'évaluer les résultats, de mesurer l'impact et de garantir la transparence dans la gestion gouvernementale"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "RANCHO LA COFRADÍA",
-            "DESCRIPTION": "Projet de développement durable de 68.1 hectares qui favorise une croissance équilibrée à Tlajomulco. Il intègre des zones d'agriculture, d'élevage, d'industrie, de divertissement, d'éducation et d'infrastructure, utilisant des méthodologies avancées comme le BIM et la Lean Construction pour renforcer les objectifs de développement durable.",
-            "LOCATE": "Tlajomulco, Jalisco, Mexique",
-            "DATE": "2025",
+            "TITLE": "PLATEFORME DE GOUVERNEMENT NUMÉRIQUE ET DONNÉES OUVERTES",
+            "DESCRIPTION": "Conception et mise en œuvre d'une plateforme intégrale de gouvernement numérique orientée vers la transparence et la prise de décisions basée sur les données. Le projet intègre des portails de données ouvertes, des tableaux de bord d'indicateurs stratégiques et des systèmes de suivi des politiques publiques, permettant aux autorités et à la citoyenneté d'accéder à des informations fiables, mises à jour et actionnables pour renforcer la reddition de comptes et la gestion urbaine.",
+            "LOCATE": "Municipalité Métropolitaine, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/COFRADIA/img1.webp"
+              "/projects/a/img1.webp",
+              "/projects/a/img2.webp",
+              "/projects/a/img3.webp"
             ]
           },
           {
-            "TITLE": "PROJETS DE SOLUTIONS TECHNOLOGIQUES INTÉGRALES",
-            "DESCRIPTION": "Projet intégral clé en main qui garantit des espaces connectés, sécurisés et opérationnels. Nous nous chargeons de tout le processus, de la conception et de la planification à la livraison finale, en assurant que chaque système fonctionne de manière optimale dès le premier jour. La solution intègre des réseaux de communication efficients, le contrôle des accès, la vidéosurveillance, la sauvegarde électrique et des outils multimédias, optimisant l'opération quotidienne et assurant la continuité face aux pannes électriques, en plus d'équiper des salles pour des réunions présentielles ou virtuelles.",
-            "LOCATE": "San Juan del Río, Querétaro",
-            "DATE": "",
+            "TITLE": "SYSTÈME DE PARTICIPATION CITOYENNE ET GESTION COLLABORATIVE",
+            "DESCRIPTION": "Mise en œuvre d'un écosystème numérique de participation citoyenne qui permet d'identifier les problématiques urbaines, de prioriser les projets et de co-créer des solutions entre gouvernement et société. La solution intègre des modules de consultation publique, des rapports citoyens géoréférencés et une analytique de participation, renforçant la légitimité des décisions et promouvant une gouvernance urbaine plus inclusive et durable.",
+            "LOCATE": "Ville Intermédiaire, Amérique Latine",
+            "DATE": "2023",
             "IMG": [
-              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
-              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+              "/projects/b/img1.webp",
+              "/projects/b/img2.webp"
             ]
           }
         ]
       },
       {
+        "ICON": "/icons/areas/economia.svg",
         "TITLE": "<strong>Économie</strong><br>Intelligente",
         "TITLE_TEXT": "Économie Intelligente",
         "SUBTITLE": "Financement et Modèles d'Affaires.",
-        "DESCRIPTION": "<b>Nous générons des plans de développement</b> qui encouragent l'esprit d'innovation, la capacité créative et la capacité de changement et de transformation.",
+        "DESCRIPTION": "<b>Nous impulsons des modèles économiques urbains</b> qui activent l'innovation locale, les chaînes de valeur numériques et le financement durable pour des projets de ville intelligente.",
+        "AREA_TEXT_1": "Nous travaillons pour que l'économie urbaine soit :",
         "AREA1": [
           {
-            "TITLE": "Innovation",
-            "DESCRIPTION": "Génération de mesures pour la promotion et la coopération entre l'administration, les entreprises et l'éducation"
+            "IMG": "",
+            "TITLE": "Écosystèmes d'innovation",
+            "DESCRIPTION": "Promotion de hubs, accélérateurs et réseaux public-privé pour scaler des solutions urbaines basées sur des données et la technologie."
           },
           {
-            "TITLE": "Productivité",
-            "DESCRIPTION": "Génération d'infrastructures physiques et technologiques pour optimiser la productivité"
+            "IMG": "",
+            "TITLE": "Marché numérique local",
+            "DESCRIPTION": "Promotion de plateformes et canaux numériques qui connectent les PME, le commerce local et les services publics pour augmenter leur compétitivité."
           },
           {
-            "TITLE": "Interconnectivité",
-            "DESCRIPTION": "Génération de réseaux d'affaires et de stratégies pour atteindre une présence sur Internet"
+            "IMG": "",
+            "TITLE": "Finances durables",
+            "DESCRIPTION": "Conception d'instruments financiers (obligations vertes, prêts liés à l'impact) pour financer l'infrastructure et les services intelligents."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Flexibilité du marché du travail",
-            "DESCRIPTION": "Création de mesures pour améliorer les conditions de travail comme lutter contre le chômage, améliorer l'accès au marché du travail et développer des propositions technologiques"
+            "IMG": "",
+            "TITLE": "Modèles de revenus par service",
+            "DESCRIPTION": "Transition vers des schémas OpEx/servitisation (infrastructure comme service) pour réduire les barrières d'adoption technologique."
           },
           {
-            "TITLE": "Entrepreneuriat et Start-Ups",
-            "DESCRIPTION": "Éducation, formation et création d'environnements et d'infrastructures axées sur le soutien aux entreprises"
+            "IMG": "",
+            "TITLE": "Économie circulaire et emploi",
+            "DESCRIPTION": "Projets qui génèrent de l'emploi local via la réparation, le recyclage et la maintenance d'infrastructure intelligente."
           }
         ],
+        "AREA_TEXT_2": "De la structuration financière à l'opération durable.",
         "TITLE_SERVICE": "Services Financiers et de Structuration",
         "SERVICE": [
           {
             "IMG": "/icons/asociaciones.svg",
-            "TITLE": "Gestion de Schémas PPP (Partenariats Public-Privé)",
-            "DESCRIPTION": "Conseil pour structurer des projets où l'investissement privé récupère du capital à long terme"
+            "TITLE": "Structuration de véhicules financiers pour les villes",
+            "DESCRIPTION": "Conception de SPV, schémas de cofinancement et alliances public-privé pour implémenter des projets smart avec risque et flux clair."
           },
           {
             "IMG": "/icons/energy.svg",
-            "TITLE": "Modèles ESCO (Sociétés de Services Énergétiques)",
-            "DESCRIPTION": "Mise en œuvre de projets qui 'se paient eux-mêmes' avec les économies générées (ex. passage au LED, efficacité énergétique dans le pompage de l'eau)"
+            "TITLE": "Modèles d'épargne et performance contracting",
+            "DESCRIPTION": "Structuration de projets où l'épargne générée par la technologie finance l'investissement initial (efficiency-as-a-service)."
           },
           {
             "IMG": "/icons/arrendamiento.svg",
-            "TITLE": "Location Pure et Financière",
-            "DESCRIPTION": "Offre d'infrastructure en tant que service (OpEx) pour éviter la décapitalisation du client (caméras, lampadaires, flottes)"
+            "TITLE": "Infrastructure comme service (IaaS) urbaine",
+            "DESCRIPTION": "Solutions de leasing et abonnement pour équipement IoT, stations de charge et capteurs, réduisant l'investissement initial de la municipalité."
           },
           {
             "IMG": "/icons/fondos.svg",
-            "TITLE": "Gestion de Fonds Internationaux",
-            "DESCRIPTION": "Conseil pour accéder aux 'Obligations Vertes' ou aux fonds d'organismes comme la BID ou la Banque Mondiale pour des projets de modernisation"
+            "TITLE": "Accès à des fonds multilatéraux et obligations thématiques",
+            "DESCRIPTION": "Gestion pour accéder à un financement international (banques de développement, fonds climatiques) aligné sur des indicateurs ESG et ODD."
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "ROSEWOOD RESIDENCES MAYACOBA",
-            "DESCRIPTION": "Développement résidentiel et touristique exclusif sur la Riviera Maya, composé de trois résidences privées de grande échelle avec des finitions de luxe et du mobilier sur mesure. Le design intègre des matériaux et des détails qui harmonisent avec les lagunes, les terrains de golf et les mangroves, offrant intimité et connexion avec la nature. Le projet combine élégance, confort et un environnement naturel unique dans une communauté fermée.",
-            "LOCATE": "Chetumal, Quintana Roo, Mexique",
-            "DATE": "2023",
+            "TITLE": "FONDS LOCAL D'INNOVATION URBAINE",
+            "DESCRIPTION": "Création et gestion d'un fonds municipal qui finance des pilotes de mobilité, énergie et participation citoyenne avec des métriques d'impact et de retour social.",
+            "LOCATE": "Municipalité Métropolitaine, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/ROSEWOOD/rosewood-1.webp",
-              "/projects/ROSEWOOD/img1.webp",
-              "/projects/ROSEWOOD/img2.webp",
-              "/projects/ROSEWOOD/img3.webp",
-              "/projects/ROSEWOOD/img4.webp",
-              "/projects/ROSEWOOD/img5.webp",
-              "/projects/ROSEWOOD/img6.webp",
-              "/projects/ROSEWOOD/img7.webp",
-              "/projects/ROSEWOOD/img8.webp",
-              "/projects/ROSEWOOD/img9.webp",
-              "/projects/ROSEWOOD/img10.webp"
+              "/projects/c/img1.webp",
+              "/projects/c/img2.webp"
             ]
           },
           {
-            "TITLE": "XHALATA",
-            "DESCRIPTION": "Xhalata est un développement touristique et immobilier de 16 hectares qui intègre des résidences, des espaces commerciaux et des zones de bien-être en harmonie avec l'environnement naturel. Inspiré par les ODD de l'ONU, il intègre des énergies renouvelables, la gestion de l'eau, la reforestation et la protection de la biodiversité. Il promeut une communauté inclusive et résiliente, axée sur le tourisme et le développement durable.",
-            "LOCATE": "Bahía de Banderas, Nayarit, Mexique",
+            "TITLE": "PLATEFORME DE MICROPAYEMENTS ET ÉCONOMIE LOCALE",
+            "DESCRIPTION": "Déploiement d'une plateforme pour activer le commerce local numérique, des incitations à la consommation durable et la traçabilité des subventions sociales.",
+            "LOCATE": "Ville Intermédiaire, Amérique Latine",
             "DATE": "2023",
             "IMG": [
-              "/projects/XHALATA/img1.webp",
-              "/projects/XHALATA/img2.webp",
-              "/projects/XHALATA/img3.webp",
-              "/projects/XHALATA/img4.webp",
-              "/projects/XHALATA/img5.webp",
-              "/projects/XHALATA/img6.webp",
-              "/projects/XHALATA/img7.webp",
-              "/projects/XHALATA/img8.webp",
-              "/projects/XHALATA/img9.webp"
+              "/projects/d/img1.webp",
+              "/projects/d/img2.webp"
             ]
-          },
-          {
-            "TITLE": "MOLINOS DE SALVATIERRA",
-            "DESCRIPTION": "157 TERRAINS ET 29 MAISONS",
-            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
-          },
-          {
-            "TITLE": "ENTREPÔT INDUSTRIEL",
-            "DESCRIPTION": "8,500 M2",
-            "LOCATE": "Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
           }
         ]
       },
       {
+        "ICON": "/icons/areas/movilidadInfraestructura.svg",
         "TITLE": "<strong>Mobilité et<br>Infrastructures</strong><br>Intelligentes",
         "TITLE_TEXT": "Mobilité et Infrastructures Intelligentes",
         "SUBTITLE": "Mobilité et Infrastructure Connectée.",
-        "DESCRIPTION": "<b>Nous gérons des systèmes de transport</b> durables, respectueux de l'environnement et avec une dépense énergétique effective, utilisant les TIC pour assurer le suivi et une offre de service plus adaptée aux différents utilisateurs.",
+        "DESCRIPTION": "<b>Nous gérons des systèmes de transport</b> et l'infrastructure critique avec des technologies qui optimisent le flux, réduisent les émissions et augmentent la sécurité et l'accessibilité.",
+        "AREA_TEXT_1": "Nous travaillons pour que la mobilité soit :",
         "AREA1": [
           {
-            "TITLE": "Accessibilité",
-            "DESCRIPTION": "Stratégies pour l'amélioration de l'accessibilité physique, numérique, socioéconomique et culturelle"
+            "IMG": "",
+            "TITLE": "Accessible et connectée",
+            "DESCRIPTION": "Intégration multimodale, information en temps réel et accessibilité universelle pour tous les utilisateurs."
           },
           {
-            "TITLE": "Options propres et Non motorisées",
-            "DESCRIPTION": "Promouvoir des alternatives durables comme le transport non motorisé et écologique."
+            "IMG": "",
+            "TITLE": "Propre et efficace",
+            "DESCRIPTION": "Promotion de modes non motorisés, transport public électrifié et logistique urbaine durable."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Gestion du trafic, transport public, logistique et TIC",
-            "DESCRIPTION": "Optimiser le flux véhiculaire et le transport public grâce aux technologies de l'information et de la communication."
+            "IMG": "",
+            "TITLE": "Gestion basée sur des données",
+            "DESCRIPTION": "Systèmes de contrôle et analytique pour optimiser les routes, réduire la congestion et prioriser le transport public."
           }
         ],
+        "AREA_TEXT_2": "Conception, déploiement et opération d'infrastructure connectée.",
         "TITLE_SERVICE": "Solutions de Mobilité Intelligente",
         "SERVICE": [
           {
             "IMG": "/icons/semaforo.svg",
-            "TITLE": "Signalisation Intelligente",
-            "DESCRIPTION": "Systèmes de feux de circulation intelligents et adaptatifs"
+            "TITLE": "Contrôle adaptatif de la signalisation",
+            "DESCRIPTION": "Systèmes qui ajustent les phases en temps réel pour améliorer la priorité du transport public et réduire les temps de voyage."
           },
           {
             "IMG": "/icons/estacionamiento.svg",
-            "TITLE": "Gestion des Stationnements",
-            "DESCRIPTION": "Capteurs d'occupation et applications de parcmètres numériques (guidage de stationnement)."
+            "TITLE": "Gestion intelligente des stationnements",
+            "DESCRIPTION": "Capteurs et apps pour guider les conducteurs, réduire la recherche de stationnement et optimiser l'utilisation de l'espace public."
           },
           {
             "IMG": "/icons/electromovilidad.svg",
-            "TITLE": "Infrastructure pour l'Électromobilité",
-            "DESCRIPTION": "Installation et gestion de bornes de recharge pour véhicules électriques (publiques et pour les flottes gouvernementales)."
+            "TITLE": "Réseau de charge et gestion de flottes électriques",
+            "DESCRIPTION": "Planification et opération de points de charge, gestion de la demande et solutions pour flottes municipales."
           },
           {
             "IMG": "/icons/alumbrado.svg",
-            "TITLE": "Éclairage Public Télégéré",
-            "DESCRIPTION": "Lampadaires qui signalent automatiquement les défaillances et permettent un gradation (diminution de l'intensité) aux heures de faible affluence pour économiser de l'énergie."
+            "TITLE": "Infrastructure télé-gérée",
+            "DESCRIPTION": "Systèmes d'éclairage et de signalisation qui réduisent la consommation et facilitent la maintenance prédictive."
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "PROJETS DE SOLUTIONS TECHNOLOGIQUES INTÉGRALES",
-            "DESCRIPTION": "Projet intégral clé en main qui garantit des espaces connectés, sécurisés et opérationnels. Nous nous chargeons de tout le processus, de la conception et de la planification à la livraison finale, en assurant que chaque système fonctionne de manière optimale dès le premier jour. La solution intègre des réseaux de communication efficients, le contrôle des accès, la vidéosurveillance, la sauvegarde électrique et des outils multimédias, optimisant l'opération quotidienne et assurant la continuité face aux pannes électriques, en plus d'équiper des salles pour des réunions présentielles ou virtuelles.",
-            "LOCATE": "San Juan del Río, Querétaro",
-            "DATE": "",
+            "TITLE": "PLATEFORME DE GESTION DU TRAFIC URBAIN (TMS)",
+            "DESCRIPTION": "Mise en œuvre d'un centre de gestion qui intègre des capteurs, CCTV analytique et modèles prédictifs pour optimiser la mobilité et la réponse aux incidents.",
+            "LOCATE": "Ville Capitale, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
-              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+              "/projects/e/img1.webp",
+              "/projects/e/img2.webp"
             ]
           },
           {
-            "TITLE": "ENTREPÔT INDUSTRIEL",
-            "DESCRIPTION": "8,500 M2",
-            "LOCATE": "Manzana 003, Ejido de Tequisitlan, 56020 Tequisistlán, Méx.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NAVE INDUSTRIAL.webp"
+            "TITLE": "RÉSEAU PILOTE D'ÉLECTROLINÉRAS ET MOBILITÉ ÉLECTRIQUE",
+            "DESCRIPTION": "Déploiement de stations de charge stratégiques, intégration avec systèmes de paiement et gestion de flottes publiques et privées.",
+            "LOCATE": "Corridor Métropolitain, Amérique Latine",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/f/img1.webp",
+              "/projects/f/img2.webp"
+            ]
           }
         ]
       },
       {
+        "ICON": "/icons/areas/medioAmbienteInteligente.svg",
         "TITLE": "<strong>Environnement</strong><br>Intelligent",
         "TITLE_TEXT": "Environnement Intelligent",
         "SUBTITLE": "Durabilité et Services ESG.",
-        "DESCRIPTION": "<b>Orientation</b> dans le développement et la mise en œuvre d'énergies propres et <b>utilisation efficace</b> de l'eau et <b>gestion</b> des déchets, basée sur la <b>gestion correcte des projets et l'utilisation durable des ressources naturelles</b>.",
+        "DESCRIPTION": "<b>Nous concevons et mettons en œuvre</b> des systèmes environnementaux urbains : surveillance, efficacité énergétique, gestion hydrique et gestion des déchets soutenus par des données et une gouvernance.",
+        "AREA_TEXT_1": "Nous travaillons pour que la gestion environnementale soit :",
         "AREA1": [
           {
-            "TITLE": "Surveillance environnementale et des réseaux de distribution",
-            "DESCRIPTION": "Supervision des conditions environnementales et de l'état des réseaux de distribution."
+            "IMG": "",
+            "TITLE": "Surveillée",
+            "DESCRIPTION": "Réseaux de capteurs pour la qualité de l'air, le bruit, la température et les ressources hydriques pour une prise de décisions en temps réel."
           },
           {
-            "TITLE": "Efficacité énergétique",
-            "DESCRIPTION": "Optimisation de la consommation d'énergie pour réduire les coûts et les émissions."
+            "IMG": "",
+            "TITLE": "Efficace en énergie",
+            "DESCRIPTION": "Programmes d'efficacité, télé-gestion et électrification avec mesure granulaire de la consommation."
           },
           {
-            "TITLE": "Planification urbaine et réhabilitation des bâtiments",
-            "DESCRIPTION": "Conception et amélioration des espaces urbains et récupération des infrastructures existantes."
+            "IMG": "",
+            "TITLE": "Planifiée et résiliente",
+            "DESCRIPTION": "Planification urbaine qui intègre les risques climatiques, les espaces verts et l'adaptation au changement climatique."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Gestion des déchets",
-            "DESCRIPTION": "Gestion intégrale des déchets pour minimiser l'impact environnemental."
+            "IMG": "",
+            "TITLE": "Gestion intelligente de l'eau",
+            "DESCRIPTION": "Télémétrie, sectorisation et détection de fuites pour garantir un approvisionnement efficace et réduire les pertes."
           },
           {
-            "TITLE": "Protection environnementale",
-            "DESCRIPTION": "Actions pour préserver les écosystèmes et les ressources naturelles."
+            "IMG": "",
+            "TITLE": "Gestion des déchets intelligente",
+            "DESCRIPTION": "Capteurs dans les conteneurs et optimisation des routes pour réduire les émissions et les coûts opérationnels."
           },
           {
-            "TITLE": "Sensibilisation et changement d'habitudes",
-            "DESCRIPTION": "Promotion de pratiques durables et éducation environnementale dans la société."
+            "IMG": "",
+            "TITLE": "Participation à la durabilité",
+            "DESCRIPTION": "Plateformes de rapport citoyen et d'éducation pour promouvoir des pratiques durables."
           }
         ],
-        "TITLE_SERVICE": "Conformité normative et durabilité corporative/gouvernementale",
+        "AREA_TEXT_2": "Nous mettons en œuvre la technologie avec une approche ESG et une mesure d'impact.",
+        "TITLE_SERVICE": "Conformité réglementaire et durabilité corporative/gouvernementale",
         "SERVICE": [
           {
             "IMG": "/icons/consultoria.svg",
-            "TITLE": "Conseil ESG (Environnemental, Social et de Gouvernance)",
-            "DESCRIPTION": "Aider les parcs industriels et les villes à se conformer aux réglementations pour attirer les investissements étrangers."
+            "TITLE": "Consultance ESG et adaptation climatique",
+            "DESCRIPTION": "Évaluations, plans de décarbonisation et préparation pour l'accès au financement vert."
           },
           {
             "IMG": "/icons/gestion_hidrica.svg",
-            "TITLE": "Gestion Hydrique (Smart Water)",
-            "DESCRIPTION": "Télémétrie pour les puits, sectorisation des réseaux d'eau potable pour détecter les fuites non visibles (vital face à la crise hydrique au Mexique)."
+            "TITLE": "Smart Water (télémétrie et sectorisation)",
+            "DESCRIPTION": "Systèmes pour surveiller les niveaux, détecter les fuites et prioriser les investissements dans les réseaux."
           },
           {
             "IMG": "/icons/co2.svg",
-            "TITLE": "Stratégie Net Zero",
-            "DESCRIPTION": "Inventaire des émissions de GES (Gaz à Effet de Serre) et plans de décarbonisation."
+            "TITLE": "Inventaire des émissions et stratégie Net Zero",
+            "DESCRIPTION": "Mesure, rapport et planification pour la réduction des GES avec des métriques auditables."
           },
           {
             "IMG": "/icons/calidad_aire.svg",
-            "TITLE": "Surveillance de la Qualité de l'Air",
-            "DESCRIPTION": "Réseaux de capteurs environnementaux pour activer automatiquement les protocoles de contingence."
+            "TITLE": "Surveillance de la qualité de l'air",
+            "DESCRIPTION": "Réseaux de capteurs avec intégrations pour alertes et politiques publiques."
           },
           {
             "IMG": "/icons/residuos.svg",
-            "TITLE": "Gestion Intelligente des Déchets",
-            "DESCRIPTION": "Capteurs de niveau dans les conteneurs et optimisation des routes de collecte pour réduire la consommation de carburant."
+            "TITLE": "Optimisation des services de déchets",
+            "DESCRIPTION": "Routes dynamiques et planification basée sur des données pour l'efficacité opérationnelle."
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "XHALATA",
-            "DESCRIPTION": "Xhalata est un développement touristique et immobilier de 16 hectares qui intègre des résidences, des espaces commerciaux et des zones de bien-être en harmonie avec l'environnement naturel. Inspiré par les ODD de l'ONU, il intègre des énergies renouvelables, la gestion de l'eau, la reforestation et la protection de la biodiversité. Il promeut une communauté inclusive et résiliente, axée sur le tourisme et le développement durable.",
-            "LOCATE": "Bahía de Banderas, Nayarit, Mexique",
-            "DATE": "2023",
+            "TITLE": "RÉSEAU MUNICIPAL DE SURVEILLANCE ENVIRONNEMENTALE",
+            "DESCRIPTION": "Déploiement de capteurs de qualité de l'air, stations météorologiques et plateforme de données ouvertes pour la gestion environnementale et les alertes.",
+            "LOCATE": "Zone Métropolitaine, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/XHALATA/img1.webp",
-              "/projects/XHALATA/img2.webp",
-              "/projects/XHALATA/img3.webp",
-              "/projects/XHALATA/img4.webp",
-              "/projects/XHALATA/img5.webp",
-              "/projects/XHALATA/img6.webp",
-              "/projects/XHALATA/img7.webp",
-              "/projects/XHALATA/img8.webp",
-              "/projects/XHALATA/img9.webp"
+              "/projects/g/img1.webp",
+              "/projects/g/img2.webp",
+              "/projects/g/img3.webp"
             ]
           },
           {
-            "TITLE": "TEPOZTLÁN",
-            "DESCRIPTION": "Développement immobilier durable de 9.7 hectares intégrant 68 logements avec une conception à faible impact environnemental. Le projet applique les principes LEED, la réutilisation de l'eau, les énergies renouvelables et la construction modulaire. Inspiré par les ODD, il inclut des espaces de bien-être, des pistes cyclables et des zones sportives, ainsi que des zones commerciales et communautaires qui promeuvent la cohésion sociale et respectent l'identité locale.",
-            "LOCATE": "Cuernavaca, Morelos, Mexique",
+            "TITLE": "PROGRAMME SMART WATER",
+            "DESCRIPTION": "Sectorisation des réseaux, télémétrie dans les puits et système de détection précoce des fuites pour réduire les pertes d'eau non facturées.",
+            "LOCATE": "Ville Intermédiaire, Amérique Latine",
             "DATE": "2023",
             "IMG": [
-              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
-              "/projects/TEPOZTLAN/Portada.webp",
-              "/projects/TEPOZTLAN/02.webp",
-              "/projects/TEPOZTLAN/03.webp",
-              "/projects/TEPOZTLAN/04.webp",
-              "/projects/TEPOZTLAN/05.webp",
-              "/projects/TEPOZTLAN/06.webp",
-              "/projects/TEPOZTLAN/07.webp",
-              "/projects/TEPOZTLAN/08.webp"
-            ]
-          },
-          {
-            "TITLE": "HACIENDA CAPULÍN",
-            "DESCRIPTION": "Développement résidentiel et touristique de 66 appartements de luxe qui combine un design conscient et la durabilité, aligné avec les ODD de l'ONU. Intégré dans un environnement naturel privilégié, il préserve des arbres centenaires et maintient l'architecture historique. Il offre des commodités comme une piscine, des courts de paddle, un jacuzzi et un restaurant. Il utilise des technologies et des pratiques durables pour optimiser les ressources et minimiser l'impact environnemental.",
-            "LOCATE": "Silao, Guanajuato, Mexique",
-            "DATE": "2025",
-            "IMG": [
-              "/projects/CAPULIN/CAP_Patio interior 01.webp",
-              "/projects/CAPULIN/CAP_Cancha Padel_02.webp",
-              "/projects/CAPULIN/CAP_Fachada Oeste con Hacienda.webp",
-              "/projects/CAPULIN/Cap_FAchada Oeste.webp",
-              "/projects/CAPULIN/CAP_Hacienda,patiocentral.webp",
-              "/projects/CAPULIN/CAP_Jaccuzi_01.webp",
-              "/projects/CAPULIN/CAP_Jaccuzi_02.webp",
-              "/projects/CAPULIN/CAP_Patio int_Fachada oeste.webp",
-              "/projects/CAPULIN/CAP_Patio interior 01.webp",
-              "/projects/CAPULIN/CAP_Piscina.webp",
-              "/projects/CAPULIN/CAP_Vista Aerea_01.webp"
+              "/projects/h/img1.webp",
+              "/projects/h/img2.webp",
+              "/projects/h/img3.webp"
             ]
           }
         ]
       },
       {
+        "ICON": "/icons/areas/habitatyServicios.svg",
         "TITLE": "<strong>Habitat et Services</strong><br>Intelligents",
         "TITLE_TEXT": "Habitat et Services Intelligents",
         "SUBTITLE": "Sécurité et Qualité de Vie.",
-        "DESCRIPTION": "<b>Nous encourageons et orientons</b> dans la création de réseaux et d'infrastructures qui permettent la participation dans des domaines comme la e-santé, la e-culture, le e-tourisme et la e-sécurité.",
+        "DESCRIPTION": "<b>Nous promouvons des réseaux et infrastructures</b> qui élèvent la qualité de vie : santé connectée, gestion des espaces publics, et services urbains centrés sur les personnes.",
+        "AREA_TEXT_1": "Nous travaillons pour que l'habitat soit :",
         "AREA1": [
           {
-            "TITLE": "Tourisme",
-            "DESCRIPTION": "Génération de plateformes intégrées pour la présentation et la prestation de services touristiques."
+            "IMG": "",
+            "TITLE": "Santé connectée (e-health)",
+            "DESCRIPTION": "Télémédecine, surveillance à distance et coord. entre centres pour améliorer l'accessibilité aux soins."
           },
           {
-            "TITLE": "Culture et loisirs",
-            "DESCRIPTION": "Impulsion d'activités culturelles et récréatives grâce à des solutions numériques."
+            "IMG": "",
+            "TITLE": "Culture et tourisme numérique",
+            "DESCRIPTION": "Plateformes pour expériences culturelles, routes intelligentes et gestion des visiteurs."
           },
           {
-            "TITLE": "Santé et soins",
-            "DESCRIPTION": "Application de technologies pour améliorer les soins médicaux et le bien-être."
-          },
-          {
-            "TITLE": "Gestion de l'espace public",
-            "DESCRIPTION": "Optimisation de l'administration et de l'utilisation des zones urbaines."
+            "IMG": "",
+            "TITLE": "Gestion efficace de l'espace public",
+            "DESCRIPTION": "Maintenance prédictive, arrosage automatisé et mobilier connecté pour améliorer l'utilisation et la sécurité."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Sécurité",
-            "DESCRIPTION": "Mise en œuvre de systèmes de e-sécurité pour protéger les citoyens."
+            "IMG": "",
+            "TITLE": "Sécurité et résilience",
+            "DESCRIPTION": "Systèmes intégrés de surveillance analytique, alertes précoces et coordination de réponse."
           },
           {
-            "TITLE": "Accessibilité technologique",
-            "DESCRIPTION": "Faciliter l'accès aux outils numériques pour tous les secteurs sociaux."
-          },
-          {
-            "TITLE": "Bien-être et inclusion sociale",
-            "DESCRIPTION": "Promotion de l'intégration sociale et amélioration de la qualité de vie."
+            "IMG": "",
+            "TITLE": "Accessibilité et services inclusifs",
+            "DESCRIPTION": "Kiosques, apps et services adaptés pour groupes vulnérables et personnes âgées."
           }
         ],
+        "AREA_TEXT_2": "Solutions centrées sur l'expérience urbaine et l'équité.",
         "TITLE_SERVICE": "Services axés sur le bien-être quotidien et la sécurité",
         "SERVICE": [
           {
             "IMG": "/icons/centro_de_comando.svg",
-            "TITLE": "Sécurité Citoyenne et Intelligence",
-            "DESCRIPTION": "Centres de Commandement (C2/C4) avec vidéosurveillance analytique (détection de tirs, rôdeurs, lecture de plaques) et boutons de panique connectés."
+            "TITLE": "Centres de commande et contrôle (C2)",
+            "DESCRIPTION": "Intégration de vidéosurveillance analytique, capteurs urbains et gestion des incidents."
           },
           {
             "IMG": "/icons/parque_inteligente.svg",
-            "TITLE": "Gestion des Espaces Publics",
-            "DESCRIPTION": "Parcs intelligents avec éclairage adaptatif, irrigation automatique et mobilier urbain avec charge USB/Solaire."
+            "TITLE": "Parcs et espaces publics intelligents",
+            "DESCRIPTION": "Éclairage adaptatif, arrosage automatisé et mobilier connecté pour sécurité et utilisation efficace."
           },
           {
             "IMG": "/icons/estructural.svg",
-            "TITLE": "Surveillance de la Santé Structurelle",
-            "DESCRIPTION": "Capteurs sur les ponts et les bâtiments publics pour la protection civile (alertes sismiques ou usure)."
+            "TITLE": "Surveillance d'infrastructure et protection civile",
+            "DESCRIPTION": "Capteurs structurels et systèmes d'alerte pour gestion des risques et maintenance."
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "NUEVO CELAYA",
-            "DESCRIPTION": "400 LOGEMENTS",
-            "LOCATE": "Nuevo Celaya, 38027 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/NUEVO CELAYA.webp"
-          },
-          {
-            "TITLE": "ARBOLEDAS DEL PEDREGAL",
-            "DESCRIPTION": "ARBOLEDAS DEL PEDREGAL",
-            "LOCATE": "212 Sor Juana Inés de la Cruz,  38090 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/ARBOLEDAS DEL PEDREGAL.webp"
-          },
-          {
-            "TITLE": "RÉSIDENTIEL TECHNOLOGIQUE",
-            "DESCRIPTION": "200 LOGEMENTS",
-            "LOCATE": "Résidentiel Tecnológico, 38010 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL TECNOLÓGICO.webp"
-          },
-          {
-            "TITLE": "RÉSIDENTIEL SAN ANGEL",
-            "DESCRIPTION": "46 APPARTEMENTS ESPACES COMMERCIAUX",
-            "LOCATE": "José María Pino Suárez 202, 38078 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN ANGEL.webp"
-          },
-          {
-            "TITLE": "FRACCIONAMIENTO MONTES",
-            "DESCRIPTION": "40 LOGEMENTS",
-            "LOCATE": "De Morelos 319, 38000 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/FRACCIONAMIENTO MONTES.webp"
-          },
-          {
-            "TITLE": "RÉSIDENTIEL BUGAMBILIAS",
-            "DESCRIPTION": "40 LOGEMENTS",
-            "LOCATE": "Av. San José de Guanajuato, Providencia, 38020 Celaya, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL BUGAMBILIAS.webp"
-          },
-          {
-            "TITLE": "RÉSIDENTIEL SAN JAVIER",
-            "DESCRIPTION": "150 APPARTEMENTS",
-            "LOCATE": "San Javier 101, 36020 Guanajuato, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/RESIDENCIAL SAN JAVIER.webp"
-          },
-          {
-            "TITLE": "LOS PORTALES",
-            "DESCRIPTION": "Développement résidentiel de 52,775 m² axé sur le bien-être des personnes âgées. Il intègre 52 maisons individuelles et 54 duplex dans un environnement sécurisé et fermé, avec une technologie intelligente pour le contrôle de la maison et la surveillance de la santé. Basé sur les ODD de l'ONU, il promeut l'efficacité énergétique, l'utilisation responsable de l'eau et la durabilité. Chaque logement est conçu comme une maison intelligente, confortable et adaptée à l'avenir.",
-            "LOCATE": "San Miguel de Allende, Guanajuato, Mexique",
-            "DATE": "2025",
+            "TITLE": "CENTRE DE TÉLÉMÉDECINE MUNICIPAL",
+            "DESCRIPTION": "Mise en œuvre de kiosques de santé connectés à des hôpitaux régionaux pour soins primaires et suivi à distance de patients chroniques.",
+            "LOCATE": "Municipalité Pilote, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/SAN_MIGUEL/PORTALES.webp",
-              "/projects/SAN_MIGUEL/img1.webp",
-              "/projects/SAN_MIGUEL/img2.webp",
-              "/projects/SAN_MIGUEL/img3.webp",
-              "/projects/SAN_MIGUEL/img4.webp"
+              "/projects/i/img1.webp",
+              "/projects/i/img2.webp"
             ]
           },
           {
-            "TITLE": "MOLINOS DE SALVATIERRA",
-            "DESCRIPTION": "157 TERRAINS ET 29 MAISONS",
-            "LOCATE": "Virrey de Sarmiento 27, 38900 Salvatierra, Gto.",
-            "IMG": "/projects/DESARROLLOS _RESIDENCIALES/MOLINOS DE SALVATIERRA.webp"
-          },
-          {
-            "TITLE": "PROJETS DE SOLUTIONS TECHNOLOGIQUES INTÉGRALES",
-            "DESCRIPTION": "Projet intégral clé en main qui garantit des espaces connectés, sécurisés et opérationnels. Nous nous chargeons de tout le processus, de la conception et de la planification à la livraison finale, en assurant que chaque système fonctionne de manière optimale dès le premier jour. La solution intègre des réseaux de communication efficients, le contrôle des accès, la vidéosurveillance, la sauvegarde électrique et des outils multimédias, optimisant l'opération quotidienne et assurant la continuité face aux pannes électriques, en plus d'équiper des salles pour des réunions présentielles ou virtuelles.",
-            "LOCATE": "San Juan del Río, Querétaro",
-            "DATE": "",
+            "TITLE": "PARC INTELLIGENT DE BIEN-ÊTRE",
+            "DESCRIPTION": "Transformation d'un parc urbain avec éclairage adaptatif, arrosage efficace, capteurs d'utilisation et stations de charge solaire pour dispositifs citoyens.",
+            "LOCATE": "Ville Intermédiaire, Amérique Latine",
+            "DATE": "2023",
             "IMG": [
-              "/projects/SOLUCIONES_TECNOLOGICAS/DATA CENTER HUAWEI.webp",
-              "/projects/SOLUCIONES_TECNOLOGICAS/PARQUE INDUSTRIAL ADVANCE.webp"
+              "/projects/j/img1.webp"
             ]
           }
         ]
       },
       {
+        "ICON": "/icons/areas/sociedadInteligente.svg",
         "TITLE": "<strong>Société</strong><br>Intelligente",
         "TITLE_TEXT": "Société Intelligente",
         "SUBTITLE": "Société et Inclusion Numérique.",
-        "DESCRIPTION": "Nous orientons dans la <b>structuration et l'administration</b> du projet, <b>gérons</b> les associations et le financement et <b>concevons</b> efficacement les infrastructures et les services publics.",
+        "DESCRIPTION": "Nous promouvons l'inclusion numérique, l'éducation et la participation citoyenne via des plateformes et programmes qui rapprochent la technologie de toutes les personnes.",
+        "AREA_TEXT_1": "Nous travaillons pour que la société soit :",
         "AREA1": [
           {
-            "TITLE": "Créativité",
-            "DESCRIPTION": "Promotion des compétences, de l'art et de la culture, et génération d'opportunités basées sur celles-ci."
+            "IMG": "",
+            "TITLE": "Inclusive",
+            "DESCRIPTION": "Accès numérique pour populations vulnérables et programmes pour réduire la fracture numérique."
           },
           {
-            "TITLE": "Formation professionnelle par la technologie",
-            "DESCRIPTION": "Mise en œuvre de stratégies d'apprentissage à fort impact."
+            "IMG": "",
+            "TITLE": "Capable",
+            "DESCRIPTION": "Programmes de formation en compétences numériques et STEM pour l'emploi local."
           },
           {
-            "TITLE": "Société inclusive",
-            "DESCRIPTION": "Inclusion dans les politiques et mesures, ainsi que génération de mesures de soutien à la société."
+            "IMG": "",
+            "TITLE": "Créative et participative",
+            "DESCRIPTION": "Plateformes qui favorisent la co-création de politiques et projets publics."
           }
         ],
         "AREA2": [
           {
-            "TITLE": "Gestion de la vie urbaine et création de communauté",
-            "DESCRIPTION": "Soutien à la création de réseaux et de plateformes urbaines d'organisations communautaires et diffusion."
+            "IMG": "",
+            "TITLE": "Réseaux communautaires",
+            "DESCRIPTION": "Soutien aux initiatives locales et plateformes pour coordination d'organisations civiles."
           },
           {
-            "TITLE": "Éducation numérique",
-            "DESCRIPTION": "Plateformes d'accès à distance à l'éducation, création d'installations pour l'apprentissage permanent et intégration de solutions technologiques."
+            "IMG": "",
+            "TITLE": "Éducation numérique permanente",
+            "DESCRIPTION": "Salles et ressources connectées pour apprentissage à distance et formation continue."
           }
         ],
+        "AREA_TEXT_2": "Technologie avec un visage humain et une approche inclusive.",
         "TITLE_SERVICE": "Technologie avec un visage humain et une approche inclusive",
         "SERVICE": [
           {
             "IMG": "/icons/wifi.svg",
-            "TITLE": "Inclusion Numérique (Fracture Numérique)",
-            "DESCRIPTION": "Déploiement de points d'accès Wi-Fi gratuits dans les zones marginalisées et centres communautaires numériques."
+            "TITLE": "Déploiement de connectivité communautaire",
+            "DESCRIPTION": "Points d'accès public, infrastructure pour télécentres et réseaux mesh dans zones à faible connectivité."
           },
           {
             "IMG": "/icons/accesibilidad.svg",
-            "TITLE": "Technologie Accessible",
-            "DESCRIPTION": "Conception d'applications et de kiosques citoyens selon les normes WCAG (Web Content Accessibility Guidelines) pour les personnes ayant un handicap visuel ou moteur."
+            "TITLE": "Plateformes et services accessibles",
+            "DESCRIPTION": "Conception d'interfaces inclusives et canaux d'attention adaptés pour personnes handicapées."
           },
           {
             "IMG": "/icons/robotica.svg",
-            "TITLE": "Éducation STEM",
-            "DESCRIPTION": "Équipement de salles de classe intelligentes et de laboratoires de robotique pour les écoles publiques."
+            "TITLE": "Centres de formation STEM",
+            "DESCRIPTION": "Laboratoires et programmes de robotique et programmation pour étudiants et entreprenariats locaux."
           },
           {
             "IMG": "/icons/telemedicina.svg",
-            "TITLE": "Télémédecine Municipale",
-            "DESCRIPTION": "Kiosques de santé dans les zones rurales connectés aux hôpitaux centraux pour des diagnostics de base."
+            "TITLE": "Téléservices sociaux",
+            "DESCRIPTION": "Kiosques et applications pour démarches, santé de base et services d'emploi dans zones éloignées."
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "TEPOZTLÁN",
-            "DESCRIPTION": "Développement immobilier durable de 9.7 hectares intégrant 68 logements avec une conception à faible impact environnemental. Le projet applique les principes LEED, la réutilisation de l'eau, les énergies renouvelables et la construction modulaire. Inspiré par les ODD, il inclut des espaces de bien-être, des pistes cyclables et des zones sportives, ainsi que des zones commerciales et communautaires qui promeuvent la cohésion sociale et respectent l'identité locale.",
-            "LOCATE": "Cuernavaca, Morelos, Mexique",
+            "TITLE": "PROGRAMME D'INCLUSION NUMÉRIQUE COMMUNAUTAIRE",
+            "DESCRIPTION": "Réseau de télécentres et points Wi-Fi gérés par la municipalité pour alphabétisation numérique, démarches en ligne et soutien aux PME locales.",
+            "LOCATE": "Région Nord, Mexique",
             "DATE": "2023",
             "IMG": [
-              "/projects/TEPOZTLAN/TEPOZTLAN.webp",
-              "/projects/TEPOZTLAN/Portada.webp",
-              "/projects/TEPOZTLAN/02.webp",
-              "/projects/TEPOZTLAN/03.webp",
-              "/projects/TEPOZTLAN/04.webp",
-              "/projects/TEPOZTLAN/05.webp",
-              "/projects/TEPOZTLAN/06.webp",
-              "/projects/TEPOZTLAN/07.webp",
-              "/projects/TEPOZTLAN/08.webp"
+              "/projects/k/img1.webp",
+              "/projects/k/img2.webp"
             ]
           },
           {
-            "TITLE": "RANCHO LA COFRADÍA",
-            "DESCRIPTION": "Projet de développement durable de 68.1 hectares qui favorise une croissance équilibrée à Tlajomulco. Il intègre des zones d'agriculture, d'élevage, d'industrie, de divertissement, d'éducation et d'infrastructure, utilisant des méthodologies avancées comme le BIM et la Lean Construction pour renforcer les objectifs de développement durable.",
-            "LOCATE": "Tlajomulco, Jalisco, Mexique",
-            "DATE": "2025",
+            "TITLE": "PLATEFORME DE PARTICIPATION CITOYENNE",
+            "DESCRIPTION": "Outil numérique pour consultations publiques, budgets participatifs et suivi des engagements, avec tableaux de bord pour transparence.",
+            "LOCATE": "Ville Capitale, Mexique",
+            "DATE": "2024",
             "IMG": [
-              "/projects/COFRADIA/img1.webp"
-            ]
-          },
-          {
-            "TITLE": "LOS PORTALES",
-            "DESCRIPTION": "Développement résidentiel de 52,775 m² axé sur le bien-être des personnes âgées. Il intègre 52 maisons individuelles et 54 duplex dans un environnement sécurisé et fermé, avec une technologie intelligente pour le contrôle de la maison et la surveillance de la santé. Basé sur les ODD de l'ONU, il promeut l'efficacité énergétique, l'utilisation responsable de l'eau et la durabilité. Chaque logement est conçu comme une maison intelligente, confortable et adaptée à l'avenir.",
-            "LOCATE": "San Miguel de Allende, Guanajuato, Mexique",
-            "DATE": "2025",
-            "IMG": [
-              "/projects/SAN_MIGUEL/PORTALES.webp",
-              "/projects/SAN_MIGUEL/img1.webp",
-              "/projects/SAN_MIGUEL/img2.webp",
-              "/projects/SAN_MIGUEL/img3.webp",
-              "/projects/SAN_MIGUEL/img4.webp"
-            ]
-          },
-          {
-            "TITLE": "XHALATA",
-            "DESCRIPTION": "Xhalata est un développement touristique et immobilier de 16 hectares qui intègre des résidences, des espaces commerciaux et des zones de bien-être en harmonie avec l'environnement naturel. Inspiré par les ODD de l'ONU, il intègre des énergies renouvelables, la gestion de l'eau, la reforestation et la protection de la biodiversité. Il promeut une communauté inclusive et résiliente, axée sur le tourisme et le développement durable.",
-            "LOCATE": "Bahía de Banderas, Nayarit, Mexique",
-            "DATE": "2023",
-            "IMG": [
-              "/projects/XHALATA/img1.webp",
-              "/projects/XHALATA/img2.webp",
-              "/projects/XHALATA/img3.webp",
-              "/projects/XHALATA/img4.webp",
-              "/projects/XHALATA/img5.webp",
-              "/projects/XHALATA/img6.webp",
-              "/projects/XHALATA/img7.webp",
-              "/projects/XHALATA/img8.webp",
-              "/projects/XHALATA/img9.webp"
+              "/projects/l/img1.webp",
+              "/projects/l/img2.webp"
             ]
           }
         ]
@@ -627,15 +508,15 @@
     ]
   },
   "HERO": {
-    "TEXT_1": "GLACI est un consortium d'innovation urbaine qui intègre le talent, la collaboration multisectorielle et la structuration financière pour transformer les visions urbaines en projets durables, viables et à impact réel.",
-    "TEXT_2_1": "Smart Cities",
-    "TEXT_2_2": "Smart Future",
-    "TEXT_3": "Nous alignons les gouvernements, le secteur privé, le monde universitaire, les investisseurs et les organismes multilatéraux pour structurer et matérialiser des projets urbains durables, avec une vision humaine et une solidité financière.",
+    "TEXT_1": "GLACI est un consortium d'innovation urbaine qui intègre le talent, la collaboration multisectorielle et la structuration financière pour transformer les visions urbaines en projets durables, viables et avec un impact réel.",
+    "TEXT_2_1": "Villes Intelligentes",
+    "TEXT_2_2": "Avenir Intelligent",
+    "TEXT_3": "Nous alignons gouvernements, secteur privé, académie, investisseurs et organismes multilatéraux pour structurer et matérialiser des projets urbains durables, avec une vision humaine et une solidité financière.",
     "TEXT_4": "Les villes n'évoluent pas seulement avec des idées, de la technologie ou des ressources. Elles évoluent lorsque le talent adéquat, la collaboration consciente et le capital bien structuré avancent dans la même direction.",
-    "CENTER_SUBTITLE": "Mise en œuvre",
-    "CENTER_TITLE": "Smart City",
-    "FOOTER_LEFT_LINE1": "Orientation sur",
-    "FOOTER_LEFT_LINE2": "la mise en œuvre réglementaire",
+    "CENTER_SUBTITLE": "Mise en Œuvre",
+    "CENTER_TITLE": "Ville Intelligente",
+    "FOOTER_LEFT_LINE1": "Orientation en",
+    "FOOTER_LEFT_LINE2": "mise en œuvre normative",
     "FOOTER_LEFT_BUTTON": "villes et communautés",
     "FOOTER_RIGHT_TEXT": "Suivez-nous sur",
     "BUTTON_STRATEGIC_CONVERSATION": "Conversation stratégique",
@@ -664,26 +545,26 @@
     }
   ],
   "ABOUT": {
-    "LABEL": "Smart City.",
+    "LABEL": "Ville Intelligente.",
     "TITLE1": "Interaction et transformation urbaine durable",
-    "TEXT1": "Un système holistique où interagissent le capital humain et social, employant des solutions basées sur les TIC.",
-    "TITLE2": "Le but d'une Smart City est d'atteindre une gestion efficace",
+    "TEXT1": "Un système holistique où interagissent le capital humain et social, en employant des solutions basées sur les TIC.",
+    "TITLE2": "Le but d'une Ville Intelligente est d'atteindre une gestion efficace",
     "TEXT2": "satisfaisant les besoins de la ville et de ses citoyens.",
-    "TITLE3": "Conseil et accompagnement en gestion des villes intelligentes",
+    "TITLE3": "Consultance et conseil en gestion de villes intelligentes",
     "TEXT3": "Services nationaux et internationaux avec une approche éthique, durable et innovante."
   },
   "CONTACT_FORM": {
-    "HEADING": "Contactez-nous si vous avez des questions ou des commentaires sur le sujet, ou <span class=\"text-[var(--color-title)]\">inscrivez-vous</span> pour recevoir plus d'informations sur les villes intelligentes.",
+    "HEADING": "Contactez-nous si vous avez des doutes ou des commentaires sur le sujet, ou <span class=\"text-[var(--color-title)]\">inscrivez-vous</span> pour recevoir plus d'informations sur les villes intelligentes.",
     "NAME_PLACEHOLDER": "Nom",
-    "EMAIL_PLACEHOLDER": "Email",
+    "EMAIL_PLACEHOLDER": "Mail",
     "MESSAGE_PLACEHOLDER": "Message",
     "SUBMIT_BUTTON": "Envoyer"
   },
   "INFORMATION": {
     "MISSION_TITLE": "Mission",
-    "MISSION_TEXT": "Concevoir des solutions intelligentes pour le développement technologique et durable des villes et des communautés, en recherchant toujours l'inclusion et l'accessibilité des personnes.",
+    "MISSION_TEXT": "Idéer des solutions intelligentes pour le développement technologique et durable des villes et communautés, en cherchant toujours l'inclusion et l'accessibilité des personnes.",
     "VISION_TITLE": "Vision",
-    "VISION_TEXT": "Développer et créer des projets de ville et d'établissements humains à l'échelle mondiale, qui promeuvent l'inclusivité et garantissent l'accessibilité, la sécurité, l'optimisation des ressources, l'abordabilité et la durabilité pour atteindre la prospérité et la qualité de vie.",
+    "VISION_TEXT": "Développer et créer des projets de ville et d'établissements humains au niveau mondial, qui promeuvent l'inclusivité et garantissent l'accessibilité, la sécurité, l'optimisation des ressources, l'abordabilité et la durabilité pour atteindre la prospérité et la qualité de vie.",
     "VALUES_TITLE": "Valeurs",
     "VALUES_LIST": [
       "Excellence",
@@ -698,47 +579,47 @@
   "CERTIFICATIONS": [
     {
       "NAV_TITLE": "Certifications ISO",
-      "TITLE": "Smart City – Smart Communities",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les réglementations ISO. <br/> <br/> Celles-ci permettent d'évaluer objectivement le développement des villes et communautés durables, grâce à la standardisation des processus et à une analyse qualitative et quantitative.",
-      "DESCRIPTION_RIGHT": "L'Organisation Internationale de Normalisation, à travers son comité technique 268 pour les villes et communautés durables, a développé les Normes suivantes dans ce domaine d'application."
+      "TITLE": "Ville Intelligente – Communautés Intelligentes",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Villes Intelligentes, Avenir Intelligent </b> accompagne les processus de gestion et de mise en œuvre de solutions basées sur les normes ISO. <br/> <br/> Celles-ci permettent d'évaluer de manière objective le développement des villes et communautés durables, via la standardisation des processus et avec une analyse qualitative et quantitative.",
+      "DESCRIPTION_RIGHT": "L'Organisation Internationale de la Normalisation ou Standardisation, à travers son comité technique 268 pour les villes et communautés durables a développé les Normes suivantes dans ce domaine d'application."
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
-      "TITLE": "Développement durable dans les communautés - Système de Management pour le développement durable",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Ses principaux objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Construire un consensus sur le développement durable</li><li>Améliorer la durabilité, l'intelligence et la résilience de toutes ses actions</li><li>Développer des approches intersectorielles, multidisciplinaires, de valeur du cycle de vie et de coût total.</li><li>Favoriser les synergies</li><li>Augmenter l'efficacité et l'attractivité des communautés</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable aux communautés de toutes tailles, structures et types</li><li>Applicable aux pays développés, en développement</li><li>Applicable aux niveaux local, régional ou national</li><li>Applicable dans les zones urbaines ou rurales</li></ul>"
+      "TITLE": "Développement durable dans les communautés - Système de Gestion pour le développement Durable",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Ses principales objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Construire un consensus sur le développement durable</li><li>Améliorer la durabilité, l'intelligence et la résilience de toutes ses actions</li><li>Développer des approches intersectorielles, multidisciplinaires, de valeur du cycle de vie et de coût total.</li><li>Favoriser les synergies</li><li>Augmenter l'efficacité et l'attractivité des communautés</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portées :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable à des communautés de toutes tailles, structures et types</li><li>Applicable à des pays développés, en développement</li><li>Applicable au niveau local, régional ou national</li><li>Applicable en zones urbaines ou rurales</li></ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
       "TITLE": "Développement durable des communautés – Indicateurs des services de la ville et de la qualité de vie",
-      "DESCRIPTION_LEFT": "Cette norme complète la série d'indicateurs pour mesurer la performance dans les communautés ; elle inclut les services de la ville et la qualité de vie dans les villes intelligentes et les villes résilientes.<br/> <br/> Ces indicateurs permettent d'évaluer et à leur tour de planifier sur la base de besoins futurs possibles et établit comme objectifs principaux :<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Mesure de la gestion de la performance des services et de la qualité au fil du temps</li><li>Possibilité de comparaison pour apprendre des mesures de performance</li><li>Développement de politiques et établissement de priorités</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicateurs agrégables à des zones administratives très grandes</li> <li>Applicables à l'évaluation de l'efficacité des ressources de la ville</li> <li>Ensemble avec d'autres indicateurs permet d'avoir une approche plus intégrale et holistique pour l'analyse de la durabilité</li> </ul>"
+      "DESCRIPTION_LEFT": "Cette norme complète la série d'indicateurs pour mesurer la performance dans les communautés ; elle inclut les services de la ville et la qualité de vie dans les villes intelligentes et résilientes.<br/> <br/> Ces indicateurs permettent d'évaluer et à leur tour de planifier sur la base de besoins futurs possibles et établit comme principaux objectifs :<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Mesure de la gestion de performance des services et de la qualité au fil du temps</li><li>Possibilité de comparaison pour apprendre sur les mesures de performance</li><li>Développement de politiques et établissement de priorités</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Portées :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicateurs agrégeables à des zones administratives très grandes</li> <li>Applicables à l'évaluation de l'efficacité des ressources de la ville</li> <li>En conjonction avec d'autres indicateurs permet d'avoir une approche plus intégrale et holistique pour l'analyse de la durabilité</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
-      "TITLE": "Villes et communautés durables - Indicateurs pour les Villes Intelligentes",
-      "DESCRIPTION_LEFT": "Elle présente un point de référence pour la durabilité des villes, qui requièrent des indicateurs supplémentaires à ceux établis pour évaluer les services de la ville et la qualité de vie. Ensemble avec l'application de la Norme ISO 37120, elle aide les villes à mettre en œuvre des politiques, programmes et projets pour les villes intelligentes.<br/> <br/> <b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> Ensemble avec la norme ISO 37120, elle vise à fournir un ensemble complet d'indicateurs pour mesurer les progrès vers une ville intelligente.",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Ses objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Appliquer des méthodes de leadership collaboratif</li> <li>Utiliser l'information des données et des technologies pour apporter une amélioration aux services et à la qualité de vie</li> <li>Fournir un meilleur environnement de vie à partir de politiques intelligentes et de la mise à disposition de technologies aux citoyens</li> <li>Générer des solutions innovantes aux questions environnementales et de durabilité</li> <li>Identifier les besoins et les bénéfices des infrastructures intelligentes</li> <li>Faciliter l'innovation et la croissance</li> <li>Construire une économie dynamique et innovante qui parvienne à être résiliente</li> </ul>"
+      "TITLE": "Villes et communautés durables - Indicateurs pour Villes Intelligentes",
+      "DESCRIPTION_LEFT": "Présente un point de référence pour la durabilité des villes, qui nécessitent des indicateurs supplémentaires à ceux établis pour évaluer les services de la ville et la qualité de vie. En conjonction avec l'application de la Norme ISO 37120 aide les villes à implémenter des politiques, programmes et projets pour villes intelligentes.<br/> <br/> <b class='text-[var(--color-title)]'>Portées :</b> <br/> <br/> En conjonction avec la norme ISO 37120 précise fournir un ensemble complet d'indicateurs pour mesurer le progrès vers une ville intelligente.",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Ses objectifs sont :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Appliquer des méthodes de leadership collaboratif</li> <li>Utiliser des informations de données et technologies pour améliorer les services et la qualité de vie</li> <li>Fournir un meilleur environnement de vie à partir de politiques intelligentes et la mise à disposition de technologies aux citoyens</li> <li>Générer des solutions innovantes à des questions environnementales et de durabilité</li> <li>Identifier les besoins et bénéfices d'infrastructures intelligentes</li> <li>Faciliter l'innovation et la croissance</li> <li>Construire une économie dynamique et innovante qui réussisse à être résiliente</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
-      "TITLE": "Villes et Communautés Durables – Indicateurs pour les Villes Résilientes",
-      "DESCRIPTION_LEFT": "Une ville résiliente est capable de se préparer, de se rétablir et de s'adapter aux chocs et aux tensions. Cette norme, ensemble avec les indicateurs proposés dans la norme ISO 37120, permet l'évaluation des Villes Résilientes et aussi la prise d'actions pour gérer et atténuer le stress humain et naturel en relation avec la dégradation environnementale et l'instabilité économique qui causent des impacts négatifs persistants. <br/> <br/> Elle présente des indicateurs ponctuels et aussi des indicateurs structurés selon un processus de gestion des risques et de gestion des catastrophes ; suivi de conformité aux Objectifs du Développement durable et structurés conformément à ce qui est établi dans le Cadre de Sendai pour la réduction du risque de catastrophes. Ces derniers ont pour objectif d'aider les villes à :",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Se préparer, se rétablir et s'adapter aux chocs et aux tensions</li> <li>Générer de l'apprentissage sur la base de la comparaison des mesures de rendement et du partage des bonnes pratiques.</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Portée :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable pour la mesure de la résilience dans les villes</li> <li>Applicable à toute ville, municipalité ou gouvernement local</li> <li>Applicable indépendamment de sa taille ou de sa localisation</li> </ul>"
+      "TITLE": "Villes et Communautés Durables – Indicateurs pour Villes Résilientes",
+      "DESCRIPTION_LEFT": "Une ville résiliente est capable de se préparer, de se récupérer et de s'adapter aux chocs et tensions. Cette norme en conjonction avec les indicateurs posés dans la norme ISO 37120 permettent l'évaluation de Villes Résilientes et aussi la prise d'actions pour gérer et atténuer le stress humain et naturel en relation à la dégradation environnementale et l'instabilité économique qui causent des impacts négatifs persistants. <br/> <br/> Présente des indicateurs ponctuels et aussi présente des indicateurs structurés selon un processus de gestion des risques et gestion des désastres ; suivi de conformité aux Objectifs du Développement durable et structurés conformément à ce qui est établi dans le Cadre de Sendai pour la réduction du risque de désastres, ceux-ci ont comme objectifs aider les villes à :",
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Se préparer, se récupérer et s'adapter aux chocs et tensions</li> <li>Générer un apprentissage basé sur la comparaison de mesures de rendement et en partageant de bonnes pratiques.</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Portées :</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable pour mesure de résilience dans les villes</li> <li>Applicable à toute ville, municipalité ou gouvernement local</li> <li>Applicable indépendamment de sa taille ou emplacement</li> </ul>"
     }
   ],
   "REGISTER_INFORMATION": {
     "TITLE": "Avez-vous besoin <br/> d'informations ?",
     "SUBTITLE": "Chez GLACI <br/> nous sommes à votre disposition.",
-    "TEXT": "Si vous êtes intéressé à en savoir plus sur le sujet ou si vous avez des doutes ou des suggestions, nous vous invitons à remplir le formulaire d'inscription avec des données réelles afin de pouvoir communiquer correctement et vous fournir les outils et l'information dont vous avez besoin.",
+    "TEXT": "Si vous êtes intéressé à en savoir plus sur le sujet ou si vous avez un doute ou une suggestion, nous vous invitons à remplir le formulaire d'inscription avec des données réelles pour pouvoir communiquer correctement et vous fournir les outils et les informations dont vous avez besoin.",
     "WARNING": "* Soyez assuré que vos données seront traitées de manière sécurisée.",
     "FORM": {
-      "TITLE": "inscrivez-vous pour demander des informations sur un sujet de votre intérêt.",
+      "TITLE": "inscrivez-vous pour demander des informations sur un sujet qui vous intéresse.",
       "SUBTITLE": "Votre inscription nous sert à vous envoyer les données nécessaires que vous demandez.",
       "NAME_PLACEHOLDER": "Nom",
       "POSITION_PLACEHOLDER": "Poste",
       "COMPANY_PLACEHOLDER": "Entreprise",
-      "EMAIL_PLACEHOLDER": "Email",
+      "EMAIL_PLACEHOLDER": "Courriel Électronique",
       "INTEREST_LABEL": "Sujet d'intérêt",
       "INTEREST_PLACEHOLDER": [
         "Sélectionnez une Option",
@@ -756,8 +637,8 @@
     "GLACI": "GLACI",
     "TITLE": "Qu'est-ce que c'est",
     "TEXT_1": "GLACI est un consortium de talent interdisciplinaire qui impulse des projets urbains et territoriaux en intégrant l'innovation, la connaissance, la gouvernance et la structuration financière.",
-    "TEXT_2": "Nous travaillons là où la complexité requiert une intelligence collective, une sensibilité institutionnelle et une viabilité à long terme.",
-    "TITLE_2": "COMMENT NOUS TRAVAILLONS",
+    "TEXT_2": "Nous travaillons où la complexité requiert l'intelligence collective, la sensibilité institutionnelle et la viabilité à long terme.",
+    "TITLE_2": "Comment Nous Travaillons",
     "CARDS": [
       {
         "TITLE": "Compréhension profonde",
@@ -775,19 +656,24 @@
   },
   "WORK": {
     "TITLE": "Pour Qui Nous Travaillons",
-    "TEXT": "Gouvernements avec une vision à long terme et un sens de l'héritage. Entreprises engagées dans le développement durable. Monde universitaire et centres de connaissance qui apportent rigueur et innovation appliquée. Investisseurs et organismes multilatéraux qui priorisent l'impact, la transparence et la viabilité.",
-    "TITLE_2": "CRÉDENTIALS",
-    "TEXT_2": "Notre approche s'aligne avec les standards et les meilleures pratiques internationales pour les villes durables et intelligentes, priorisant la gouvernance, les indicateurs, la transparence et la continuité."
+    "TEXT": [
+      "Gouvernements avec une vision à long terme et un sens du legs.",
+      "Entreprises engagées dans le développement durable.",
+      "Académie et centres de connaissance qui apportent rigueur et innovation appliquée. ",
+      "Investisseurs et organismes multilatéraux qui priorisent l'impact, la transparence et la viabilité."
+    ],
+    "TITLE_2": "CRÉDENTIELS",
+    "TEXT_2": "Notre approche s'aligne sur des standards et meilleures pratiques internationales pour villes durables et intelligentes, priorisant la gouvernance, les indicateurs, la transparence et la continuité."
   },
   "CONSORTIUM": {
     "TITLE": "Consortium",
-    "TEXT": "GLACI est un consortium formé par des professionnels, des organisations et des alliés stratégiques avec une expérience réelle en développement urbain, infrastructure, durabilité, finance et connaissance.",
+    "TEXT": "GLACI est un consortium formé par des professionnels, organisations et alliés stratégiques avec une expérience réelle en développement urbain, infrastructure, durabilité, finances et connaissance.",
     "TEXT_2": "Nous croyons que les grands défis urbains ne se résolvent pas depuis un seul secteur.",
     "TEXT_3": "Ils se résolvent depuis la collaboration consciente."
   },
   "GOVERNANCE": {
     "TITLE_1": "Gouvernance",
-    "SUBTITLE": "Les transformations durables commencent avec des décisions claires, des institutions fiables et des données partagées.",
+    "SUBTITLE": "Les transformations durables commencent par des décisions claires, des institutions fiables et des données partagées.",
     "TEXT_1": "GLACI articule les acteurs et structure les projets pour renforcer la gouvernance urbaine de manière durable.",
     "TITLE_2": "Approche",
     "TEXT_2_1": "Nous travaillons pour que la gouvernance :",
@@ -806,10 +692,10 @@
       }
     ],
     "TEXT_2_2": "De la stratégie à la mise en œuvre.",
-    "TITLE_3": "Ce que Nous Permettons",
+    "TITLE_3": "Ce que Nous Activons",
     "ITEMS": [
       "Alignement institutionnel et multisectoriel",
-      "Modèles de gouvernance et prise de décisions",
+      "Modèles de gouvernance et de prise de décisions",
       "Plateformes et systèmes de soutien à la gestion",
       "Indicateurs et métriques de performance"
     ],
@@ -818,7 +704,7 @@
   },
   "TEAM": {
     "TITLE": "Talent",
-    "SUBTITLE": "Derrière chaque projet, il y a des personnes.",
+    "SUBTITLE": "Derrière chaque projet il y a des personnes.",
     "TEXT": "GLACI réunit du talent avec :",
     "CARDS": [
       {
@@ -835,76 +721,76 @@
       },
       {
         "ICON": "/icons/talento/impactoLargoPlazo.svg",
-        "TEXT": "Engagement envers l'impact à long terme"
+        "TEXT": "Engagement avec l'impact à long terme"
       }
     ],
-    "TEXT_2": "Notre équipe combine connaissance, jugement et responsabilité.",
+    "TEXT_2": "Notre équipe combine connaissance, critère et responsabilité.",
     "BACK_BUTTON": "Retour à l'Équipe",
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "Directeur de la Technologie (CTO)",
-        "SEMBLANCE": "Expert en technologie et développement durable avec une spécialisation en Smart Cities, BIM, Blockchain, AI et la Nouvelle Agenda Urbain.",
-        "IMG": "/team/osvaldo.webp",
+        "POSITION": "Directeur de Technologie (CTO)",
+        "RESUME": "Expert en technologie et développement durable avec spécialisation en Villes Intelligentes, BIM, Blockchain, IA et la Nouvelle Agenda Urbaine.",
+        "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Email"
+            "TITLE": "Courriel Électronique"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
-        "NAME": "Jorge Moreno",
-        "POSITION": "Chef de l'Innovation et des Projets",
-        "SEMBLANCE": "Expert en technologies disruptives, certifié MIT. 13 ans à diriger l'innovation dans les smart cities, l'IoT et les projets durables.",
-        "IMG": "/team/jorge.webp",
+        "NAME": "Jorge Moreno Vargas",
+        "POSITION": "CTO(Chief Technology Officer)",
+        "RESUME": "Expert en technologies disruptives, Certifié MIT. 13 ans en leadership d'innovation en villes intelligentes, IoT et projets durables.",
+        "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Email"
+            "TITLE": "Courriel Électronique"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Angel Luis Tendero",
-        "POSITION": "Directeur de l'Architecture et du Design",
-        "SEMBLANCE": "Architecte et gestionnaire de projets. Référence en architecture, il a été en couverture d'ABC, El Mundo et El País pour sa carrière.",
-        "IMG": "/team/angel_.webp",
+        "POSITION": "Chief Project Officer (CPO)",
+        "RESUME": "Architecte et gestionnaire de projets. Référence en architecture, a été en couverture dans ABC, El Mundo et El País pour sa trajectoire.",
+        "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Email"
+            "TITLE": "Courriel Électronique"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Tania Sánchez",
-        "POSITION": "Architecte Senior / Urbaniste",
-        "SEMBLANCE": "Architecte senior et urbaniste avec expérience nationale et internationale. Spécialisée en design urbain durable et planification.",
-        "IMG": "/team/tania.webp",
+        "POSITION": "Directrice d'Architecture et Urbanisme Durable",
+        "RESUME": "Architecte senior et urbaniste avec expérience nationale et internationale. Spécialisée en design urbain durable et planification.",
+        "IMG": "/team/tania.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Email"
+            "TITLE": "Courriel Électronique"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
@@ -915,18 +801,108 @@
       },
       {
         "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Gérant des Infrastructures et Travaux",
-        "SEMBLANCE": "Expert en construction de voies terrestres avec une large expérience en planification, exécution et contrôle de qualité dans des projets d'infrastructure dans les secteurs public et industriel.",
-        "IMG": "/team/HectorM.webp",
+        "POSITION": "Expert en Construction de Voies Terrestres",
+        "RESUME": "Expert en construction de voies terrestres avec une vaste expérience en planification, exécution et contrôle de qualité dans des projets d'infrastructure dans les secteurs public et industriel.",
+        "IMG": "/team/hector.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Email"
+            "TITLE": "Courriel Électronique"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Ignasi Pérez",
+        "POSITION": "CEO & co-Founder at BIM Academy",
+        "RESUME": "Pionnier de BIM en Europe, cofondateur de BIM Academy Spain et créateur du EUROPEAN BIM SUMMIT. Il est directeur de The Rebuild, un événement leader en construction et architecture avancée en Espagne. De plus, il dirige la formation en BIM et transformation numérique dans des institutions destacées, impulsant des projets innovants en durabilité et urbanisme.",
+        "IMG": "/team/ignasi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel Électronique"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Guillermo Sánchez",
+        "POSITION": "Chief City Urbanist",
+        "RESUME": "Docteur Architecte en Planification Urbaine et Régionale, avec une expérience internationale de plus de 20 ans dans l'élaboration de stratégies de développement urbain, métropolitain et régional, ainsi que dans la recherche de processus urbains et territoriaux. Expert en planification stratégique de villes.",
+        "IMG": "/team/guillermo.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel Électronique"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Hugo Isaak",
+        "POSITION": "CEO de Neurabitat",
+        "RESUME": "Expert en villes intelligentes avec plus de 17 ans d'expérience en administration publique, spécialisé en villes intelligentes, habitat durable et intelligence artificielle.",
+        "IMG": "/team/hugoI.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel Électronique"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Ramon Gras Alomà",
+        "POSITION": "City Science Researcher & Urban Designer",
+        "RESUME": "Ramon Gras Alomà est un Chercheur en Science Urbaine & Designer Urbain avec une éducation de Harvard (2018), MIT (2015), et BarcelonaTech (2010). Il se spécialise dans les districts d'innovation urbaine, le design urbain, et les analyses avancées pour villes durables, incluant des publications sur l'Atlas des Districts d'Innovation et des contributions à des thèses de design urbain à Harvard et MIT.",
+        "IMG": "/team/ramonG.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel Électronique"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ramongras/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Alfonso Vegara",
+        "POSITION": "Fondateur et Président Honoraire de Fundación Metrópoli",
+        "RESUME": "Architecte, économiste et sociologue. Docteur en Planification Urbaine et Régionale. Fondateur et Président Honoraire de Fundación Metrópoli, un centre international dédié à la recherche, au design et à l'innovation dans les villes.",
+        "IMG": "/team/alfonsoV.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "alfonsovegara@fundacion-metropoli.org",
+            "TITLE": "Courriel Électronique"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
             "TITLE": "Linkedin"
           }
         ]

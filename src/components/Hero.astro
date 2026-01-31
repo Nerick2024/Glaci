@@ -24,72 +24,31 @@ const i18n = await useTranslation(lang);
   <!-- CONTENT -->
   <div
     id="content"
-    class="w-full max-w-7xl mx-auto min-h-screen h-full flex-1 flex flex-col items-center justify-end lg:items-start text-white gap-12 lg:gap-18"
+    class="w-full max-w-7xl mx-auto min-h-screen h-full flex-1 flex flex-col items-center justify-center lg:justify-end lg:items-start text-white gap-12 lg:gap-16"
   >
-    <img
-      loading="lazy"
-      src="/logo/logo.webp"
-      alt="Logo"
-      class="w-50 lg:w-72 h-auto object-contain"
-    />
-    <p
-      class="text-2xl lg:text-4xl text-left font-semibold tracking-wider w-full max-w-2/3 mb-18"
-    >
-      {i18n.HERO.TEXT_1}
-    </p>
-  </div>
-  <div class="flex flex-col  max-w-6xl text-white mx-auto lg:flex-row gap-10 my-12 lg:gap-25">
-    <div class="relative glass-effect border border-white/25 p-2 rounded-md">
-      <div
-        class="hidden lg:block top-3 bottom-3 -left-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
-      >
-      </div>
-      <p class="text-xs lg:text-base text-center lg:text-left pl-4">
-        {i18n.HERO.TEXT_3}
-      </p>
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <img
+        loading="lazy"
+        src="/logo/logo.webp"
+        alt="Logo"
+        class="w-50 lg:w-80 h-auto object-contain"
+      />
     </div>
-    <div class="relative glass-effect border border-white/25 p-2 rounded-md">
-      <div
-        class="hidden lg:block top-3 bottom-3 -right-0.5 absolute bg-[var(--color-title)] rounded-md w-1 pointer-events-none"
-      >
-      </div>
-      <p class="text-xs lg:text-base text-center lg:text-right pr-4">
-        {i18n.HERO.TEXT_4}
-      </p>
-    </div>
-  </div>
-  <!-- FOOTER HERO -->
-  <div
-    class="items-end lg:items-center flex flex-col lg:flex-row justify-between max-w-6xl mx-auto gap-6 w-full text-white"
-  >
     <div
-      class="flex flex-col justify-center items-center gap-6 w-fit mx-auto lg:mx-0"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+      class="relative mb-18"
     >
-      <a
-        href={`/${lang}/certifications`}
-        class="group flex justify-between text-[var(--color-bg-2)] items-center gap-4 bg-white px-6 py-3 rounded-full w-fit font-bold text-lg"
+      <div
+        class="hidden lg:block bg-[var(--color-title)] -left-1 top-1/2 -translate-y-1/2 absolute rounded-full h-full w-1.5"
       >
-        {i18n.HERO.FOOTER_LEFT_BUTTON}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="fill-[var(--color-bg-2)] h-6 rotate-90"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
-          ></path>
-        </svg>
-      </a>
-    </div>
-
-    <div class="flex justify-center items-center mx-auto">
-      <Button_MoreInformation i18n={i18n} lang={lang} />
-    </div>
-
-    <div class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0">
-      <p class="font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-      <Button_Networks i18n={i18n} />
+      </div>
+      <p
+        class="text-2xl lg:text-4xl text-center ml-0 lg:ml-8 lg:text-left font-semibold tracking-wider w-full lg:max-w-2/3"
+      >
+        {i18n.HERO.TEXT_1}
+      </p>
     </div>
   </div>
 
@@ -98,9 +57,74 @@ const i18n = await useTranslation(lang);
   >
   </div>
 </main>
+<div class="w-full bg-[var(--color-bg-1)] py-12 px-6">
+  <div class="flex flex-col max-w-7xl mx-auto">
+    <div
+      class="flex flex-col text-white mx-auto lg:flex-row gap-10 mb-12 lg:gap-25"
+    >
+      <div
+      data-aos="fade-up"
+        class="relative glass-effect border border-white/25 p-2 pb-4 rounded-md"
+      >
+        <div
+          class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
+        >
+        </div>
+        <p class="text-sm lg:text-lg text-center">
+          {i18n.HERO.TEXT_3}
+        </p>
+      </div>
+      <div
+      data-aos="fade-up"
+        class="relative glass-effect border border-white/25 p-2 pb-4 rounded-md"
+      >
+        <div
+          class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
+        >
+        </div>
+        <p class="text-sm lg:text-lg text-center">
+          {i18n.HERO.TEXT_4}
+        </p>
+      </div>
+    </div>
+    <!-- FOOTER HERO -->
+    <div
+      class="items-end lg:items-center flex flex-col lg:flex-row justify-between mx-auto gap-6 w-full text-white"
+    >
+      <div
+        class="flex flex-col justify-center items-center gap-6 w-fit mx-auto lg:mx-0"
+      >
+        <a data-aos="fade-up"
+          href={`/${lang}/certifications`}
+          class="group flex justify-between text-[var(--color-bg-2)] items-center gap-4 bg-white px-6 py-3 rounded-full w-fit font-bold text-lg"
+        >
+          {i18n.HERO.FOOTER_LEFT_BUTTON}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-[var(--color-bg-2)] h-6 rotate-90"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+            ></path>
+          </svg>
+        </a>
+      </div>
 
-<footer class="px-8 lg:text-left text-center max-w-7xl mx-auto">
-  <p class="text-white/80 text-sm">
-    Copyright © GLACI {new Date().getFullYear()}
-  </p>
-</footer>
+      <div data-aos="fade-up" class="flex justify-center items-center mx-auto">
+        <Button_MoreInformation i18n={i18n} lang={lang} />
+      </div>
+
+      <div data-aos="fade-up" class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0">
+        <p class="font-light text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
+        <Button_Networks i18n={i18n} />
+      </div>
+    </div>
+  </div>
+  <footer class="px-8 lg:text-left text-center max-w-7xl mt-12 mx-auto">
+    <p class="text-white/80 text-sm">
+      Copyright © GLACI {new Date().getFullYear()}
+    </p>
+  </footer>
+</div>

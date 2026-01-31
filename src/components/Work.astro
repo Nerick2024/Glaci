@@ -5,13 +5,19 @@ import { translations } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
+
 <style>
-  .scene { perspective: 1200px; -webkit-perspective: 1200px; }
+  .scene {
+    perspective: 1200px;
+    -webkit-perspective: 1200px;
+  }
 
   .card {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    transition: transform 0.55s cubic-bezier(.2,.9,.2,1), box-shadow 0.55s;
+    transition:
+      transform 0.55s cubic-bezier(0.2, 0.9, 0.2, 1),
+      box-shadow 0.55s;
     will-change: transform;
     transform-origin: center;
     position: relative;
@@ -32,7 +38,7 @@ const i18n = await translations[lang]();
   }
 
   .card-2 {
-    transform: rotateX(5deg) rotateY(16deg) ;
+    transform: rotateX(5deg) rotateY(16deg);
     box-shadow: -30px 40px 60px rgba(179, 179, 179, 0.25);
   }
   .card-2:hover {
@@ -43,12 +49,14 @@ const i18n = await translations[lang]();
   .decor {
     transform: translateZ(0); /* <- aquí la clave: no sobresalen en Z */
     -webkit-transform: translateZ(0);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
     will-change: transform;
     pointer-events: none;
   }
 
-  .decor-strong { box-shadow: 0 10px 28px rgba(0,0,0,0.22); }
+  .decor-strong {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  }
 
   .card img {
     display: block;
@@ -68,23 +76,45 @@ const i18n = await translations[lang]();
   <div class="flex flex-col lg:flex-row gap-8 items-center">
     <div class="flex flex-col lg:w-1/2">
       <h1
+        data-aos="fade-up"
         class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
       >
         <span class="text-[var(--color-title)]">+</span>
         {i18n.WORK.TITLE}
       </h1>
-          <ul class="space-y-2 text-lg pl-5">
-            {i18n.WORK.TEXT.map(value => (
-              <li data-aos-delay="200" data-aos="fade-right" data-aos-duration="1000" class="flex items-center gap-3"><span class="rounded-full w-3 h-3" style="background-color: var(--color-title);"></span>{value}</li>
-            ))}
-          </ul>
+      <ul class="space-y-2 text-lg pl-5">
+        {
+          i18n.WORK.TEXT.map((value) => (
+            <li
+              data-aos-delay="200"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              class="flex items-center gap-3"
+            >
+              <span
+                class="rounded-full w-3 h-3"
+                style="background-color: var(--color-title);"
+              />
+              {value}
+            </li>
+          ))
+        }
+      </ul>
     </div>
 
     <!-- Escena con perspectiva -->
-    <div class="w-full lg:w-1/2 aspect-video relative scene px-4 lg:px-0">
-      <div class="card card-1 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl">
-        <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor"></div>
-        <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor decor-strong"></div>
+    <div data-aos="zoom-in" class="w-full lg:w-1/2 aspect-video relative scene px-4 lg:px-0">
+      <div
+        class="card card-1 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl"
+      >
+        <div
+          class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor"
+        >
+        </div>
+        <div
+          class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor decor-strong"
+        >
+        </div>
 
         <img
           src="/work/c.webp"
@@ -100,20 +130,29 @@ const i18n = await translations[lang]();
   <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
     <div class="flex flex-col lg:w-1/2">
       <h1
+      data-aos="fade-up"
         class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-right mb-4"
       >
         {i18n.WORK.TITLE_2}
         <span class="text-[var(--color-title)]">+</span>
       </h1>
-      <p class="text-center lg:text-right text-lg">
+      <p data-aos="fade-left" data-aos-duration="1000" class="text-center lg:text-right text-lg">
         {i18n.WORK.TEXT_2}
       </p>
     </div>
 
-    <div class="w-full lg:w-1/2 aspect-video relative scene px-4 lg:px-0">
-      <div class="card card-2 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl">
-        <div class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor decor-strong"></div>
-        <div class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor"></div>
+    <div data-aos="zoom-in" class="w-full lg:w-1/2 aspect-video relative scene px-4 lg:px-0">
+      <div
+        class="card card-2 border-2 border-[var(--color-title)] rounded-br-4xl rounded-tl-4xl"
+      >
+        <div
+          class="h-6 w-6 bg-[var(--color-title)] -bottom-3 -left-3 absolute decor decor-strong"
+        >
+        </div>
+        <div
+          class="h-6 w-6 bg-[var(--color-title)] -top-3 -right-3 absolute decor"
+        >
+        </div>
 
         <img
           src="/work/b.webp"

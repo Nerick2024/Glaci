@@ -26,13 +26,11 @@ const t = await useTranslation(lang);
 
 <Layout title="G L A C I">
   <Hero />
-  <div class="relative">
-    <div class="fixed pointer-events-none z-[-10]">
-      <Stars />
-    </div>
-    <Glaci />
-    <AreasOfImpact />
-    <Consortium />
-    <Work />
+  <div class="h-full w-full fixed top-0 left-0 -z-20 pointer-events-none">
+    <Stars />
   </div>
+  <Glaci />
+  <AreasOfImpact />
+  <Consortium />
+  <Work />
 </Layout>

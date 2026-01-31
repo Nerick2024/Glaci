@@ -730,7 +730,7 @@
       {
         "NAME": "Osvaldo Mireles",
         "POSITION": "Directeur de Technologie (CTO)",
-        "RESUME": "Expert en technologie et développement durable avec spécialisation en Villes Intelligentes, BIM, Blockchain, IA et la Nouvelle Agenda Urbaine.",
+        "SEMBLANCE": "Expert en technologie et développement durable avec spécialisation en Villes Intelligentes, BIM, Blockchain, IA et la Nouvelle Agenda Urbaine.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
@@ -748,7 +748,7 @@
       {
         "NAME": "Jorge Moreno Vargas",
         "POSITION": "CTO(Chief Technology Officer)",
-        "RESUME": "Expert en technologies disruptives, Certifié MIT. 13 ans en leadership d'innovation en villes intelligentes, IoT et projets durables.",
+        "SEMBLANCE": "Expert en technologies disruptives, Certifié MIT. 13 ans en leadership d'innovation en villes intelligentes, IoT et projets durables.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
@@ -766,7 +766,7 @@
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "Chief Project Officer (CPO)",
-        "RESUME": "Architecte et gestionnaire de projets. Référence en architecture, a été en couverture dans ABC, El Mundo et El País pour sa trajectoire.",
+        "SEMBLANCE": "Architecte et gestionnaire de projets. Référence en architecture, a été en couverture dans ABC, El Mundo et El País pour sa trajectoire.",
         "IMG": "/team/angel.png",
         "NETWORKS": [
           {
@@ -784,7 +784,7 @@
       {
         "NAME": "Tania Sánchez",
         "POSITION": "Directrice d'Architecture et Urbanisme Durable",
-        "RESUME": "Architecte senior et urbaniste avec expérience nationale et internationale. Spécialisée en design urbain durable et planification.",
+        "SEMBLANCE": "Architecte senior et urbaniste avec expérience nationale et internationale. Spécialisée en design urbain durable et planification.",
         "IMG": "/team/tania.png",
         "NETWORKS": [
           {
@@ -802,7 +802,7 @@
       {
         "NAME": "Héctor Miranda Martínez",
         "POSITION": "Expert en Construction de Voies Terrestres",
-        "RESUME": "Expert en construction de voies terrestres avec une vaste expérience en planification, exécution et contrôle de qualité dans des projets d'infrastructure dans les secteurs public et industriel.",
+        "SEMBLANCE": "Expert en construction de voies terrestres avec une vaste expérience en planification, exécution et contrôle de qualité dans des projets d'infrastructure dans les secteurs public et industriel.",
         "IMG": "/team/hector.png",
         "NETWORKS": [
           {
@@ -820,7 +820,7 @@
       {
         "NAME": "Ignasi Pérez",
         "POSITION": "CEO & co-Founder at BIM Academy",
-        "RESUME": "Pionnier de BIM en Europe, cofondateur de BIM Academy Spain et créateur du EUROPEAN BIM SUMMIT. Il est directeur de The Rebuild, un événement leader en construction et architecture avancée en Espagne. De plus, il dirige la formation en BIM et transformation numérique dans des institutions destacées, impulsant des projets innovants en durabilité et urbanisme.",
+        "SEMBLANCE": "Pionnier de BIM en Europe, cofondateur de BIM Academy Spain et créateur du EUROPEAN BIM SUMMIT. Il est directeur de The Rebuild, un événement leader en construction et architecture avancée en Espagne. De plus, il dirige la formation en BIM et transformation numérique dans des institutions destacées, impulsant des projets innovants en durabilité et urbanisme.",
         "IMG": "/team/ignasi.png",
         "NETWORKS": [
           {
@@ -838,7 +838,7 @@
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Chief City Urbanist",
-        "RESUME": "Docteur Architecte en Planification Urbaine et Régionale, avec une expérience internationale de plus de 20 ans dans l'élaboration de stratégies de développement urbain, métropolitain et régional, ainsi que dans la recherche de processus urbains et territoriaux. Expert en planification stratégique de villes.",
+        "SEMBLANCE": "Docteur Architecte en Planification Urbaine et Régionale, avec une expérience internationale de plus de 20 ans dans l'élaboration de stratégies de développement urbain, métropolitain et régional, ainsi que dans la recherche de processus urbains et territoriaux. Expert en planification stratégique de villes.",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
@@ -856,7 +856,7 @@
       {
         "NAME": "Hugo Isaak",
         "POSITION": "CEO de Neurabitat",
-        "RESUME": "Expert en villes intelligentes avec plus de 17 ans d'expérience en administration publique, spécialisé en villes intelligentes, habitat durable et intelligence artificielle.",
+        "SEMBLANCE": "Expert en villes intelligentes avec plus de 17 ans d'expérience en administration publique, spécialisé en villes intelligentes, habitat durable et intelligence artificielle.",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
@@ -874,7 +874,7 @@
       {
         "NAME": "Ramon Gras Alomà",
         "POSITION": "City Science Researcher & Urban Designer",
-        "RESUME": "Ramon Gras Alomà est un Chercheur en Science Urbaine & Designer Urbain avec une éducation de Harvard (2018), MIT (2015), et BarcelonaTech (2010). Il se spécialise dans les districts d'innovation urbaine, le design urbain, et les analyses avancées pour villes durables, incluant des publications sur l'Atlas des Districts d'Innovation et des contributions à des thèses de design urbain à Harvard et MIT.",
+        "SEMBLANCE": "Ramon Gras Alomà est un Chercheur en Science Urbaine & Designer Urbain avec une éducation de Harvard (2018), MIT (2015), et BarcelonaTech (2010). Il se spécialise dans les districts d'innovation urbaine, le design urbain, et les analyses avancées pour villes durables, incluant des publications sur l'Atlas des Districts d'Innovation et des contributions à des thèses de design urbain à Harvard et MIT.",
         "IMG": "/team/ramonG.png",
         "NETWORKS": [
           {
@@ -892,7 +892,7 @@
       {
         "NAME": "Alfonso Vegara",
         "POSITION": "Fondateur et Président Honoraire de Fundación Metrópoli",
-        "RESUME": "Architecte, économiste et sociologue. Docteur en Planification Urbaine et Régionale. Fondateur et Président Honoraire de Fundación Metrópoli, un centre international dédié à la recherche, au design et à l'innovation dans les villes.",
+        "SEMBLANCE": "Architecte, économiste et sociologue. Docteur en Planification Urbaine et Régionale. Fondateur et Président Honoraire de Fundación Metrópoli, un centre international dédié à la recherche, au design et à l'innovation dans les villes.",
         "IMG": "/team/alfonsoV.png",
         "NETWORKS": [
           {

@@ -7,6 +7,7 @@ const { item } = Astro.props;
 
 const area1 = item.AREA1 || [];
 const area2 = item.AREA2 || [];
+const placeUnder = area1.length <= area2.length ? "area1" : "area2";
 ---
 
 <section id="areas" class="text-white">
@@ -17,7 +18,11 @@ const area2 = item.AREA2 || [];
       {i18n.AREAS.TITLE_1}
     </h2>
   </div>
-  <p class="text-base lg:text-3xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl mt-16 text-center my-16">{item.AREA_TEXT_1}</p>
+  <p
+    class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl mt-16 text-center my-16"
+  >
+    {item.AREA_TEXT_1}
+  </p>
   <div class="px-6">
     <div
       class="gap-x-16 gap-y-8 grid grid-cols-1 md:grid-cols-2 mx-auto max-w-6xl md:text-left text-center"
@@ -34,10 +39,21 @@ const area2 = item.AREA2 || [];
           ))
         }
 
+        {
+          placeUnder === "area1" ? (
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold mx-auto max-w-5xl text-center lg:text-left"
+            >
+              {item.AREA_TEXT_2}
+            </p>
+          ) : null
+        }
         <a
           data-aos="zoom-in"
-          href="#contact"
-          class="group inline-flex items-center gap-4 transform transition-colors hover:bg-[var(--color-title)] mx-auto lg:mx-0 mt-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-black transition-colors"
+          href={`/${lang}/register`}
+          class="group inline-flex items-center gap-4 transform transition-colors hover:bg-[var(--color-title)] mx-auto lg:mx-0 mb-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-black transition-colors"
         >
           <span>{i18n.AREAS.BUTTON}</span>
           <svg
@@ -64,8 +80,18 @@ const area2 = item.AREA2 || [];
             </div>
           ))
         }
-      </div>  
+        {
+          placeUnder === "area2" ? (
+            <p
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold mx-auto max-w-5xl text-center lg:text-left"
+            >
+              {item.AREA_TEXT_2}
+            </p>
+          ) : null
+        }
+      </div>
     </div>
   </div>
-  <p class="text-base lg:text-3xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl text-center my-16">{item.AREA_TEXT_2}</p>
 </section>

@@ -26,7 +26,7 @@
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
         "TITLE_TEXT": "Gobernanza Inteligente",
         "SUBTITLE": "Gobierno Digital y Transparencia.",
-        "DESCRIPTION": "Gobernanza Las transformaciones duraderas comienzan con decisiones claras, instituciones confiables y datos compartidos. <br>GLACI articula actores y estructura proyectos para fortalecer la gobernanza urbana de forma sostenible.",
+        "DESCRIPTION": "Las transformaciones duraderas comienzan con decisiones claras, instituciones confiables y datos compartidos. <br>GLACI articula actores y estructura proyectos para fortalecer la gobernanza urbana de forma sostenible.",
         "AREA_TEXT_1": "Trabajamos para que la gobernanza:",
         "AREA1": [
           {
@@ -77,9 +77,9 @@
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/a/img_1.webp",
-              "/projects/a/img_2.webp",
-              "/projects/a/img_3.webp"
+              "/projects/a/img1.webp",
+              "/projects/a/img2.webp",
+              "/projects/a/img3.webp"
             ]
           },
           {
@@ -88,8 +88,8 @@
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
-              "/projects/b/img_1.webp",
-              "/projects/b/img_2.webp"
+              "/projects/b/img1.webp",
+              "/projects/b/img2.webp"
             ]
           }
         ]
@@ -161,8 +161,8 @@
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/economia/fondo_innovacion_1.webp",
-              "/projects/economia/fondo_innovacion_2.webp"
+              "/projects/c/img1.webp",
+              "/projects/c/img2.webp"
             ]
           },
           {
@@ -171,7 +171,8 @@
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
-              "/projects/economia/micropagos_1.webp"
+              "/projects/d/img1.webp",
+              "/projects/d/img2.webp"
             ]
           }
         ]
@@ -233,8 +234,8 @@
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/movilidad/tms_1.webp",
-              "/projects/movilidad/tms_2.webp"
+              "/projects/e/img1.webp",
+              "/projects/e/img2.webp"
             ]
           },
           {
@@ -243,7 +244,8 @@
             "LOCATE": "Corredor Metropolitano, América Latina",
             "DATE": "2023",
             "IMG": [
-              "/projects/movilidad/electrolineras_1.webp"
+              "/projects/f/img1.webp",
+              "/projects/f/img2.webp"
             ]
           }
         ]
@@ -325,7 +327,9 @@
             "LOCATE": "Área Metropolitana, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/medioambiente/monitoring_1.webp"
+              "/projects/g/img1.webp",
+              "/projects/g/img2.webp",
+              "/projects/g/img3.webp"
             ]
           },
           {
@@ -334,7 +338,9 @@
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
-              "/projects/medioambiente/smart_water_1.webp"
+              "/projects/h/img1.webp",
+              "/projects/h/img2.webp",
+              "/projects/h/img3.webp"
             ]
           }
         ]
@@ -401,7 +407,8 @@
             "LOCATE": "Municipio Piloto, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/habitat/telemedicina_1.webp"
+              "/projects/i/img1.webp",
+              "/projects/i/img2.webp"
             ]
           },
           {
@@ -410,7 +417,7 @@
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
-              "/projects/habitat/parque_inteligente_1.webp"
+              "/projects/j/img1.webp"
             ]
           }
         ]
@@ -482,7 +489,8 @@
             "LOCATE": "Región Norte, México",
             "DATE": "2023",
             "IMG": [
-              "/projects/sociedad/inclusion_digital_1.webp"
+              "/projects/k/img1.webp",
+              "/projects/k/img2.webp"
             ]
           },
           {
@@ -491,7 +499,8 @@
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
-              "/projects/sociedad/participacion_1.webp"
+              "/projects/l/img1.webp",
+              "/projects/l/img2.webp"
             ]
           }
         ]
@@ -647,7 +656,12 @@
   },
   "WORK": {
     "TITLE": "Para Quién Trabajamos",
-    "TEXT": "Gobiernos con visión de largo plazo y sentido de legado. Empresas comprometidas con desarrollo sostenible. Academia y centros de conocimiento que aportan rigor e innovación aplicada. Inversionistas y organismos multilaterales que priorizan impacto, transparencia y viabilidad.",
+    "TEXT": [
+      "Gobiernos con visión de largo plazo y sentido de legado.",
+      " Empresas comprometidas con desarrollo sostenible.",
+      " Academia y centros de conocimiento que aportan rigor e innovación aplicada. ",
+      "Inversionistas y organismos multilaterales que priorizan impacto, transparencia y viabilidad."
+    ],
     "TITLE_2": "CREDENCIALES",
     "TEXT_2": "Nuestro enfoque se alinea con estándares y mejores prácticas internacionales para ciudades sostenibles e inteligentes, priorizando gobernanza, indicadores, transparencia y continuidad."
   },
@@ -717,7 +731,7 @@
         "NAME": "Osvaldo Mireles",
         "POSITION": "Director de Tecnología (CTO)",
         "SEMBLANCE": "Experto en tecnología y desarrollo sostenible con especialización en Smart Cities, BIM, Blockchain, AI y la Nueva Agenda Urbana.",
-        "IMG": "/team/osvaldo.webp",
+        "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -726,16 +740,16 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
-        "NAME": "Jorge Moreno",
-        "POSITION": "Jefe de Innovación y Proyectos",
+        "NAME": "Jorge Moreno Vargas",
+        "POSITION": "CTO(Chief Technology Officer)",
         "SEMBLANCE": "Experto en tecnologías disruptivas, MIT Certified. 13 años liderando innovación en smart cities, IoT y proyectos sostenibles.",
-        "IMG": "/team/jorge.webp",
+        "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -744,16 +758,16 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Angel Luis Tendero",
-        "POSITION": "Director de Arquitectura y Diseño",
+        "POSITION": "Chief Project Officer (CPO)",
         "SEMBLANCE": "Arquitecto y gestor de proyectos. Referente en arquitectura, ha sido portada en ABC, El Mundo y El País por su trayectoria.",
-        "IMG": "/team/angel_.webp",
+        "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -762,16 +776,16 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Tania Sánchez",
-        "POSITION": "Arquitecta Senior / Urbanista",
+        "POSITION": "Directora de Arquitectura y Urbanismo Sustentable",
         "SEMBLANCE": "Arquitecta senior y urbanista con experiencia nacional e internacional. Especializada en diseño urbano sustentable y planificación.",
-        "IMG": "/team/tania.webp",
+        "IMG": "/team/tania.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -787,9 +801,9 @@
       },
       {
         "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Gerente de Infraestructura y Obras",
-        "SEMBLANCE": "Experto en construcción de vías terrestres con amplia experiencia en planeación,  ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
-        "IMG": "/team/HectorM.webp",
+        "POSITION": "Experto en Construcción de Vías Terrestres",
+        "SEMBLANCE": "Experto en construcción de vias terrestres con amplia experiencia en planeación, ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
+        "IMG": "/team/hector.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -799,6 +813,96 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Ignasi Pérez",
+        "POSITION": "CEO & co-Founder at BIM Academy",
+        "SEMBLANCE": "Pionero de BIM en Europa, cofundador de BIM Academy Spain y creador del EUROPEAN BIM SUMMIT. Es director de The Rebuild, un evento líder en construcción y arquitectura avanzada en España. Además, lidera la formación en BIM y transformación digital en instituciones destacadas, impulsando proyectos innovadores en sostenibilidad y urbanismo.",
+        "IMG": "/team/ignasi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Guillermo Sánchez",
+        "POSITION": "Chief City Urbanist",
+        "SEMBLANCE": "Doctor Arquitecto en Planificación Urbana y Regional, con una experiencia internacional de más de 20 años en la elaboración de estrategias de desarrollo urbano, metropolitano y regional, así como en la investigación de procesos urbanos y territoriales. Experto en planificación estratégica de ciudades.",
+        "IMG": "/team/guillermo.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Hugo Isaak",
+        "POSITION": "CEO de Neurabitat",
+        "SEMBLANCE": "Experto en ciudades inteligentes con más de 17 años de experiencia en administración pública, especializado en smart cities, hábitat sostenible e inteligencia artificial.",
+        "IMG": "/team/hugoI.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Ramon Gras Alomà",
+        "POSITION": "City Science Researcher & Urban Designer",
+        "SEMBLANCE": "Ramon Gras Alomà is a City Science Researcher & Urban Designer with education from Harvard (2018), MIT (2015), and BarcelonaTech (2010). He specializes in urban innovation districts, city design, and advanced analytics for sustainable cities, including publications on the Atlas of Innovation Districts and contributions to urban design theses at Harvard and MIT.",
+        "IMG": "/team/ramonG.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ramongras/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Alfonso Vegara",
+        "POSITION": "Fundador y Presidente Honorario de Fundación Metrópoli",
+        "SEMBLANCE": "Arquitecto, economista y sociólogo. Doctor en Planificación Urbana y Regional. Fundador y Presidente Honorario de Fundación Metrópoli, un centro internacional dedicado a la investigación, diseño e innovación en ciudades.",
+        "IMG": "/team/alfonsoV.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "alfonsovegara@fundacion-metropoli.org",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
             "TITLE": "Linkedin"
           }
         ]

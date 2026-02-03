@@ -729,8 +729,8 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "技术总监 (CTO)",
-        "SEMBLANCE": "技术和发展可持续专家，专攻智能城市、BIM、区块链、AI 和新城市议程。",
+        "POSITION": "总经理",
+        "SEMBLANCE": "技术与可持续发展专家，专长于智能城市、BIM、区块链、AI和新城市议程。",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
@@ -741,122 +741,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(首席技术官)",
-        "SEMBLANCE": "颠覆性技术专家，MIT 认证。13 年领导智能城市、IoT 和可持续项目的创新。",
-        "IMG": "/team/jorge.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Angel Luis Tendero",
-        "POSITION": "首席项目官 (CPO)",
-        "SEMBLANCE": "建筑师和项目经理。在建筑领域的参考人物，曾登上 ABC、El Mundo 和 El País 的封面。",
-        "IMG": "/team/angel.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Tania Sánchez",
-        "POSITION": "可持续建筑和城市规划总监",
-        "SEMBLANCE": "资深建筑师和城市规划师，具有国家和国际经验。专攻可持续城市设计和规划。",
-        "IMG": "/team/tania.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Héctor Miranda Martínez",
-        "POSITION": "陆路建设专家",
-        "SEMBLANCE": "陆路建设专家，在公共和工业部门的基础设施项目规划、执行和质量控制方面具有丰富经验。",
-        "IMG": "/team/hector.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Ignasi Pérez",
-        "POSITION": "BIM Academy CEO & 联合创始人",
-        "SEMBLANCE": "欧洲 BIM 先驱、BIM Academy Spain 联合创始人以及 EUROPEAN BIM SUMMIT 创建者。他是 The Rebuild 的总监，这是西班牙领先的建筑和高级建筑活动。此外，他在突出机构领导 BIM 和数字转型培训，推动可持续性和城市主义创新项目。",
-        "IMG": "/team/ignasi.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Guillermo Sánchez",
-        "POSITION": "首席城市城市规划师",
-        "SEMBLANCE": "城市和区域规划建筑博士，具有超过 20 年的国际经验，制定城市、大都市和区域发展战略，以及城市和领土过程研究。城市战略规划专家。",
-        "IMG": "/team/guillermo.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮件"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Hugo Isaak",
-        "POSITION": "Neurabitat CEO",
-        "SEMBLANCE": "智能城市专家，在公共管理方面具有超过 17 年的经验，专攻智能城市、可持续栖息地和人工智能。",
+        "POSITION": "Neurabitat首席执行官",
+        "SEMBLANCE": "智能城市专家，具有超过17年的公共管理经验，专长于智能城市、可持续栖息地和人工智能。",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
@@ -867,14 +759,122 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/hugo-isaak/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Ignasi Pérez",
+        "POSITION": "BIM Academy首席执行官及联合创始人",
+        "SEMBLANCE": "欧洲BIM先驱，BIM Academy Spain联合创始人及EUROPEAN BIM SUMMIT创建者。他是The Rebuild的总监，这是西班牙先进建设和建筑领域的领先活动。此外，他在知名机构领导BIM和数字转型培训，推动可持续性和城市化领域的创新项目。",
+        "IMG": "/team/ignasi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Jorge Moreno Vargas",
+        "POSITION": "CTO（首席技术官）",
+        "SEMBLANCE": "颠覆性技术专家，MIT认证。13年领导智能城市、IoT和可持续项目的创新。",
+        "IMG": "/team/jorge.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Héctor Miranda Martínez",
+        "POSITION": "陆路建设专家",
+        "SEMBLANCE": "陆路建设专家，具有在公共和工业部门基础设施项目规划、执行和质量控制方面的丰富经验。",
+        "IMG": "/team/hector.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Tania Sánchez",
+        "POSITION": "可持续建筑与城市规划总监",
+        "SEMBLANCE": "资深建筑师和城市规划师，具有国内和国际经验。专长于可持续城市设计和规划。",
+        "IMG": "/team/tania.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Guillermo Sánchez",
+        "POSITION": "首席城市规划师",
+        "SEMBLANCE": "城市与区域规划建筑博士，具有超过20年的国际经验，制定城市、大都市和区域发展战略，以及研究城市和领土过程。城市战略规划专家。",
+        "IMG": "/team/guillermo.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "首席项目官 (CPO)",
+        "SEMBLANCE": "建筑师和项目经理。建筑领域的参考人物，因其职业生涯而登上ABC、El Mundo和El País的封面。",
+        "IMG": "/team/angel.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Ramon Gras Alomà",
-        "POSITION": "城市科学研究员 & 城市设计师",
-        "SEMBLANCE": "Ramon Gras Alomà 是城市科学研究员和城市设计师，毕业于哈佛（2018）、MIT（2015）和 BarcelonaTech（2010）。他专攻城市创新区、城市设计和可持续城市高级分析，包括创新区地图集出版物以及在哈佛和 MIT 的城市设计论文贡献。",
+        "POSITION": "城市科学研究者及城市设计师",
+        "SEMBLANCE": "Ramon Gras Alomà是一位城市科学研究者和城市设计师，毕业于哈佛大学（2018）、麻省理工学院（2015）和巴塞罗那理工大学（2010）。他专长于城市创新区、城市设计以及可持续城市的先进分析，包括关于创新区地图集的出版物以及在哈佛和麻省理工的城市设计论文贡献。",
         "IMG": "/team/ramonG.png",
         "NETWORKS": [
           {
@@ -885,14 +885,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ramongras/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Alfonso Vegara",
-        "POSITION": "Fundación Metrópoli 创始人和名誉主席",
-        "SEMBLANCE": "建筑师、经济学家和社会学家。城市和区域规划博士。Fundación Metrópoli 创始人和名誉主席，这是一个致力于城市研究、设计和创新的国际中心。",
+        "POSITION": "Fundación Metrópoli创始人及荣誉主席",
+        "SEMBLANCE": "建筑师、经济学家和社会学家。城市与区域规划博士。Fundación Metrópoli创始人及荣誉主席，这是一个致力于城市研究、设计和创新的国际中心。",
         "IMG": "/team/alfonsoV.png",
         "NETWORKS": [
           {
@@ -903,7 +903,7 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       }

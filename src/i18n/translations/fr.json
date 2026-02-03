@@ -729,73 +729,73 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "Directeur de Technologie (CTO)",
-        "SEMBLANCE": "Expert en technologie et développement durable avec spécialisation en Villes Intelligentes, BIM, Blockchain, IA et la Nouvelle Agenda Urbaine.",
+        "POSITION": "Directeur Général",
+        "SEMBLANCE": "Expert en technologie et développement durable avec spécialisation en Smart Cities, BIM, Blockchain, IA et le Nouvel Agenda Urbain.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Hugo Isaak",
+        "POSITION": "PDG de Neurabitat",
+        "SEMBLANCE": "Expert en villes intelligentes avec plus de 17 ans d'expérience en administration publique, spécialisé en smart cities, habitat durable et intelligence artificielle.",
+        "IMG": "/team/hugoI.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Ignasi Pérez",
+        "POSITION": "PDG & Co-Fondateur chez BIM Academy",
+        "SEMBLANCE": "Pionnier du BIM en Europe, co-fondateur de BIM Academy Spain et créateur du EUROPEAN BIM SUMMIT. Il est directeur de The Rebuild, un événement leader en construction et architecture avancées en Espagne. De plus, il dirige la formation en BIM et transformation numérique dans des institutions de premier plan, promouvant des projets innovants en durabilité et urbanisme.",
+        "IMG": "/team/ignasi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Courriel"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(Chief Technology Officer)",
-        "SEMBLANCE": "Expert en technologies disruptives, Certifié MIT. 13 ans en leadership d'innovation en villes intelligentes, IoT et projets durables.",
+        "POSITION": "CTO (Directeur de la Technologie)",
+        "SEMBLANCE": "Expert en technologies disruptives, certifié MIT. 13 ans à diriger l'innovation en smart cities, IoT et projets durables.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Angel Luis Tendero",
-        "POSITION": "Chief Project Officer (CPO)",
-        "SEMBLANCE": "Architecte et gestionnaire de projets. Référence en architecture, a été en couverture dans ABC, El Mundo et El País pour sa trajectoire.",
-        "IMG": "/team/angel.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Courriel Électronique"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Tania Sánchez",
-        "POSITION": "Directrice d'Architecture et Urbanisme Durable",
-        "SEMBLANCE": "Architecte senior et urbaniste avec expérience nationale et internationale. Spécialisée en design urbain durable et planification.",
-        "IMG": "/team/tania.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Courriel Électronique"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
@@ -808,84 +808,84 @@
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
-        "NAME": "Ignasi Pérez",
-        "POSITION": "CEO & co-Founder at BIM Academy",
-        "SEMBLANCE": "Pionnier de BIM en Europe, cofondateur de BIM Academy Spain et créateur du EUROPEAN BIM SUMMIT. Il est directeur de The Rebuild, un événement leader en construction et architecture avancée en Espagne. De plus, il dirige la formation en BIM et transformation numérique dans des institutions destacées, impulsant des projets innovants en durabilité et urbanisme.",
-        "IMG": "/team/ignasi.png",
+        "NAME": "Tania Sánchez",
+        "POSITION": "Directrice de l'Architecture et de l'Urbanisme Durable",
+        "SEMBLANCE": "Architecte senior et urbaniste avec une expérience nationale et internationale. Spécialisée en conception urbaine durable et planification.",
+        "IMG": "/team/tania.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
-            "TITLE": "Linkedin"
+            "HREF": "",
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Guillermo Sánchez",
-        "POSITION": "Chief City Urbanist",
-        "SEMBLANCE": "Docteur Architecte en Planification Urbaine et Régionale, avec une expérience internationale de plus de 20 ans dans l'élaboration de stratégies de développement urbain, métropolitain et régional, ainsi que dans la recherche de processus urbains et territoriaux. Expert en planification stratégique de villes.",
+        "POSITION": "Urbaniste en Chef de la Ville",
+        "SEMBLANCE": "Docteur Architecte en Planification Urbaine et Régionale, avec plus de 20 ans d'expérience internationale dans l'élaboration de stratégies de développement urbain, métropolitain et régional, ainsi que dans la recherche de processus urbains et territoriaux. Expert en planification stratégique des villes.",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
-        "NAME": "Hugo Isaak",
-        "POSITION": "CEO de Neurabitat",
-        "SEMBLANCE": "Expert en villes intelligentes avec plus de 17 ans d'expérience en administration publique, spécialisé en villes intelligentes, habitat durable et intelligence artificielle.",
-        "IMG": "/team/hugoI.png",
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "Directeur des Projets en Chef (CPO)",
+        "SEMBLANCE": "Architecte et gestionnaire de projets. Référence en architecture, il a fait la une de ABC, El Mundo et El País pour sa carrière.",
+        "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
-            "TITLE": "Linkedin"
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Ramon Gras Alomà",
-        "POSITION": "City Science Researcher & Urban Designer",
-        "SEMBLANCE": "Ramon Gras Alomà est un Chercheur en Science Urbaine & Designer Urbain avec une éducation de Harvard (2018), MIT (2015), et BarcelonaTech (2010). Il se spécialise dans les districts d'innovation urbaine, le design urbain, et les analyses avancées pour villes durables, incluant des publications sur l'Atlas des Districts d'Innovation et des contributions à des thèses de design urbain à Harvard et MIT.",
+        "POSITION": "Chercheur en Science Urbaine & Concepteur Urbain",
+        "SEMBLANCE": "Ramon Gras Alomà est un chercheur en science urbaine et concepteur urbain avec une formation de Harvard (2018), MIT (2015) et BarcelonaTech (2010). Il se spécialise dans les districts d'innovation urbaine, la conception urbaine et les analyses avancées pour les villes durables, y compris des publications sur l'Atlas des Districts d'Innovation et des contributions à des thèses de conception urbaine à Harvard et MIT.",
         "IMG": "/team/ramonG.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ramongras/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
@@ -898,12 +898,12 @@
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "alfonsovegara@fundacion-metropoli.org",
-            "TITLE": "Courriel Électronique"
+            "TITLE": "Courriel"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       }

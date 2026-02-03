@@ -729,8 +729,8 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "Chief Technology Officer (CTO)",
-        "SEMBLANCE": "Expert in technology and sustainable development with specialization in Smart Cities, BIM, Blockchain, AI, and the New Urban Agenda.",
+        "POSITION": "General Director",
+        "SEMBLANCE": "Expert in technology and sustainable development with specialization in Smart Cities, BIM, Blockchain, AI and the New Urban Agenda.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
@@ -741,14 +741,50 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Hugo Isaak",
+        "POSITION": "CEO of Neurabitat",
+        "SEMBLANCE": "Expert in smart cities with more than 17 years of experience in public administration, specialized in smart cities, sustainable habitat and artificial intelligence.",
+        "IMG": "/team/hugoI.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Email"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Ignasi Pérez",
+        "POSITION": "CEO & Co-Founder at BIM Academy",
+        "SEMBLANCE": "Pioneer of BIM in Europe, co-founder of BIM Academy Spain and creator of the EUROPEAN BIM SUMMIT. He is director of The Rebuild, a leading event in advanced construction and architecture in Spain. In addition, he leads training in BIM and digital transformation in prominent institutions, promoting innovative projects in sustainability and urbanism.",
+        "IMG": "/team/ignasi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Email"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(Chief Technology Officer)",
-        "SEMBLANCE": "Expert in disruptive technologies, MIT Certified. 13 years leading innovation in smart cities, IoT, and sustainable projects.",
+        "POSITION": "CTO (Chief Technology Officer)",
+        "SEMBLANCE": "Expert in disruptive technologies, MIT Certified. 13 years leading innovation in smart cities, IoT and sustainable projects.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
@@ -759,15 +795,15 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
-        "NAME": "Angel Luis Tendero",
-        "POSITION": "Chief Project Officer (CPO)",
-        "SEMBLANCE": "Architect and project manager. Reference in architecture, has been featured in ABC, El Mundo, and El País for his career.",
-        "IMG": "/team/angel.png",
+        "NAME": "Héctor Miranda Martínez",
+        "POSITION": "Expert in Land Roads Construction",
+        "SEMBLANCE": "Expert in land roads construction with extensive experience in planning, execution and quality control in infrastructure projects in public and industrial sectors.",
+        "IMG": "/team/hector.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -776,8 +812,8 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "Linkedin"
+            "HREF": "",
+            "TITLE": "LinkedIn"
           }
         ]
       },
@@ -795,50 +831,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Expert in Land Road Construction",
-        "SEMBLANCE": "Expert in land road construction with extensive experience in planning, execution, and quality control in infrastructure projects in public and industrial sectors.",
-        "IMG": "/team/hector.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Email"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Ignasi Pérez",
-        "POSITION": "CEO & co-Founder at BIM Academy",
-        "SEMBLANCE": "Pioneer of BIM in Europe, co-founder of BIM Academy Spain and creator of the EUROPEAN BIM SUMMIT. He is director of The Rebuild, a leading event in advanced construction and architecture in Spain. Additionally, he leads BIM training and digital transformation in prominent institutions, driving innovative projects in sustainability and urbanism.",
-        "IMG": "/team/ignasi.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Email"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Chief City Urbanist",
-        "SEMBLANCE": "Doctor Architect in Urban and Regional Planning, with more than 20 years of international experience in developing urban, metropolitan, and regional development strategies, as well as researching urban and territorial processes. Expert in strategic city planning.",
+        "SEMBLANCE": "Doctor Architect in Urban and Regional Planning, with more than 20 years of international experience in developing urban, metropolitan and regional development strategies, as well as in researching urban and territorial processes. Expert in strategic city planning.",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
@@ -849,15 +849,15 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
-        "NAME": "Hugo Isaak",
-        "POSITION": "CEO of Neurabitat",
-        "SEMBLANCE": "Expert in smart cities with more than 17 years of experience in public administration, specialized in smart cities, sustainable habitat, and artificial intelligence.",
-        "IMG": "/team/hugoI.png",
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "Chief Project Officer (CPO)",
+        "SEMBLANCE": "Architect and project manager. Reference in architecture, has been featured on the cover of ABC, El Mundo and El País for his career.",
+        "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -866,8 +866,8 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
-            "TITLE": "Linkedin"
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
+            "TITLE": "LinkedIn"
           }
         ]
       },
@@ -885,14 +885,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ramongras/",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Alfonso Vegara",
         "POSITION": "Founder and Honorary President of Fundación Metrópoli",
-        "SEMBLANCE": "Architect, economist, and sociologist. Doctor in Urban and Regional Planning. Founder and Honorary President of Fundación Metrópoli, an international center dedicated to research, design, and innovation in cities.",
+        "SEMBLANCE": "Architect, economist and sociologist. Doctor in Urban and Regional Planning. Founder and Honorary President of Fundación Metrópoli, an international center dedicated to research, design and innovation in cities.",
         "IMG": "/team/alfonsoV.png",
         "NETWORKS": [
           {
@@ -903,7 +903,7 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
-            "TITLE": "Linkedin"
+            "TITLE": "LinkedIn"
           }
         ]
       }

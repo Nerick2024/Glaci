@@ -729,7 +729,7 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "Director de Tecnología (CTO)",
+        "POSITION": "Director General",
         "SEMBLANCE": "Experto en tecnología y desarrollo sostenible con especialización en Smart Cities, BIM, Blockchain, AI y la Nueva Agenda Urbana.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
@@ -746,10 +746,10 @@
         ]
       },
       {
-        "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(Chief Technology Officer)",
-        "SEMBLANCE": "Experto en tecnologías disruptivas, MIT Certified. 13 años liderando innovación en smart cities, IoT y proyectos sostenibles.",
-        "IMG": "/team/jorge.png",
+        "NAME": "Hugo Isaak",
+        "POSITION": "CEO de Neurabitat",
+        "SEMBLANCE": "Experto en ciudades inteligentes con más de 17 años de experiencia en administración pública, especializado en smart cities, hábitat sostenible e inteligencia artificial.",
+        "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -758,61 +758,7 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Angel Luis Tendero",
-        "POSITION": "Chief Project Officer (CPO)",
-        "SEMBLANCE": "Arquitecto y gestor de proyectos. Referente en arquitectura, ha sido portada en ABC, El Mundo y El País por su trayectoria.",
-        "IMG": "/team/angel.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Tania Sánchez",
-        "POSITION": "Directora de Arquitectura y Urbanismo Sustentable",
-        "SEMBLANCE": "Arquitecta senior y urbanista con experiencia nacional e internacional. Especializada en diseño urbano sustentable y planificación.",
-        "IMG": "/team/tania.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
-        "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Experto en Construcción de Vías Terrestres",
-        "SEMBLANCE": "Experto en construcción de vias terrestres con amplia experiencia en planeación, ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
-        "IMG": "/team/hector.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
             "TITLE": "Linkedin"
           }
         ]
@@ -836,6 +782,60 @@
         ]
       },
       {
+        "NAME": "Jorge Moreno Vargas",
+        "POSITION": "CTO(Chief Technology Officer)",
+        "SEMBLANCE": "Experto en tecnologías disruptivas, MIT Certified. 13 años liderando innovación en smart cities, IoT y proyectos sostenibles.",
+        "IMG": "/team/jorge.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Héctor Miranda Martínez",
+        "POSITION": "Experto en Construcción de Vías Terrestres",
+        "SEMBLANCE": "Experto en construcción de vias terrestres con amplia experiencia en planeación, ejecución y control de calidad en proyectos de infraestructura en sectores público e industrial.",
+        "IMG": "/team/hector.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Tania Sánchez",
+        "POSITION": "Directora de Arquitectura y Urbanismo Sustentable",
+        "SEMBLANCE": "Arquitecta senior y urbanista con experiencia nacional e internacional. Especializada en diseño urbano sustentable y planificación.",
+        "IMG": "/team/tania.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Chief City Urbanist",
         "SEMBLANCE": "Doctor Arquitecto en Planificación Urbana y Regional, con una experiencia internacional de más de 20 años en la elaboración de estrategias de desarrollo urbano, metropolitano y regional, así como en la investigación de procesos urbanos y territoriales. Experto en planificación estratégica de ciudades.",
@@ -854,10 +854,10 @@
         ]
       },
       {
-        "NAME": "Hugo Isaak",
-        "POSITION": "CEO de Neurabitat",
-        "SEMBLANCE": "Experto en ciudades inteligentes con más de 17 años de experiencia en administración pública, especializado en smart cities, hábitat sostenible e inteligencia artificial.",
-        "IMG": "/team/hugoI.png",
+        "NAME": "Angel Luis Tendero",
+        "POSITION": "Chief Project Officer (CPO)",
+        "SEMBLANCE": "Arquitecto y gestor de proyectos. Referente en arquitectura, ha sido portada en ABC, El Mundo y El País por su trayectoria.",
+        "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -866,7 +866,7 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/hugo-isaak/",
+            "HREF": "https://es.linkedin.com/in/altarquitectura",
             "TITLE": "Linkedin"
           }
         ]

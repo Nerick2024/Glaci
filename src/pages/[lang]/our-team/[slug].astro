@@ -78,7 +78,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
           >
             <div class="flex flex-wrap gap-4">
               {
-                NETWORKS.map((network) => (
+                NETWORKS.map((network:any) => (
                   <a
                     href={network.HREF}
                     class="group p-3 border-2 border-[var(--color-title)]/75 bg-transparent hover:bg-[var(--color-title)]/50 transition-all hover:scale-110 rounded-full h-14 aspect-square"

@@ -57,12 +57,12 @@ const i18n = await useTranslation(lang);
       </div>
     </div>
     <a
-      href="#consortium"
+      href={`/${lang}/#consortium`}
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.CONSORTIUM}</a
     >
     <a
-      href=`/${lang}/our-team`
+      href={`/${lang}/our-team`}
       class="font-semibold hover:text-[var(--color-title)] transition-colors duration-500"
       >{i18n.NAVBAR.TALENT}</a
     >
@@ -118,17 +118,30 @@ const i18n = await useTranslation(lang);
       class="flex flex-col justify-center items-center gap-6 pt-24 pb-10 h-full overflow-y-auto font-medium text-white text-lg"
     >
       <a
-        href="#home"
+        href={`/${lang}/#home`}
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.HOME}</a
       >
-      <div class="group relative text-center">
-        <a
-          href={`/${lang}/AreasOfImpact`}
-          class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-          >{i18n.NAVBAR.AREAS_OF_IMPACT}</a
+      <div class="relative text-center">
+        <button
+          id="areas-toggle"
+          class="flex items-center justify-center gap-2 font-medium hover:text-[var(--color-title)] mx-auto text-2xl transition-colors"
         >
-        <div class="flex flex-col gap-3 mt-3">
+          {i18n.NAVBAR.AREAS_OF_IMPACT}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 transition-transform duration-300"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            id="areas-arrow"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div id="areas-submenu" class="hidden flex-col gap-3 mt-3">
           {
             i18n.AREAS.SMART_ECOSYSTEM_ITEMS.map((item) => (
               <a
@@ -142,7 +155,7 @@ const i18n = await useTranslation(lang);
         </div>
       </div>
       <a
-        href="#consortium"
+        href={`/${lang}/#consortium`}
         class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.CONSORTIUM}</a
       >
@@ -185,7 +198,10 @@ const i18n = await useTranslation(lang);
   const openIcon = document.getElementById("menu-open-icon");
   const closeIcon = document.getElementById("menu-close-icon");
   const body = document.querySelector("body");
-  const navLinks = mobileMenu.querySelectorAll("a");
+  const menuLinks = mobileMenu.querySelectorAll("nav > a, #areas-submenu a");
+  const areasToggle = document.getElementById("areas-toggle");
+  const areasSubmenu = document.getElementById("areas-submenu");
+  const areasArrow = document.getElementById("areas-arrow");
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle("opacity-0");
@@ -197,11 +213,18 @@ const i18n = await useTranslation(lang);
 
   menuToggle.addEventListener("click", toggleMenu);
 
-  navLinks.forEach((link) => {
+  menuLinks.forEach((link) => {
     link.addEventListener("click", () => {
       if (!mobileMenu.classList.contains("opacity-0")) {
         toggleMenu();
       }
     });
+  });
+
+  areasToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    areasSubmenu.classList.toggle("hidden");
+    areasSubmenu.classList.toggle("flex");
+    areasArrow.classList.toggle("rotate-180");
   });
 </script>

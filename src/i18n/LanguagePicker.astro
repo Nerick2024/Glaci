@@ -59,13 +59,13 @@ function getPath(lang: string) {
 }
 ---
 
-<div class="relative group">
+<div class="language-picker relative group">
   <button
-    class="h-10 px-4 rounded-full border border-white/25 bg-transparent text-[var(--color-title)] shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2"
+    class="language-toggle h-10 px-4 rounded-full border border-white/25 bg-transparent text-[var(--color-title)] shadow-[0_0_10px_rgba(var(--color-title),0.7)] flex items-center gap-2"
   >
     <span>{currentLang.toUpperCase()}</span>
     <svg
-      class="fill-current h-4 w-4 transition-transform duration-300 group-hover:rotate-180"
+      class="language-arrow fill-current h-4 w-4 transition-transform duration-300 group-hover:rotate-180"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       ><path
@@ -74,7 +74,7 @@ function getPath(lang: string) {
     >
   </button>
   <div
-    class="top-full backdrop-blur-md left-0 z-20 absolute flex w-full flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
+    class="language-menu top-full backdrop-blur-md left-0 z-20 absolute flex w-full flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
   >
     {
       Object.entries(locales).map(([lang, label]) => {

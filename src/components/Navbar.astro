@@ -1,7 +1,8 @@
 ---
 import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
 import LanguagePicker from "@/i18n/LanguagePicker.astro";
-import ButtonMoreInformation from "./Button_MoreInformation.astro";
+// ButtonMoreInformation importado pero no usado, lo comentamos o eliminamos
+// import ButtonMoreInformation from "./Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -72,7 +73,6 @@ const i18n = await useTranslation(lang);
       >{i18n.NAVBAR.CONTACT}</a
     >
     <LanguagePicker />
-    <!-- <ButtonMoreInformation i18n={i18n} lang={lang} /> -->
   </nav>
 
   <!-- Mobile Menu Button -->
@@ -115,17 +115,17 @@ const i18n = await useTranslation(lang);
     class="lg:hidden fixed inset-0 bg-[#050647]/95 opacity-0 backdrop-blur-sm w-full h-screen transition-opacity duration-300 ease-in-out pointer-events-none"
   >
     <nav
-      class="flex flex-col justify-center items-center gap-6 pt-24 pb-10 h-full overflow-y-auto font-medium text-white text-lg"
+      class="flex flex-col justify-center items-center gap-6 pt-24 pb-10 h-full overflow-y-auto font-medium text-white px-8"
     >
       <a
         href={`/${lang}/#home`}
-        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        class="glass-effect w-full text-center p-2 border border-white/25 rounded-full font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.HOME}</a
       >
-      <div class="relative text-center">
+      <div class="relative text-center w-full">
         <button
           id="areas-toggle"
-          class="flex items-center justify-center gap-2 font-medium hover:text-[var(--color-title)] mx-auto text-2xl transition-colors"
+          class="flex items-center justify-center gap-2 glass-effect w-full text-center p-2 border border-white/25 rounded-full font-medium hover:text-[var(--color-title)] w-full text-2xl transition-colors"
         >
           {i18n.NAVBAR.AREAS_OF_IMPACT}
           <svg
@@ -141,14 +141,17 @@ const i18n = await useTranslation(lang);
               clip-rule="evenodd"></path>
           </svg>
         </button>
-        <div id="areas-submenu" class="hidden flex-col gap-3 mt-3">
+        <div id="areas-submenu" class="hidden flex-col gap-3 mt-5">
           {
             i18n.AREAS.SMART_ECOSYSTEM_ITEMS.map((item) => (
               <a
                 href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
-                class="block p-1 rounded-md hover:text-[var(--color-title)] text-base"
+                class="block p-1 bg-white/70 rounded-full text-[var(--color-bg-1)] text-base leading-5"
               >
-                {item.TITLE_TEXT}
+                <strong>{item.TITLE_TEXT}</strong>
+                <span class="block font-medium text-[var(--color-bg-1)] text-sm">
+                  {item.SUBTITLE}
+                </span>
               </a>
             ))
           }
@@ -156,18 +159,18 @@ const i18n = await useTranslation(lang);
       </div>
       <a
         href={`/${lang}/#consortium`}
-        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        class="glass-effect w-full text-center p-1 border border-white/25 rounded-full font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
         >{i18n.NAVBAR.CONSORTIUM}</a
       >
       <a
-        href={`/${lang}/register`}
-        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-        >{i18n.NAVBAR.CONTACT}</a
+        href={`/${lang}/our-team`}
+        class="glass-effect w-full text-center p-1 border border-white/25 rounded-full font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        >{i18n.NAVBAR.TALENT}</a
       >
       <a
-        href=`/${lang}/our-team`
-        class="font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
-        >{i18n.NAVBAR.TALENT}</a
+        href={`/${lang}/register`}
+        class="glass-effect w-full text-center p-1 border border-white/25 rounded-full font-medium hover:text-[var(--color-title)] text-2xl transition-colors"
+        >{i18n.NAVBAR.CONTACT}</a
       >
       <LanguagePicker />
     </nav>
@@ -226,5 +229,31 @@ const i18n = await useTranslation(lang);
     areasSubmenu.classList.toggle("hidden");
     areasSubmenu.classList.toggle("flex");
     areasArrow.classList.toggle("rotate-180");
+  });
+
+  // Manejo de múltiples LanguagePicker con clases
+  const languagePickers = document.querySelectorAll(".language-picker");
+  languagePickers.forEach((picker) => {
+    const languageToggle = picker.querySelector(".language-toggle");
+    const languageMenu = picker.querySelector(".language-menu");
+    const languageArrow = picker.querySelector(".language-arrow");
+
+    if (languageToggle && languageMenu && languageArrow) {
+      languageToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        languageMenu.classList.toggle("opacity-0");
+        languageMenu.classList.toggle("pointer-events-none");
+        languageMenu.classList.toggle("translate-y-0");
+        languageArrow.classList.toggle("rotate-180");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!picker.contains(e.target)) {
+          languageMenu.classList.add("opacity-0", "pointer-events-none");
+          languageMenu.classList.remove("translate-y-0");
+          languageArrow.classList.remove("rotate-180");
+        }
+      });
+    }
   });
 </script>

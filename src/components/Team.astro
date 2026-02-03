@@ -18,10 +18,10 @@ const i18n = await useTranslation(lang);
   >
     {i18n.TEAM.TITLE}
   </h2>
-  <div class="flex flex-col items-center justify-center text-white max-w-7xl gap-6 mb-12">
+  <div class="flex flex-col items-center justify-center text-white max-w-7xl px-6 gap-6 mb-12">
     <p class="text-center lg:text-left text-4xl font-semibold text-[var(--color-title)]">{i18n.TEAM.SUBTITLE}</p>
     <p class="text-center lg:text-left text-lg">{i18n.TEAM.TEXT}</p>
-    <div class="grid grid-cols-2 gap-10 items-center justify-center max-w-4xl my-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center max-w-4xl my-10">
       {
         i18n.TEAM.CARDS.map((card) => (
           <div class="glass-effect border border-white/25 rounded-xl flex p-4 items-center justify-start">
@@ -43,7 +43,7 @@ const i18n = await useTranslation(lang);
     <Button_MoreInformation i18n={i18n} lang={lang} />
   </div>
   <div
-    class="flex flex-wrap items-center justify-center gap-8 max-w-7xl mx-auto mt-12"
+    class="flex flex-wrap items-center justify-center gap-8 max-w-7xl mx-auto mt-12 px-6"
   >
     {
       i18n.TEAM.TEAM.map((director) => (

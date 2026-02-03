@@ -21,7 +21,7 @@ const i18n = await useTranslation(lang);
   <div class="flex flex-col items-center justify-center text-white max-w-7xl gap-6 mb-12">
     <p class="text-center lg:text-left text-4xl font-semibold text-[var(--color-title)]">{i18n.TEAM.SUBTITLE}</p>
     <p class="text-center lg:text-left text-lg">{i18n.TEAM.TEXT}</p>
-    <div class="grid grid-cols-2 gap-5 items-center justify-center max-w-3xl">
+    <div class="grid grid-cols-2 gap-10 items-center justify-center max-w-4xl my-10">
       {
         i18n.TEAM.CARDS.map((card) => (
           <div class="glass-effect border border-white/25 rounded-xl flex p-4 items-center justify-start">
@@ -43,11 +43,11 @@ const i18n = await useTranslation(lang);
     <Button_MoreInformation i18n={i18n} lang={lang} />
   </div>
   <div
-    class="flex flex-wrap items-center justify-center gap-8 max-w-7xl mx-auto"
+    class="flex flex-wrap items-center justify-center gap-8 max-w-7xl mx-auto mt-12"
   >
     {
       i18n.TEAM.TEAM.map((director) => (
-        <div data-aos="zoom-in">
+        <div data-aos="zoom-in" data-aos-duration="1000">
           <a
             href={`/${lang}/our-team/${slugify(director.NAME)}`}
             class="group relative block h-full lg:w-70 aspect-square overflow-hidden rounded-sm bg-gradient-to-t from-gray-400 to-white transition-all duration-300 hover:scale-105"

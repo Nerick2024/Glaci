@@ -26,6 +26,7 @@ interface Props {
       </div>
       <div
         data-aos="zoom-in"
+        data-aos-duration="1000"
         class="relative flex justify-center items-center bg-[var(--color-bg-1)] shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-title)] rounded-full h-[240px] md:h-[260px] aspect-square"
       >
         <h3
@@ -77,7 +78,7 @@ interface Props {
       75,
       container.clientWidth / container.clientHeight,
       0.1,
-      1000
+      1000,
     );
     camera.position.z = 5;
 
@@ -104,7 +105,7 @@ interface Props {
           f4: 10,
           a4: 0.05,
         },
-      })
+      }),
     );
     // Layer 2: Outer, sparser layer
     particleSystems.push(
@@ -124,7 +125,7 @@ interface Props {
           f4: 8,
           a4: 0.08,
         },
-      })
+      }),
     );
     // Layer 3: Inner, subtle layer
     particleSystems.push(
@@ -144,7 +145,7 @@ interface Props {
           f4: 12,
           a4: 0.03,
         },
-      })
+      }),
     );
 
     window.addEventListener("resize", onWindowResize, false);
@@ -186,11 +187,11 @@ interface Props {
     particles.setAttribute("position", new THREE.BufferAttribute(positions, 3));
     particles.setAttribute(
       "sphericalData",
-      new THREE.BufferAttribute(sphericalData, 3)
+      new THREE.BufferAttribute(sphericalData, 3),
     );
     particles.setAttribute(
       "originalPosition",
-      new THREE.BufferAttribute(originalPositions, 3)
+      new THREE.BufferAttribute(originalPositions, 3),
     );
     particles.userData.waveConfig = waveConfig; // Store wave config
 

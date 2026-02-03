@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslation } from "@/i18n";
+import Button_MoreInformation from "@/components/Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -50,23 +51,9 @@ const placeUnder = area1.length <= area2.length ? "area1" : "area2";
             </p>
           ) : null
         }
-        <a
-          data-aos="zoom-in"
-          href={`/${lang}/register`}
-          class="group inline-flex items-center gap-4 transform transition-colors hover:bg-[var(--color-title)] mx-auto lg:mx-0 mb-10 px-6 py-4 border border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-black transition-colors"
-        >
-          <span>{i18n.AREAS.BUTTON}</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="fill-[var(--color-title)] group-hover:fill-[var(--color-bg-1)] w-5 h-5 rotate-90 transition-colors transform"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
-            ></path>
-          </svg>
-        </a>
+        <div class="mb-16 w-fit" data-aos="zoom-in" data-aos-duration="1000">
+          <Button_MoreInformation lang={lang} i18n={i18n} />
+        </div>
       </div>
 
       <div class="flex flex-col gap-8">

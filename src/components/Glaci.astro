@@ -15,6 +15,7 @@ const i18n = await translations[lang]();
 >
   <h1
     data-aos="fade-up"
+    data-aos-duration="1000"
     class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
   >
     <span class="text-[var(--color-title)]">+</span>
@@ -24,16 +25,27 @@ const i18n = await translations[lang]();
       >{i18n.GLACI.GLACI}</span
     >
   </h1>
-  <div class="mb-12 gap-6 flex flex-col lg:flex-row items-start justify-center">
-    <p data-aos="fade-right" class="text-center lg:text-left text-lg flex-1">
+  <div
+    class="mb-12 gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row items-start justify-center"
+  >
+    <p
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="text-center lg:text-left text-lg flex-1"
+    >
       {i18n.GLACI.TEXT_1}
     </p>
-    <p data-aos="fade-left" class="text-center lg:text-left text-lg flex-1">
+    <p
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      class="text-center lg:text-left text-lg flex-1"
+    >
       {i18n.GLACI.TEXT_2}
     </p>
   </div>
   <h1
     data-aos="fade-up"
+    data-aos-duration="1000"
     class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
   >
     <span class="text-[var(--color-title)]">+</span>
@@ -42,7 +54,7 @@ const i18n = await translations[lang]();
   <div class="flex flex-col lg:flex-row gap-6">
     {
       i18n.GLACI.CARDS.map((card) => (
-        <div data-aos="zoom-in">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="flex flex-1">
           <div class="bg-white/5 backdrop-blur-sm relative border hover:-translate-y-2 transition-transform duration-300 border-white/25 flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <p class="font-semibold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
               {card.TITLE}
@@ -54,7 +66,7 @@ const i18n = await translations[lang]();
       ))
     }
   </div>
-  <div data-aos="fade-up" class="w-fit mx-auto my-8">
+  <div data-aos="fade-up" data-aos-duration="1000" class="w-fit mx-0 my-8">
     <ButtonMoreInformation lang={lang} i18n={i18n} />
   </div>
 </div>

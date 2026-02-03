@@ -65,7 +65,8 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
         </div>
         <div class="h-auto w-full lg:w-[60%] p-6">
           <h2 class="text-5xl lg:text-6xl my-2">
-            <span class="text-[var(--color-title)]">+</span> {NAME}
+            <span class="text-[var(--color-title)]">+</span>
+            {NAME}
           </h2>
           <!-- <h3 class="text-xl font-semibold text-gray-600 mb-2">{POSITION}</h3> -->
           <div class="rounded-full w-full h-0.5 bg-white my-4"></div>
@@ -95,8 +96,9 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
             </div>
             <a
               data-aos="zoom-in"
+              data-aos-duration="1000"
               href={useTranslatedPath(lang)("/") + "our-team"}
-              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-white  transition-colors"
+              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-white transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +116,8 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
         </div>
       </div>
     </div>
-    <div class=" -z-10">
-      <Stars/>
+    <div class="-z-10">
+      <Stars />
     </div>
   </section>
 </Layout>

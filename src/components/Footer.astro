@@ -9,26 +9,41 @@ const i18n = await useTranslation(lang);
 
 <div
   id="footer"
-  class="z-10 flex lg:flex-row flex-col justify-between items-center gap-5 px-4 text-white lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full"
+  class="z-10 px-5 text-white lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full flex flex-col gap-12"
 >
+  <div class="flex lg:flex-row flex-col justify-between items-center gap-5">
+    <div class="flex lg:hidden justify-center animate-bounce duration-1000">
+      <a
+        href="#home"
+        class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
+      >
+        <img
+          src="/icons/arrow.svg"
+          alt="arrow"
+          class="w-8 h-auto object-contain"
+        />
+      </a>
+    </div>
+    <ButtonMoreInformation i18n={i18n} lang={lang} />
+
+    <div class="hidden lg:flex justify-center animate-bounce duration-1000">
+      <a
+        href="#home"
+        class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
+      >
+        <img
+          src="/icons/arrow.svg"
+          alt="arrow"
+          class="w-8 h-auto object-contain"
+        />
+      </a>
+    </div>
+    <div class="flex flex-row justify-end items-center gap-6">
+      <p class="font-light text-white text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
+      <Button_Networks i18n={i18n} />
+    </div>
+  </div>
   <div class="flex justify-center items-center gap-6 text-white">
     <p class="text-sm">Copyright © GLACI {new Date().getFullYear()}</p>
-  </div>
-  <div class="flex justify-center animate-bounce duration-1000">
-    <a
-      href="#home"
-      class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
-    >
-      <img
-        src="/icons/arrow.svg"
-        alt="arrow"
-        class="w-8 h-auto object-contain"
-      />
-    </a>
-  </div>
-  <ButtonMoreInformation i18n={i18n} lang={lang} />
-  <div class="flex flex-row justify-end items-center gap-6">
-    <p class="font-light text-white text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-    <Button_Networks i18n={i18n} />
   </div>
 </div>

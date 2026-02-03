@@ -12,54 +12,66 @@ const nodeLayouts = [
     transform: "translate(310, 90)",
     gClass: "group cursor-pointer item up",
     foProps: { x: -100, y: -180, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-end h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-end h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(500.526, 200)",
     gClass: "group right cursor-pointer item",
     foProps: { x: 10, y: -50, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(500.526, 420)",
     gClass: "group right cursor-pointer item",
     foProps: { x: 10, y: -50, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(310, 530)",
     gClass: "group cursor-pointer item down",
     foProps: { x: -100, y: 20, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(119.474, 420)",
     gClass: "group left cursor-pointer item",
     foProps: { x: -210, y: -50, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(119.474, 200)",
     gClass: "group left cursor-pointer item",
     foProps: { x: -210, y: -50, width: 200, height: 150 },
-    divClass: "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
 ];
 ---
 
 <div
   id="AreasOfImpact"
-  class="relative lg:flex flex-col justify-between max-w-6xl gap-6 mx-auto items-center py-10"
+  class="relative lg:flex flex-col justify-between max-w-6xl gap-6 px-5 mx-auto py-10"
 >
   <h1
     data-aos="fade-up"
-    class="mt-4 text-center font-normal text-[32px] text-white md:text-[45px]"
+    data-aos-duration="1000"
+    class="mb-5 text-center lg:text-left font-normal text-[32px] text-white md:text-[45px]"
   >
     <span class="text-[var(--color-title)]">+</span>
     {i18n.AREAS.TITLE}
-    <span class="text-[var(--color-title)]">+</span>
   </h1>
-  <p data-aos="fade-in" class="text-white text-center lg:text-left text-lg">{i18n.AREAS.TEXT}</p>
+  <p
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-white text-center text-xl lg:text-3xl"
+  >
+    {i18n.AREAS.TEXT}
+  </p>
 
   <!-- DESKTOP VIEW -->
   <div
@@ -67,6 +79,7 @@ const nodeLayouts = [
   >
     <svg
       data-aos="zoom-in"
+      data-aos-duration="1000"
       class="w-full h-full overflow-visible"
       viewBox="0 0 620 620"
     >
@@ -109,7 +122,11 @@ const nodeLayouts = [
                       set:html={item.TITLE}
                     />
                     <div class="w-12 h-12 mx-auto border border-[var(--color-title)] rounded-full p-2">
-                    <img src={item.ICON} alt={item.TITLE_TEXT} class="w-full h-full object-contain" />
+                      <img
+                        src={item.ICON}
+                        alt={item.TITLE_TEXT}
+                        class="w-full h-full object-contain"
+                      />
                     </div>
                   </div>
                 </foreignObject>
@@ -123,7 +140,8 @@ const nodeLayouts = [
       class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
     >
       <p
-      data-aos="fade-in"
+        data-aos="fade-in"
+        data-aos-duration="1000"
         class="center-title text-3d-center text-white font-extrabold lg:text-4xl 2xl:text-6xl"
       >
         {i18n.HERO.CENTER_TITLE}
@@ -152,7 +170,13 @@ const nodeLayouts = [
       }
     </div>
   </div>
-  <p data-aos="fade-in" class="text-white text-center lg:text-left text-lg">{i18n.AREAS.TEXT_2}</p>
+  <p
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-center font-bold text-[var(--color-title)] text-xl lg:text-3xl"
+  >
+    {i18n.AREAS.TEXT_2}
+  </p>
 </div>
 
 <style>

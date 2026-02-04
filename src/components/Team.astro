@@ -46,7 +46,13 @@ const i18n = await useTranslation(lang);
     class="flex flex-wrap items-center justify-center gap-8 max-w-7xl mx-auto mt-12 px-6"
   >
     {
-      i18n.TEAM.TEAM.map((director) => (
+      i18n.TEAM.TEAM.slice().sort((a, b) => {
+        const aParts = a.NAME.trim().split(/\s+/);
+        const bParts = b.NAME.trim().split(/\s+/);
+        const aKey = (aParts[1] || aParts[aParts.length - 1] || aParts[0]).toLowerCase();
+        const bKey = (bParts[1] || bParts[bParts.length - 1] || bParts[0]).toLowerCase();
+        return aKey.localeCompare(bKey, lang, { sensitivity: 'base' });
+      }).map((director) => (
         <div data-aos="zoom-in" data-aos-duration="1000">
           <a
             href={`/${lang}/our-team/${slugify(director.NAME)}`}

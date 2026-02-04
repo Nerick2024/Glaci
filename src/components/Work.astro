@@ -1,7 +1,7 @@
 ---
 import { getLangFromUrl } from "@/i18n/utils";
 import { translations } from "@/i18n";
-
+import Button_Certifications from "@/components/Button_Certifications.astro";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
@@ -149,6 +149,13 @@ const i18n = await translations[lang]();
       >
         {i18n.WORK.TEXT_2}
       </p>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="flex flex-col w-full justify-center items-end mt-8 gap-6 lg:mx-0"
+      >
+        <Button_Certifications i18n={i18n} lang={lang} />
+      </div>
     </div>
 
     <div

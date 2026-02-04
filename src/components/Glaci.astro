@@ -24,7 +24,7 @@ const i18n = await translations[lang]();
     >
   </h1>
   <div
-    class="mb-12 gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row items-start justify-center"
+    class="gap-10 lg:gap-16 p-5 flex flex-wrap lg:flex-row items-start justify-center"
   >
     <p
       data-aos="fade-right"
@@ -39,6 +39,24 @@ const i18n = await translations[lang]();
       class="text-center lg:text-left text-lg flex-1"
     >
       {i18n.GLACI.TEXT_2}
+    </p>
+  </div>
+  <div
+    class="mb-12 gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row items-start justify-center"
+  >
+    <p
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="text-center lg:text-left text-lg flex-1"
+    >
+      {i18n.HERO.TEXT_3}
+    </p>
+    <p
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      class="text-center lg:text-left text-lg flex-1"
+    >
+      {i18n.HERO.TEXT_4}
     </p>
   </div>
 </div>

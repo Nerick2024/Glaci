@@ -59,7 +59,7 @@ const i18n = await useTranslation(lang);
             />
             <div class="right-3 bottom-3 left-3 absolute bg-[var(--color-bg-1)]/75 transform transition-all duration-400 backdrop-blur-sm p-3 rounded-sm text-white text-center">
               <h3 class="mb-1 font-semibold text-base">
-                {director.NAME.split(" ").slice(0, 2).join(" ")}
+                {director.NAME.split(" ").slice(0, 2).reverse().join(" ")}
               </h3>
               <p class="text-xs uppercase tracking-wider">
                 {director.POSITION}

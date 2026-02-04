@@ -13,6 +13,7 @@ import Work from "@/components/Work.astro";
 import Governance from "@/components/Governance.astro";
 import Consortium from "@/components/Consortium.astro";
 import Stars from "@/components/Stars.astro";
+import Methodology from "@/components/Methodology.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
@@ -24,7 +25,8 @@ const t = await useTranslation(lang as any);
     <Stars />
   </div>
   <Glaci />
-  <AreasOfImpact />
   <Consortium />
+  <AreasOfImpact />
+  <Methodology/>
   <Work />
 </Layout>

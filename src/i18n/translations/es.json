@@ -22,6 +22,12 @@
     "SUCCESS_STORIES_BUTTON": "Ver proyectos relacionados",
     "SMART_ECOSYSTEM_ITEMS": [
       {
+        "HOVER": [
+          "Plataformas de gobierno y gestión",
+          "Transformación digital",
+          "Datos para la toma de decisiones",
+          "Arquitectura tecnológica a la medida"
+        ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
         "TITLE_TEXT": "Gobernanza Inteligente",
@@ -638,7 +644,7 @@
     "TITLE": "Qué es",
     "TEXT_1": "GLACI es un consorcio de talento interdisciplinario que impulsa proyectos urbanos y territoriales integrando innovación, conocimiento, gobernanza y estructuración financiera.",
     "TEXT_2": "Trabajamos donde la complejidad requiere inteligencia colectiva, sensibilidad institucional y viabilidad de largo plazo.",
-    "TITLE_2": "Cómo Trabajamos",
+    "TITLE_2": "Nuestra Metodología",
     "CARDS": [
       {
         "TITLE": "Comprensión profunda",
@@ -655,7 +661,7 @@
     ]
   },
   "WORK": {
-    "TITLE": "Para Quién Trabajamos",
+    "TITLE": "Colaboramos con",
     "TEXT": [
       "Gobiernos con visión de largo plazo y sentido de legado.",
       " Empresas comprometidas con desarrollo sostenible.",
@@ -729,7 +735,7 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "Director General",
+        "POSITION": "Co-Founder",
         "SEMBLANCE": "Experto en tecnología y desarrollo sostenible con especialización en Smart Cities, BIM, Blockchain, AI y la Nueva Agenda Urbana.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
@@ -747,13 +753,13 @@
       },
       {
         "NAME": "Hugo Isaak",
-        "POSITION": "CEO de Neurabitat",
+        "POSITION": "Co-Founder",
         "SEMBLANCE": "Experto en ciudades inteligentes con más de 17 años de experiencia en administración pública, especializado en smart cities, hábitat sostenible e inteligencia artificial.",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
+            "HREF": "mailto:contacto@neurabitat.com",
             "TITLE": "Correo Electronico"
           },
           {
@@ -764,8 +770,8 @@
         ]
       },
       {
-        "NAME": "Ignasi Pérez",
-        "POSITION": "CEO & co-Founder at BIM Academy",
+        "NAME": "Ignasi Pérez Arnal",
+        "POSITION": "Co-Founder",
         "SEMBLANCE": "Pionero de BIM en Europa, cofundador de BIM Academy Spain y creador del EUROPEAN BIM SUMMIT. Es director de The Rebuild, un evento líder en construcción y arquitectura avanzada en España. Además, lidera la formación en BIM y transformación digital en instituciones destacadas, impulsando proyectos innovadores en sostenibilidad y urbanismo.",
         "IMG": "/team/ignasi.png",
         "NETWORKS": [
@@ -783,7 +789,7 @@
       },
       {
         "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(Chief Technology Officer)",
+        "POSITION": "Co-Founder",
         "SEMBLANCE": "Experto en tecnologías disruptivas, MIT Certified. 13 años liderando innovación en smart cities, IoT y proyectos sostenibles.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
@@ -812,7 +818,7 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/h%C3%A9ctor-mart%C3%ADnez-miranda-b94577147",
             "TITLE": "Linkedin"
           }
         ]
@@ -830,7 +836,7 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/tania-sanchez-167305128",
             "TITLE": "Linkedin"
           }
         ]
@@ -872,10 +878,28 @@
         ]
       },
       {
-        "NAME": "Ramon Gras Alomà",
-        "POSITION": "City Science Researcher & Urban Designer",
-        "SEMBLANCE": "Ramon Gras Alomà is a City Science Researcher & Urban Designer with education from Harvard (2018), MIT (2015), and BarcelonaTech (2010). He specializes in urban innovation districts, city design, and advanced analytics for sustainable cities, including publications on the Atlas of Innovation Districts and contributions to urban design theses at Harvard and MIT.",
-        "IMG": "/team/ramonG.png",
+        "NAME": "Yuka Nakasone",
+        "POSITION": "International Business Advisor",
+        "SEMBLANCE": "Con más de 30 años de experiencia en negocios internacionales, se destaca por su capacidad para ayudar a las organizaciones a adaptarse y prosperar en la era digital y global. Originaria de Japón y radicada en Barcelona, se destaca por su profundo conocimiento en innovación y tecnología.",
+        "IMG": "/team/yuka.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "mailto:info@globalbridge.es",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/yukanakasone/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Amaia Celaya Alvarez",
+        "POSITION": "Urban Resilience Advisor",
+        "SEMBLANCE": "Consejera en Resiliencia Urbana, experta en diseño de ciudades resilientes y gestión de riesgos urbanos.",
+        "IMG": "/team/amaia.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -884,25 +908,61 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/ramongras/",
+            "HREF": "https://www.linkedin.com/in/amaia-celaya-alvarez/",
             "TITLE": "Linkedin"
           }
         ]
       },
       {
-        "NAME": "Alfonso Vegara",
-        "POSITION": "Fundador y Presidente Honorario de Fundación Metrópoli",
-        "SEMBLANCE": "Arquitecto, economista y sociólogo. Doctor en Planificación Urbana y Regional. Fundador y Presidente Honorario de Fundación Metrópoli, un centro internacional dedicado a la investigación, diseño e innovación en ciudades.",
-        "IMG": "/team/alfonsoV.png",
+        "NAME": "Ernesto Valdés",
+        "POSITION": "Smart Cities Specialist",
+        "SEMBLANCE": "Psicólogo formado en Costa Rica y México, con diplomados en IA y Transformación Digital. Innovador en ciudades inteligentes y sostenibles, cofundador de Neurabitat.",
+        "IMG": "/team/ernesto.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
-            "HREF": "alfonsovegara@fundacion-metropoli.org",
+            "HREF": "",
             "TITLE": "Correo Electronico"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
+            "HREF": "https://www.linkedin.com/in/ernesto-vald%C3%A9s-arreguin/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Montserrat Armengol Aragonès",
+        "POSITION": "Project Manager",
+        "SEMBLANCE": "Socia fundadora y gerente de Coloma+Armengol, empresa de consultoría y formación especializada en procesos de innovación tecnológica en el sector de la construcción. Coordinadora del Master en BIM Management.",
+        "IMG": "/team/montserrat.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/montserratarmengolaragones/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Eloi Coloma",
+        "POSITION": "BIM & Digital Transformation Specialist",
+        "SEMBLANCE": "Arquitecto PhD especializado en BIM y transformación digital. Profesor e investigador en la Universitat Politècnica de Catalunya (UPC).",
+        "IMG": "/team/eloi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/eloi-coloma/?originalSubdomain=es",
             "TITLE": "Linkedin"
           }
         ]

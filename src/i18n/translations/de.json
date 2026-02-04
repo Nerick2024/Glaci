@@ -22,6 +22,12 @@
     "SUCCESS_STORIES_BUTTON": "Verwandte Projekte ansehen",
     "SMART_ECOSYSTEM_ITEMS": [
       {
+        "HOVER": [
+          "Plattformen für Regierung und Management",
+          "Digitale Transformation",
+          "Daten für die Entscheidungsfindung",
+          "Maßgeschneiderte Technologiearchitektur"
+        ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>Governance</strong><br>Intelligent",
         "TITLE_TEXT": "Intelligente Governance",
@@ -638,7 +644,7 @@
     "TITLE": "Was ist",
     "TEXT_1": "GLACI ist ein Konsortium interdisziplinären Talents, das städtische und territoriale Projekte fördert, indem es Innovation, Wissen, Governance und finanzielle Strukturierung integriert.",
     "TEXT_2": "Wir arbeiten dort, wo Komplexität kollektive Intelligenz, institutionelle Sensibilität und langfristige Machbarkeit erfordert.",
-    "TITLE_2": "Wie wir arbeiten",
+    "TITLE_2": "Unsere Methodik",
     "CARDS": [
       {
         "TITLE": "Tiefes Verständnis",
@@ -655,7 +661,7 @@
     ]
   },
   "WORK": {
-    "TITLE": "Für wen wir arbeiten",
+    "TITLE": "Wir arbeiten zusammen mit",
     "TEXT": [
       "Regierungen mit langfristiger Vision und Sinn für Vermächtnis.",
       "Unternehmen, die sich für nachhaltige Entwicklung engagieren.",
@@ -729,8 +735,8 @@
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
-        "POSITION": "General Director",
-        "SEMBLANCE": "Experte für Technologie und nachhaltige Entwicklung mit Spezialisierung auf Smart Cities, BIM, Blockchain, KI und die Neue Urbane Agenda.",
+        "POSITION": "Mitgründer",
+        "SEMBLANCE": "Experte für Technologie und nachhaltige Entwicklung, spezialisiert auf Smart Cities, BIM, Blockchain, KI und die Neue Urbane Agenda.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
@@ -747,13 +753,13 @@
       },
       {
         "NAME": "Hugo Isaak",
-        "POSITION": "CEO von Neurabitat",
-        "SEMBLANCE": "Experte für intelligente Städte mit mehr als 17 Jahren Erfahrung in der öffentlichen Verwaltung, spezialisiert auf Smart Cities, nachhaltigen Habitat und Künstliche Intelligenz.",
+        "POSITION": "Mitgründer",
+        "SEMBLANCE": "Experte für Smart Cities mit über 17 Jahren Erfahrung in der öffentlichen Verwaltung, spezialisiert auf Smart Cities, nachhaltiges Habitat und künstliche Intelligenz.",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
+            "HREF": "mailto:contacto@neurabitat.com",
             "TITLE": "E-Mail"
           },
           {
@@ -764,9 +770,9 @@
         ]
       },
       {
-        "NAME": "Ignasi Pérez",
-        "POSITION": "CEO & co-Founder at BIM Academy",
-        "SEMBLANCE": "Pionier von BIM in Europa, Mitgründer von BIM Academy Spain und Schöpfer des EUROPEAN BIM SUMMIT. Er ist Direktor von The Rebuild, einer führenden Veranstaltung für fortschrittliche Bau- und Architektur in Spanien. Darüber hinaus leitet er die Ausbildung in BIM und digitaler Transformation in prominenten Institutionen und fördert innovative Projekte in Nachhaltigkeit und Urbanismus.",
+        "NAME": "Ignasi Pérez Arnal",
+        "POSITION": "Mitgründer",
+        "SEMBLANCE": "BIM-Pionier in Europa, Mitbegründer der BIM Academy Spain und Initiator des EUROPEAN BIM SUMMIT. Direktor von The Rebuild, einer führenden Veranstaltung für Bau und fortschrittliche Architektur in Spanien. Führt zudem BIM-Schulungen und digitale Transformation an renommierten Institutionen und treibt innovative Projekte zu Nachhaltigkeit und Städtebau voran.",
         "IMG": "/team/ignasi.png",
         "NETWORKS": [
           {
@@ -783,8 +789,8 @@
       },
       {
         "NAME": "Jorge Moreno Vargas",
-        "POSITION": "CTO(Chief Technology Officer)",
-        "SEMBLANCE": "Experte für disruptive Technologien, MIT-zertifiziert. 13 Jahre Führung von Innovation in Smart Cities, IoT und nachhaltigen Projekten.",
+        "POSITION": "Mitgründer",
+        "SEMBLANCE": "Experte für disruptive Technologien, MIT-zertifiziert. 13 Jahre Erfahrung in der Leitung von Innovationen in Smart Cities, IoT und nachhaltigen Projekten.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
@@ -801,8 +807,8 @@
       },
       {
         "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Experte für den Bau von Landstraßen",
-        "SEMBLANCE": "Experte für den Bau von Landstraßen mit umfangreicher Erfahrung in Planung, Ausführung und Qualitätskontrolle in Infrastrukturprojekten im öffentlichen und industriellen Sektor.",
+        "POSITION": "Spezialist für Straßenbau",
+        "SEMBLANCE": "Experte für Straßenbau mit umfangreicher Erfahrung in Planung, Ausführung und Qualitätskontrolle von Infrastrukturprojekten in öffentlichen und industriellen Bereichen.",
         "IMG": "/team/hector.png",
         "NETWORKS": [
           {
@@ -812,15 +818,15 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/h%C3%A9ctor-mart%C3%ADnez-miranda-b94577147",
             "TITLE": "LinkedIn"
           }
         ]
       },
       {
         "NAME": "Tania Sánchez",
-        "POSITION": "Direktorin für nachhaltige Architektur und Urbanismus",
-        "SEMBLANCE": "Senior-Architektin und Urbanistin mit nationaler und internationaler Erfahrung. Spezialisiert auf nachhaltiges städtisches Design und Planung.",
+        "POSITION": "Direktorin für Architektur und nachhaltige Stadtplanung",
+        "SEMBLANCE": "Senior-Architektin und Stadtplanerin mit nationaler und internationaler Erfahrung. Spezialisiert auf nachhaltiges städtisches Design und Planung.",
         "IMG": "/team/tania.png",
         "NETWORKS": [
           {
@@ -830,7 +836,7 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "",
+            "HREF": "https://mx.linkedin.com/in/tania-sanchez-167305128",
             "TITLE": "LinkedIn"
           }
         ]
@@ -838,7 +844,7 @@
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Chief City Urbanist",
-        "SEMBLANCE": "Doktor Architekt in städtischer und regionaler Planung, mit mehr als 20 Jahren internationaler Erfahrung in der Erstellung von Strategien für städtische, metropolitane und regionale Entwicklung sowie in der Erforschung städtischer und territorialer Prozesse. Experte für strategische Stadtplanung.",
+        "SEMBLANCE": "Dr. Architekt in Städte- und Regionalplanung mit über 20 Jahren internationaler Erfahrung in der Entwicklung städtischer, metropolitaner und regionaler Entwicklungsstrategien sowie in der Forschung zu städtischen und territorialen Prozessen. Experte für strategische Stadtplanung.",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
@@ -856,7 +862,7 @@
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "Chief Project Officer (CPO)",
-        "SEMBLANCE": "Architekt und Projektmanager. Referenz in der Architektur, war auf dem Cover von ABC, El Mundo und El País für seine Karriere.",
+        "SEMBLANCE": "Architekt und Projektmanager. Anerkannte Persönlichkeit in der Architektur, wurde aufgrund seiner Laufbahn auf den Titelseiten von ABC, El Mundo und El País vorgestellt.",
         "IMG": "/team/angel.png",
         "NETWORKS": [
           {
@@ -872,10 +878,28 @@
         ]
       },
       {
-        "NAME": "Ramon Gras Alomà",
-        "POSITION": "City Science Researcher & Urban Designer",
-        "SEMBLANCE": "Ramon Gras Alomà ist ein Forscher für Stadtwissenschaften und Urban Designer mit Ausbildung an Harvard (2018), MIT (2015) und BarcelonaTech (2010). Er spezialisiert sich auf städtische Innovationsdistrikte, Stadtentwurf und fortschrittliche Analysen für nachhaltige Städte, einschließlich Publikationen zum Atlas der Innovationsdistrikte und Beiträgen zu Urban Design-Thesen an Harvard und MIT.",
-        "IMG": "/team/ramonG.png",
+        "NAME": "Yuka Nakasone",
+        "POSITION": "Beraterin für internationales Geschäft",
+        "SEMBLANCE": "Mit über 30 Jahren Erfahrung im internationalen Geschäft ist sie dafür bekannt, Organisationen in der digitalen und globalen Ära beim Anpassen und Gedeihen zu unterstützen. Ursprünglich aus Japan und in Barcelona ansässig, verfügt sie über tiefes Wissen in Innovation und Technologie.",
+        "IMG": "/team/yuka.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "mailto:info@globalbridge.es",
+            "TITLE": "E-Mail"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/yukanakasone/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Amaia Celaya Alvarez",
+        "POSITION": "Beraterin für urbane Resilienz",
+        "SEMBLANCE": "Beraterin für urbane Resilienz, Expertin für das Design resilienter Städte und das Management urbaner Risiken.",
+        "IMG": "/team/amaia.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
@@ -884,25 +908,61 @@
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/ramongras/",
+            "HREF": "https://www.linkedin.com/in/amaia-celaya-alvarez/",
             "TITLE": "LinkedIn"
           }
         ]
       },
       {
-        "NAME": "Alfonso Vegara",
-        "POSITION": "Gründer und Ehrenpräsident der Fundación Metrópoli",
-        "SEMBLANCE": "Architekt, Ökonom und Soziologe. Doktor in städtischer und regionaler Planung. Gründer und Ehrenpräsident der Fundación Metrópoli, einem internationalen Zentrum für Forschung, Design und Innovation in Städten.",
-        "IMG": "/team/alfonsoV.png",
+        "NAME": "Ernesto Valdés",
+        "POSITION": "Smart Cities Specialist",
+        "SEMBLANCE": "In Costa Rica und Mexiko ausgebildeter Psychologe mit Weiterbildungen in KI und digitaler Transformation. Innovator im Bereich intelligente und nachhaltige Städte, Mitbegründer von Neurabitat.",
+        "IMG": "/team/ernesto.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
-            "HREF": "alfonsovegara@fundacion-metropoli.org",
+            "HREF": "",
             "TITLE": "E-Mail"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/alfonso-vegara-77554647/?originalSubdomain=es",
+            "HREF": "https://www.linkedin.com/in/ernesto-vald%C3%A9s-arreguin/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Montserrat Armengol Aragonès",
+        "POSITION": "Projektmanagerin",
+        "SEMBLANCE": "Mitgründerin und Geschäftsführerin von Coloma+Armengol, einer Beratungs- und Schulungsfirma, die sich auf technologische Innovationsprozesse im Bausektor spezialisiert hat. Koordinatorin des Masterstudiengangs BIM Management.",
+        "IMG": "/team/montserrat.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "E-Mail"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/montserratarmengolaragones/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Eloi Coloma",
+        "POSITION": "BIM- & Digital-Transformation-Spezialist",
+        "SEMBLANCE": "Architekt, Dr., spezialisiert auf BIM und digitale Transformation. Dozent und Forscher an der Universitat Politècnica de Catalunya (UPC).",
+        "IMG": "/team/eloi.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "E-Mail"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/eloi-coloma/?originalSubdomain=es",
             "TITLE": "LinkedIn"
           }
         ]

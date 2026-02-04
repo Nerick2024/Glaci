@@ -207,7 +207,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
             tooltip.innerHTML =
               '<ul class="gap-1 p-0 m-0 relative"> <div class="absolute top-0 -left-2.5 rounded-full w-1 h-full bg-[var(--color-title)]"></div>' +
               hoverData
-                .map((h, i) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 rounded-full mt-2 mr-2'></div><p class='font-semibold m-0 p-0 text-sm ${i % 2 === 0 ? "text-white" : "text-[var(--color-title)]"}'>${h}</p></li>`)
+                .map((h, i) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 bg-white rounded-full mt-2 mr-2'></div><p class='font-semibold m-0 p-0 text-sm ${i % 2 === 0 ? "text-white" : "text-[var(--color-title)]"}'>${h}</p></li>`)
                 .join("") +
               "</ul>";
             tooltip.classList.remove("hidden");

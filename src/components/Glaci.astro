@@ -1,8 +1,6 @@
 ---
 import { getLangFromUrl } from "@/i18n/utils";
 import { translations } from "@/i18n";
-import Button_MoreInformation from "./Button_MoreInformation.astro";
-import ButtonMoreInformation from "./Button_MoreInformation.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
@@ -42,31 +40,5 @@ const i18n = await translations[lang]();
     >
       {i18n.GLACI.TEXT_2}
     </p>
-  </div>
-  <h1
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
-  >
-    <span class="text-[var(--color-title)]">+</span>
-    {i18n.GLACI.TITLE_2}
-  </h1>
-  <div class="flex flex-col lg:flex-row gap-6">
-    {
-      i18n.GLACI.CARDS.map((card) => (
-        <div data-aos="zoom-in" data-aos-duration="1000" class="flex flex-1">
-          <div class="bg-white/5 backdrop-blur-sm relative border hover:-translate-y-2 transition-transform duration-300 border-white/25 flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <p class="font-semibold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
-              {card.TITLE}
-            </p>
-            <p class="text-base leading-snug">{card.TEXT}</p>
-            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
-          </div>
-        </div>
-      ))
-    }
-  </div>
-  <div data-aos="fade-up" data-aos-duration="1000" class="w-fit mx-0 my-8">
-    <ButtonMoreInformation lang={lang} i18n={i18n} />
   </div>
 </div>

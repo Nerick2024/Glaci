@@ -11,42 +11,42 @@ const nodeLayouts = [
   {
     transform: "translate(310, 90)",
     gClass: "group cursor-pointer item up",
-    foProps: { x: -100, y: -180, width: 200, height: 150 },
+    foProps: { x: -75, y: -180, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-end h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(500.526, 200)",
     gClass: "group right cursor-pointer item",
-    foProps: { x: 10, y: -50, width: 200, height: 150 },
+    foProps: { x:40, y: -50, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(500.526, 420)",
     gClass: "group right cursor-pointer item",
-    foProps: { x: 10, y: -50, width: 200, height: 150 },
+    foProps: { x: 40, y: -50, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(310, 530)",
     gClass: "group cursor-pointer item down",
-    foProps: { x: -100, y: 20, width: 200, height: 150 },
+    foProps: { x: -75, y: 20, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(119.474, 420)",
     gClass: "group left cursor-pointer item",
-    foProps: { x: -210, y: -50, width: 200, height: 150 },
+    foProps: { x: -190, y: -50, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
   {
     transform: "translate(119.474, 200)",
     gClass: "group left cursor-pointer item",
-    foProps: { x: -210, y: -50, width: 200, height: 150 },
+    foProps: { x: -190, y: -50, width: 150, height: 150 },
     divClass:
       "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
   },
@@ -60,7 +60,7 @@ const parseTranslate = (t: any) => {
 const overlays = smartEcosystemItems.map((item, index) => {
   const layout = nodeLayouts[index] || {};
   const node = parseTranslate(layout.transform);
-  const fo = layout.foProps || { x: 0, y: 0, width: 200, height: 150 };
+  const fo = layout.foProps || { x: 0, y: 0, width: 150, height: 150 };
   const absX = (node.x || 0) + (fo.x || 0);
   const absY = (node.y || 0) + (fo.y || 0);
   const leftPct = (absX / VIEWBOX.width) * 100;
@@ -144,30 +144,36 @@ const overlays = smartEcosystemItems.map((item, index) => {
     </svg>
     {
       overlays.map((o) => (
-        <a
-          href={`/${lang}/${slugify(o.item.TITLE_TEXT)}`}
-          class="absolute hidden lg:block" data-aos="zoom-in" data-aos-duration="1000"
+        <div
+          class="absolute hidden lg:block overlay-wrapper"
           data-hover={JSON.stringify(o.item.HOVER || [])}
           data-index={o.index}
           style={`left:${o.leftPct}%; top:${o.topPct}%; width:${o.widthPct}%; height:${o.heightPct}%; transform:translateX(0); z-index:20;`}
         >
-          <div class={o.layout.divClass} style="width:100%; height:100%;">
-            <span class="font-bold text-[#bdbdbd] text-[12px]">
-              0{o.index + 1}.
-            </span>
-            <span
-              class="block text-white text-[18px] 2xl:text-[20px] leading-5"
-              set:html={o.item.TITLE}
-            />
-            <div class="w-12 h-12 mx-auto border border-[var(--color-title)] rounded-full p-2">
-              <img
-                src={o.item.ICON}
-                alt={o.item.TITLE_TEXT}
-                class="w-full h-full object-contain"
+          <a
+            href={`/${lang}/${slugify(o.item.TITLE_TEXT)}`}
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            class="block w-full h-full"
+          >
+            <div class={o.layout.divClass} style="width:100%; height:100%;">
+              <span class="font-bold text-[#ffffff] text-[12px]">
+                0{o.index + 1}.
+              </span>
+              <span
+                class="block text-white text-[18px] 2xl:text-[20px] leading-5"
+                set:html={o.item.TITLE}
               />
+              <div class="w-12 h-12 mx-auto border border-[var(--color-title)] rounded-full p-2">
+                <img
+                  src={o.item.ICON}
+                  alt={o.item.TITLE_TEXT}
+                  class="w-full h-full object-contain"
+                />
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       ))
     }
     <div id="areas-tooltip" class="areas-tooltip hidden"></div>
@@ -178,9 +184,9 @@ const overlays = smartEcosystemItems.map((item, index) => {
         const container = script.parentElement;
         if (!container) return;
         const tooltip = container.querySelector("#areas-tooltip");
-        const anchors = Array.from(container.querySelectorAll("a[data-index]"));
+        const anchors = Array.from(container.querySelectorAll("[data-index]"));
         anchors.forEach((a) => {
-          const idx = a.getAttribute('data-index');
+          const idx = a.getAttribute("data-index");
           let hoverData = [];
           try {
             hoverData = JSON.parse(a.getAttribute("data-hover") || "[]");
@@ -188,18 +194,20 @@ const overlays = smartEcosystemItems.map((item, index) => {
             hoverData = [];
           }
 
+          let docMove = null;
+
           a.addEventListener("mouseenter", () => {
             if (idx != null) {
               const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
-              if (svgGroup) svgGroup.classList.add('is-hover');
+              if (svgGroup) svgGroup.classList.add("is-hover");
             }
 
             if (!hoverData || hoverData.length === 0) return;
 
             tooltip.innerHTML =
-              '<ul class="list-disc list-inside space-y-1 p-0 m-0">' +
+              '<ul class="gap-1 p-0 m-0 relative"> <div class="absolute top-0 -left-2.5 rounded-full w-1 h-full bg-[var(--color-title)]"></div>' +
               hoverData
-                .map((h) => `<li style="margin:0;padding:0;">${h}</li>`)
+                .map((h) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 bg-white rounded-full mt-2 mr-2'></div> <p class='font-semibold m-0 p-0 text-sm text-white'>${h}</p></li>`)
                 .join("") +
               "</ul>";
             tooltip.classList.remove("hidden");
@@ -210,36 +218,47 @@ const overlays = smartEcosystemItems.map((item, index) => {
             tooltip.style.top = "0px";
             tooltip.style.position = "absolute";
             tooltip.style.pointerEvents = "none";
-          });
 
-          if (hoverData && hoverData.length > 0) {
-            a.addEventListener("mousemove", (e) => {
+            docMove = (e) => {
               const rect = container.getBoundingClientRect();
               // ensure tooltip is visible to compute size
               tooltip.style.display = "block";
               const ttRect = tooltip.getBoundingClientRect();
               let left = e.clientX - rect.left + 12;
               let top = e.clientY - rect.top + 12;
-              if (left + ttRect.width > rect.width) left = rect.width - ttRect.width - 12;
+
+              const maxLeft = rect.width - ttRect.width - 12;
+              if (left > maxLeft) left = Math.max(maxLeft, 8);
               if (left < 0) left = 8;
-              if (top + ttRect.height > rect.height) top = rect.height - ttRect.height - 12;
+
+              const maxTop = rect.height - ttRect.height - 12;
+              if (top > maxTop) top = Math.max(maxTop, 8);
+
               tooltip.style.left = `${left}px`;
               tooltip.style.top = `${top}px`;
-            });
+            };
 
+            document.addEventListener("mousemove", docMove);
+          });
+
+          if (hoverData && hoverData.length > 0) {
             a.addEventListener("mouseleave", () => {
               tooltip.classList.add("hidden");
               tooltip.style.display = "none";
               if (idx != null) {
                 const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
-                if (svgGroup) svgGroup.classList.remove('is-hover');
+                if (svgGroup) svgGroup.classList.remove("is-hover");
+              }
+              if (docMove) {
+                document.removeEventListener("mousemove", docMove);
+                docMove = null;
               }
             });
           } else {
             a.addEventListener("mouseleave", () => {
               if (idx != null) {
                 const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
-                if (svgGroup) svgGroup.classList.remove('is-hover');
+                if (svgGroup) svgGroup.classList.remove("is-hover");
               }
             });
           }

@@ -3,6 +3,7 @@ import { getLangFromUrl } from "@/i18n/utils";
 import { translations } from "@/i18n";
 import ButtonMoreInformation from "@/components/Button_MoreInformation.astro";
 import Layout from "@/layouts/Layout.astro";
+import Stars from "@/components/Stars.astro";
 
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));

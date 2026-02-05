@@ -8,7 +8,6 @@ import Layout from "@/layouts/Layout.astro";
 
 import { useTranslation, slugify } from "@/i18n";
 import { translations } from "@/i18n/config";
-import Stars from "@/components/Stars.astro";
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -50,7 +49,4 @@ if (!item) {
   <Areas item={item} />
   <Service service={item.SERVICE} title={item.TITLE_SERVICE} />
   <SuccessStories projects={item.PROJECTS} />
-  <div class="h-full w-full fixed top-0 left-0 -z-10 pointer-events-none">
-    <Stars />
-  </div>
 </Layout>

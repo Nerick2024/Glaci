@@ -77,9 +77,13 @@ const i18n = await useTranslation(lang);
   >
     {
       i18n.TEAM.TEAM.slice()
-        .sort((a, b) =>
-          a.NAME.localeCompare(b.NAME, lang, { sensitivity: "base" }),
-        )
+          .sort((a, b) => {
+            const key = (name : any) => {
+              const parts = name.split(/\s+/).filter(Boolean);
+              return parts[1] ?? parts[0] ?? name;
+            };
+            return key(a.NAME).localeCompare(key(b.NAME), lang, { sensitivity: "base" });
+          })
         .map((director) => (
           <div data-aos="zoom-in" data-aos-duration="1000">
             <a

@@ -73,55 +73,65 @@ const { i18n } = Astro.props;
     <button
       id="ri-submit"
       type="submit"
-      class="bg-[var(--color-bg-1)] hover:bg-[var(--color-title)] hover:scale-105 transition-all transform gradient-shine w-full py-4 rounded-full text-2xl font-semibold text-white"
+      data-default={i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
+      data-sending="Enviando..."
+      data-sent="Enviado"
+      class="bg-[var(--color-bg-1)] hover:bg-[var(--color-title)] hover:scale-105 transition-all transform gradient-shineButton w-full py-4 rounded-full text-2xl font-semibold text-white"
+      aria-live="polite"
     >
       {i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
     </button>
   </div>
 
   <!-- Mensajes de estado -->
-  <p id="registerMsg" class="mt-4 text-sm text-gray-300" aria-live="polite"></p>
+  <p
+    id="registerMsg"
+    class="mt-4 mx-auto text-center text-sm text-cyan-600"
+    aria-live="polite"
+  >
+  </p>
 </form>
 <style>
- .gradient-shine {
-  position: relative;
-  overflow: hidden;
-}
+  .gradient-shineButton {
+    position: relative;
+    overflow: hidden;
+  }
 
-.gradient-shine::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    110deg,
-    transparent 30%,
-    rgba(255, 255, 255, 0.6) 50%,
-    transparent 70%
-  );
-  transform: translateX(-120%);
-  opacity: 0;
-  pointer-events: none;
-}
-
-.gradient-shine:hover::after {
-  animation: shine 2s infinite;
-  opacity: 1;
-}
-
-@keyframes shine {
-  0% {
+  .gradient-shineButton::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      110deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.6) 50%,
+      transparent 70%
+    );
     transform: translateX(-120%);
     opacity: 0;
+    pointer-events: none;
   }
-  20% {
+  .gradient-shineButton::after {
+  }
+
+  .gradient-shineButton.loading::after {
+    animation: shineButton 1s infinite;
     opacity: 1;
   }
-  100% {
-    transform: translateX(120%);
-    opacity: 0;
-  }
-}
 
+  @keyframes shineButton {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+  }
 </style>
 <script type="">
   (function () {
@@ -136,6 +146,8 @@ const { i18n } = Astro.props;
       e.preventDefault();
       msgEl.textContent = "";
       submitBtn.disabled = true;
+      submitBtn.classList.add("loading");
+      submitBtn.classList.add("bg-[var(--color-title)]");
 
       const name = (document.getElementById("ri-name").value || "").trim();
       const position = (
@@ -155,11 +167,15 @@ const { i18n } = Astro.props;
       // validaciones básicas
       if (!name || !position || !company || !email || !interest || !message) {
         msgEl.textContent = "Por favor completa todos los campos.";
+        submitBtn.classList.remove("loading");
+        submitBtn.classList.remove("bg-[var(--color-title)]");
         submitBtn.disabled = false;
         return;
       }
       if (!isEmail(email)) {
         msgEl.textContent = "Por favor ingresa un email válido.";
+        submitBtn.classList.remove("loading");
+        submitBtn.classList.remove("bg-[var(--color-title)]");
         submitBtn.disabled = false;
         return;
       }
@@ -173,12 +189,14 @@ const { i18n } = Astro.props;
       ) {
         msgEl.textContent =
           "Alguno de los campos excede la longitud permitida.";
+        submitBtn.classList.remove("loading");
+        submitBtn.classList.remove("bg-[var(--color-title)]");
         submitBtn.disabled = false;
         return;
       }
 
-      // show sending
-      msgEl.textContent = "Enviando...";
+      // show sending on the button
+      submitBtn.textContent = submitBtn.dataset.sending || "Enviando...";
 
       try {
         // usamos FormData para mantener compatibilidad
@@ -206,19 +224,38 @@ const { i18n } = Astro.props;
         }
 
         if (res.ok && data && data.success) {
-          msgEl.textContent =
-            "Información enviada. Gracias — te responderemos pronto.";
+          // stop the shineButton, show "Enviado" on the button for a few seconds, then reset
           form.reset();
+          submitBtn.classList.remove("loading");
+          submitBtn.classList.remove("bg-[var(--color-title)]");
+          submitBtn.textContent = submitBtn.dataset.sent || "Enviado";
+          setTimeout(() => {
+            submitBtn.textContent =
+              submitBtn.dataset.default ||
+              i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON;
+            submitBtn.disabled = false;
+            msgEl.textContent = "";
+          }, 2500);
         } else {
           // Prioriza el error del backend, si existe
           const serverError = data && (data.error || data.message);
           msgEl.textContent =
             serverError || "Hubo un error al enviar. Intenta más tarde.";
+          submitBtn.classList.remove("loading");
+          submitBtn.classList.remove("bg-[var(--color-title)]");
+          submitBtn.textContent =
+            submitBtn.dataset.default ||
+            i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON;
+          submitBtn.disabled = false;
         }
       } catch (err) {
         console.error("Register fetch error:", err);
         msgEl.textContent = "Error de red. Intenta de nuevo.";
-      } finally {
+        submitBtn.classList.remove("loading");
+        submitBtn.classList.remove("bg-[var(--color-title)]");
+        submitBtn.textContent =
+          submitBtn.dataset.default ||
+          i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON;
         submitBtn.disabled = false;
       }
     });

@@ -966,6 +966,42 @@
             "TITLE": "Linkedin"
           }
         ]
+      },
+      {
+        "NAME": "Gerardo Velasco Gutierrez",
+        "POSITION": "Director General MEM y Co-fundador de XPLORADN",
+        "SEMBLANCE": "Ha liderado más de 165 proyectos de inversión y roles estratégicos en la planificación y desarrollo regional, ha contribuido en iniciativas emblemáticas como los préstamos de innovación del Banco Mundial y el Plan Nacional Pesquero. Fundador de XPLORADN, experto en estrategias financieras sostenibles y desarrollo innovador.",
+        "IMG": "/team/gerardo.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/gerardo-velasco-gutierrez-48950a177/",
+            "TITLE": "Linkedin"
+          }
+        ]
+      },
+      {
+        "NAME": "Francisco Flores",
+        "POSITION": "Director de Laboratorios Urbanos",
+        "SEMBLANCE": "Diseñador de Futuros Emergentes, consultor y experto en laboratorios urbanos, ciencia ciudadana y procesos de innovación de base. Impulsor de la iniciativa Fab City León, que pertenece a un movimiento global de ciudades sostenibles y que promueven un cambio de paradigma urbano industrial.",
+        "IMG": "/team/franciscoF.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "Correo Electronico"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/francisco-flores-a0846323/",
+            "TITLE": "Linkedin"
+          }
+        ]
       }
     ]
   }

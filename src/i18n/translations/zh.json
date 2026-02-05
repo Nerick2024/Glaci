@@ -966,6 +966,42 @@
             "TITLE": "LinkedIn"
           }
         ]
+      },
+      {
+        "NAME": "Gerardo Velasco Gutierrez",
+        "POSITION": "MEM 总经理兼 XPLORADN 联合创始人",
+        "RESUMBLANCE": "他领导了超过 165 个投资项目，并在区域规划和发展中担任战略角色，参与了标志性举措，如世界银行创新贷款和国家渔业计划。XPLORADN 创始人，可持续金融策略和创新发展专家。",
+        "IMG": "/team/gerardo.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/gerardo-velasco-gutierrez-48950a177/",
+            "TITLE": "LinkedIn"
+          }
+        ]
+      },
+      {
+        "NAME": "Francisco Flores",
+        "POSITION": "城市实验室主任",
+        "RESUMBLANCE": "新兴未来设计师、顾问和城市实验室、公民科学以及基层创新过程专家。Fab City León 倡议的推动者，该倡议属于全球可持续城市运动，促进城市工业范式的转变。",
+        "IMG": "/team/franciscoF.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮件"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/francisco-flores-a0846323/",
+            "TITLE": "LinkedIn"
+          }
+        ]
       }
     ]
   }

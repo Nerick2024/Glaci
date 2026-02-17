@@ -1004,5 +1004,510 @@
         ]
       }
     ]
+  },
+  "AREAS_2": {
+    "TITLE": "影响领域",
+    "TITLE_1": "重点",
+    "TITLE_2": "我们启用什么",
+    "TITLE_3": "经验 / 案例",
+    "SUBTITLE": "城市发展不是孤立的。它发生在系统连接时。",
+    "TEXT": "我们在城市和区域发展的关键领域工作：",
+    "TEXT_2": "不是作为独立的解决方案，而是作为集成的生态系统。",
+    "BUTTON": "请求更多信息",
+    "SUCCESS_STORIES_LOCATE": "位置",
+    "SUCCESS_STORIES_YEAR": "年份",
+    "SUCCESS_STORIES_BUTTON": "查看相关项目",
+    "SMART_ECOSYSTEM_ITEMS": [
+      {
+        "HOVER": [
+          "政府与管理平台",
+          "数字化转型",
+          "决策支持数据",
+          "定制化技术架构"
+        ],
+        "ICON": "/icons/areas/gobernanza.svg",
+        "TITLE": "<strong>智能</strong><br>治理",
+        "TITLE_TEXT": "智能治理",
+        "SUBTITLE": "数字政府和透明度。",
+        "DESCRIPTION": "持久的变革从明确的决策、可信的机构和共享数据开始。<br>GLACI 协调参与者和结构化项目，以可持续方式加强城市治理。",
+        "AREA_TEXT_1": "我们致力于使治理：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "透明",
+            "DESCRIPTION": "通过数字工具确保公开和可靠地访问公共信息，以加强问责制"
+          },
+          {
+            "IMG": "",
+            "TITLE": "在时间上可行",
+            "DESCRIPTION": "设计公民参与计划，确保项目和公共政策的连续性超出行政周期"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "参与性",
+            "DESCRIPTION": "推动信息和通信技术，让公民识别问题并基于本地现实构建解决方案"
+          }
+        ],
+        "AREA_TEXT_2": "从战略到实施。",
+        "SERVICE": [
+          {
+            "IMG": "/icons/portal.svg",
+            "TITLE": "机构和多部门协调",
+            "DESCRIPTION": "创建机构、部门和关键参与者之间的协调空间，以确保发展政策、项目和战略的一致性"
+          },
+          {
+            "IMG": "/icons/plataformas_de_participacion.svg",
+            "TITLE": "治理模型和决策",
+            "DESCRIPTION": "设计治理框架，整合公民参与、技术证据和战略愿景，以实现更合法和可持续的决策"
+          },
+          {
+            "IMG": "/icons/dashboard.svg",
+            "TITLE": "管理和支持平台和系统",
+            "DESCRIPTION": "实施数字解决方案，促进公共管理、优化流程并加强机构响应能力"
+          },
+          {
+            "IMG": "/icons/seguridad.svg",
+            "TITLE": "绩效指标和度量",
+            "DESCRIPTION": "定义和监控指标，允许评估结果、衡量影响并确保政府管理的透明度"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "数字政府和开放数据平台",
+            "DESCRIPTION": "设计和实施一个全面的数字政府平台，面向透明度和基于数据的决策。该项目整合开放数据门户、战略指标仪表板和公共政策跟踪系统，允许当局和公民访问可靠、更新和可操作的信息，以加强问责制和城市管理。",
+            "LOCATE": "大都市市政，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/a/img1.webp",
+              "/projects/a/img2.webp",
+              "/projects/a/img3.webp"
+            ]
+          },
+          {
+            "TITLE": "公民参与和协作管理系统",
+            "DESCRIPTION": "实施一个公民参与的数字生态系统，允许识别城市问题、优先考虑项目并在政府和社会之间共同创建解决方案。该解决方案整合公共咨询模块、地理参考公民报告和参与分析，加强决策的合法性并促进更具包容性和可持续的城市治理。",
+            "LOCATE": "中等城市，拉丁美洲",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/b/img1.webp",
+              "/projects/b/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/economia.svg",
+        "TITLE": "<strong>智能</strong><br>经济",
+        "TITLE_TEXT": "智能经济",
+        "SUBTITLE": "融资和商业模式。",
+        "DESCRIPTION": "<b>我们推动城市经济模式</b>，启用本地创新、数字价值链和智能城市项目的可持续融资。",
+        "AREA_TEXT_1": "我们致力于使城市经济成为：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "创新生态系统",
+            "DESCRIPTION": "促进中心、加速器和公私网络，以扩展基于数据和技术的城市解决方案。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "本地数字市场",
+            "DESCRIPTION": "推动平台和数字渠道，连接中小企业、本地商业和公共服务，以提高竞争力。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "可持续金融",
+            "DESCRIPTION": "设计金融工具（绿色债券、与影响相关的贷款）以资助智能基础设施和服务。"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "服务收入模式",
+            "DESCRIPTION": "过渡到 OpEx/服务化方案（基础设施即服务），以降低技术采用障碍。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "循环经济和就业",
+            "DESCRIPTION": "通过智能基础设施的维修、回收和维护生成本地就业的项目。"
+          }
+        ],
+        "AREA_TEXT_2": "从金融结构化到可持续运营。",
+        "TITLE_SERVICE": "金融和结构化服务",
+        "SERVICE": [
+          {
+            "IMG": "/icons/asociaciones.svg",
+            "TITLE": "城市金融工具结构化",
+            "DESCRIPTION": "设计 SPV、共同融资方案和公私伙伴关系，以实施具有清晰风险和现金流的智能项目。"
+          },
+          {
+            "IMG": "/icons/energy.svg",
+            "TITLE": "节约和绩效合同模式",
+            "DESCRIPTION": "结构化项目，其中技术生成的节约资助初始投资（效率即服务）。"
+          },
+          {
+            "IMG": "/icons/arrendamiento.svg",
+            "TITLE": "城市基础设施即服务 (IaaS)",
+            "DESCRIPTION": "租赁和订阅解决方案，用于 IoT 设备、充电站和传感器，减少市政初始投资。"
+          },
+          {
+            "IMG": "/icons/fondos.svg",
+            "TITLE": "访问多边基金和主题债券",
+            "DESCRIPTION": "管理访问国际融资（开发银行、气候基金），与 ESG 和 ODS 指标对齐。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "本地城市创新基金",
+            "DESCRIPTION": "创建和管理一个市政基金，资助移动性、能源和公民参与试点项目，并具有影响和回报社会指标。",
+            "LOCATE": "大都市市政，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/c/img1.webp",
+              "/projects/c/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "微支付和本地经济平台",
+            "DESCRIPTION": "部署一个平台，以启用本地数字商业、对可持续消费的激励和社交补贴的可追溯性。",
+            "LOCATE": "中等城市，拉丁美洲",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/d/img1.webp",
+              "/projects/d/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/movilidadInfraestructura.svg",
+        "TITLE": "<strong>智能<br>移动性和基础设施</strong>",
+        "TITLE_TEXT": "智能移动性和基础设施",
+        "SUBTITLE": "连接的移动性和基础设施。",
+        "DESCRIPTION": "<b>我们管理交通系统</b>和关键基础设施，使用优化流量、减少排放并提高安全性和可访问性的技术。",
+        "AREA_TEXT_1": "我们致力于使移动性成为：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "可访问和连接",
+            "DESCRIPTION": "多模式集成、实时信息和所有用户的通用可访问性。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "清洁和高效",
+            "DESCRIPTION": "促进非机动模式、电气化公共交通和可持续城市物流。"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "基于数据管理",
+            "DESCRIPTION": "控制和分析系统，以优化路线、减少拥堵并优先考虑公共交通。"
+          }
+        ],
+        "AREA_TEXT_2": "连接基础设施的设计、部署和运营。",
+        "TITLE_SERVICE": "智能移动性解决方案",
+        "SERVICE": [
+          {
+            "IMG": "/icons/semaforo.svg",
+            "TITLE": "自适应信号灯控制",
+            "DESCRIPTION": "实时调整阶段的系统，以改善公共交通优先级并减少旅行时间。"
+          },
+          {
+            "IMG": "/icons/estacionamiento.svg",
+            "TITLE": "智能停车管理",
+            "DESCRIPTION": "传感器和应用程序，用于引导驾驶员、减少停车搜索并优化公共空间使用。"
+          },
+          {
+            "IMG": "/icons/electromovilidad.svg",
+            "TITLE": "充电网络和电动车队管理",
+            "DESCRIPTION": "充电点规划和运营、需求管理和市政车队解决方案。"
+          },
+          {
+            "IMG": "/icons/alumbrado.svg",
+            "TITLE": "远程管理基础设施",
+            "DESCRIPTION": "照明和信号系统，减少消耗并促进预测性维护。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "城市交通管理系统 (TMS)",
+            "DESCRIPTION": "实施一个管理中心，整合传感器、分析 CCTV 和预测模型，以优化移动性和事件响应。",
+            "LOCATE": "首都城市，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/e/img1.webp",
+              "/projects/e/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "电动充电站和电动移动性试点网络",
+            "DESCRIPTION": "战略充电站的部署，与支付系统和公私车队管理的集成。",
+            "LOCATE": "大都市走廊，拉丁美洲",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/f/img1.webp",
+              "/projects/f/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/medioAmbienteInteligente.svg",
+        "TITLE": "<strong>智能</strong><br>环境",
+        "TITLE_TEXT": "智能环境",
+        "SUBTITLE": "可持续性和 ESG 服务。",
+        "DESCRIPTION": "<b>我们设计和实施</b>城市环境系统：监测、能源效率、水管理以及废物处理，支持数据和治理。",
+        "AREA_TEXT_1": "我们致力于使环境管理成为：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "监测",
+            "DESCRIPTION": "空气质量、噪音、温度和水资源的传感器网络，用于实时决策。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "能源高效",
+            "DESCRIPTION": "效率程序、远程管理和电气化，带有粒度消耗测量。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "规划和弹性",
+            "DESCRIPTION": "城市规划，纳入气候风险、绿色空间和气候变化适应。"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "智能水管理",
+            "DESCRIPTION": "遥测、分区和泄漏检测，以确保高效供应并减少损失。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "智能废物管理",
+            "DESCRIPTION": "容器传感器和路线优化，以减少排放和运营成本。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "可持续性参与",
+            "DESCRIPTION": "公民报告和教育平台，以促进可持续实践。"
+          }
+        ],
+        "AREA_TEXT_2": "我们以 ESG 重点和影响测量实施技术。",
+        "TITLE_SERVICE": "合规性和企业/政府可持续性",
+        "SERVICE": [
+          {
+            "IMG": "/icons/consultoria.svg",
+            "TITLE": "ESG 咨询和气候适应",
+            "DESCRIPTION": "评估、脱碳计划和绿色融资准备。"
+          },
+          {
+            "IMG": "/icons/gestion_hidrica.svg",
+            "TITLE": "智能水 (遥测和分区)",
+            "DESCRIPTION": "系统，用于监测水平、检测泄漏并优先考虑网络投资。"
+          },
+          {
+            "IMG": "/icons/co2.svg",
+            "TITLE": "排放清单和净零战略",
+            "DESCRIPTION": "测量、报告和温室气体减少规划，具有可审计指标。"
+          },
+          {
+            "IMG": "/icons/calidad_aire.svg",
+            "TITLE": "空气质量监测",
+            "DESCRIPTION": "传感器网络，具有警报和公共政策集成。"
+          },
+          {
+            "IMG": "/icons/residuos.svg",
+            "TITLE": "废物服务优化",
+            "DESCRIPTION": "动态路线和基于数据的规划，以实现运营效率。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "市政环境监测网络",
+            "DESCRIPTION": "部署空气质量传感器、气象站和开放数据平台，用于环境管理和警报。",
+            "LOCATE": "大都市区，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/g/img1.webp",
+              "/projects/g/img2.webp",
+              "/projects/g/img3.webp"
+            ]
+          },
+          {
+            "TITLE": "智能水程序",
+            "DESCRIPTION": "网络分区、井遥测和早期泄漏检测系统，以减少未计费水损失。",
+            "LOCATE": "中等城市，拉丁美洲",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/h/img1.webp",
+              "/projects/h/img2.webp",
+              "/projects/h/img3.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/habitatyServicios.svg",
+        "TITLE": "<strong>智能</strong><br>栖息地和服务",
+        "TITLE_TEXT": "智能栖息地和服务",
+        "SUBTITLE": "安全和生活质量。",
+        "DESCRIPTION": "<b>我们促进网络和基础设施</b>，提升生活质量：连接健康、公共空间管理和以人为本的城市服务。",
+        "AREA_TEXT_1": "我们致力于使栖息地成为：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "连接健康 (e-health)",
+            "DESCRIPTION": "远程医疗、远程监测和中心协调，以改善护理的可访问性。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "数字文化和旅游",
+            "DESCRIPTION": "文化体验、智能路线和游客管理平台。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "公共空间高效管理",
+            "DESCRIPTION": "预测性维护、自动化灌溉和连接家具，以改善使用和安全。"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "安全和弹性",
+            "DESCRIPTION": "集成分析监控系统、早期警报和响应协调。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "可访问性和包容性服务",
+            "DESCRIPTION": "亭子、应用程序和服务，适应弱势群体和老年人。"
+          }
+        ],
+        "AREA_TEXT_2": "以城市体验和公平为中心的解决方案。",
+        "TITLE_SERVICE": "专注于日常福祉和安全的服务",
+        "SERVICE": [
+          {
+            "IMG": "/icons/centro_de_comando.svg",
+            "TITLE": "指挥和控制中心 (C2)",
+            "DESCRIPTION": "分析视频监控、城市传感器和事件管理的集成。"
+          },
+          {
+            "IMG": "/icons/parque_inteligente.svg",
+            "TITLE": "智能公园和公共空间",
+            "DESCRIPTION": "自适应照明、自动化灌溉和连接家具，用于安全和高效使用。"
+          },
+          {
+            "IMG": "/icons/estructural.svg",
+            "TITLE": "基础设施监测和公民保护",
+            "DESCRIPTION": "结构传感器和警报系统，用于风险管理和维护。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "市政远程医疗中心",
+            "DESCRIPTION": "实施连接到区域医院的健康亭，用于初级护理和慢性患者远程跟踪。",
+            "LOCATE": "试点市政，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/i/img1.webp",
+              "/projects/i/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "福祉智能公园",
+            "DESCRIPTION": "改造一个城市公园，具有自适应照明、高效灌溉、使用传感器和公民设备太阳能充电站。",
+            "LOCATE": "中等城市，拉丁美洲",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/j/img1.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/sociedadInteligente.svg",
+        "TITLE": "<strong>智能</strong><br>社会",
+        "TITLE_TEXT": "智能社会",
+        "SUBTITLE": "社会和数字包容。",
+        "DESCRIPTION": "我们通过平台和程序促进数字包容、教育和公民参与，将技术带给所有人。",
+        "AREA_TEXT_1": "我们致力于使社会成为：",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "包容性",
+            "DESCRIPTION": "弱势人群的数字访问和减少数字鸿沟的程序。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "能力",
+            "DESCRIPTION": "数字技能和 STEM 培训程序，用于本地就业。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "创造性和参与性",
+            "DESCRIPTION": "促进公共政策和项目共同创建的平台。"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "社区网络",
+            "DESCRIPTION": "支持本地倡议和公民组织协调平台。"
+          },
+          {
+            "IMG": "",
+            "TITLE": "终身数字教育",
+            "DESCRIPTION": "连接教室和资源，用于远程学习和持续培训。"
+          }
+        ],
+        "AREA_TEXT_2": "具有人性化和包容性重点的技术。",
+        "TITLE_SERVICE": "具有人性化和包容性重点的技术",
+        "SERVICE": [
+          {
+            "IMG": "/icons/wifi.svg",
+            "TITLE": "社区连接部署",
+            "DESCRIPTION": "公共接入点、远程中心基础设施和低连接区域的网格网络。"
+          },
+          {
+            "IMG": "/icons/accesibilidad.svg",
+            "TITLE": "可访问平台和服务",
+            "DESCRIPTION": "包容性界面设计和适应残疾人的服务渠道。"
+          },
+          {
+            "IMG": "/icons/robotica.svg",
+            "TITLE": "STEM 培训中心",
+            "DESCRIPTION": "实验室和机器人与编程程序，用于学生和本地创业。"
+          },
+          {
+            "IMG": "/icons/telemedicina.svg",
+            "TITLE": "社会远程服务",
+            "DESCRIPTION": "亭子和应用程序，用于远程区域的手续、基本健康和就业服务。"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "社区数字包容程序",
+            "DESCRIPTION": "市政管理的远程中心和 Wi-Fi 点网络，用于数字扫盲、在线手续和本地中小企业支持。",
+            "LOCATE": "北部地区，墨西哥",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/k/img1.webp",
+              "/projects/k/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "公民参与平台",
+            "DESCRIPTION": "用于公共咨询、参与式预算和承诺跟踪的数字工具，具有透明度仪表板。",
+            "LOCATE": "首都城市，墨西哥",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/l/img1.webp",
+              "/projects/l/img2.webp"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

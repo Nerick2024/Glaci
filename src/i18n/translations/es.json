@@ -1004,5 +1004,510 @@
         ]
       }
     ]
+  },
+    "AREAS_2": {
+    "TITLE": "Áreas de Impacto",
+    "TITLE_1": "Enfoque",
+    "TITLE_2": "Qué Habilitamos",
+    "TITLE_3": "Experiencia / Casos",
+    "SUBTITLE": "El desarrollo urbano no ocurre por partes aisladas. Ocurre cuando los sistemas se conectan.",
+    "TEXT": "Trabajamos en áreas clave del desarrollo urbano y territorial:",
+    "TEXT_2": "No como soluciones independientes, sino como ecosistemas integrados.",
+    "BUTTON": "Solicita mas Información",
+    "SUCCESS_STORIES_LOCATE": "Ubicación",
+    "SUCCESS_STORIES_YEAR": "Año",
+    "SUCCESS_STORIES_BUTTON": "Ver proyectos relacionados",
+    "SMART_ECOSYSTEM_ITEMS": [
+      {
+        "HOVER": [
+          "Plataformas de gobierno y gestión",
+          "Transformación digital",
+          "Datos para la toma de decisiones",
+          "Arquitectura tecnológica a la medida"
+        ],
+        "ICON": "/icons/areas/gobernanza.svg",
+        "TITLE": "<strong>Gobernanza</strong><br>Inteligente",
+        "TITLE_TEXT": "Gobernanza Inteligente",
+        "SUBTITLE": "Gobierno Digital y Transparencia.",
+        "DESCRIPTION": "Las transformaciones duraderas comienzan con decisiones claras, instituciones confiables y datos compartidos. <br>GLACI articula actores y estructura proyectos para fortalecer la gobernanza urbana de forma sostenible.",
+        "AREA_TEXT_1": "Trabajamos para que la gobernanza:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Sea transparente",
+            "DESCRIPTION": "Garantizar acceso abierto y confiable a la información pública mediante herramientas digitales que fortalezcan la rendición de cuentas"
+          },
+          {
+            "IMG": "",
+            "TITLE": "Sea viable en el tiempo",
+            "DESCRIPTION": "Diseñar planes de participación ciudadana que aseguren continuidad en proyectos y políticas públicas más allá de ciclos administrativos"
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Sea participativa",
+            "DESCRIPTION": "Impulsar tecnologías de información y comunicación para que la ciudadanía identifique problemas y construya soluciones basadas en realidades locales"
+          }
+        ],
+        "AREA_TEXT_2": "Desde la estrategia hasta la implementación.",
+        "SERVICE": [
+          {
+            "IMG": "/icons/portal.svg",
+            "TITLE": "Alineación institucional y multisectorial",
+            "DESCRIPTION": "Generamos espacios de coordinación entre instituciones, sectores y actores clave para asegurar coherencia en políticas, proyectos y estrategias de desarrollo"
+          },
+          {
+            "IMG": "/icons/plataformas_de_participacion.svg",
+            "TITLE": "Modelos de gobernanza y toma de decisiones",
+            "DESCRIPTION": "Diseñamos marcos de gobernanza que integran participación ciudadana, evidencia técnica y visión estratégica para decisiones más legítimas y sostenibles"
+          },
+          {
+            "IMG": "/icons/dashboard.svg",
+            "TITLE": "Plataformas y sistemas de apoyo a la gestión",
+            "DESCRIPTION": "Implementamos soluciones digitales que facilitan la gestión pública, optimizan procesos y fortalecen la capacidad de respuesta institucional"
+          },
+          {
+            "IMG": "/icons/seguridad.svg",
+            "TITLE": "Indicadores y métricas de desempeño",
+            "DESCRIPTION": "Definimos y monitoreamos indicadores que permiten evaluar resultados, medir impacto y garantizar transparencia en la gestión gubernamental"
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "PLATAFORMA DE GOBIERNO DIGITAL Y DATOS ABIERTOS",
+            "DESCRIPTION": "Diseño e implementación de una plataforma integral de gobierno digital orientada a la transparencia y la toma de decisiones basada en datos. El proyecto integra portales de datos abiertos, tableros de indicadores estratégicos y sistemas de seguimiento a políticas públicas, permitiendo a autoridades y ciudadanía acceder a información confiable, actualizada y accionable para fortalecer la rendición de cuentas y la gestión urbana.",
+            "LOCATE": "Municipio Metropolitano, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/a/img1.webp",
+              "/projects/a/img2.webp",
+              "/projects/a/img3.webp"
+            ]
+          },
+          {
+            "TITLE": "SISTEMA DE PARTICIPACIÓN CIUDADANA Y GESTIÓN COLABORATIVA",
+            "DESCRIPTION": "Implementación de un ecosistema digital de participación ciudadana que permite identificar problemáticas urbanas, priorizar proyectos y co-crear soluciones entre gobierno y sociedad. La solución integra módulos de consulta pública, reportes ciudadanos georreferenciados y analítica de participación, fortaleciendo la legitimidad de las decisiones y promoviendo una gobernanza urbana más inclusiva y sostenible.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/b/img1.webp",
+              "/projects/b/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/economia.svg",
+        "TITLE": "<strong>Economía</strong><br>Inteligente",
+        "TITLE_TEXT": "Economía Inteligente",
+        "SUBTITLE": "Financiación y Modelos de Negocio.",
+        "DESCRIPTION": "<b>Impulsamos modelos económicos urbanos</b> que habilitan innovación local, cadenas de valor digitales y financiamiento sostenible para proyectos de ciudad inteligente.",
+        "AREA_TEXT_1": "Trabajamos para que la economía urbana sea:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Ecosistemas de innovación",
+            "DESCRIPTION": "Fomento de hubs, aceleradoras y redes público-privadas para escalar soluciones urbanas basadas en datos y tecnología."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Mercado digital local",
+            "DESCRIPTION": "Impulso de plataformas y canales digitales que conecten PYMEs, comercio local y servicios públicos para aumentar su competitividad."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Finanzas sostenibles",
+            "DESCRIPTION": "Diseño de instrumentos financieros (bonos verdes, préstamos ligados a impacto) para financiar infraestructura y servicios inteligentes."
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Modelos de ingresos por servicio",
+            "DESCRIPTION": "Transición a esquemas OpEx/servitización (infraestructura como servicio) para reducir barreras de adopción tecnológica."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Economía circular y empleo",
+            "DESCRIPTION": "Proyectos que generan empleo local mediante reparación, reciclaje y mantenimiento de infraestructura inteligente."
+          }
+        ],
+        "AREA_TEXT_2": "Desde la estructuración financiera hasta la operación sostenible.",
+        "TITLE_SERVICE": "Servicios Financieros y de Estructuración",
+        "SERVICE": [
+          {
+            "IMG": "/icons/asociaciones.svg",
+            "TITLE": "Estructuración de vehículos financieros para ciudades",
+            "DESCRIPTION": "Diseño de SPV, esquemas de cofinanciación y alianzas público-privadas para implementar proyectos smart con riesgo y flujo claro."
+          },
+          {
+            "IMG": "/icons/energy.svg",
+            "TITLE": "Modelos de ahorro y performance contracting",
+            "DESCRIPTION": "Estructuración de proyectos donde el ahorro generado por tecnología financia la inversión inicial (efficiency-as-a-service)."
+          },
+          {
+            "IMG": "/icons/arrendamiento.svg",
+            "TITLE": "Infraestructura como servicio (IaaS) urbana",
+            "DESCRIPTION": "Soluciones de leasing y suscripción para equipamiento IoT, estaciones de carga y sensores, reduciendo inversión inicial del municipio."
+          },
+          {
+            "IMG": "/icons/fondos.svg",
+            "TITLE": "Acceso a fondos multilaterales y bonos temáticos",
+            "DESCRIPTION": "Gestión para acceder a financiación internacional (bancos de desarrollo, fondos climáticos) alineada a indicadores ESG y ODS."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "FONDO LOCAL DE INNOVACIÓN URBANA",
+            "DESCRIPTION": "Creación y gestión de un fondo municipal que financia pilotos de movilidad, energía y participación ciudadana con métricas de impacto y retorno social.",
+            "LOCATE": "Municipio Metropolitano, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/c/img1.webp",
+              "/projects/c/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "PLATAFORMA DE MICROPAGOS Y ECONOMÍA LOCAL",
+            "DESCRIPTION": "Despliegue de una plataforma para habilitar comercio local digital, incentivos a consumo sostenible y trazabilidad de subvenciones sociales.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/d/img1.webp",
+              "/projects/d/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/movilidadInfraestructura.svg",
+        "TITLE": "<strong>Movilidad e<br>Infraestructuras</strong><br>Inteligentes",
+        "TITLE_TEXT": "Movilidad e Infraestructuras Inteligentes",
+        "SUBTITLE": "Movilidad e Infraestructura Conectada.",
+        "DESCRIPTION": "<b>Gestionamos sistemas de transporte</b> y la infraestructura crítica con tecnologías que optimizan flujo, reducen emisiones y aumentan seguridad y accesibilidad.",
+        "AREA_TEXT_1": "Trabajamos para que la movilidad sea:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Accesible y conectada",
+            "DESCRIPTION": "Integración multimodal, información en tiempo real y accesibilidad universal para todos los usuarios."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Limpia y eficiente",
+            "DESCRIPTION": "Fomento de modos no motorizados, transporte público electrificado y logística urbana sostenible."
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Gestión basada en datos",
+            "DESCRIPTION": "Sistemas de control y analítica para optimizar rutas, reducir congestión y priorizar transporte público."
+          }
+        ],
+        "AREA_TEXT_2": "Diseño, despliegue y operación de infraestructura conectada.",
+        "TITLE_SERVICE": "Soluciones de Movilidad Inteligente",
+        "SERVICE": [
+          {
+            "IMG": "/icons/semaforo.svg",
+            "TITLE": "Control adaptativo de semaforización",
+            "DESCRIPTION": "Sistemas que ajustan fases en tiempo real para mejorar prioridad de transporte público y reducir tiempos de viaje."
+          },
+          {
+            "IMG": "/icons/estacionamiento.svg",
+            "TITLE": "Gestión inteligente de estacionamientos",
+            "DESCRIPTION": "Sensores y apps para guiar a conductores, reducir búsqueda de estacionamiento y optimizar uso del espacio público."
+          },
+          {
+            "IMG": "/icons/electromovilidad.svg",
+            "TITLE": "Red de carga y gestión de flotas eléctricas",
+            "DESCRIPTION": "Planificación y operación de puntos de carga, gestión de demanda y soluciones para flotas municipales."
+          },
+          {
+            "IMG": "/icons/alumbrado.svg",
+            "TITLE": "Infraestructura telegestionada",
+            "DESCRIPTION": "Sistemas de alumbrado y señalización que reducen consumo y facilitan mantenimiento predictivo."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "PLATAFORMA DE GESTIÓN DE TRÁFICO URBANO (TMS)",
+            "DESCRIPTION": "Implementación de un centro de gestión que integra sensores, CCTV analítico y modelos predictivos para optimizar movilidad y respuesta ante incidentes.",
+            "LOCATE": "Ciudad Capital, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/e/img1.webp",
+              "/projects/e/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "RED PILOTO DE ELECTROLINERAS Y MOVILIDAD ELÉCTRICA",
+            "DESCRIPTION": "Despliegue de estaciones de carga estratégicas, integración con sistemas de pago y gestión de flotas públicas y privadas.",
+            "LOCATE": "Corredor Metropolitano, América Latina",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/f/img1.webp",
+              "/projects/f/img2.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/medioAmbienteInteligente.svg",
+        "TITLE": "<strong>Medio Ambiente</strong><br>Inteligente",
+        "TITLE_TEXT": "Medio Ambiente Inteligente",
+        "SUBTITLE": "Sostenibilidad y Servicios ESG.",
+        "DESCRIPTION": "<b>Diseñamos e implementamos</b> sistemas ambientales urbanos: monitoreo, eficiencia energética, gestión hídrica y manejo de residuos apoyados en datos y gobernanza.",
+        "AREA_TEXT_1": "Trabajamos para que la gestión ambiental sea:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Monitorizada",
+            "DESCRIPTION": "Redes de sensores para calidad del aire, ruido, temperatura y recursos hídricos para toma de decisiones en tiempo real."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Eficiente en energía",
+            "DESCRIPTION": "Programas de eficiencia, telegestión y electrificación con medición granular del consumo."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Planificada y resiliente",
+            "DESCRIPTION": "Planeación urbana que incorpora riesgos climáticos, espacios verdes y adaptación al cambio climático."
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Gestión inteligente del agua",
+            "DESCRIPTION": "Telemetría, sectorización y detección de fugas para garantizar suministro eficiente y reducir pérdidas."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Manejo de residuos inteligente",
+            "DESCRIPTION": "Sensores en contenedores y optimización de rutas para reducir emisiones y costos operativos."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Participación en sostenibilidad",
+            "DESCRIPTION": "Plataformas de reporte ciudadano y educación para fomentar prácticas sostenibles."
+          }
+        ],
+        "AREA_TEXT_2": "Implementamos tecnología con enfoque ESG y medición de impacto.",
+        "TITLE_SERVICE": "Cumplimiento normativo y sostenibilidad corporativa/gubernamental",
+        "SERVICE": [
+          {
+            "IMG": "/icons/consultoria.svg",
+            "TITLE": "Consultoría ESG y adaptación climática",
+            "DESCRIPTION": "Evaluaciones, planes de descarbonización y preparación para acceso a financiación verde."
+          },
+          {
+            "IMG": "/icons/gestion_hidrica.svg",
+            "TITLE": "Smart Water (telemetría y sectorización)",
+            "DESCRIPTION": "Sistemas para monitorear niveles, detectar fugas y priorizar inversiones en redes."
+          },
+          {
+            "IMG": "/icons/co2.svg",
+            "TITLE": "Inventario de emisiones y estrategia Net Zero",
+            "DESCRIPTION": "Medición, reporte y planificación para reducción de GEI con métricas auditable."
+          },
+          {
+            "IMG": "/icons/calidad_aire.svg",
+            "TITLE": "Monitorización de calidad del aire",
+            "DESCRIPTION": "Redes de sensores con integraciones para alertas y políticas públicas."
+          },
+          {
+            "IMG": "/icons/residuos.svg",
+            "TITLE": "Optimización de servicios de residuos",
+            "DESCRIPTION": "Rutas dinámicas y planificación basada en datos para eficiencia operativa."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "RED MUNICIPAL DE MONITOREO AMBIENTAL",
+            "DESCRIPTION": "Despliegue de sensores de calidad del aire, estaciones meteorológicas y plataforma de datos abiertos para gestión ambiental y alertas.",
+            "LOCATE": "Área Metropolitana, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/g/img1.webp",
+              "/projects/g/img2.webp",
+              "/projects/g/img3.webp"
+            ]
+          },
+          {
+            "TITLE": "PROGRAMA SMART WATER",
+            "DESCRIPTION": "Sectorización de redes, telemetría en pozos y sistema de detección temprana de fugas para reducir pérdidas no facturadas de agua.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/h/img1.webp",
+              "/projects/h/img2.webp",
+              "/projects/h/img3.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/habitatyServicios.svg",
+        "TITLE": "<strong>Hábitat y Servicios</strong><br>Intelligentes",
+        "TITLE_TEXT": "Hábitat y Servicios Intelligentes",
+        "SUBTITLE": "Seguridad y Calidad de Vida.",
+        "DESCRIPTION": "<b>Fomentamos redes e infraestructuras</b> que elevan calidad de vida: salud conectada, gestión de espacios públicos, y servicios urbanos centrados en las personas.",
+        "AREA_TEXT_1": "Trabajamos para que el hábitat sea:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Salud conectada (e-health)",
+            "DESCRIPTION": "Telemedicina, monitoreo remoto y coord. entre centros para mejorar accesibilidad a atención."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Cultura y turismo digital",
+            "DESCRIPTION": "Plataformas para experiencias culturales, rutas inteligentes y gestión de visitantes."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Gestión eficiente del espacio público",
+            "DESCRIPTION": "Mantenimiento predictivo, riego automatizado y mobiliario conectado para mejorar uso y seguridad."
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Seguridad y resiliencia",
+            "DESCRIPTION": "Sistemas integrados de vigilancia analítica, alertas tempranas y coordinación de respuesta."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Accesibilidad y servicios inclusivos",
+            "DESCRIPTION": "Kioscos, apps y servicios adaptados para grupos vulnerables y adultos mayores."
+          }
+        ],
+        "AREA_TEXT_2": "Soluciones centradas en la experiencia urbana y la equidad.",
+        "TITLE_SERVICE": "Servicios enfocados en el bienestar diario y la seguridad",
+        "SERVICE": [
+          {
+            "IMG": "/icons/centro_de_comando.svg",
+            "TITLE": "Centros de comando y control (C2)",
+            "DESCRIPTION": "Integración de videovigilancia analítica, sensores urbanos y gestión de incidentes."
+          },
+          {
+            "IMG": "/icons/parque_inteligente.svg",
+            "TITLE": "Parques y espacios públicos inteligentes",
+            "DESCRIPTION": "Iluminación adaptativa, riego automatizado y mobiliario conectado para seguridad y uso eficiente."
+          },
+          {
+            "IMG": "/icons/estructural.svg",
+            "TITLE": "Monitoreo de infraestructura y protección civil",
+            "DESCRIPTION": "Sensores estructurales y sistemas de alerta para gestión de riesgos y mantenimiento."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "CENTRO DE TELEMEDICINA MUNICIPAL",
+            "DESCRIPTION": "Implementación de kioscos de salud conectados a hospitales regionales para atención primaria y seguimiento remoto de pacientes crónicos.",
+            "LOCATE": "Municipio Piloto, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/i/img1.webp",
+              "/projects/i/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "PARQUE INTELIGENTE DE BIENESTAR",
+            "DESCRIPTION": "Transformación de un parque urbano con iluminación adaptativa, riego eficiente, sensores de uso y estaciones de carga solar para dispositivos ciudadanos.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/j/img1.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "ICON": "/icons/areas/sociedadInteligente.svg",
+        "TITLE": "<strong>Sociedad</strong><br>Inteligente",
+        "TITLE_TEXT": "Sociedad Inteligente",
+        "SUBTITLE": "Sociedad e Inclusión Digital.",
+        "DESCRIPTION": "Promovemos inclusión digital, educación y participación ciudadana mediante plataformas y programas que acercan la tecnología a todas las personas.",
+        "AREA_TEXT_1": "Trabajamos para que la sociedad sea:",
+        "AREA1": [
+          {
+            "IMG": "",
+            "TITLE": "Inclusiva",
+            "DESCRIPTION": "Acceso digital para poblaciones vulnerables y programas para reducir la brecha digital."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Capacitada",
+            "DESCRIPTION": "Programas de formación en habilidades digitales y STEM para empleo local."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Creativa y participativa",
+            "DESCRIPTION": "Plataformas que fomentan la co-creación de políticas y proyectos públicos."
+          }
+        ],
+        "AREA2": [
+          {
+            "IMG": "",
+            "TITLE": "Redes comunitarias",
+            "DESCRIPTION": "Soporte a iniciativas locales y plataformas para coordinación de organizaciones civiles."
+          },
+          {
+            "IMG": "",
+            "TITLE": "Educación digital permanente",
+            "DESCRIPTION": "Aulas y recursos conectados para aprendizaje a distancia y formación continua."
+          }
+        ],
+        "AREA_TEXT_2": "Tecnología con rostro humano y enfoque inclusivo.",
+        "TITLE_SERVICE": "Tecnología con rostro humano y enfoque inclusivo",
+        "SERVICE": [
+          {
+            "IMG": "/icons/wifi.svg",
+            "TITLE": "Despliegue de conectividad comunitaria",
+            "DESCRIPTION": "Puntos de acceso público, infraestructura para telecentros y redes mesh en zonas con baja conectividad."
+          },
+          {
+            "IMG": "/icons/accesibilidad.svg",
+            "TITLE": "Plataformas y servicios accesibles",
+            "DESCRIPTION": "Diseño de interfaces inclusivas y canales de atención adaptados para personas con discapacidad."
+          },
+          {
+            "IMG": "/icons/robotica.svg",
+            "TITLE": "Centros de formación STEM",
+            "DESCRIPTION": "Laboratorios y programas de robótica y programación para estudiantes y emprendimientos locales."
+          },
+          {
+            "IMG": "/icons/telemedicina.svg",
+            "TITLE": "Teleservicios sociales",
+            "DESCRIPTION": "Kioscos y aplicativos para trámites, salud básica y servicios de empleo en zonas remotas."
+          }
+        ],
+        "PROJECTS": [
+          {
+            "TITLE": "PROGRAMA DE INCLUSIÓN DIGITAL COMUNITARIA",
+            "DESCRIPTION": "Red de telecentros y puntos Wi-Fi gestionados por el municipio para alfabetización digital, trámites en línea y apoyo a PYMEs locales.",
+            "LOCATE": "Región Norte, México",
+            "DATE": "2023",
+            "IMG": [
+              "/projects/k/img1.webp",
+              "/projects/k/img2.webp"
+            ]
+          },
+          {
+            "TITLE": "PLATAFORMA DE PARTICIPACIÓN CIUDADANA",
+            "DESCRIPTION": "Herramienta digital para consultas públicas, presupuestos participativos y seguimiento de compromisos, con dashboards para transparencia.",
+            "LOCATE": "Ciudad Capital, México",
+            "DATE": "2024",
+            "IMG": [
+              "/projects/l/img1.webp",
+              "/projects/l/img2.webp"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

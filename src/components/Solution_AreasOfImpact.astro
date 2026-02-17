@@ -1,0 +1,401 @@
+---
+import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await useTranslation(lang);
+
+const smartEcosystemItems = i18n.AREAS_2.SMART_ECOSYSTEM_ITEMS;
+
+const nodeLayouts = [
+  {
+    transform: "translate(310, 90)",
+    gClass: "group cursor-pointer item up",
+    foProps: { x: -75, y: -180, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-end h-full text-center gap-2 pb-1.5",
+  },
+  {
+    transform: "translate(500.526, 200)",
+    gClass: "group right cursor-pointer item",
+    foProps: { x:40, y: -50, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+  },
+  {
+    transform: "translate(500.526, 420)",
+    gClass: "group right cursor-pointer item",
+    foProps: { x: 40, y: -50, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+  },
+  {
+    transform: "translate(310, 530)",
+    gClass: "group cursor-pointer item down",
+    foProps: { x: -75, y: 20, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+  },
+  {
+    transform: "translate(119.474, 420)",
+    gClass: "group left cursor-pointer item",
+    foProps: { x: -190, y: -50, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+  },
+  {
+    transform: "translate(119.474, 200)",
+    gClass: "group left cursor-pointer item",
+    foProps: { x: -190, y: -50, width: 150, height: 150 },
+    divClass:
+      "flex flex-col items-center justify-center h-full text-center gap-2 pb-1.5",
+  },
+];
+const VIEWBOX = { width: 620, height: 620 };
+const parseTranslate = (t: any) => {
+  const m = (t || "").match(/translate\(([-0-9.]+)\s*,\s*([-0-9.]+)\)/);
+  return m ? { x: parseFloat(m[1]), y: parseFloat(m[2]) } : { x: 0, y: 0 };
+};
+
+const overlays = smartEcosystemItems.map((item, index) => {
+  const layout = nodeLayouts[index] || {};
+  const node = parseTranslate(layout.transform);
+  const fo = layout.foProps || { x: 0, y: 0, width: 150, height: 150 };
+  const absX = (node.x || 0) + (fo.x || 0);
+  const absY = (node.y || 0) + (fo.y || 0);
+  const leftPct = (absX / VIEWBOX.width) * 100;
+  const topPct = (absY / VIEWBOX.height) * 100;
+  const widthPct = ((fo.width || 200) / VIEWBOX.width) * 100;
+  const heightPct = ((fo.height || 150) / VIEWBOX.height) * 100;
+  return {
+    item,
+    index,
+    layout,
+    leftPct,
+    topPct,
+    widthPct,
+    heightPct,
+    fo,
+    absX,
+    absY,
+  };
+});
+---
+
+<div
+  id="AreasOfImpact"
+  class="relative lg:flex flex-col justify-between max-w-6xl gap-6 px-5 mx-auto py-10 pt-32"
+>
+  <h1
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    class="mb-5 text-center lg:text-left font-normal text-[32px] text-white md:text-[45px]"
+  >
+    <span class="text-[var(--color-title)]">+</span>
+    {i18n.AREAS_2.TITLE}
+  </h1>
+  <p
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-white text-center text-xl lg:text-3xl"
+  >
+    {i18n.AREAS_2.TEXT}
+  </p>
+
+  <!-- DESKTOP VIEW -->
+  <div
+    class="relative hidden lg:block diagram w-full max-w-2xl h-auto m-auto my-20"
+  >
+    <svg
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class="w-full h-full overflow-visible"
+      viewBox="0 0 620 620"
+    >
+      <defs>
+        <mask id="nodes-mask">
+          <rect width="100%" height="100%" fill="white"></rect>
+          <circle cx="310" cy="90" r="12" fill="black"></circle>
+          <circle cx="500.526" cy="200" r="12" fill="black"></circle>
+          <circle cx="500.526" cy="420" r="12" fill="black"></circle>
+          <circle cx="310" cy="530" r="12" fill="black"></circle>
+          <circle cx="119.474" cy="420" r="12" fill="black"></circle>
+          <circle cx="119.474" cy="200" r="12" fill="black"></circle>
+        </mask>
+      </defs>
+      <polygon
+        class="poly"
+        mask="url(#nodes-mask)"
+        points="310,90 500.526,200 500.526,420 310,530 119.474,420 119.474,200"
+      ></polygon>
+      {
+        smartEcosystemItems.map((item, index) => {
+          const layout = nodeLayouts[index];
+          return (
+            <a href={`/${lang}/${slugify(item.TITLE_TEXT)}`} data-index={index}>
+              <g class={layout.gClass} transform={layout.transform}>
+                <circle class="outer-node" r="12" />
+                <circle class="inner-node" r="5" />
+              </g>
+            </a>
+          );
+        })
+      }
+    </svg>
+    {
+      overlays.map((o) => (
+        <div
+          class="absolute hidden lg:block overlay-wrapper"
+          data-hover={JSON.stringify(o.item.HOVER || [])}
+          data-index={o.index}
+          style={`left:${o.leftPct}%; top:${o.topPct}%; width:${o.widthPct}%; height:${o.heightPct}%; transform:translateX(0); z-index:20;`}
+        >
+          <a
+            href={`/${lang}/${slugify(o.item.TITLE_TEXT)}`}
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            class="block w-full h-full"
+          >
+            <div class={o.layout.divClass} style="width:100%; height:100%;">
+              <span class="font-bold text-[#ffffff] text-[12px]">
+                0{o.index + 1}.
+              </span>
+              <span
+                class="block text-white text-[18px] 2xl:text-[20px] leading-5"
+                set:html={o.item.TITLE}
+              />
+              <div class="w-12 h-12 mx-auto border border-[var(--color-title)] rounded-full p-2">
+                <img
+                  src={o.item.ICON}
+                  alt={o.item.TITLE_TEXT}
+                  class="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+      ))
+    }
+    <div id="areas-tooltip" class="areas-tooltip hidden"></div>
+    <script type="text/javascript">
+      (() => {
+        const script = document.currentScript;
+        if (!script) return;
+        const container = script.parentElement;
+        if (!container) return;
+        const tooltip = container.querySelector("#areas-tooltip");
+        const anchors = Array.from(container.querySelectorAll("[data-index]"));
+        anchors.forEach((a) => {
+          const idx = a.getAttribute("data-index");
+          let hoverData = [];
+          try {
+            hoverData = JSON.parse(a.getAttribute("data-hover") || "[]");
+          } catch (e) {
+            hoverData = [];
+          }
+
+          let docMove = null;
+
+          a.addEventListener("mouseenter", () => {
+            if (idx != null) {
+              const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
+              if (svgGroup) svgGroup.classList.add("is-hover");
+            }
+
+            if (!hoverData || hoverData.length === 0) return;
+
+            tooltip.innerHTML =
+              '<ul class="gap-1 p-0 m-0 relative"> <div class="absolute top-0 -left-2.5 rounded-full w-1 h-full bg-[var(--color-title)]"></div>' +
+              hoverData
+                .map((h, i) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 bg-white rounded-full mt-2 mr-2'></div><p class='font-semibold m-0 p-0 text-sm ${i % 2 === 0 ? "text-white" : "text-[var(--color-title)]"}'>${h}</p></li>`)
+                .join("") +
+              "</ul>";
+            tooltip.classList.remove("hidden");
+            tooltip.style.display = "block";
+            tooltip.style.opacity = "1";
+            tooltip.style.transform = "none";
+            tooltip.style.left = "0px";
+            tooltip.style.top = "0px";
+            tooltip.style.position = "absolute";
+            tooltip.style.pointerEvents = "none";
+
+            docMove = (e) => {
+              const rect = container.getBoundingClientRect();
+              // ensure tooltip is visible to compute size
+              tooltip.style.display = "block";
+              const ttRect = tooltip.getBoundingClientRect();
+              let left = e.clientX - rect.left + 12;
+              let top = e.clientY - rect.top + 12;
+
+              const maxLeft = rect.width - ttRect.width - 12;
+              if (left > maxLeft) left = Math.max(maxLeft, 8);
+              if (left < 0) left = 8;
+
+              const maxTop = rect.height - ttRect.height - 12;
+              if (top > maxTop) top = Math.max(maxTop, 8);
+
+              tooltip.style.left = `${left}px`;
+              tooltip.style.top = `${top}px`;
+            };
+
+            document.addEventListener("mousemove", docMove);
+          });
+
+          if (hoverData && hoverData.length > 0) {
+            a.addEventListener("mouseleave", () => {
+              tooltip.classList.add("hidden");
+              tooltip.style.display = "none";
+              if (idx != null) {
+                const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
+                if (svgGroup) svgGroup.classList.remove("is-hover");
+              }
+              if (docMove) {
+                document.removeEventListener("mousemove", docMove);
+                docMove = null;
+              }
+            });
+          } else {
+            a.addEventListener("mouseleave", () => {
+              if (idx != null) {
+                const svgGroup = container.querySelector(`svg a[data-index="${idx}"] g`);
+                if (svgGroup) svgGroup.classList.remove("is-hover");
+              }
+            });
+          }
+        });
+      })();
+    </script>
+    <div
+      class="absolute w-1/2 top-1/2 left-1/2 -translate-1/2 -translate-y-1/2 text-center"
+    >
+      <p
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        class="center-title text-3d-center text-white font-extrabold lg:text-4xl 2xl:text-6xl"
+      >
+        {i18n.HERO.CENTER_TITLE}
+      </p>
+    </div>
+  </div>
+
+  <!-- MOBILE/TABLET VIEW -->
+  <div
+    class="lg:hidden flex flex-col justify-center items-center m-auto p-10 w-full h-fit text-white"
+  >
+    <p class="center-title text-3d-center text-6xl font-extrabold mb-6">
+      {i18n.HERO.CENTER_TITLE}
+    </p>
+    <div class="flex flex-wrap gap-4 w-full justify-center max-w-md">
+      {
+        smartEcosystemItems.map((item) => (
+          <a
+            href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
+            class="relative flex bg-white/5 hover:bg-white/20 backdrop-blur-sm px-5 py-2.5 border border-white/20 rounded-lg transition-colors duration-300 w-[45%] items-center justify-center"
+          >
+            <p class="font-semibold text-center">{item.TITLE_TEXT} </p>
+            <div class="absolute bg-[var(--color-title)] h-0.5 w-2/3 rounded-full -bottom-0.5" />
+          </a>
+        ))
+      }
+    </div>
+  </div>
+  <p
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-center font-bold text-[var(--color-title)] text-xl lg:text-3xl"
+  >
+    {i18n.AREAS_2.TEXT_2}
+  </p>
+</div>
+
+<style>
+  .poly {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.18);
+    stroke-width: 1.6;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0.3;
+    }
+  }
+  .outer-node {
+    fill: transparent;
+    stroke: rgba(255, 255, 255, 0.9);
+    stroke-width: 1.6px;
+    transition: stroke 0.3s ease;
+  }
+  .inner-node {
+    fill: rgba(255, 255, 255, 0.9);
+    animation: blink 1s infinite ease-in-out;
+    transition:
+      r 0.3s ease,
+      fill 0.3s ease,
+      filter 0.3s ease;
+  }
+  .item:hover .inner-node {
+    animation: none;
+    r: 12;
+    fill: var(--color-title);
+    filter: drop-shadow(0 0 15px var(--color-title))
+      drop-shadow(0 0 5px var(--color-title)) brightness(1.3);
+  }
+  .item:hover .outer-node {
+    stroke: transparent;
+  }
+  .item.is-hover .inner-node {
+    animation: none;
+    r: 12;
+    fill: var(--color-title);
+    filter: drop-shadow(0 0 15px var(--color-title))
+      drop-shadow(0 0 5px var(--color-title)) brightness(1.3);
+  }
+  .item.is-hover .outer-node {
+    stroke: transparent;
+  }
+  .hover-panel {
+    opacity: 0;
+    pointer-events: none;
+    transform-origin: bottom center;
+  }
+  @media (min-width: 1024px) {
+    .hover-panel {
+      transition:
+        opacity 180ms ease,
+        transform 180ms ease;
+    }
+    .group:hover .hover-panel {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+  }
+  .diagram-wrapper {
+    position: relative;
+  }
+  .diagram-overlay a {
+    display: block;
+    box-sizing: border-box;
+  }
+  .areas-tooltip {
+    position: absolute;
+    z-index: 60;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+    transition: opacity 160ms ease;
+    transform: translate(0, 0);
+  }
+  .areas-tooltip.hidden {
+    display: none;
+    opacity: 0;
+  }
+  strong {
+    font-weight: 800;
+    font-size: 14px;
+  }
+</style>

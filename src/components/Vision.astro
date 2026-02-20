@@ -20,36 +20,46 @@ const i18n = await translations[lang]();
     <span class="text-[var(--color-title)]">+</span>
     {i18n.VISION.TITLE}
   </h1>
+  
   <div class="max-w-4xl mx-auto lg:mx-0 text-center lg:text-left">
     <p
       data-aos="fade-up"
       data-aos-duration="1000"
-      class="text-[16px] md:text-[18px] text-[var(--color-text2)] leading-relaxed"
+      class="text-lg lg:text-xl font-light leading-relaxed text-white/90"
       set:html={i18n.VISION.TEXT}
     />
   </div>
 
   <!-- Cards grid: if translations include VISION.CARDS render them, otherwise render nothing -->
   {i18n.VISION.CARDS && i18n.VISION.CARDS.length ? (
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-6">
-      {i18n.VISION.CARDS.map((card) => (
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
+      {i18n.VISION.CARDS.map((card, index) => (
         <div
-          class="flex items-center justify-center p-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-xl shadow-sm hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300"
           data-aos="zoom-in"
-          data-aos-duration="800"
-          title={card.TITLE}
-          role="img"
-          aria-label={card.TITLE}
+          data-aos-duration="1000"
+          data-aos-delay={index * 100}
+          class="flex"
         >
-          <div class="flex items-center justify-center w-20 h-20 rounded-full bg-[rgba(0,187,255,0.06)] border-2 border-[var(--color-title)] p-3">
-            {card.ICON ? (
-              <img src={card.ICON} alt={card.TITLE} class="w-full h-full object-contain" />
-            ) : (
-              <div class="w-full h-full bg-[rgba(255,255,255,0.02)] rounded-full flex items-center justify-center text-[var(--color-title)]">+</div>
-            )}
-          </div>
-          <div class="mt-3 text-center">
-            <span class="text-sm md:text-[14px] text-[var(--color-text2)] leading-tight">{card.TITLE}</span>
+          <div class="relative glass-effect bg-white/5 backdrop-blur-sm border border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-xl flex-1 group">
+            <div class="flex flex-col items-center text-center space-y-4">
+              <div class="flex items-center justify-center w-16 h-16 rounded-lg bg-[var(--color-title)]/10 border border-[var(--color-title)]/20 group-hover:bg-[var(--color-title)]/20 transition-colors duration-300">
+                {card.ICON ? (
+                  <img src={card.ICON} alt={card.TITLE} class="w-8 h-8 object-contain" />
+                ) : (
+                  <div class="text-[var(--color-title)] text-xl font-bold">+</div>
+                )}
+              </div>
+              
+              <h3 class="text-sm font-medium text-white/90 group-hover:text-white transition-colors duration-300 leading-tight">
+                {card.TITLE}
+              </h3>
+            </div>
+            
+            <!-- Decorative bottom bar -->
+            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
           </div>
         </div>
       ))}

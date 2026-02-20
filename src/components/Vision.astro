@@ -5,9 +5,12 @@ import { translations } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
+
+<script src="../scripts/card3d.js"></script>
+
 <div
   id="vision"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
+  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 mb-20 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
@@ -17,7 +20,7 @@ const i18n = await translations[lang]();
     <span class="text-[var(--color-title)]">+</span>
     {i18n.VISION.TITLE}
   </h1>
-  
+
   <div class="max-w-4xl mx-auto lg:mx-0 text-center lg:text-left">
     <p
       data-aos="fade-up"
@@ -28,38 +31,83 @@ const i18n = await translations[lang]();
   </div>
 
   <!-- Cards grid: if translations include VISION.CARDS render them, otherwise render nothing -->
-  {i18n.VISION.CARDS && i18n.VISION.CARDS.length ? (
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
-      {i18n.VISION.CARDS.map((card, index) => (
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay={index * 100}
-          class="flex"
-        >
-          <div class="relative glass-effect bg-white/5 backdrop-blur-sm border border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-xl flex-1 group">
-            <div class="flex flex-col items-center text-center space-y-4">
-              <div class="flex items-center justify-center w-16 h-16 rounded-lg bg-[var(--color-title)]/10 border border-[var(--color-title)]/20 group-hover:bg-[var(--color-title)]/20 transition-colors duration-300">
-                {card.ICON ? (
-                  <img src={card.ICON} alt={card.TITLE} class="w-8 h-8 object-contain" />
-                ) : (
-                  <div class="text-[var(--color-title)] text-xl font-bold">+</div>
-                )}
+  {
+    i18n.VISION.CARDS && i18n.VISION.CARDS.length ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
+        {i18n.VISION.CARDS.map((card, index) => (
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay={index * 100}
+            class="flex card-3d-wrapper"
+          >
+            <div class="card-3d relative glass-effect bg-white/5 backdrop-blur-sm border border-white/25 p-6 rounded-lg transition-all duration-300 shadow-lg flex-1 group">
+              <div class="flex flex-col items-center text-center space-y-4">
+                <div class="flex items-center justify-center w-16 h-16 rounded-lg bg-[var(--color-title)]/10 border border-[var(--color-title)]/20 group-hover:bg-[var(--color-title)]/20 transition-colors duration-300">
+                  {card.ICON ? (
+                    <img
+                      src={card.ICON}
+                      alt={card.TITLE}
+                      class="w-8 h-8 object-contain"
+                    />
+                  ) : (
+                    <div class="text-[var(--color-title)] text-xl font-bold">
+                      +
+                    </div>
+                  )}
+                </div>
+
+                <h3 class="text-sm font-medium text-white/90 group-hover:text-white transition-colors duration-300 leading-tight">
+                  {card.TITLE}
+                </h3>
               </div>
-              
-              <h3 class="text-sm font-medium text-white/90 group-hover:text-white transition-colors duration-300 leading-tight">
-                {card.TITLE}
-              </h3>
+
+              <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+
+              <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
             </div>
-            
-            <!-- Decorative bottom bar -->
-            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
-            
-            <!-- Hover overlay -->
-            <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
           </div>
-        </div>
-      ))}
-    </div>
-  ) : null}
+        ))}
+      </div>
+    ) : null
+  }
 </div>
+
+<style>
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-3d::before {
+    content: "";
+    position: absolute;
+    top: -150%;
+    left: -150%;
+    width: 400%;
+    height: 400%;
+    background: linear-gradient(
+      var(--angle, 115deg),
+      transparent 30%,
+      rgba(255, 255, 255, 0.04) 47%,
+      rgba(255, 255, 255, 0.07) 50%,
+      rgba(255, 255, 255, 0.04) 53%,
+      transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .card-3d:hover::before {
+    opacity: 1;
+  }
+
+  .card-3d > :first-child {
+    position: relative;
+    z-index: 2;
+  }
+</style>

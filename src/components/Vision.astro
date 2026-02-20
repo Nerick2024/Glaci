@@ -1,0 +1,23 @@
+---
+import { getLangFromUrl } from "@/i18n/utils";
+import { translations } from "@/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await translations[lang]();
+---
+
+<script src="../scripts/card3d.js"></script>
+
+<div
+  id="vision"
+  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
+>
+  <h1
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+  >
+    <span class="text-[var(--color-title)]">+</span>
+    {i18n.VISION.TITLE}
+  </h1>
+</div>

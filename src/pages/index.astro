@@ -13,6 +13,11 @@ import Work from "@/components/Work.astro";
 import Governance from "@/components/Governance.astro";
 import Stars from "@/components/Stars.astro";
 import Methodology from "@/components/Methodology.astro";
+import Challenge from "@/components/Challenge.astro";
+import OurModel from "@/components/OurModel.astro";
+import Value from "@/components/Value.astro";
+import Differentiation from "@/components/Differentiation.astro";
+import Vision from "@/components/Vision.astro";
 
 const lang = defaultLang;
 const t = await useTranslation(lang as any);
@@ -20,8 +25,13 @@ const t = await useTranslation(lang as any);
 
 <Layout title="G L A C I">
   <Hero />
+  <Challenge />
   <Glaci />
+  <OurModel />
   <AreasOfImpact />
-  <Methodology/>
+  <!-- <Methodology/> -->
+  <Value />
   <Work />
+  <Differentiation />
+  <Vision />
 </Layout>

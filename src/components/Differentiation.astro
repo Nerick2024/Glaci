@@ -20,4 +20,34 @@ const i18n = await translations[lang]();
     <span class="text-[var(--color-title)]">+</span>
     {i18n.DIFFERENTIATION.TITLE}
   </h1>
+  <div class="max-w-4xl mx-auto lg:mx-0 text-center lg:text-left">
+    {i18n.DIFFERENTIATION.SUBTITLE ? (
+      <p
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="text-[16px] md:text-[18px] text-[var(--color-text2)] leading-relaxed"
+        set:html={i18n.DIFFERENTIATION.SUBTITLE}
+      />
+    ) : null}
+    {i18n.DIFFERENTIATION.TEXT ? (
+      <p class="mt-3 text-[var(--color-text2)]">{i18n.DIFFERENTIATION.TEXT}</p>
+    ) : null}
+  </div>
+
+  {i18n.DIFFERENTIATION.ITEMS && i18n.DIFFERENTIATION.ITEMS.length ? (
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+      {i18n.DIFFERENTIATION.ITEMS.map((item) => (
+        <div
+          class="relative bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-md p-6 h-full"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <h3 class="text-[var(--color-title)] text-2xl font-semibold mb-3">{item}</h3>
+          <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 w-2/3">
+            <div class="h-1 bg-[var(--color-title)] rounded-full w-full" />
+          </div>
+        </div>
+      ))}
+    </div>
+  ) : null}
 </div>

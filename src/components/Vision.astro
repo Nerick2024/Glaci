@@ -20,4 +20,39 @@ const i18n = await translations[lang]();
     <span class="text-[var(--color-title)]">+</span>
     {i18n.VISION.TITLE}
   </h1>
+  <div class="max-w-4xl mx-auto lg:mx-0 text-center lg:text-left">
+    <p
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      class="text-[16px] md:text-[18px] text-[var(--color-text2)] leading-relaxed"
+      set:html={i18n.VISION.TEXT}
+    />
+  </div>
+
+  <!-- Cards grid: if translations include VISION.CARDS render them, otherwise render nothing -->
+  {i18n.VISION.CARDS && i18n.VISION.CARDS.length ? (
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-6">
+      {i18n.VISION.CARDS.map((card) => (
+        <div
+          class="flex items-center justify-center p-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-xl shadow-sm hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300"
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          title={card.TITLE}
+          role="img"
+          aria-label={card.TITLE}
+        >
+          <div class="flex items-center justify-center w-20 h-20 rounded-full bg-[rgba(0,187,255,0.06)] border-2 border-[var(--color-title)] p-3">
+            {card.ICON ? (
+              <img src={card.ICON} alt={card.TITLE} class="w-full h-full object-contain" />
+            ) : (
+              <div class="w-full h-full bg-[rgba(255,255,255,0.02)] rounded-full flex items-center justify-center text-[var(--color-title)]">+</div>
+            )}
+          </div>
+          <div class="mt-3 text-center">
+            <span class="text-sm md:text-[14px] text-[var(--color-text2)] leading-tight">{card.TITLE}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  ) : null}
 </div>

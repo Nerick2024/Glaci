@@ -514,7 +514,8 @@
     ]
   },
   "HERO": {
-    "TEXT_1": "GLACI es un consorcio de innovación urbana que integra talento, colaboración multisectorial y estructuración financiera para convertir visiones urbanas en proyectos sostenibles, viables y con impacto real.",
+    "TEXT_1": "Estructuramos y ejecutamos proyectos de Ciudades Inteligentes centradas en las personas.",
+    "TEXT_1_1":"Somos un consorcio estratégico que integra visión urbana, estructuración financiera y ejecución coordinada para desarrollar proyectos viables, financiados y sostenibles.",
     "TEXT_2_1": "Smart Cities",
     "TEXT_2_2": "Smart Future",
     "TEXT_3": "Alineamos gobiernos, sector privado, academia, inversionistas y organismos multilaterales para estructurar y materializar proyectos urbanos sostenibles, con visión humana y solidez financiera.",
@@ -530,22 +531,22 @@
   },
   "NETWORKS": [
     {
-      "IMG": "/icons/networks/facebook.webp",
+      "IMG": "/icons/networks/facebook.svg",
       "TITLE": "FACEBOOK",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/twitter.webp",
+      "IMG": "/icons/networks/x.svg",
       "TITLE": "TWITTER",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/instagram.webp",
+      "IMG": "/icons/networks/instagram.svg",
       "TITLE": "INSTAGRAM",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/linkedin.webp",
+      "IMG": "/icons/networks/linkedin.svg",
       "TITLE": "LINKEDIN",
       "HREF": ""
     }

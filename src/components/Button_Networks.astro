@@ -5,8 +5,8 @@ const { i18n } = Astro.props;
 <div class="flex justify-center items-center gap-4">
   {
     i18n.NETWORKS.map((item: any) => (
-      <a href={item.HREF} title={item.TITLE} target="_blank" rel="noreferrer"class="hover:scale-110 transition-all">
-        <img src={item.IMG} alt={item.TITLE} class="w-auto h-9 hover:brightness-125 pointer-events-none" />
+      <a href={item.HREF} title={item.TITLE} target="_blank" rel="noreferrer"class="hover:scale-110 transition-all bg-white/10 p-2 rounded-lg hover:bg-white/20 border border-white/20">
+        <img src={item.IMG} alt={item.TITLE} class="w-auto h-6 hover:brightness-125 pointer-events-none" />
       </a>
     ))
   }

@@ -16,12 +16,18 @@ const i18n = await translations[lang]();
     class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
   >
     <span class="text-[var(--color-title)]">+</span>
-    {i18n.GLACI.TITLE}
+    ¿{i18n.GLACI.TITLE}
     <span
       class="text-white font-bold hover:text-[var(--color-title)] transition-colors"
       >{i18n.GLACI.GLACI}</span
-    >
+    >?
   </h1>
+  <p
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-center lg:text-left text-base lg:text-xl"
+    set:html={i18n.GLACI.DESCRIPTION}
+  />
   <div class="gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row justify-center">
     <div
       data-aos="fade-right"
@@ -47,36 +53,6 @@ const i18n = await translations[lang]();
       </div>
       <p class="text-sm lg:text-lg text-center lg:text-left">
         {i18n.GLACI.TEXT_2}
-      </p>
-    </div>
-  </div>
-  <div
-    class="mb-12 gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row items-start justify-center"
-  >
-    <div
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      class="relative glass-effect border border-white/25 p-5 pb-4 rounded-md flex-1"
-    >
-      <div
-        class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
-      >
-      </div>
-      <p class="text-sm lg:text-lg text-center lg:text-left">
-        {i18n.HERO.TEXT_3}
-      </p>
-    </div>
-    <div
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      class="relative glass-effect border border-white/25 p-5 pb-4 rounded-md flex-1"
-    >
-      <div
-        class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
-      >
-      </div>
-      <p class="text-sm lg:text-lg text-center lg:text-left">
-        {i18n.HERO.TEXT_4}
       </p>
     </div>
   </div>

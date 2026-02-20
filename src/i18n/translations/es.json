@@ -8,25 +8,131 @@
     "BLOG": "Blog",
     "INFORMATION": "Recibe más informacion"
   },
-  "CHALLENGE":{
-    "TITLE":"EL DESAFÍO",
-    "SUBTITLE":"Las ciudades no dejan de trascender por falta de ideas. Dejan de hacerlo por falta de estructura.",
-    "CARDS":[
+  "CHALLENGE": {
+    "TITLE": "El Desafío",
+    "SUBTITLE": "Las ciudades no dejan de trascender por falta de ideas. Dejan de hacerlo por falta de estructura.",
+    "CARDS": [
       {
-        "IMG":"",
-        "TEXT":"Sin arquitectura institucional clara, los planes se diluyen."
+        "IMG": "",
+        "TEXT": "Sin arquitectura institucional clara, los planes se diluyen."
       },
       {
-        "IMG":"",
-        "TEXT":"Sin modelos financieros sólidos, las inversiones no se materializan."
+        "IMG": "",
+        "TEXT": "Sin modelos financieros sólidos, las inversiones no se materializan."
       },
       {
-        "IMG":"",
-        "TEXT":"Sin coordinación estratégica y política pública, los proyectos pierden continuidad."
+        "IMG": "",
+        "TEXT": "Sin coordinación estratégica y política pública, los proyectos pierden continuidad."
       }
     ],
-    "TEXT":"Demasiadas visiones urbanas terminan archivadas.",
-    "TEXT_2":"GLACI existe para cerrar esa brecha entre visión y ejecución."
+    "TEXT": "Demasiadas visiones urbanas terminan archivadas.",
+    "TEXT_2": "GLACI existe para cerrar esa brecha entre visión y ejecución."
+  },
+  "OUR_MODEL": {
+    "TITLE": "Un modelo integral en cuatro fases",
+    "MODELS": [
+      {
+        "ICON": "",
+        "TITLE": "Visión estratégica",
+        "DESCRIPTION": "Definimos el marco territorial, prioridades y hoja de ruta."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Estructuración integral",
+        "DESCRIPTION": "Diseñamos la arquitectura técnica, institucional y financiera."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Financiamiento",
+        "DESCRIPTION": "Estructuramos esquemas público-privados y mecanismos de inversión."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Ejecución coordinada",
+        "DESCRIPTION": "Aseguramos la implementación alineada a resultados."
+      }
+    ],
+    "TEXT": [
+      "Sin visión <br>no hay dirección.",
+      "Sin estructura <br>no hay proyecto.",
+      "Sin financiamiento <br>no hay ejecución."
+    ]
+  },
+  "VALUE": {
+    "TITLE": "Propuesta de Valor",
+    "SUBTITLE": "Desarrollamos proyectos que:",
+    "ITEMS": [
+      {
+        "ICON": "",
+        "TITLE": "Son técnica, institucional y financieramente viables"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Integran gobernanza, infraestructura y tecnología"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Generan competitividad territorial"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Mejoran calidad de vida"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Aseguran continuidad operativa"
+      }
+    ],
+    "TEXT": "No diseñamos ideas.",
+    "TEXT_2": "Diseñamos proyectos ejecutables."
+  },
+  "DIFFERENTIATION": {
+    "TITLE": "Diferenciación",
+    "SUBTITLE": "Lo que nos distingue",
+    "ITEMS": [
+      "La tecnología sin modelo institucional fracasa.",
+      "La inversión sin estructura no se ejecuta.",
+      "La ciudad fragmentada pierde rumbo."
+    ],
+    "TEXT": "Integramos visión, gobernanza y financiamiento en un solo marco estratégico que hace posible la ejecución y genera impacto real en la vida cotidiana de las personas."
+  },
+  "VISION": {
+    "TITLE": "Visión",
+    "TEXT": "Impulsamos Ciudades y Territorios Inteligentes donde:",
+    "CARDS": [
+      {
+        "ICON": "",
+        "TITLE": "Gobernanza basada en datos y confianza institucional"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Políticas públicas coherentes que garanticen continuidad y ejecución"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Infraestructura gestionada como sistema inteligente"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Movilidad que conecta inclusión y productividad"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Recursos administrados con sostenibilidad y resiliencia"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Inversión estructurada para impacto a largo plazo"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Innovación como eje de competitividad territorial"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Talento humano preparado para liderar el futuro"
+      }
+    ]
   },
   "AREAS": {
     "TITLE": "Áreas de Impacto",
@@ -535,7 +641,7 @@
   },
   "HERO": {
     "TEXT_1": "Estructuramos y ejecutamos proyectos de Ciudades Inteligentes centradas en las personas.",
-    "TEXT_1_1":"Somos un consorcio estratégico que integra visión urbana, estructuración financiera y ejecución coordinada para desarrollar proyectos viables, financiados y sostenibles.",
+    "TEXT_1_1": "Somos un consorcio estratégico que integra visión urbana, estructuración financiera y ejecución coordinada para desarrollar proyectos viables, financiados y sostenibles.",
     "TEXT_2_1": "Smart Cities",
     "TEXT_2_2": "Smart Future",
     "CENTER_SUBTITLE": "Implementación",
@@ -661,7 +767,7 @@
   "GLACI": {
     "GLACI": "GLACI",
     "TITLE": "Qué es",
-    "DESCRIPTION":"GLACI somos un <b>consorcio estratégico especializado en la estructuración y ejecución de proyectos de Ciudades y Territorios Inteligentes</b>.",
+    "DESCRIPTION": "GLACI somos un <b>consorcio estratégico especializado en la estructuración y ejecución de proyectos de Ciudades y Territorios Inteligentes</b>.",
     "TEXT_1": "No somos una pieza más dentro del proceso. Somos el marco que alinea visión, capacidad técnica y financiamiento bajo una misma arquitectura estratégica.",
     "TEXT_2": "Integramos talento estratégico de alto nivel bajo una dirección única para transformar complejidad urbana en proyectos estructurados, financiables y ejecutables.",
     "TITLE_2": "Nuestra Metodología",
@@ -683,11 +789,13 @@
   "WORK": {
     "TITLE": "Colaboramos con",
     "TEXT": [
-      "Gobiernos con visión de largo plazo y sentido de legado.",
-      " Empresas comprometidas con desarrollo sostenible.",
-      " Academia y centros de conocimiento que aportan rigor e innovación aplicada. ",
-      "Inversionistas y organismos multilaterales que priorizan impacto, transparencia y viabilidad."
+      "Gobiernos nacionales y locales",
+      "Agencias de desarrollo territorial",
+      "Organismos multilaterales",
+      "Fondos de inversión e infraestructura",
+      "Desarrolladores inmobiliarios con visión"
     ],
+    "SUB_TEXT": "Actuamos como socio estructurador y coordinador del proyecto integral.",
     "TITLE_2": "CREDENCIALES",
     "TEXT_2": "Nuestro enfoque se alinea con estándares y mejores prácticas internacionales para ciudades sostenibles e inteligentes, priorizando gobernanza, indicadores, transparencia y continuidad."
   },
@@ -1025,7 +1133,7 @@
       }
     ]
   },
-    "AREAS_2": {
+  "AREAS_2": {
     "TITLE": "Áreas de Impacto",
     "TITLE_1": "Enfoque",
     "TITLE_2": "Qué Habilitamos",
@@ -1529,5 +1637,12 @@
         ]
       }
     ]
+  },
+  "FOOTER": {
+    "TITLE": "Smart Cities.<br>Smart Future",
+    "SUBTITLE": "El futuro se diseña hoy.",
+    "FOLLOW_US": "Síguenos en",
+    "COPYRIGHT": "Copyright © GLACI",
+    "SCROLL_TO_TOP": "Volver arriba"
   }
 }

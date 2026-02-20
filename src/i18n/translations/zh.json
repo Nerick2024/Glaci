@@ -4,20 +4,146 @@
     "AREAS_OF_IMPACT": "影响领域",
     "CONSORTIUM": "联盟",
     "TALENT": "人才",
-    "CONTACT": "联系",
+    "CONTACT": "联系方式",
     "BLOG": "博客",
-    "INFORMATION": "接收更多信息"
+    "INFORMATION": "获取更多信息"
+  },
+  "CHALLENGE": {
+    "TITLE": "挑战",
+    "SUBTITLE": "城市不会因为缺乏想法而停止超越。它们因为缺乏结构而停止超越。",
+    "CARDS": [
+      {
+        "IMG": "",
+        "TEXT": "没有清晰的制度架构，计划就会落空。"
+      },
+      {
+        "IMG": "",
+        "TEXT": "没有稳健的金融模式，投资就无法实现。"
+      },
+      {
+        "IMG": "",
+        "TEXT": "没有战略协调和公共政策，项目就会失去连续性。"
+      }
+    ],
+    "TEXT": "太多的城市愿景最终被束之高阁。",
+    "TEXT_2": "GLACI 的存在就是为了弥合愿景与执行之间的差距。"
+  },
+  "OUR_MODEL": {
+    "TITLE": "四阶段综合模型",
+    "MODELS": [
+      {
+        "ICON": "",
+        "TITLE": "战略愿景",
+        "DESCRIPTION": "我们界定领土框架、优先事项和路线图。"
+      },
+      {
+        "ICON": "",
+        "TITLE": "综合架构",
+        "DESCRIPTION": "我们设计技术、制度和金融架构。"
+      },
+      {
+        "ICON": "",
+        "TITLE": "融资",
+        "DESCRIPTION": "我们构建公私合作模式和投资机制。"
+      },
+      {
+        "ICON": "",
+        "TITLE": "协同执行",
+        "DESCRIPTION": "我们确保实施与结果保持一致。"
+      }
+    ],
+    "TEXT": [
+      "没有愿景<br>就没有方向。",
+      "没有结构<br>就没有项目。",
+      "没有融资<br>就没有执行。"
+    ]
+  },
+  "VALUE": {
+    "TITLE": "价值主张",
+    "SUBTITLE": "我们开发的项目：",
+    "ITEMS": [
+      {
+        "ICON": "",
+        "TITLE": "在技术、制度和财务上均可行"
+      },
+      {
+        "ICON": "",
+        "TITLE": "整合治理、基础设施和技术"
+      },
+      {
+        "ICON": "",
+        "TITLE": "产生地域竞争力"
+      },
+      {
+        "ICON": "",
+        "TITLE": "提高生活质量"
+      },
+      {
+        "ICON": "",
+        "TITLE": "确保运营连续性"
+      }
+    ],
+    "TEXT": "我们不设计想法。",
+    "TEXT_2": "我们设计可执行的项目。"
+  },
+  "DIFFERENTIATION": {
+    "TITLE": "差异化",
+    "SUBTITLE": "我们的与众不同之处",
+    "ITEMS": [
+      "没有制度模式的技术会失败。",
+      "没有结构的投资无法执行。",
+      "碎片化的城市会迷失方向。"
+    ],
+    "TEXT": "我们将愿景、治理和融资整合到一个战略框架中，使执行成为可能，并对人们的日常生活产生真正的影响。"
+  },
+  "VISION": {
+    "TITLE": "愿景",
+    "TEXT": "我们推动的智能城市与区域将实现：",
+    "CARDS": [
+      {
+        "ICON": "",
+        "TITLE": "基于数据的治理与制度信任"
+      },
+      {
+        "ICON": "",
+        "TITLE": "连贯的公共政策，保障连续性与执行"
+      },
+      {
+        "ICON": "",
+        "TITLE": "作为智能系统管理的基础设施"
+      },
+      {
+        "ICON": "",
+        "TITLE": "连接包容性与生产力的交通"
+      },
+      {
+        "ICON": "",
+        "TITLE": "以可持续性和韧性管理资源"
+      },
+      {
+        "ICON": "",
+        "TITLE": "结构化投资以实现长期影响"
+      },
+      {
+        "ICON": "",
+        "TITLE": "创新作为地域竞争力的核心"
+      },
+      {
+        "ICON": "",
+        "TITLE": "准备好引领未来的人才"
+      }
+    ]
   },
   "AREAS": {
     "TITLE": "影响领域",
-    "TITLE_1": "重点",
-    "TITLE_2": "我们启用什么",
+    "TITLE_1": "方法",
+    "TITLE_2": "我们促成什么",
     "TITLE_3": "经验 / 案例",
-    "SUBTITLE": "城市发展不是孤立的。它发生在系统连接时。",
-    "TEXT": "我们在城市和区域发展的关键领域工作：",
-    "TEXT_2": "不是作为独立的解决方案，而是作为集成的生态系统。",
-    "BUTTON": "请求更多信息",
-    "SUCCESS_STORIES_LOCATE": "位置",
+    "SUBTITLE": "城市发展并非由孤立的部分发生。它发生在系统连接之时。",
+    "TEXT": "我们在城市和区域发展的关键领域开展工作：",
+    "TEXT_2": "不是作为独立的解决方案，而是作为综合的生态系统。",
+    "BUTTON": "索取更多信息",
+    "SUCCESS_STORIES_LOCATE": "地点",
     "SUCCESS_STORIES_YEAR": "年份",
     "SUCCESS_STORIES_BUTTON": "查看相关项目",
     "SMART_ECOSYSTEM_ITEMS": [
@@ -25,62 +151,62 @@
         "HOVER": [
           "政府与管理平台",
           "数字化转型",
-          "决策支持数据",
-          "定制化技术架构"
+          "决策数据",
+          "定制技术架构"
         ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>智能</strong><br>治理",
         "TITLE_TEXT": "智能治理",
-        "SUBTITLE": "数字政府和透明度。",
-        "DESCRIPTION": "持久的变革从明确的决策、可信的机构和共享数据开始。<br>GLACI 协调参与者和结构化项目，以可持续方式加强城市治理。",
+        "SUBTITLE": "数字政府与透明度。",
+        "DESCRIPTION": "持久的变革始于清晰的决策、可信赖的机构和共享的数据。<br>GLACI 协调各方参与者并构建项目，以可持续的方式加强城市治理。",
         "AREA_TEXT_1": "我们致力于使治理：",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "透明",
-            "DESCRIPTION": "通过数字工具确保公开和可靠地访问公共信息，以加强问责制"
+            "DESCRIPTION": "通过加强问责制的数字工具，确保公开、可靠地获取公共信息"
           },
           {
             "IMG": "",
-            "TITLE": "在时间上可行",
-            "DESCRIPTION": "设计公民参与计划，确保项目和公共政策的连续性超出行政周期"
+            "TITLE": "长期可行",
+            "DESCRIPTION": "设计公民参与计划，确保项目和公共政策超越行政周期的连续性"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "参与性",
-            "DESCRIPTION": "推动信息和通信技术，让公民识别问题并基于本地现实构建解决方案"
+            "TITLE": "具有参与性",
+            "DESCRIPTION": "推动信息和通信技术，使公民能够识别问题并根据当地实际情况构建解决方案"
           }
         ],
         "AREA_TEXT_2": "从战略到实施。",
         "SERVICE": [
           {
             "IMG": "/icons/portal.svg",
-            "TITLE": "机构和多部门协调",
-            "DESCRIPTION": "创建机构、部门和关键参与者之间的协调空间，以确保发展政策、项目和战略的一致性"
+            "TITLE": "机构与跨部门协调",
+            "DESCRIPTION": "我们在机构、部门和关键参与者之间建立协调空间，以确保政策、项目和发展战略的一致性"
           },
           {
             "IMG": "/icons/plataformas_de_participacion.svg",
-            "TITLE": "治理模型和决策",
-            "DESCRIPTION": "设计治理框架，整合公民参与、技术证据和战略愿景，以实现更合法和可持续的决策"
+            "TITLE": "治理与决策模型",
+            "DESCRIPTION": "我们设计的治理框架融合了公民参与、技术证据和战略愿景，以实现更合法和可持续的决策"
           },
           {
             "IMG": "/icons/dashboard.svg",
-            "TITLE": "管理和支持平台和系统",
-            "DESCRIPTION": "实施数字解决方案，促进公共管理、优化流程并加强机构响应能力"
+            "TITLE": "支持管理的平台和系统",
+            "DESCRIPTION": "我们实施数字解决方案，以促进公共管理，优化流程，并加强机构的响应能力"
           },
           {
             "IMG": "/icons/seguridad.svg",
             "TITLE": "绩效指标和度量",
-            "DESCRIPTION": "定义和监控指标，允许评估结果、衡量影响并确保政府管理的透明度"
+            "DESCRIPTION": "我们定义并监控指标，以评估结果、衡量影响并确保政府管理的透明度"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "数字政府和开放数据平台",
-            "DESCRIPTION": "设计和实施一个全面的数字政府平台，面向透明度和基于数据的决策。该项目整合开放数据门户、战略指标仪表板和公共政策跟踪系统，允许当局和公民访问可靠、更新和可操作的信息，以加强问责制和城市管理。",
-            "LOCATE": "大都市市政，墨西哥",
+            "TITLE": "数字政府与开放数据平台",
+            "DESCRIPTION": "设计和实施一个综合性的数字政府平台，旨在提高透明度和基于数据的决策。该项目整合了开放数据门户、战略指标仪表盘和公共政策跟踪系统，使当局和公民能够访问可靠、最新且可操作的信息，以加强问责制和城市管理。",
+            "LOCATE": "大都市区自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/a/img1.webp",
@@ -89,9 +215,9 @@
             ]
           },
           {
-            "TITLE": "公民参与和协作管理系统",
-            "DESCRIPTION": "实施一个公民参与的数字生态系统，允许识别城市问题、优先考虑项目并在政府和社会之间共同创建解决方案。该解决方案整合公共咨询模块、地理参考公民报告和参与分析，加强决策的合法性并促进更具包容性和可持续的城市治理。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "公民参与与协作管理系统",
+            "DESCRIPTION": "实施一个数字化的公民参与生态系统，能够识别城市问题、确定项目优先级并在政府与社会之间共同创造解决方案。该解决方案集成了公共咨询模块、地理参考公民报告和参与分析，增强了决策的合法性，并促进了更具包容性和可持续性的城市治理。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/b/img1.webp",
@@ -104,67 +230,67 @@
         "ICON": "/icons/areas/economia.svg",
         "TITLE": "<strong>智能</strong><br>经济",
         "TITLE_TEXT": "智能经济",
-        "SUBTITLE": "融资和商业模式。",
-        "DESCRIPTION": "<b>我们推动城市经济模式</b>，启用本地创新、数字价值链和智能城市项目的可持续融资。",
-        "AREA_TEXT_1": "我们致力于使城市经济成为：",
+        "SUBTITLE": "融资与商业模式。",
+        "DESCRIPTION": "<b>我们推动城市经济模式</b>，以实现本地创新、数字价值链和智能城市项目的可持续融资。",
+        "AREA_TEXT_1": "我们致力于使城市经济：",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "创新生态系统",
-            "DESCRIPTION": "促进中心、加速器和公私网络，以扩展基于数据和技术的城市解决方案。"
+            "DESCRIPTION": "促进中心、加速器和公私合作网络，以推广基于数据和技术的城市解决方案。"
           },
           {
             "IMG": "",
             "TITLE": "本地数字市场",
-            "DESCRIPTION": "推动平台和数字渠道，连接中小企业、本地商业和公共服务，以提高竞争力。"
+            "DESCRIPTION": "推动连接中小企业、本地商业和公共服务的数字平台和渠道，以提高其竞争力。"
           },
           {
             "IMG": "",
             "TITLE": "可持续金融",
-            "DESCRIPTION": "设计金融工具（绿色债券、与影响相关的贷款）以资助智能基础设施和服务。"
+            "DESCRIPTION": "设计金融工具（绿色债券、影响力挂钩贷款）为智能基础设施和服务提供资金。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "服务收入模式",
-            "DESCRIPTION": "过渡到 OpEx/服务化方案（基础设施即服务），以降低技术采用障碍。"
+            "TITLE": "基于服务的收入模式",
+            "DESCRIPTION": "向运营支出/服务化模式转型（基础设施即服务），以降低技术采用的门槛。"
           },
           {
             "IMG": "",
-            "TITLE": "循环经济和就业",
-            "DESCRIPTION": "通过智能基础设施的维修、回收和维护生成本地就业的项目。"
+            "TITLE": "循环经济与就业",
+            "DESCRIPTION": "通过智能基础设施的维修、回收和维护，创造本地就业机会的项目。"
           }
         ],
-        "AREA_TEXT_2": "从金融结构化到可持续运营。",
-        "TITLE_SERVICE": "金融和结构化服务",
+        "AREA_TEXT_2": "从财务结构到可持续运营。",
+        "TITLE_SERVICE": "金融与架构服务",
         "SERVICE": [
           {
             "IMG": "/icons/asociaciones.svg",
-            "TITLE": "城市金融工具结构化",
-            "DESCRIPTION": "设计 SPV、共同融资方案和公私伙伴关系，以实施具有清晰风险和现金流的智能项目。"
+            "TITLE": "城市金融工具架构",
+            "DESCRIPTION": "设计特殊目的载体、共同融资计划和公私合作伙伴关系，以实施风险清晰、现金流明确的智能项目。"
           },
           {
             "IMG": "/icons/energy.svg",
-            "TITLE": "节约和绩效合同模式",
-            "DESCRIPTION": "结构化项目，其中技术生成的节约资助初始投资（效率即服务）。"
+            "TITLE": "节约模型与绩效合同",
+            "DESCRIPTION": "构建由技术产生的节约为初始投资提供资金的项目（效率即服务）。"
           },
           {
             "IMG": "/icons/arrendamiento.svg",
-            "TITLE": "城市基础设施即服务 (IaaS)",
-            "DESCRIPTION": "租赁和订阅解决方案，用于 IoT 设备、充电站和传感器，减少市政初始投资。"
+            "TITLE": "城市基础设施即服务",
+            "DESCRIPTION": "为物联网设备、充电站和传感器提供租赁和订阅解决方案，减少市政当局的初始投资。"
           },
           {
             "IMG": "/icons/fondos.svg",
-            "TITLE": "访问多边基金和主题债券",
-            "DESCRIPTION": "管理访问国际融资（开发银行、气候基金），与 ESG 和 ODS 指标对齐。"
+            "TITLE": "获取多边基金和主题债券",
+            "DESCRIPTION": "管理与国际融资渠道（开发银行、气候基金）的对接，使其与 ESG 和可持续发展目标指标保持一致。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "本地城市创新基金",
-            "DESCRIPTION": "创建和管理一个市政基金，资助移动性、能源和公民参与试点项目，并具有影响和回报社会指标。",
-            "LOCATE": "大都市市政，墨西哥",
+            "TITLE": "地方城市创新基金",
+            "DESCRIPTION": "创建和管理一个市政基金，用于资助交通、能源和公民参与方面的试点项目，并附带影响指标和社会回报指标。",
+            "LOCATE": "大都市区自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/c/img1.webp",
@@ -172,9 +298,9 @@
             ]
           },
           {
-            "TITLE": "微支付和本地经济平台",
-            "DESCRIPTION": "部署一个平台，以启用本地数字商业、对可持续消费的激励和社交补贴的可追溯性。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "微支付与地方经济平台",
+            "DESCRIPTION": "部署一个平台，以实现本地数字商业、激励可持续消费和追踪社会补贴。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/d/img1.webp",
@@ -185,59 +311,59 @@
       },
       {
         "ICON": "/icons/areas/movilidadInfraestructura.svg",
-        "TITLE": "<strong>智能<br>移动性和基础设施</strong>",
-        "TITLE_TEXT": "智能移动性和基础设施",
-        "SUBTITLE": "连接的移动性和基础设施。",
-        "DESCRIPTION": "<b>我们管理交通系统</b>和关键基础设施，使用优化流量、减少排放并提高安全性和可访问性的技术。",
-        "AREA_TEXT_1": "我们致力于使移动性成为：",
+        "TITLE": "<strong>智能交通与<br>基础设施</strong>",
+        "TITLE_TEXT": "智能交通与基础设施",
+        "SUBTITLE": "互联互通的交通与基础设施。",
+        "DESCRIPTION": "<b>我们利用优化流量、减少排放、提高安全性和可达性的技术，</b>管理交通系统和关键基础设施。",
+        "AREA_TEXT_1": "我们致力于使交通：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "可访问和连接",
-            "DESCRIPTION": "多模式集成、实时信息和所有用户的通用可访问性。"
+            "TITLE": "可及且互联",
+            "DESCRIPTION": "多模式整合、实时信息和面向所有用户的普遍可及性。"
           },
           {
             "IMG": "",
-            "TITLE": "清洁和高效",
-            "DESCRIPTION": "促进非机动模式、电气化公共交通和可持续城市物流。"
+            "TITLE": "清洁高效",
+            "DESCRIPTION": "促进非机动化交通方式、电气化公共交通和可持续的城市物流。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "基于数据管理",
-            "DESCRIPTION": "控制和分析系统，以优化路线、减少拥堵并优先考虑公共交通。"
+            "TITLE": "基于数据的管理",
+            "DESCRIPTION": "控制和分析系统，用于优化路线、减少拥堵和优先考虑公共交通。"
           }
         ],
-        "AREA_TEXT_2": "连接基础设施的设计、部署和运营。",
-        "TITLE_SERVICE": "智能移动性解决方案",
+        "AREA_TEXT_2": "互联基础设施的设计、部署和运营。",
+        "TITLE_SERVICE": "智能交通解决方案",
         "SERVICE": [
           {
             "IMG": "/icons/semaforo.svg",
-            "TITLE": "自适应信号灯控制",
-            "DESCRIPTION": "实时调整阶段的系统，以改善公共交通优先级并减少旅行时间。"
+            "TITLE": "自适应交通信号控制",
+            "DESCRIPTION": "实时调整信号相位以改善公共交通优先级并减少行程时间的系统。"
           },
           {
             "IMG": "/icons/estacionamiento.svg",
             "TITLE": "智能停车管理",
-            "DESCRIPTION": "传感器和应用程序，用于引导驾驶员、减少停车搜索并优化公共空间使用。"
+            "DESCRIPTION": "通过传感器和应用程序引导驾驶员，减少寻找停车位的时间，优化公共空间的使用。"
           },
           {
             "IMG": "/icons/electromovilidad.svg",
-            "TITLE": "充电网络和电动车队管理",
-            "DESCRIPTION": "充电点规划和运营、需求管理和市政车队解决方案。"
+            "TITLE": "充电网络与电动车队管理",
+            "DESCRIPTION": "充电点的规划和运营、需求管理以及为市政车队提供的解决方案。"
           },
           {
             "IMG": "/icons/alumbrado.svg",
             "TITLE": "远程管理基础设施",
-            "DESCRIPTION": "照明和信号系统，减少消耗并促进预测性维护。"
+            "DESCRIPTION": "降低能耗并便于预测性维护的照明和信号系统。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "城市交通管理系统 (TMS)",
-            "DESCRIPTION": "实施一个管理中心，整合传感器、分析 CCTV 和预测模型，以优化移动性和事件响应。",
-            "LOCATE": "首都城市，墨西哥",
+            "TITLE": "城市交通管理平台 (TMS)",
+            "DESCRIPTION": "实施一个整合传感器、分析型闭路电视和预测模型的管理中心，以优化交通和事故响应。",
+            "LOCATE": "首都城市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/e/img1.webp",
@@ -245,9 +371,9 @@
             ]
           },
           {
-            "TITLE": "电动充电站和电动移动性试点网络",
-            "DESCRIPTION": "战略充电站的部署，与支付系统和公私车队管理的集成。",
-            "LOCATE": "大都市走廊，拉丁美洲",
+            "TITLE": "电动车充电站与电动交通试点网络",
+            "DESCRIPTION": "部署战略性充电站，与支付系统集成，并管理公共和私人车队。",
+            "LOCATE": "大都会走廊, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/f/img1.webp",
@@ -258,33 +384,33 @@
       },
       {
         "ICON": "/icons/areas/medioAmbienteInteligente.svg",
-        "TITLE": "<strong>智能</strong><br>环境",
+        "TITLE": "<strong>智能<br>环境</strong>",
         "TITLE_TEXT": "智能环境",
-        "SUBTITLE": "可持续性和 ESG 服务。",
-        "DESCRIPTION": "<b>我们设计和实施</b>城市环境系统：监测、能源效率、水管理以及废物处理，支持数据和治理。",
-        "AREA_TEXT_1": "我们致力于使环境管理成为：",
+        "SUBTITLE": "可持续性与 ESG 服务。",
+        "DESCRIPTION": "<b>我们设计并实施</b>城市环境系统：在数据和治理支持下进行监测、能效、水资源管理和废物处理。",
+        "AREA_TEXT_1": "我们致力于使环境管理：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "监测",
-            "DESCRIPTION": "空气质量、噪音、温度和水资源的传感器网络，用于实时决策。"
+            "TITLE": "受到监控",
+            "DESCRIPTION": "用于空气质量、噪音、温度和水资源的传感器网络，用于实时决策。"
           },
           {
             "IMG": "",
-            "TITLE": "能源高效",
-            "DESCRIPTION": "效率程序、远程管理和电气化，带有粒度消耗测量。"
+            "TITLE": "节能高效",
+            "DESCRIPTION": "效率计划、远程管理和电气化，并对消费进行精细化测量。"
           },
           {
             "IMG": "",
-            "TITLE": "规划和弹性",
-            "DESCRIPTION": "城市规划，纳入气候风险、绿色空间和气候变化适应。"
+            "TITLE": "有规划且有韧性",
+            "DESCRIPTION": "包含气候风险、绿地和对气候变化适应的城市规划。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "智能水管理",
-            "DESCRIPTION": "遥测、分区和泄漏检测，以确保高效供应并减少损失。"
+            "TITLE": "智能水资源管理",
+            "DESCRIPTION": "遥测、分区计量和泄漏检测，以确保高效供应并减少损失。"
           },
           {
             "IMG": "",
@@ -293,44 +419,44 @@
           },
           {
             "IMG": "",
-            "TITLE": "可持续性参与",
+            "TITLE": "参与可持续发展",
             "DESCRIPTION": "公民报告和教育平台，以促进可持续实践。"
           }
         ],
-        "AREA_TEXT_2": "我们以 ESG 重点和影响测量实施技术。",
-        "TITLE_SERVICE": "合规性和企业/政府可持续性",
+        "AREA_TEXT_2": "我们采用具有 ESG 重点和影响测量的技术。",
+        "TITLE_SERVICE": "法规遵从性与企业/政府可持续发展",
         "SERVICE": [
           {
             "IMG": "/icons/consultoria.svg",
-            "TITLE": "ESG 咨询和气候适应",
-            "DESCRIPTION": "评估、脱碳计划和绿色融资准备。"
+            "TITLE": "ESG 咨询与气候适应",
+            "DESCRIPTION": "评估、脱碳计划以及为获取绿色融资做准备。"
           },
           {
             "IMG": "/icons/gestion_hidrica.svg",
-            "TITLE": "智能水 (遥测和分区)",
-            "DESCRIPTION": "系统，用于监测水平、检测泄漏并优先考虑网络投资。"
+            "TITLE": "智能水管理（遥测与分区）",
+            "DESCRIPTION": "用于监控水位、检测泄漏和优先安排管网投资的系统。"
           },
           {
             "IMG": "/icons/co2.svg",
-            "TITLE": "排放清单和净零战略",
-            "DESCRIPTION": "测量、报告和温室气体减少规划，具有可审计指标。"
+            "TITLE": "排放清单与净零战略",
+            "DESCRIPTION": "温室气体减排的测量、报告和规划，附带可审计的指标。"
           },
           {
             "IMG": "/icons/calidad_aire.svg",
             "TITLE": "空气质量监测",
-            "DESCRIPTION": "传感器网络，具有警报和公共政策集成。"
+            "DESCRIPTION": "集成用于警报和公共政策的传感器网络。"
           },
           {
             "IMG": "/icons/residuos.svg",
             "TITLE": "废物服务优化",
-            "DESCRIPTION": "动态路线和基于数据的规划，以实现运营效率。"
+            "DESCRIPTION": "基于数据的动态路线和规划，以提高运营效率。"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "市政环境监测网络",
             "DESCRIPTION": "部署空气质量传感器、气象站和开放数据平台，用于环境管理和警报。",
-            "LOCATE": "大都市区，墨西哥",
+            "LOCATE": "大都会区, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/g/img1.webp",
@@ -339,9 +465,9 @@
             ]
           },
           {
-            "TITLE": "智能水程序",
-            "DESCRIPTION": "网络分区、井遥测和早期泄漏检测系统，以减少未计费水损失。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "智能水管理计划",
+            "DESCRIPTION": "管网分区、水井遥测和早期泄漏检测系统，以减少无收益水损失。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/h/img1.webp",
@@ -353,64 +479,64 @@
       },
       {
         "ICON": "/icons/areas/habitatyServicios.svg",
-        "TITLE": "<strong>智能</strong><br>栖息地和服务",
-        "TITLE_TEXT": "智能栖息地和服务",
-        "SUBTITLE": "安全和生活质量。",
-        "DESCRIPTION": "<b>我们促进网络和基础设施</b>，提升生活质量：连接健康、公共空间管理和以人为本的城市服务。",
-        "AREA_TEXT_1": "我们致力于使栖息地成为：",
+        "TITLE": "<strong>智能人居与<br>服务</strong>",
+        "TITLE_TEXT": "智能人居与服务",
+        "SUBTITLE": "安全与生活质量。",
+        "DESCRIPTION": "<b>我们促进提升生活质量的网络和基础设施</b>：互联的健康、公共空间管理，以及以人为本的城市服务。",
+        "AREA_TEXT_1": "我们致力于使人居：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "连接健康 (e-health)",
-            "DESCRIPTION": "远程医疗、远程监测和中心协调，以改善护理的可访问性。"
+            "TITLE": "互联健康 (e-health)",
+            "DESCRIPTION": "远程医疗、远程监控和中心间的协调，以提高医疗服务的可及性。"
           },
           {
             "IMG": "",
-            "TITLE": "数字文化和旅游",
-            "DESCRIPTION": "文化体验、智能路线和游客管理平台。"
+            "TITLE": "数字文化与旅游",
+            "DESCRIPTION": "用于文化体验、智能路线和游客管理的平台。"
           },
           {
             "IMG": "",
-            "TITLE": "公共空间高效管理",
-            "DESCRIPTION": "预测性维护、自动化灌溉和连接家具，以改善使用和安全。"
+            "TITLE": "高效的公共空间管理",
+            "DESCRIPTION": "预测性维护、自动灌溉和联网设施，以改善使用和安全性。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "安全和弹性",
-            "DESCRIPTION": "集成分析监控系统、早期警报和响应协调。"
+            "TITLE": "安全与韧性",
+            "DESCRIPTION": "集成的分析型监控系统、早期预警和响应协调。"
           },
           {
             "IMG": "",
-            "TITLE": "可访问性和包容性服务",
-            "DESCRIPTION": "亭子、应用程序和服务，适应弱势群体和老年人。"
+            "TITLE": "无障碍与包容性服务",
+            "DESCRIPTION": "为弱势群体和老年人调整的亭子、应用程序和服务。"
           }
         ],
-        "AREA_TEXT_2": "以城市体验和公平为中心的解决方案。",
-        "TITLE_SERVICE": "专注于日常福祉和安全的服务",
+        "AREA_TEXT_2": "关注城市体验和公平的解决方案。",
+        "TITLE_SERVICE": "关注日常福祉和安全服务",
         "SERVICE": [
           {
             "IMG": "/icons/centro_de_comando.svg",
-            "TITLE": "指挥和控制中心 (C2)",
-            "DESCRIPTION": "分析视频监控、城市传感器和事件管理的集成。"
+            "TITLE": "指挥控制中心 (C2)",
+            "DESCRIPTION": "集成分析型视频监控、城市传感器和事件管理。"
           },
           {
             "IMG": "/icons/parque_inteligente.svg",
             "TITLE": "智能公园和公共空间",
-            "DESCRIPTION": "自适应照明、自动化灌溉和连接家具，用于安全和高效使用。"
+            "DESCRIPTION": "自适应照明、自动灌溉和联网设施，确保安全和高效使用。"
           },
           {
             "IMG": "/icons/estructural.svg",
-            "TITLE": "基础设施监测和公民保护",
-            "DESCRIPTION": "结构传感器和警报系统，用于风险管理和维护。"
+            "TITLE": "基础设施监测与民防",
+            "DESCRIPTION": "用于风险管理和维护的结构传感器和警报系统。"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "市政远程医疗中心",
-            "DESCRIPTION": "实施连接到区域医院的健康亭，用于初级护理和慢性患者远程跟踪。",
-            "LOCATE": "试点市政，墨西哥",
+            "DESCRIPTION": "实施连接地区医院的健康亭，用于初级保健和慢性病患者的远程随访。",
+            "LOCATE": "试点自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/i/img1.webp",
@@ -418,9 +544,9 @@
             ]
           },
           {
-            "TITLE": "福祉智能公园",
-            "DESCRIPTION": "改造一个城市公园，具有自适应照明、高效灌溉、使用传感器和公民设备太阳能充电站。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "智能福祉公园",
+            "DESCRIPTION": "通过自适应照明、高效灌溉、使用传感器和为市民设备提供太阳能充电站，对城市公园进行改造。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/j/img1.webp"
@@ -430,69 +556,69 @@
       },
       {
         "ICON": "/icons/areas/sociedadInteligente.svg",
-        "TITLE": "<strong>智能</strong><br>社会",
+        "TITLE": "<strong>智能<br>社会</strong>",
         "TITLE_TEXT": "智能社会",
-        "SUBTITLE": "社会和数字包容。",
-        "DESCRIPTION": "我们通过平台和程序促进数字包容、教育和公民参与，将技术带给所有人。",
-        "AREA_TEXT_1": "我们致力于使社会成为：",
+        "SUBTITLE": "社会与数字包容。",
+        "DESCRIPTION": "我们通过平台和项目促进数字包容、教育和公民参与，使技术贴近所有人。",
+        "AREA_TEXT_1": "我们致力于使社会：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "包容性",
-            "DESCRIPTION": "弱势人群的数字访问和减少数字鸿沟的程序。"
+            "TITLE": "具有包容性",
+            "DESCRIPTION": "为弱势群体提供数字接入，并通过项目缩小数字鸿沟。"
           },
           {
             "IMG": "",
-            "TITLE": "能力",
-            "DESCRIPTION": "数字技能和 STEM 培训程序，用于本地就业。"
+            "TITLE": "经过培训",
+            "DESCRIPTION": "针对本地就业的数字技能和 STEM 培训计划。"
           },
           {
             "IMG": "",
-            "TITLE": "创造性和参与性",
-            "DESCRIPTION": "促进公共政策和项目共同创建的平台。"
+            "TITLE": "具有创造性和参与性",
+            "DESCRIPTION": "鼓励共同创造公共政策和项目的平台。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
             "TITLE": "社区网络",
-            "DESCRIPTION": "支持本地倡议和公民组织协调平台。"
+            "DESCRIPTION": "支持本地倡议和协调民间组织的平台。"
           },
           {
             "IMG": "",
-            "TITLE": "终身数字教育",
-            "DESCRIPTION": "连接教室和资源，用于远程学习和持续培训。"
+            "TITLE": "持续数字教育",
+            "DESCRIPTION": "用于远程学习和持续培训的网络化教室和资源。"
           }
         ],
-        "AREA_TEXT_2": "具有人性化和包容性重点的技术。",
-        "TITLE_SERVICE": "具有人性化和包容性重点的技术",
+        "AREA_TEXT_2": "以人为本、包容性强的技术。",
+        "TITLE_SERVICE": "以人为本、包容性强的技术",
         "SERVICE": [
           {
             "IMG": "/icons/wifi.svg",
             "TITLE": "社区连接部署",
-            "DESCRIPTION": "公共接入点、远程中心基础设施和低连接区域的网格网络。"
+            "DESCRIPTION": "在连接性较差的地区部署公共接入点、远程中心基础设施和网状网络。"
           },
           {
             "IMG": "/icons/accesibilidad.svg",
-            "TITLE": "可访问平台和服务",
-            "DESCRIPTION": "包容性界面设计和适应残疾人的服务渠道。"
+            "TITLE": "无障碍平台和服务",
+            "DESCRIPTION": "为残疾人设计包容性界面和适应性的服务渠道。"
           },
           {
             "IMG": "/icons/robotica.svg",
             "TITLE": "STEM 培训中心",
-            "DESCRIPTION": "实验室和机器人与编程程序，用于学生和本地创业。"
+            "DESCRIPTION": "为学生和本地创业者提供机器人技术和编程的实验室和计划。"
           },
           {
             "IMG": "/icons/telemedicina.svg",
             "TITLE": "社会远程服务",
-            "DESCRIPTION": "亭子和应用程序，用于远程区域的手续、基本健康和就业服务。"
+            "DESCRIPTION": "在偏远地区提供用于办理手续、基础健康和就业服务的亭子和应用程序。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "社区数字包容程序",
-            "DESCRIPTION": "市政管理的远程中心和 Wi-Fi 点网络，用于数字扫盲、在线手续和本地中小企业支持。",
-            "LOCATE": "北部地区，墨西哥",
+            "TITLE": "社区数字包容计划",
+            "DESCRIPTION": "由市政府管理的远程中心和 Wi-Fi 点网络，用于数字扫盲、在线手续办理和支持本地中小企业。",
+            "LOCATE": "北部地区, 墨西哥",
             "DATE": "2023",
             "IMG": [
               "/projects/k/img1.webp",
@@ -501,8 +627,8 @@
           },
           {
             "TITLE": "公民参与平台",
-            "DESCRIPTION": "用于公共咨询、参与式预算和承诺跟踪的数字工具，具有透明度仪表板。",
-            "LOCATE": "首都城市，墨西哥",
+            "DESCRIPTION": "用于公共咨询、参与式预算和承诺跟踪的数字工具，带有用于透明度的仪表盘。",
+            "LOCATE": "首都城市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/l/img1.webp",
@@ -514,174 +640,176 @@
     ]
   },
   "HERO": {
-    "TEXT_1": "GLACI 是一个城市创新联盟，整合人才、多部门合作和金融结构化，将城市愿景转化为可持续、可行且具有真实影响的项目。",
-    "TEXT_2_1": "智能城市",
-    "TEXT_2_2": "智能未来",
-    "TEXT_3": "我们协调政府、私营部门、学术界、投资者和多边组织，以结构化和实现可持续城市项目，具有人文视野和坚实的金融基础。",
-    "TEXT_4": "城市不仅仅通过想法、技术或资源进化。它们在适当的人才、有意识的合作和良好结构化的资本朝着同一方向前进时进化。",
+    "TEXT_1": "我们构建并执行以人为本的智能城市项目。",
+    "TEXT_1_1": "我们是一个战略联盟，整合城市愿景、财务结构和协调执行，以开发可行、有资金支持且可持续的项目。",
+    "TEXT_2_1": "Smart Cities",
+    "TEXT_2_2": "Smart Future",
     "CENTER_SUBTITLE": "实施",
-    "CENTER_TITLE": "智能城市",
-    "FOOTER_LEFT_LINE1": "实施",
-    "FOOTER_LEFT_LINE2": "规范指导",
-    "FOOTER_LEFT_BUTTON": "城市和社区",
+    "CENTER_TITLE": "Smart City",
+    "FOOTER_LEFT_LINE1": "指导",
+    "FOOTER_LEFT_LINE2": "规范实施",
+    "FOOTER_LEFT_BUTTON": "城市与社区",
     "FOOTER_RIGHT_TEXT": "关注我们",
     "BUTTON_STRATEGIC_CONVERSATION": "战略对话",
     "BUTTON_INFORMATION": "接收信息"
   },
   "NETWORKS": [
     {
-      "IMG": "/icons/networks/facebook.webp",
+      "IMG": "/icons/networks/facebook.svg",
       "TITLE": "FACEBOOK",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/twitter.webp",
+      "IMG": "/icons/networks/x.svg",
       "TITLE": "TWITTER",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/instagram.webp",
+      "IMG": "/icons/networks/instagram.svg",
       "TITLE": "INSTAGRAM",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/linkedin.webp",
+      "IMG": "/icons/networks/linkedin.svg",
       "TITLE": "LINKEDIN",
       "HREF": ""
     }
   ],
   "ABOUT": {
-    "LABEL": "智能城市。",
-    "TITLE1": "互动和可持续城市转型",
-    "TEXT1": "一个整体系统，其中人类和社会资本互动，使用基于 ICT 的解决方案。",
-    "TITLE2": "智能城市的目标是实现高效管理",
-    "TEXT2": "满足城市及其公民的需求。",
-    "TITLE3": "智能城市管理咨询和顾问",
-    "TEXT3": "具有道德、可持续和创新重点的国家和国际服务。"
+    "LABEL": "Smart City.",
+    "TITLE1": "互动与可持续城市转型",
+    "TEXT1": "一个整体系统，其中人力和社会资本相互作用，采用基于 ICT 的解决方案。",
+    "TITLE2": "智慧城市的目标是实现高效管理",
+    "TEXT2": "满足城市及其市民的需求。",
+    "TITLE3": "智慧城市管理咨询与顾问服务",
+    "TEXT3": "国内和国际服务，具有道德、可持续和创新的方法。"
   },
   "CONTACT_FORM": {
-    "HEADING": "如果您对该主题有疑问或评论，请联系我们，或<span class=\"text-[var(--color-title)]\">注册</span>以接收有关智能城市的更多信息。",
+    "HEADING": "如果您对此主题有疑问或意见，请联系我们，或 <span class=\"text-[var(--color-title)]\">注册</span> 以接收有关智慧城市的更多信息。",
     "NAME_PLACEHOLDER": "姓名",
-    "EMAIL_PLACEHOLDER": "邮件",
-    "MESSAGE_PLACEHOLDER": "消息",
+    "EMAIL_PLACEHOLDER": "邮箱",
+    "MESSAGE_PLACEHOLDER": "留言",
     "SUBMIT_BUTTON": "发送"
   },
   "INFORMATION": {
     "MISSION_TITLE": "使命",
-    "MISSION_TEXT": "为城市和社区的技术和可持续发展构想智能解决方案，始终寻求人们的包容性和可访问性。",
+    "MISSION_TEXT": "为城市和社区的技术和可持续发展设计智能解决方案，始终追求人民的包容性和可及性。",
     "VISION_TITLE": "愿景",
-    "VISION_TEXT": "在全球范围内开发和创建城市和人类定居项目，促进包容性并确保可访问性、安全、资源优化、可负担性和可持续性，以实现繁荣和生活质量。",
+    "VISION_TEXT": "在全球范围内开发和创建城市及人类住区项目，促进包容性并保证可及性、安全、资源优化、可负担性和可持续性，以实现繁荣和生活质量。",
     "VALUES_TITLE": "价值观",
     "VALUES_LIST": [
       "卓越",
       "责任",
-      "激情",
+      "热情",
       "领导力",
       "道德",
       "创新",
-      "专业性"
+      "专业精神"
     ]
   },
   "CERTIFICATIONS": [
     {
       "NAV_TITLE": "ISO 认证",
-      "TITLE": "智能城市 – 智能社区",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI 智能城市，智能未来 </b> 陪伴基于 ISO 规范的解决方案管理和实施过程。<br/> <br/> 这些允许通过过程标准化以及定性和定量分析客观评估可持续城市和社区的发展。",
-      "DESCRIPTION_RIGHT": "国际标准化组织，通过其可持续城市和社区技术委员会 268，已在该应用领域开发了以下标准。"
+      "TITLE": "Smart City – Smart Communities",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> 伴随基于 ISO 标准的解决方案的管理和实施过程。<br/> <br/> 这些标准通过流程标准化以及定性和定量分析，能够客观地评估可持续城市和社区的发展。",
+      "DESCRIPTION_RIGHT": "国际标准化组织通过其可持续城市和社区技术委员会 268 制定了该应用领域的以下标准。"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
-      "TITLE": "社区可持续发展 - 可持续发展管理系统",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>其主要目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>构建可持续发展共识</li><li>改善所有行动的可持续性、智能性和弹性</li><li>开发跨部门、多学科、生命周期价值和总成本方法。</li><li>促进协同作用</li><li>增加社区的效率和吸引力</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>适用于所有规模、结构和类型的社区</li><li>适用于发达国家和发展中国家</li><li>适用于地方、区域或国家层面</li><li>适用于城市或农村地区</li></ul>"
+      "TITLE": "社区可持续发展 - 可持续发展管理体系",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>其主要目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>建立可持续发展的共识</li><li>提高其所有行动的可持续性、智能性和韧性</li><li>发展跨部门、多学科、生命周期价值和总成本核算的方法。</li><li>促进协同效应</li><li>提高社区的效率和吸引力</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>适用于所有规模、结构和类型的社区</li><li>适用于发达国家和发展中国家</li><li>适用于地方、区域或国家层面</li><li>适用于城市或农村地区</li></ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
       "TITLE": "社区可持续发展 – 城市服务和生活质量指标",
-      "DESCRIPTION_LEFT": "该标准补充了社区绩效测量指标系列；包括智能城市和弹性城市的城市服务和生活质量。<br/> <br/> 这些指标允许评估并基于可能的未来需求进行规划，并确立主要目标：<br/> <br/> <ul class='list-disc list-outside pl-5'><li>随时间测量服务绩效管理和质量</li><li>通过比较学习绩效措施的可能性</li><li>政策发展和优先级确立</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>可聚合到非常大的行政区域的指标</li> <li>适用于城市资源效率评估</li> <li>与其他指标结合允许更全面和整体的方法进行可持续性分析</li> </ul>"
+      "DESCRIPTION_LEFT": "该标准补充了衡量社区绩效的系列指标；包括智慧城市和韧性城市中的城市服务和生活质量。<br/> <br/> 这些指标允许根据未来可能的需求进行评估和规划，并设定主要目标：<br/> <br/> <ul class='list-disc list-outside pl-5'><li>衡量随时间推移的服务绩效管理和质量</li><li>进行比较以了解绩效衡量标准的可能性</li><li>制定政策和确定优先事项</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>可聚合到非常大的行政区域的指标</li> <li>适用于评估城市资源效率</li> <li>与其他指标一起，可以对可持续性分析采取更全面和整体的方法</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
-      "TITLE": "可持续城市和社区 - 智能城市指标",
-      "DESCRIPTION_LEFT": "为城市的可持续性提供参考点，这些城市需要额外的指标来评估城市服务和生活质量。除了应用 ISO 37120 规范外，它帮助城市实施智能城市政策、程序和项目。<br/> <br/> <b class='text-[var(--color-title)]'>范围：</b> <br/> <br/> 与 ISO 37120 规范结合，提供一套完整的指标来测量向智能城市的进展。",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>其目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>应用协作领导方法</li> <li>使用数据信息和技术来改善服务和生活质量</li> <li>从智能政策和向公民提供技术开始，提供更好的生活环境</li> <li>为环境和可持续性问题生成创新解决方案</li> <li>识别智能基础设施的需求和益处</li> <li>促进创新和增长</li> <li>构建动态和创新经济，实现弹性</li> </ul>"
+      "TITLE": "可持续城市和社区 - 智慧城市指标",
+      "DESCRIPTION_LEFT": "它为城市的可持续性提供了一个基准点，这些城市需要除已建立的指标之外的额外指标来评估城市服务和生活质量。结合 ISO 37120 标准的应用，它帮助城市实施智慧城市的政策、计划和项目。<br/> <br/> <b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> 与 ISO 37120 标准一起，旨在提供一套完整的指标来衡量向智慧城市迈进的过程。",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>其目标是：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>应用协作领导方法</li> <li>利用数据信息和技术改善服务和生活质量</li> <li>通过智能政策和向公民提供技术，提供更好的生活环境</li> <li>为环境和可持续性问题生成创新解决方案</li> <li>确定智能基础设施的需求和益处</li> <li>促进创新和增长</li> <li>建立具有韧性的动态和创新经济</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
-      "TITLE": "可持续城市和社区 – 弹性城市指标",
-      "DESCRIPTION_LEFT": "弹性城市能够准备、恢复和适应冲击和压力。该标准与 ISO 37120 中提出的指标结合，允许评估弹性城市，并采取行动来管理和缓解与环境退化和经济不稳定相关的自然和人类压力，这些压力造成持久的负面影响。<br/> <br/> 它呈现具体指标，并根据风险管理和灾害管理过程结构化指标；符合可持续发展目标的履行跟踪，并按照仙台减灾框架的规定结构化，这些指标的目标是帮助城市：",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>准备、恢复和适应冲击和压力</li> <li>基于绩效措施比较和分享最佳实践生成学习。</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于城市弹性测量</li> <li>适用于任何城市、市政或地方政府</li> <li>无论其规模或位置均适用</li> </ul>"
+      "TITLE": "可持续城市和社区 – 韧性城市指标",
+      "DESCRIPTION_LEFT": "韧性城市能够为冲击和压力做好准备、恢复和适应。该标准与 ISO 37120 标准中提出的指标一起，允许评估韧性城市，并采取措施管理和减轻与导致持续负面环境影响的环境退化和经济不稳定相关的人类和自然压力。<br/> <br/> 它提出了具体指标，也提出了根据风险管理和灾害管理过程构建的指标；跟踪可持续发展目标的遵守情况，并根据仙台减少灾害风险框架的规定构建，这些目标旨在帮助城市：",
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>为冲击和压力做好准备、恢复和适应</li> <li>基于绩效衡量比较和分享良好实践来产生学习。</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>适用范围：</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>适用于衡量城市的韧性</li> <li>适用于任何城市、自治市或地方政府</li> <li>无论其规模或位置如何均适用</li> </ul>"
     }
   ],
   "REGISTER_INFORMATION": {
-    "TITLE": "需要<br/>信息吗？",
+    "TITLE": "您需要<br/>信息吗？",
     "SUBTITLE": "在 GLACI <br/> 我们随时为您服务。",
-    "TEXT": "如果您对该主题感兴趣，或有任何疑问或建议，我们邀请您填写注册表格，提供真实数据，以便我们正确沟通并为您提供所需的工具和信息。",
-    "WARNING": "* 请放心，您的数据将被安全处理。",
+    "TEXT": "如果您想了解更多相关信息，或者有任何疑问或建议，我们邀请您填写真实数据的注册表格，以便我们能够正确沟通，并为您提供所需的工具和信息。",
+    "WARNING": "* 请放心，您的数据将得到安全处理。",
     "FORM": {
-      "TITLE": "注册以请求您感兴趣的主题信息。",
-      "SUBTITLE": "您的注册有助于我们发送您请求的必要数据。",
+      "TITLE": "注册以索取您感兴趣主题的信息。",
+      "SUBTITLE": "您的注册有助于我们向您发送您所需的数据。",
       "NAME_PLACEHOLDER": "姓名",
       "POSITION_PLACEHOLDER": "职位",
       "COMPANY_PLACEHOLDER": "公司",
-      "EMAIL_PLACEHOLDER": "电子邮件",
+      "EMAIL_PLACEHOLDER": "电子邮箱",
       "INTEREST_LABEL": "感兴趣的主题",
       "INTEREST_PLACEHOLDER": [
         "选择一个选项",
         "智能经济",
         "智能治理",
-        "智能移动性和基础设施",
+        "智能交通与基础设施",
         "智能环境",
-        "智能栖息地和服务"
+        "智能人居与服务"
       ],
-      "MESSAGE_PLACEHOLDER": "消息",
+      "MESSAGE_PLACEHOLDER": "留言",
       "SUBMIT_BUTTON": "发送"
     }
   },
   "GLACI": {
     "GLACI": "GLACI",
-    "TITLE": "什么是",
-    "TEXT_1": "GLACI 是一个跨学科人才联盟，推动城市和区域项目，整合创新、知识、治理和金融结构化。",
-    "TEXT_2": "我们在复杂性需要集体智能、机构敏感性和长期可行性的地方工作。",
+    "TITLE": "关于我们",
+    "DESCRIPTION": "GLACI 是一个<b>专注于智能城市与区域项目构建和执行的战略联盟</b>。",
+    "TEXT_1": "我们不是流程中的又一个环节。我们是那个将愿景、技术能力和融资统一在同一战略架构下的框架。",
+    "TEXT_2": "我们在统一领导下整合高水平的战略人才，将复杂的城市问题转化为结构化、可融资、可执行的项目。",
     "TITLE_2": "我们的方法论",
     "CARDS": [
       {
-        "TITLE": "深入理解",
-        "TEXT": "我们倾听领土、其参与者和真实背景。"
+        "TITLE": "深度理解",
+        "TEXT": "我们倾听区域、其参与者和真实环境。"
       },
       {
-        "TITLE": "共同创建和结构化",
-        "TEXT": "我们协调部门并设计坚实的技术和金融结构。"
+        "TITLE": "共同创造与构建",
+        "TEXT": "我们协调各方，设计坚实的技术和财务结构。"
       },
       {
         "TITLE": "负责任的实现",
-        "TEXT": "我们陪伴执行，带有治理、指标和连续性。"
+        "TEXT": "我们以治理、指标和连续性来伴随执行过程。"
       }
     ]
   },
   "WORK": {
-    "TITLE": "我们与以下机构合作",
+    "TITLE": "我们合作的对象",
     "TEXT": [
-      "具有长期愿景和遗产感的政府。",
-      "致力于可持续发展的企业。",
-      "提供严谨和应用创新的学术和知识中心。",
-      "优先考虑影响、透明度和可行性的投资者和多边组织。"
+      "国家和地方政府",
+      "区域发展机构",
+      "多边组织",
+      "投资和基础设施基金",
+      "有远见的房地产开发商"
     ],
-    "TITLE_2": "凭证",
-    "TEXT_2": "我们的方法与可持续和智能城市的国际标准和最佳实践对齐，优先考虑治理、指标、透明度和连续性。"
+    "SUB_TEXT": "我们作为整体项目的结构合作伙伴和协调者。",
+    "TITLE_2": "资质",
+    "TEXT_2": "我们的方法与可持续和智慧城市的国际标准和最佳实践保持一致，优先考虑治理、指标、透明度和连续性。"
   },
   "CONSORTIUM": {
     "TITLE": "联盟",
-    "TEXT": "GLACI 是一个由专业人士、组织和战略盟友组成的联盟，在城市发展、基础设施、可持续性、金融和知识方面具有真实经验。",
-    "TEXT_2": "我们相信城市重大挑战不能从单一部门解决。",
-    "TEXT_3": "它们通过有意识的合作解决。"
+    "TEXT": "GLACI 是一个由专业人士、组织和战略合作伙伴组成的联盟，他们在城市发展、基础设施、可持续性、金融和知识方面拥有实际经验。",
+    "TEXT_2": "我们相信，巨大的城市挑战不能仅从一个部门解决。",
+    "TEXT_3": "它们通过有意识的合作来解决。"
   },
   "GOVERNANCE": {
     "TITLE_1": "治理",
-    "SUBTITLE": "持久的变革从明确的决策、可信的机构和共享数据开始。",
-    "TEXT_1": "GLACI 协调参与者和结构化项目，以可持续方式加强城市治理。",
-    "TITLE_2": "重点",
+    "SUBTITLE": "持久的变革始于清晰的决策、可信赖的机构和共享的数据。",
+    "TEXT_1": "GLACI 协调各方参与者并构建项目，以可持续的方式加强城市治理。",
+    "TITLE_2": "方法",
     "TEXT_2_1": "我们致力于使治理：",
     "CARDS": [
       {
@@ -689,37 +817,37 @@
         "ICON": "/icons/governance/transparenet.svg"
       },
       {
-        "TITLE": "参与性",
+        "TITLE": "具有参与性",
         "ICON": "/icons/governance/participativa.svg"
       },
       {
-        "TITLE": "在时间上可行",
+        "TITLE": "长期可行",
         "ICON": "/icons/governance/participativa.svg"
       }
     ],
     "TEXT_2_2": "从战略到实施。",
-    "TITLE_3": "我们启用什么",
+    "TITLE_3": "我们促成什么",
     "ITEMS": [
-      "机构和多部门协调",
-      "治理模型和决策",
-      "管理和支持平台和系统",
+      "机构与跨部门协调",
+      "治理与决策模型",
+      "支持管理的平台和系统",
       "绩效指标和度量"
     ],
     "TITLE_4": "经验 / 案例",
-    "TEXT_4_1": "我们陪伴城市和区域项目，其中治理是确保连续性、信任和可测量结果的关键。"
+    "TEXT_4_1": "我们陪伴了城市和区域项目，其中治理是确保持续性、信任和可衡量结果的关键。"
   },
   "TEAM": {
     "TITLE": "人才",
-    "SUBTITLE": "每个项目背后都有人。",
-    "TEXT": "GLACI 聚集具有以下特点的人才：",
+    "SUBTITLE": "每个项目的背后都是人。",
+    "TEXT": "GLACI 汇聚了具有以下特质的人才：",
     "CARDS": [
       {
         "ICON": "/icons/talento/visionSistematica.svg",
-        "TEXT": "系统视野"
+        "TEXT": "系统思维"
       },
       {
         "ICON": "/icons/talento/experienciaTecnica.svg",
-        "TEXT": "技术和区域经验"
+        "TEXT": "技术和地域经验"
       },
       {
         "ICON": "/icons/talento/inteligenciaEmocional.svg",
@@ -727,279 +855,279 @@
       },
       {
         "ICON": "/icons/talento/impactoLargoPlazo.svg",
-        "TEXT": "对长期影响的承诺"
+        "TEXT": "致力于长期影响"
       }
     ],
-    "TEXT_2": "我们的团队结合知识、判断和责任。",
+    "TEXT_2": "我们的团队结合了知识、判断力和责任感。",
     "BACK_BUTTON": "返回团队",
     "TEAM": [
       {
         "NAME": "Osvaldo Mireles",
         "POSITION": "联合创始人",
-        "SEMBLANCE": "技术与可持续发展专家，专注于智慧城市、BIM、区块链、人工智能及新城市议程。",
+        "SEMBLANCE": "技术与可持续发展专家，专注于智慧城市、BIM、区块链、人工智能和新城市议程。",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Hugo Isaak",
         "POSITION": "联合创始人",
-        "SEMBLANCE": "智慧城市专家，拥有超过17年公共管理经验，专长于智慧城市、可持续人居与人工智能。",
+        "SEMBLANCE": "智慧城市专家，在公共管理领域拥有超过 17 年经验，专注于智慧城市、可持续人居和人工智能。",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "mailto:contacto@neurabitat.com",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/hugo-isaak/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Ignasi Pérez Arnal",
         "POSITION": "联合创始人",
-        "SEMBLANCE": "欧洲BIM先驱，BIM Academy Spain共同创始人，EUROPEAN BIM SUMMIT创建者。The Rebuild活动总监——西班牙领先的建筑与先进建筑活动。同时在知名机构负责BIM与数字化转型培训，推动可持续与城市规划领域的创新项目。",
+        "SEMBLANCE": "欧洲 BIM 先驱，BIM Academy Spain 联合创始人，EUROPEAN BIM SUMMIT 创始人。他是西班牙领先的建筑和先进建筑活动 The Rebuild 的总监。此外，他还在知名机构领导 BIM 和数字化转型培训，推动可持续性和城市规划方面的创新项目。",
         "IMG": "/team/ignasi.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Jorge Moreno Vargas",
         "POSITION": "联合创始人",
-        "SEMBLANCE": "颠覆性技术专家，MIT认证。13年领导智慧城市、物联网和可持续项目的创新经验。",
+        "SEMBLANCE": "颠覆性技术专家，MIT 认证。13 年领导智慧城市、物联网和可持续项目创新经验。",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Héctor Miranda Martínez",
-        "POSITION": "道路施工专家",
-        "SEMBLANCE": "道路施工专家，在公共和工业部门的基础设施项目规划、实施和质量控制方面拥有丰富经验。",
+        "POSITION": "陆路交通建设专家",
+        "SEMBLANCE": "陆路交通建设专家，在公共和工业部门的基础设施项目规划、执行和质量控制方面拥有丰富经验。",
         "IMG": "/team/hector.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/h%C3%A9ctor-mart%C3%ADnez-miranda-b94577147",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Tania Sánchez",
-        "POSITION": "建筑与可持续城市主义主管",
-        "SEMBLANCE": "高级建筑师与城市规划师，具有国内外经验。专长于可持续城市设计与规划。",
+        "POSITION": "可持续建筑与城市规划总监",
+        "SEMBLANCE": "高级建筑师和城市规划师，拥有国内和国际经验。专注于可持续城市设计和规划。",
         "IMG": "/team/tania.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/tania-sanchez-167305128",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Guillermo Sánchez",
-        "POSITION": "首席城市规划师",
-        "SEMBLANCE": "城市与区域规划博士，拥有20年以上国际经验，致力于城市、都市与区域发展战略的制定以及城市与地域过程的研究。擅长城市战略规划。",
+        "POSITION": "首席城市设计师",
+        "SEMBLANCE": "城市与区域规划建筑学博士，拥有超过 20 年的国际经验，制定城市、大都市和区域发展战略，并研究城市和区域过程。城市战略规划专家。",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "首席项目官 (CPO)",
-        "SEMBLANCE": "建筑师与项目管理者。建筑领域的重要人物，曾因其职业生涯登上ABC、El Mundo与El País封面。",
+        "SEMBLANCE": "建筑师和项目经理。建筑领域的标杆，因其职业生涯登上过 ABC、El Mundo 和 El País 的封面。",
         "IMG": "/team/angel.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Yuka Nakasone",
         "POSITION": "国际商务顾问",
-        "SEMBLANCE": "拥有30余年国际商务经验，擅长帮助组织在数字化和全球化时代适应与发展。来自日本，常驻巴塞罗那，在创新与技术方面具有深厚见解。",
+        "SEMBLANCE": "拥有超过 30 年的国际商务经验，以帮助组织适应并在数字和全球时代蓬勃发展而著称。出生于日本，常驻巴塞罗那，以其在创新和技术方面的深厚知识而著称。",
         "IMG": "/team/yuka.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "mailto:info@globalbridge.es",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/yukanakasone/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Amaia Celaya Alvarez",
         "POSITION": "城市韧性顾问",
-        "SEMBLANCE": "城市韧性顾问，擅长设计韧性城市与城市风险管理。",
+        "SEMBLANCE": "城市韧性顾问，韧性城市设计和城市风险管理专家。",
         "IMG": "/team/amaia.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/amaia-celaya-alvarez/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Ernesto Valdés",
         "POSITION": "智慧城市专家",
-        "SEMBLANCE": "在哥斯达黎加和墨西哥受训的心理学家，并拥有人工智能与数字化转型相关文凭。智慧且可持续城市的创新者，Neurabitat联合创始人。",
+        "SEMBLANCE": "心理学家，在哥斯达黎加和墨西哥接受教育，拥有人工智能和数字化转型文凭。智能和可持续城市的创新者，Neurabitat 的联合创始人。",
         "IMG": "/team/ernesto.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ernesto-vald%C3%A9s-arreguin/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Montserrat Armengol Aragonès",
         "POSITION": "项目经理",
-        "SEMBLANCE": "Coloma+Armengol的创始合伙人兼经理，该公司为建筑行业的技术创新流程提供咨询与培训。BIM Management硕士项目协调员。",
+        "SEMBLANCE": "Coloma+Armengol 的创始合伙人兼经理，这是一家专门从事建筑行业技术创新过程咨询和培训的公司。BIM 管理硕士协调员。",
         "IMG": "/team/montserrat.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/montserratarmengolaragones/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Eloi Coloma",
-        "POSITION": "BIM与数字化转型专家",
-        "SEMBLANCE": "建筑师，博士，专长于BIM与数字化转型。是加泰罗尼亚理工大学（UPC）的教师和研究人员。",
+        "POSITION": "BIM 与数字化转型专家",
+        "SEMBLANCE": "建筑学博士，专注于 BIM 和数字化转型。加泰罗尼亚理工大学 (UPC) 教授和研究员。",
         "IMG": "/team/eloi.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/eloi-coloma/?originalSubdomain=es",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Gerardo Velasco Gutierrez",
         "POSITION": "MEM 总经理兼 XPLORADN 联合创始人",
-        "RESUMBLANCE": "他领导了超过 165 个投资项目，并在区域规划和发展中担任战略角色，参与了标志性举措，如世界银行创新贷款和国家渔业计划。XPLORADN 创始人，可持续金融策略和创新发展专家。",
+        "SEMBLANCE": "领导了超过 165 个投资项目和在区域规划与发展中的战略角色，为世界银行创新贷款和国家渔业计划等标志性倡议做出了贡献。XPLORADN 创始人，可持续金融战略和创新发展专家。",
         "IMG": "/team/gerardo.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/gerardo-velasco-gutierrez-48950a177/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       },
       {
         "NAME": "Francisco Flores",
         "POSITION": "城市实验室主任",
-        "RESUMBLANCE": "新兴未来设计师、顾问和城市实验室、公民科学以及基层创新过程专家。Fab City León 倡议的推动者，该倡议属于全球可持续城市运动，促进城市工业范式的转变。",
+        "SEMBLANCE": "新兴未来设计师、顾问和城市实验室、公民科学和基层创新过程专家。Fab City León 倡议的推动者，该倡议属于全球可持续城市运动，并促进城市工业范式的转变。",
         "IMG": "/team/franciscoF.png",
         "NETWORKS": [
           {
             "ICON": "/icons/networks/mail.svg",
             "HREF": "",
-            "TITLE": "电子邮件"
+            "TITLE": "电子邮箱"
           },
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/francisco-flores-a0846323/",
-            "TITLE": "LinkedIn"
+            "TITLE": "领英"
           }
         ]
       }
@@ -1007,14 +1135,14 @@
   },
   "AREAS_2": {
     "TITLE": "影响领域",
-    "TITLE_1": "重点",
-    "TITLE_2": "我们启用什么",
+    "TITLE_1": "方法",
+    "TITLE_2": "我们促成什么",
     "TITLE_3": "经验 / 案例",
-    "SUBTITLE": "城市发展不是孤立的。它发生在系统连接时。",
-    "TEXT": "我们在城市和区域发展的关键领域工作：",
-    "TEXT_2": "不是作为独立的解决方案，而是作为集成的生态系统。",
-    "BUTTON": "请求更多信息",
-    "SUCCESS_STORIES_LOCATE": "位置",
+    "SUBTITLE": "城市发展并非由孤立的部分发生。它发生在系统连接之时。",
+    "TEXT": "我们在城市和区域发展的关键领域开展工作：",
+    "TEXT_2": "不是作为独立的解决方案，而是作为综合的生态系统。",
+    "BUTTON": "索取更多信息",
+    "SUCCESS_STORIES_LOCATE": "地点",
     "SUCCESS_STORIES_YEAR": "年份",
     "SUCCESS_STORIES_BUTTON": "查看相关项目",
     "SMART_ECOSYSTEM_ITEMS": [
@@ -1022,62 +1150,62 @@
         "HOVER": [
           "政府与管理平台",
           "数字化转型",
-          "决策支持数据",
-          "定制化技术架构"
+          "决策数据",
+          "定制技术架构"
         ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>智能</strong><br>治理",
         "TITLE_TEXT": "智能治理",
-        "SUBTITLE": "数字政府和透明度。",
-        "DESCRIPTION": "持久的变革从明确的决策、可信的机构和共享数据开始。<br>GLACI 协调参与者和结构化项目，以可持续方式加强城市治理。",
+        "SUBTITLE": "数字政府与透明度。",
+        "DESCRIPTION": "持久的变革始于清晰的决策、可信赖的机构和共享的数据。<br>GLACI 协调各方参与者并构建项目，以可持续的方式加强城市治理。",
         "AREA_TEXT_1": "我们致力于使治理：",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "透明",
-            "DESCRIPTION": "通过数字工具确保公开和可靠地访问公共信息，以加强问责制"
+            "DESCRIPTION": "通过加强问责制的数字工具，确保公开、可靠地获取公共信息"
           },
           {
             "IMG": "",
-            "TITLE": "在时间上可行",
-            "DESCRIPTION": "设计公民参与计划，确保项目和公共政策的连续性超出行政周期"
+            "TITLE": "长期可行",
+            "DESCRIPTION": "设计公民参与计划，确保项目和公共政策超越行政周期的连续性"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "参与性",
-            "DESCRIPTION": "推动信息和通信技术，让公民识别问题并基于本地现实构建解决方案"
+            "TITLE": "具有参与性",
+            "DESCRIPTION": "推动信息和通信技术，使公民能够识别问题并根据当地实际情况构建解决方案"
           }
         ],
         "AREA_TEXT_2": "从战略到实施。",
         "SERVICE": [
           {
             "IMG": "/icons/portal.svg",
-            "TITLE": "机构和多部门协调",
-            "DESCRIPTION": "创建机构、部门和关键参与者之间的协调空间，以确保发展政策、项目和战略的一致性"
+            "TITLE": "机构与跨部门协调",
+            "DESCRIPTION": "我们在机构、部门和关键参与者之间建立协调空间，以确保政策、项目和发展战略的一致性"
           },
           {
             "IMG": "/icons/plataformas_de_participacion.svg",
-            "TITLE": "治理模型和决策",
-            "DESCRIPTION": "设计治理框架，整合公民参与、技术证据和战略愿景，以实现更合法和可持续的决策"
+            "TITLE": "治理与决策模型",
+            "DESCRIPTION": "我们设计的治理框架融合了公民参与、技术证据和战略愿景，以实现更合法和可持续的决策"
           },
           {
             "IMG": "/icons/dashboard.svg",
-            "TITLE": "管理和支持平台和系统",
-            "DESCRIPTION": "实施数字解决方案，促进公共管理、优化流程并加强机构响应能力"
+            "TITLE": "支持管理的平台和系统",
+            "DESCRIPTION": "我们实施数字解决方案，以促进公共管理，优化流程，并加强机构的响应能力"
           },
           {
             "IMG": "/icons/seguridad.svg",
             "TITLE": "绩效指标和度量",
-            "DESCRIPTION": "定义和监控指标，允许评估结果、衡量影响并确保政府管理的透明度"
+            "DESCRIPTION": "我们定义并监控指标，以评估结果、衡量影响并确保政府管理的透明度"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "数字政府和开放数据平台",
-            "DESCRIPTION": "设计和实施一个全面的数字政府平台，面向透明度和基于数据的决策。该项目整合开放数据门户、战略指标仪表板和公共政策跟踪系统，允许当局和公民访问可靠、更新和可操作的信息，以加强问责制和城市管理。",
-            "LOCATE": "大都市市政，墨西哥",
+            "TITLE": "数字政府与开放数据平台",
+            "DESCRIPTION": "设计和实施一个综合性的数字政府平台，旨在提高透明度和基于数据的决策。该项目整合了开放数据门户、战略指标仪表盘和公共政策跟踪系统，使当局和公民能够访问可靠、最新且可操作的信息，以加强问责制和城市管理。",
+            "LOCATE": "大都市区自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/a/img1.webp",
@@ -1086,9 +1214,9 @@
             ]
           },
           {
-            "TITLE": "公民参与和协作管理系统",
-            "DESCRIPTION": "实施一个公民参与的数字生态系统，允许识别城市问题、优先考虑项目并在政府和社会之间共同创建解决方案。该解决方案整合公共咨询模块、地理参考公民报告和参与分析，加强决策的合法性并促进更具包容性和可持续的城市治理。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "公民参与与协作管理系统",
+            "DESCRIPTION": "实施一个数字化的公民参与生态系统，能够识别城市问题、确定项目优先级并在政府与社会之间共同创造解决方案。该解决方案集成了公共咨询模块、地理参考公民报告和参与分析，增强了决策的合法性，并促进了更具包容性和可持续性的城市治理。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/b/img1.webp",
@@ -1101,67 +1229,67 @@
         "ICON": "/icons/areas/economia.svg",
         "TITLE": "<strong>智能</strong><br>经济",
         "TITLE_TEXT": "智能经济",
-        "SUBTITLE": "融资和商业模式。",
-        "DESCRIPTION": "<b>我们推动城市经济模式</b>，启用本地创新、数字价值链和智能城市项目的可持续融资。",
-        "AREA_TEXT_1": "我们致力于使城市经济成为：",
+        "SUBTITLE": "融资与商业模式。",
+        "DESCRIPTION": "<b>我们推动城市经济模式</b>，以实现本地创新、数字价值链和智能城市项目的可持续融资。",
+        "AREA_TEXT_1": "我们致力于使城市经济：",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "创新生态系统",
-            "DESCRIPTION": "促进中心、加速器和公私网络，以扩展基于数据和技术的城市解决方案。"
+            "DESCRIPTION": "促进中心、加速器和公私合作网络，以推广基于数据和技术的城市解决方案。"
           },
           {
             "IMG": "",
             "TITLE": "本地数字市场",
-            "DESCRIPTION": "推动平台和数字渠道，连接中小企业、本地商业和公共服务，以提高竞争力。"
+            "DESCRIPTION": "推动连接中小企业、本地商业和公共服务的数字平台和渠道，以提高其竞争力。"
           },
           {
             "IMG": "",
             "TITLE": "可持续金融",
-            "DESCRIPTION": "设计金融工具（绿色债券、与影响相关的贷款）以资助智能基础设施和服务。"
+            "DESCRIPTION": "设计金融工具（绿色债券、影响力挂钩贷款）为智能基础设施和服务提供资金。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "服务收入模式",
-            "DESCRIPTION": "过渡到 OpEx/服务化方案（基础设施即服务），以降低技术采用障碍。"
+            "TITLE": "基于服务的收入模式",
+            "DESCRIPTION": "向运营支出/服务化模式转型（基础设施即服务），以降低技术采用的门槛。"
           },
           {
             "IMG": "",
-            "TITLE": "循环经济和就业",
-            "DESCRIPTION": "通过智能基础设施的维修、回收和维护生成本地就业的项目。"
+            "TITLE": "循环经济与就业",
+            "DESCRIPTION": "通过智能基础设施的维修、回收和维护，创造本地就业机会的项目。"
           }
         ],
-        "AREA_TEXT_2": "从金融结构化到可持续运营。",
-        "TITLE_SERVICE": "金融和结构化服务",
+        "AREA_TEXT_2": "从财务结构到可持续运营。",
+        "TITLE_SERVICE": "金融与架构服务",
         "SERVICE": [
           {
             "IMG": "/icons/asociaciones.svg",
-            "TITLE": "城市金融工具结构化",
-            "DESCRIPTION": "设计 SPV、共同融资方案和公私伙伴关系，以实施具有清晰风险和现金流的智能项目。"
+            "TITLE": "城市金融工具架构",
+            "DESCRIPTION": "设计特殊目的载体、共同融资计划和公私合作伙伴关系，以实施风险清晰、现金流明确的智能项目。"
           },
           {
             "IMG": "/icons/energy.svg",
-            "TITLE": "节约和绩效合同模式",
-            "DESCRIPTION": "结构化项目，其中技术生成的节约资助初始投资（效率即服务）。"
+            "TITLE": "节约模型与绩效合同",
+            "DESCRIPTION": "构建由技术产生的节约为初始投资提供资金的项目（效率即服务）。"
           },
           {
             "IMG": "/icons/arrendamiento.svg",
-            "TITLE": "城市基础设施即服务 (IaaS)",
-            "DESCRIPTION": "租赁和订阅解决方案，用于 IoT 设备、充电站和传感器，减少市政初始投资。"
+            "TITLE": "城市基础设施即服务",
+            "DESCRIPTION": "为物联网设备、充电站和传感器提供租赁和订阅解决方案，减少市政当局的初始投资。"
           },
           {
             "IMG": "/icons/fondos.svg",
-            "TITLE": "访问多边基金和主题债券",
-            "DESCRIPTION": "管理访问国际融资（开发银行、气候基金），与 ESG 和 ODS 指标对齐。"
+            "TITLE": "获取多边基金和主题债券",
+            "DESCRIPTION": "管理与国际融资渠道（开发银行、气候基金）的对接，使其与 ESG 和可持续发展目标指标保持一致。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "本地城市创新基金",
-            "DESCRIPTION": "创建和管理一个市政基金，资助移动性、能源和公民参与试点项目，并具有影响和回报社会指标。",
-            "LOCATE": "大都市市政，墨西哥",
+            "TITLE": "地方城市创新基金",
+            "DESCRIPTION": "创建和管理一个市政基金，用于资助交通、能源和公民参与方面的试点项目，并附带影响指标和社会回报指标。",
+            "LOCATE": "大都市区自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/c/img1.webp",
@@ -1169,9 +1297,9 @@
             ]
           },
           {
-            "TITLE": "微支付和本地经济平台",
-            "DESCRIPTION": "部署一个平台，以启用本地数字商业、对可持续消费的激励和社交补贴的可追溯性。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "微支付与地方经济平台",
+            "DESCRIPTION": "部署一个平台，以实现本地数字商业、激励可持续消费和追踪社会补贴。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/d/img1.webp",
@@ -1182,59 +1310,59 @@
       },
       {
         "ICON": "/icons/areas/movilidadInfraestructura.svg",
-        "TITLE": "<strong>智能<br>移动性和基础设施</strong>",
-        "TITLE_TEXT": "智能移动性和基础设施",
-        "SUBTITLE": "连接的移动性和基础设施。",
-        "DESCRIPTION": "<b>我们管理交通系统</b>和关键基础设施，使用优化流量、减少排放并提高安全性和可访问性的技术。",
-        "AREA_TEXT_1": "我们致力于使移动性成为：",
+        "TITLE": "<strong>智能交通与<br>基础设施</strong>",
+        "TITLE_TEXT": "智能交通与基础设施",
+        "SUBTITLE": "互联互通的交通与基础设施。",
+        "DESCRIPTION": "<b>我们利用优化流量、减少排放、提高安全性和可达性的技术，</b>管理交通系统和关键基础设施。",
+        "AREA_TEXT_1": "我们致力于使交通：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "可访问和连接",
-            "DESCRIPTION": "多模式集成、实时信息和所有用户的通用可访问性。"
+            "TITLE": "可及且互联",
+            "DESCRIPTION": "多模式整合、实时信息和面向所有用户的普遍可及性。"
           },
           {
             "IMG": "",
-            "TITLE": "清洁和高效",
-            "DESCRIPTION": "促进非机动模式、电气化公共交通和可持续城市物流。"
+            "TITLE": "清洁高效",
+            "DESCRIPTION": "促进非机动化交通方式、电气化公共交通和可持续的城市物流。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "基于数据管理",
-            "DESCRIPTION": "控制和分析系统，以优化路线、减少拥堵并优先考虑公共交通。"
+            "TITLE": "基于数据的管理",
+            "DESCRIPTION": "控制和分析系统，用于优化路线、减少拥堵和优先考虑公共交通。"
           }
         ],
-        "AREA_TEXT_2": "连接基础设施的设计、部署和运营。",
-        "TITLE_SERVICE": "智能移动性解决方案",
+        "AREA_TEXT_2": "互联基础设施的设计、部署和运营。",
+        "TITLE_SERVICE": "智能交通解决方案",
         "SERVICE": [
           {
             "IMG": "/icons/semaforo.svg",
-            "TITLE": "自适应信号灯控制",
-            "DESCRIPTION": "实时调整阶段的系统，以改善公共交通优先级并减少旅行时间。"
+            "TITLE": "自适应交通信号控制",
+            "DESCRIPTION": "实时调整信号相位以改善公共交通优先级并减少行程时间的系统。"
           },
           {
             "IMG": "/icons/estacionamiento.svg",
             "TITLE": "智能停车管理",
-            "DESCRIPTION": "传感器和应用程序，用于引导驾驶员、减少停车搜索并优化公共空间使用。"
+            "DESCRIPTION": "通过传感器和应用程序引导驾驶员，减少寻找停车位的时间，优化公共空间的使用。"
           },
           {
             "IMG": "/icons/electromovilidad.svg",
-            "TITLE": "充电网络和电动车队管理",
-            "DESCRIPTION": "充电点规划和运营、需求管理和市政车队解决方案。"
+            "TITLE": "充电网络与电动车队管理",
+            "DESCRIPTION": "充电点的规划和运营、需求管理以及为市政车队提供的解决方案。"
           },
           {
             "IMG": "/icons/alumbrado.svg",
             "TITLE": "远程管理基础设施",
-            "DESCRIPTION": "照明和信号系统，减少消耗并促进预测性维护。"
+            "DESCRIPTION": "降低能耗并便于预测性维护的照明和信号系统。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "城市交通管理系统 (TMS)",
-            "DESCRIPTION": "实施一个管理中心，整合传感器、分析 CCTV 和预测模型，以优化移动性和事件响应。",
-            "LOCATE": "首都城市，墨西哥",
+            "TITLE": "城市交通管理平台 (TMS)",
+            "DESCRIPTION": "实施一个整合传感器、分析型闭路电视和预测模型的管理中心，以优化交通和事故响应。",
+            "LOCATE": "首都城市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/e/img1.webp",
@@ -1242,9 +1370,9 @@
             ]
           },
           {
-            "TITLE": "电动充电站和电动移动性试点网络",
-            "DESCRIPTION": "战略充电站的部署，与支付系统和公私车队管理的集成。",
-            "LOCATE": "大都市走廊，拉丁美洲",
+            "TITLE": "电动车充电站与电动交通试点网络",
+            "DESCRIPTION": "部署战略性充电站，与支付系统集成，并管理公共和私人车队。",
+            "LOCATE": "大都会走廊, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/f/img1.webp",
@@ -1255,33 +1383,33 @@
       },
       {
         "ICON": "/icons/areas/medioAmbienteInteligente.svg",
-        "TITLE": "<strong>智能</strong><br>环境",
+        "TITLE": "<strong>智能<br>环境</strong>",
         "TITLE_TEXT": "智能环境",
-        "SUBTITLE": "可持续性和 ESG 服务。",
-        "DESCRIPTION": "<b>我们设计和实施</b>城市环境系统：监测、能源效率、水管理以及废物处理，支持数据和治理。",
-        "AREA_TEXT_1": "我们致力于使环境管理成为：",
+        "SUBTITLE": "可持续性与 ESG 服务。",
+        "DESCRIPTION": "<b>我们设计并实施</b>城市环境系统：在数据和治理支持下进行监测、能效、水资源管理和废物处理。",
+        "AREA_TEXT_1": "我们致力于使环境管理：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "监测",
-            "DESCRIPTION": "空气质量、噪音、温度和水资源的传感器网络，用于实时决策。"
+            "TITLE": "受到监控",
+            "DESCRIPTION": "用于空气质量、噪音、温度和水资源的传感器网络，用于实时决策。"
           },
           {
             "IMG": "",
-            "TITLE": "能源高效",
-            "DESCRIPTION": "效率程序、远程管理和电气化，带有粒度消耗测量。"
+            "TITLE": "节能高效",
+            "DESCRIPTION": "效率计划、远程管理和电气化，并对消费进行精细化测量。"
           },
           {
             "IMG": "",
-            "TITLE": "规划和弹性",
-            "DESCRIPTION": "城市规划，纳入气候风险、绿色空间和气候变化适应。"
+            "TITLE": "有规划且有韧性",
+            "DESCRIPTION": "包含气候风险、绿地和对气候变化适应的城市规划。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "智能水管理",
-            "DESCRIPTION": "遥测、分区和泄漏检测，以确保高效供应并减少损失。"
+            "TITLE": "智能水资源管理",
+            "DESCRIPTION": "遥测、分区计量和泄漏检测，以确保高效供应并减少损失。"
           },
           {
             "IMG": "",
@@ -1290,44 +1418,44 @@
           },
           {
             "IMG": "",
-            "TITLE": "可持续性参与",
+            "TITLE": "参与可持续发展",
             "DESCRIPTION": "公民报告和教育平台，以促进可持续实践。"
           }
         ],
-        "AREA_TEXT_2": "我们以 ESG 重点和影响测量实施技术。",
-        "TITLE_SERVICE": "合规性和企业/政府可持续性",
+        "AREA_TEXT_2": "我们采用具有 ESG 重点和影响测量的技术。",
+        "TITLE_SERVICE": "法规遵从性与企业/政府可持续发展",
         "SERVICE": [
           {
             "IMG": "/icons/consultoria.svg",
-            "TITLE": "ESG 咨询和气候适应",
-            "DESCRIPTION": "评估、脱碳计划和绿色融资准备。"
+            "TITLE": "ESG 咨询与气候适应",
+            "DESCRIPTION": "评估、脱碳计划以及为获取绿色融资做准备。"
           },
           {
             "IMG": "/icons/gestion_hidrica.svg",
-            "TITLE": "智能水 (遥测和分区)",
-            "DESCRIPTION": "系统，用于监测水平、检测泄漏并优先考虑网络投资。"
+            "TITLE": "智能水管理（遥测与分区）",
+            "DESCRIPTION": "用于监控水位、泄漏检测和优先安排管网投资的系统。"
           },
           {
             "IMG": "/icons/co2.svg",
-            "TITLE": "排放清单和净零战略",
-            "DESCRIPTION": "测量、报告和温室气体减少规划，具有可审计指标。"
+            "TITLE": "排放清单与净零战略",
+            "DESCRIPTION": "温室气体减排的测量、报告和规划，附带可审计的指标。"
           },
           {
             "IMG": "/icons/calidad_aire.svg",
             "TITLE": "空气质量监测",
-            "DESCRIPTION": "传感器网络，具有警报和公共政策集成。"
+            "DESCRIPTION": "集成用于警报和公共政策的传感器网络。"
           },
           {
             "IMG": "/icons/residuos.svg",
             "TITLE": "废物服务优化",
-            "DESCRIPTION": "动态路线和基于数据的规划，以实现运营效率。"
+            "DESCRIPTION": "基于数据的动态路线和规划，以提高运营效率。"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "市政环境监测网络",
             "DESCRIPTION": "部署空气质量传感器、气象站和开放数据平台，用于环境管理和警报。",
-            "LOCATE": "大都市区，墨西哥",
+            "LOCATE": "大都会区, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/g/img1.webp",
@@ -1336,9 +1464,9 @@
             ]
           },
           {
-            "TITLE": "智能水程序",
-            "DESCRIPTION": "网络分区、井遥测和早期泄漏检测系统，以减少未计费水损失。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "智能水管理计划",
+            "DESCRIPTION": "管网分区、水井遥测和早期泄漏检测系统，以减少无收益水损失。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/h/img1.webp",
@@ -1350,64 +1478,64 @@
       },
       {
         "ICON": "/icons/areas/habitatyServicios.svg",
-        "TITLE": "<strong>智能</strong><br>栖息地和服务",
-        "TITLE_TEXT": "智能栖息地和服务",
-        "SUBTITLE": "安全和生活质量。",
-        "DESCRIPTION": "<b>我们促进网络和基础设施</b>，提升生活质量：连接健康、公共空间管理和以人为本的城市服务。",
-        "AREA_TEXT_1": "我们致力于使栖息地成为：",
+        "TITLE": "<strong>智能人居与<br>服务</strong>",
+        "TITLE_TEXT": "智能人居与服务",
+        "SUBTITLE": "安全与生活质量。",
+        "DESCRIPTION": "<b>我们促进提升生活质量的网络和基础设施</b>：互联的健康、公共空间管理，以及以人为本的城市服务。",
+        "AREA_TEXT_1": "我们致力于使人居：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "连接健康 (e-health)",
-            "DESCRIPTION": "远程医疗、远程监测和中心协调，以改善护理的可访问性。"
+            "TITLE": "互联健康 (e-health)",
+            "DESCRIPTION": "远程医疗、远程监控和中心间的协调，以提高医疗服务的可及性。"
           },
           {
             "IMG": "",
-            "TITLE": "数字文化和旅游",
-            "DESCRIPTION": "文化体验、智能路线和游客管理平台。"
+            "TITLE": "数字文化与旅游",
+            "DESCRIPTION": "用于文化体验、智能路线和游客管理的平台。"
           },
           {
             "IMG": "",
-            "TITLE": "公共空间高效管理",
-            "DESCRIPTION": "预测性维护、自动化灌溉和连接家具，以改善使用和安全。"
+            "TITLE": "高效的公共空间管理",
+            "DESCRIPTION": "预测性维护、自动灌溉和联网设施，以改善使用和安全性。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "安全和弹性",
-            "DESCRIPTION": "集成分析监控系统、早期警报和响应协调。"
+            "TITLE": "安全与韧性",
+            "DESCRIPTION": "集成的分析型监控系统、早期预警和响应协调。"
           },
           {
             "IMG": "",
-            "TITLE": "可访问性和包容性服务",
-            "DESCRIPTION": "亭子、应用程序和服务，适应弱势群体和老年人。"
+            "TITLE": "无障碍与包容性服务",
+            "DESCRIPTION": "为弱势群体和老年人调整的亭子、应用程序和服务。"
           }
         ],
-        "AREA_TEXT_2": "以城市体验和公平为中心的解决方案。",
-        "TITLE_SERVICE": "专注于日常福祉和安全的服务",
+        "AREA_TEXT_2": "关注城市体验和公平的解决方案。",
+        "TITLE_SERVICE": "关注日常福祉和安全服务",
         "SERVICE": [
           {
             "IMG": "/icons/centro_de_comando.svg",
-            "TITLE": "指挥和控制中心 (C2)",
-            "DESCRIPTION": "分析视频监控、城市传感器和事件管理的集成。"
+            "TITLE": "指挥控制中心 (C2)",
+            "DESCRIPTION": "集成分析型视频监控、城市传感器和事件管理。"
           },
           {
             "IMG": "/icons/parque_inteligente.svg",
             "TITLE": "智能公园和公共空间",
-            "DESCRIPTION": "自适应照明、自动化灌溉和连接家具，用于安全和高效使用。"
+            "DESCRIPTION": "自适应照明、自动灌溉和联网设施，确保安全和高效使用。"
           },
           {
             "IMG": "/icons/estructural.svg",
-            "TITLE": "基础设施监测和公民保护",
-            "DESCRIPTION": "结构传感器和警报系统，用于风险管理和维护。"
+            "TITLE": "基础设施监测与民防",
+            "DESCRIPTION": "用于风险管理和维护的结构传感器和警报系统。"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "市政远程医疗中心",
-            "DESCRIPTION": "实施连接到区域医院的健康亭，用于初级护理和慢性患者远程跟踪。",
-            "LOCATE": "试点市政，墨西哥",
+            "DESCRIPTION": "实施连接地区医院的健康亭，用于初级保健和慢性病患者的远程随访。",
+            "LOCATE": "试点自治市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/i/img1.webp",
@@ -1415,9 +1543,9 @@
             ]
           },
           {
-            "TITLE": "福祉智能公园",
-            "DESCRIPTION": "改造一个城市公园，具有自适应照明、高效灌溉、使用传感器和公民设备太阳能充电站。",
-            "LOCATE": "中等城市，拉丁美洲",
+            "TITLE": "智能福祉公园",
+            "DESCRIPTION": "通过自适应照明、高效灌溉、使用传感器和为市民设备提供太阳能充电站，对城市公园进行改造。",
+            "LOCATE": "中等城市, 拉丁美洲",
             "DATE": "2023",
             "IMG": [
               "/projects/j/img1.webp"
@@ -1427,69 +1555,69 @@
       },
       {
         "ICON": "/icons/areas/sociedadInteligente.svg",
-        "TITLE": "<strong>智能</strong><br>社会",
+        "TITLE": "<strong>智能<br>社会</strong>",
         "TITLE_TEXT": "智能社会",
-        "SUBTITLE": "社会和数字包容。",
-        "DESCRIPTION": "我们通过平台和程序促进数字包容、教育和公民参与，将技术带给所有人。",
-        "AREA_TEXT_1": "我们致力于使社会成为：",
+        "SUBTITLE": "社会与数字包容。",
+        "DESCRIPTION": "我们通过平台和项目促进数字包容、教育和公民参与，使技术贴近所有人。",
+        "AREA_TEXT_1": "我们致力于使社会：",
         "AREA1": [
           {
             "IMG": "",
-            "TITLE": "包容性",
-            "DESCRIPTION": "弱势人群的数字访问和减少数字鸿沟的程序。"
+            "TITLE": "具有包容性",
+            "DESCRIPTION": "为弱势群体提供数字接入，并通过项目缩小数字鸿沟。"
           },
           {
             "IMG": "",
-            "TITLE": "能力",
-            "DESCRIPTION": "数字技能和 STEM 培训程序，用于本地就业。"
+            "TITLE": "经过培训",
+            "DESCRIPTION": "针对本地就业的数字技能和 STEM 培训计划。"
           },
           {
             "IMG": "",
-            "TITLE": "创造性和参与性",
-            "DESCRIPTION": "促进公共政策和项目共同创建的平台。"
+            "TITLE": "具有创造性和参与性",
+            "DESCRIPTION": "鼓励共同创造公共政策和项目的平台。"
           }
         ],
         "AREA2": [
           {
             "IMG": "",
             "TITLE": "社区网络",
-            "DESCRIPTION": "支持本地倡议和公民组织协调平台。"
+            "DESCRIPTION": "支持本地倡议和协调民间组织的平台。"
           },
           {
             "IMG": "",
-            "TITLE": "终身数字教育",
-            "DESCRIPTION": "连接教室和资源，用于远程学习和持续培训。"
+            "TITLE": "持续数字教育",
+            "DESCRIPTION": "用于远程学习和持续培训的网络化教室和资源。"
           }
         ],
-        "AREA_TEXT_2": "具有人性化和包容性重点的技术。",
-        "TITLE_SERVICE": "具有人性化和包容性重点的技术",
+        "AREA_TEXT_2": "以人为本、包容性强的技术。",
+        "TITLE_SERVICE": "以人为本、包容性强的技术",
         "SERVICE": [
           {
             "IMG": "/icons/wifi.svg",
             "TITLE": "社区连接部署",
-            "DESCRIPTION": "公共接入点、远程中心基础设施和低连接区域的网格网络。"
+            "DESCRIPTION": "在连接性较差的地区部署公共接入点、远程中心基础设施和网状网络。"
           },
           {
             "IMG": "/icons/accesibilidad.svg",
-            "TITLE": "可访问平台和服务",
-            "DESCRIPTION": "包容性界面设计和适应残疾人的服务渠道。"
+            "TITLE": "无障碍平台和服务",
+            "DESCRIPTION": "为残疾人设计包容性界面和适应性的服务渠道。"
           },
           {
             "IMG": "/icons/robotica.svg",
             "TITLE": "STEM 培训中心",
-            "DESCRIPTION": "实验室和机器人与编程程序，用于学生和本地创业。"
+            "DESCRIPTION": "为学生和本地创业者提供机器人技术和编程的实验室和计划。"
           },
           {
             "IMG": "/icons/telemedicina.svg",
             "TITLE": "社会远程服务",
-            "DESCRIPTION": "亭子和应用程序，用于远程区域的手续、基本健康和就业服务。"
+            "DESCRIPTION": "在偏远地区提供用于办理手续、基础健康和就业服务的亭子和应用程序。"
           }
         ],
         "PROJECTS": [
           {
-            "TITLE": "社区数字包容程序",
-            "DESCRIPTION": "市政管理的远程中心和 Wi-Fi 点网络，用于数字扫盲、在线手续和本地中小企业支持。",
-            "LOCATE": "北部地区，墨西哥",
+            "TITLE": "社区数字包容计划",
+            "DESCRIPTION": "由市政府管理的远程中心和 Wi-Fi 点网络，用于数字扫盲、在线手续办理和支持本地中小企业。",
+            "LOCATE": "北部地区, 墨西哥",
             "DATE": "2023",
             "IMG": [
               "/projects/k/img1.webp",
@@ -1498,8 +1626,8 @@
           },
           {
             "TITLE": "公民参与平台",
-            "DESCRIPTION": "用于公共咨询、参与式预算和承诺跟踪的数字工具，具有透明度仪表板。",
-            "LOCATE": "首都城市，墨西哥",
+            "DESCRIPTION": "用于公共咨询、参与式预算和承诺跟踪的数字工具，带有用于透明度的仪表盘。",
+            "LOCATE": "首都城市, 墨西哥",
             "DATE": "2024",
             "IMG": [
               "/projects/l/img1.webp",
@@ -1509,5 +1637,12 @@
         ]
       }
     ]
+  },
+  "FOOTER": {
+    "TITLE": "Smart Cities.<br>Smart Future",
+    "SUBTITLE": "未来在今天设计。",
+    "FOLLOW_US": "关注我们",
+    "COPYRIGHT": "版权所有 © GLACI",
+    "SCROLL_TO_TOP": "回到顶部"
   }
 }

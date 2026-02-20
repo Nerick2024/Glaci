@@ -8,15 +8,141 @@
     "BLOG": "Blog",
     "INFORMATION": "Receive more information"
   },
+  "CHALLENGE": {
+    "TITLE": "The Challenge",
+    "SUBTITLE": "Cities do not cease to transcend for lack of ideas. They cease to do so for lack of structure.",
+    "CARDS": [
+      {
+        "IMG": "",
+        "TEXT": "Without clear institutional architecture, plans dissolve."
+      },
+      {
+        "IMG": "",
+        "TEXT": "Without solid financial models, investments do not materialize."
+      },
+      {
+        "IMG": "",
+        "TEXT": "Without strategic coordination and public policy, projects lose continuity."
+      }
+    ],
+    "TEXT": "Too many urban visions end up archived.",
+    "TEXT_2": "GLACI exists to close that gap between vision and execution."
+  },
+  "OUR_MODEL": {
+    "TITLE": "A comprehensive model in four phases",
+    "MODELS": [
+      {
+        "ICON": "",
+        "TITLE": "Strategic Vision",
+        "DESCRIPTION": "We define the territorial framework, priorities, and roadmap."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Comprehensive Structuring",
+        "DESCRIPTION": "We design the technical, institutional, and financial architecture."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Financing",
+        "DESCRIPTION": "We structure public-private schemes and investment mechanisms."
+      },
+      {
+        "ICON": "",
+        "TITLE": "Coordinated Execution",
+        "DESCRIPTION": "We ensure implementation aligned with results."
+      }
+    ],
+    "TEXT": [
+      "Without vision <br>there is no direction.",
+      "Without structure <br>there is no project.",
+      "Without financing <br>there is no execution."
+    ]
+  },
+  "VALUE": {
+    "TITLE": "Value Proposition",
+    "SUBTITLE": "We develop projects that:",
+    "ITEMS": [
+      {
+        "ICON": "",
+        "TITLE": "Are technically, institutionally, and financially viable"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Integrate governance, infrastructure, and technology"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Generate territorial competitiveness"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Improve quality of life"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Ensure operational continuity"
+      }
+    ],
+    "TEXT": "We do not design ideas.",
+    "TEXT_2": "We design executable projects."
+  },
+  "DIFFERENTIATION": {
+    "TITLE": "Differentiation",
+    "SUBTITLE": "What sets us apart",
+    "ITEMS": [
+      "Technology without an institutional model fails.",
+      "Investment without structure is not executed.",
+      "The fragmented city loses its way."
+    ],
+    "TEXT": "We integrate vision, governance, and financing into a single strategic framework that enables execution and generates real impact on people's daily lives."
+  },
+  "VISION": {
+    "TITLE": "Vision",
+    "TEXT": "We promote Smart Cities and Territories where:",
+    "CARDS": [
+      {
+        "ICON": "",
+        "TITLE": "Data-based governance and institutional trust"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Coherent public policies that ensure continuity and execution"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Infrastructure managed as an intelligent system"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Mobility that connects inclusion and productivity"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Resources managed with sustainability and resilience"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Structured investment for long-term impact"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Innovation as a driver of territorial competitiveness"
+      },
+      {
+        "ICON": "",
+        "TITLE": "Human talent prepared to lead the future"
+      }
+    ]
+  },
   "AREAS": {
     "TITLE": "Areas of Impact",
-    "TITLE_1": "Focus",
+    "TITLE_1": "Approach",
     "TITLE_2": "What We Enable",
     "TITLE_3": "Experience / Cases",
     "SUBTITLE": "Urban development does not happen in isolated parts. It happens when systems connect.",
     "TEXT": "We work in key areas of urban and territorial development:",
     "TEXT_2": "Not as independent solutions, but as integrated ecosystems.",
-    "BUTTON": "Request more Information",
+    "BUTTON": "Request more information",
     "SUCCESS_STORIES_LOCATE": "Location",
     "SUCCESS_STORIES_YEAR": "Year",
     "SUCCESS_STORIES_BUTTON": "View related projects",
@@ -26,19 +152,19 @@
           "Government and management platforms",
           "Digital transformation",
           "Data for decision-making",
-          "Custom technology architecture"
+          "Custom technological architecture"
         ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>Smart</strong><br>Governance",
         "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency.",
-        "DESCRIPTION": "Lasting transformations begin with clear decisions, reliable institutions, and shared data. <br>GLACI articulates actors and structures projects to strengthen urban governance in a sustainable way.",
+        "DESCRIPTION": "Lasting transformations begin with clear decisions, trustworthy institutions, and shared data. <br>GLACI articulates stakeholders and structures projects to strengthen urban governance sustainably.",
         "AREA_TEXT_1": "We work so that governance:",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "Is transparent",
-            "DESCRIPTION": "Ensure open and reliable access to public information through digital tools that strengthen accountability"
+            "DESCRIPTION": "Guarantee open and reliable access to public information through digital tools that strengthen accountability"
           },
           {
             "IMG": "",
@@ -58,29 +184,29 @@
           {
             "IMG": "/icons/portal.svg",
             "TITLE": "Institutional and multisectoral alignment",
-            "DESCRIPTION": "We create coordination spaces between institutions, sectors, and key actors to ensure coherence in policies, projects, and development strategies"
+            "DESCRIPTION": "We create coordination spaces between institutions, sectors, and key stakeholders to ensure coherence in policies, projects, and development strategies"
           },
           {
             "IMG": "/icons/plataformas_de_participacion.svg",
-            "TITLE": "Governance models and decision-making",
+            "TITLE": "Governance and decision-making models",
             "DESCRIPTION": "We design governance frameworks that integrate citizen participation, technical evidence, and strategic vision for more legitimate and sustainable decisions"
           },
           {
             "IMG": "/icons/dashboard.svg",
-            "TITLE": "Platforms and management support systems",
+            "TITLE": "Platforms and systems to support management",
             "DESCRIPTION": "We implement digital solutions that facilitate public management, optimize processes, and strengthen institutional response capacity"
           },
           {
             "IMG": "/icons/seguridad.svg",
-            "TITLE": "Indicators and performance metrics",
+            "TITLE": "Performance indicators and metrics",
             "DESCRIPTION": "We define and monitor indicators that allow evaluating results, measuring impact, and ensuring transparency in government management"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "DIGITAL GOVERNMENT AND OPEN DATA PLATFORM",
-            "DESCRIPTION": "Design and implementation of a comprehensive digital government platform oriented towards transparency and data-based decision-making. The project integrates open data portals, strategic indicator dashboards, and public policy monitoring systems, allowing authorities and citizens to access reliable, updated, and actionable information to strengthen accountability and urban management.",
-            "LOCATE": "Metropolitan Municipality, Mexico",
+            "DESCRIPTION": "Design and implementation of a comprehensive digital government platform aimed at transparency and data-driven decision-making. The project integrates open data portals, strategic indicator dashboards, and public policy monitoring systems, allowing authorities and citizens to access reliable, updated, and actionable information to strengthen accountability and urban management.",
+            "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
               "/projects/a/img1.webp",
@@ -91,7 +217,7 @@
           {
             "TITLE": "CITIZEN PARTICIPATION AND COLLABORATIVE MANAGEMENT SYSTEM",
             "DESCRIPTION": "Implementation of a digital citizen participation ecosystem that allows identifying urban problems, prioritizing projects, and co-creating solutions between government and society. The solution integrates public consultation modules, georeferenced citizen reports, and participation analytics, strengthening the legitimacy of decisions and promoting more inclusive and sustainable urban governance.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/b/img1.webp",
@@ -116,11 +242,11 @@
           {
             "IMG": "",
             "TITLE": "Local digital market",
-            "DESCRIPTION": "Promotion of platforms and digital channels that connect SMEs, local commerce, and public services to increase their competitiveness."
+            "DESCRIPTION": "Boosting platforms and digital channels that connect SMEs, local commerce, and public services to increase their competitiveness."
           },
           {
             "IMG": "",
-            "TITLE": "Sustainable finances",
+            "TITLE": "Sustainable finance",
             "DESCRIPTION": "Design of financial instruments (green bonds, impact-linked loans) to finance smart infrastructure and services."
           }
         ],
@@ -128,7 +254,7 @@
           {
             "IMG": "",
             "TITLE": "Service-based revenue models",
-            "DESCRIPTION": "Transition to OpEx/servitization schemes (infrastructure as a service) to reduce technology adoption barriers."
+            "DESCRIPTION": "Transition to OpEx/servitization schemes (infrastructure as a service) to reduce barriers to technological adoption."
           },
           {
             "IMG": "",
@@ -137,22 +263,22 @@
           }
         ],
         "AREA_TEXT_2": "From financial structuring to sustainable operation.",
-        "TITLE_SERVICE": "Financial Services and Structuring",
+        "TITLE_SERVICE": "Financial and Structuring Services",
         "SERVICE": [
           {
             "IMG": "/icons/asociaciones.svg",
             "TITLE": "Structuring of financial vehicles for cities",
-            "DESCRIPTION": "Design of SPV, co-financing schemes, and public-private partnerships to implement smart projects with clear risk and flow."
+            "DESCRIPTION": "Design of SPVs, co-financing schemes, and public-private partnerships to implement smart projects with clear risk and cash flow."
           },
           {
             "IMG": "/icons/energy.svg",
             "TITLE": "Savings models and performance contracting",
-            "DESCRIPTION": "Structuring of projects where savings generated by technology finance the initial investment (efficiency-as-a-service)."
+            "DESCRIPTION": "Structuring of projects where the savings generated by technology finance the initial investment (efficiency-as-a-service)."
           },
           {
             "IMG": "/icons/arrendamiento.svg",
             "TITLE": "Urban Infrastructure as a Service (IaaS)",
-            "DESCRIPTION": "Leasing and subscription solutions for IoT equipment, charging stations, and sensors, reducing initial municipal investment."
+            "DESCRIPTION": "Leasing and subscription solutions for IoT equipment, charging stations, and sensors, reducing the municipality's initial investment."
           },
           {
             "IMG": "/icons/fondos.svg",
@@ -163,8 +289,8 @@
         "PROJECTS": [
           {
             "TITLE": "LOCAL URBAN INNOVATION FUND",
-            "DESCRIPTION": "Creation and management of a municipal fund that finances pilots in mobility, energy, and citizen participation with impact metrics and social return.",
-            "LOCATE": "Metropolitan Municipality, Mexico",
+            "DESCRIPTION": "Creation and management of a municipal fund that finances mobility, energy, and citizen participation pilots with impact metrics and social return.",
+            "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
               "/projects/c/img1.webp",
@@ -172,9 +298,9 @@
             ]
           },
           {
-            "TITLE": "MICROPAYMENTS AND LOCAL ECONOMY PLATFORM",
+            "TITLE": "MICROPAYMENT AND LOCAL ECONOMY PLATFORM",
             "DESCRIPTION": "Deployment of a platform to enable local digital commerce, incentives for sustainable consumption, and traceability of social subsidies.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/d/img1.webp",
@@ -187,8 +313,8 @@
         "ICON": "/icons/areas/movilidadInfraestructura.svg",
         "TITLE": "<strong>Smart Mobility and<br>Infrastructure</strong>",
         "TITLE_TEXT": "Smart Mobility and Infrastructure",
-        "SUBTITLE": "Mobility and Connected Infrastructure.",
-        "DESCRIPTION": "<b>We manage transportation systems</b> and critical infrastructure with technologies that optimize flow, reduce emissions, and increase safety and accessibility.",
+        "SUBTITLE": "Connected Mobility and Infrastructure.",
+        "DESCRIPTION": "<b>We manage transport systems</b> and critical infrastructure with technologies that optimize flow, reduce emissions, and increase safety and accessibility.",
         "AREA_TEXT_1": "We work so that mobility is:",
         "AREA1": [
           {
@@ -205,7 +331,7 @@
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "Data-based management",
+            "TITLE": "Data-driven management",
             "DESCRIPTION": "Control and analytics systems to optimize routes, reduce congestion, and prioritize public transport."
           }
         ],
@@ -214,13 +340,13 @@
         "SERVICE": [
           {
             "IMG": "/icons/semaforo.svg",
-            "TITLE": "Adaptive traffic light control",
+            "TITLE": "Adaptive traffic signal control",
             "DESCRIPTION": "Systems that adjust phases in real time to improve public transport priority and reduce travel times."
           },
           {
             "IMG": "/icons/estacionamiento.svg",
             "TITLE": "Smart parking management",
-            "DESCRIPTION": "Sensors and apps to guide drivers, reduce parking search, and optimize public space use."
+            "DESCRIPTION": "Sensors and apps to guide drivers, reduce parking search, and optimize the use of public space."
           },
           {
             "IMG": "/icons/electromovilidad.svg",
@@ -229,15 +355,15 @@
           },
           {
             "IMG": "/icons/alumbrado.svg",
-            "TITLE": "Telemanaged infrastructure",
-            "DESCRIPTION": "Lighting and signage systems that reduce consumption and facilitate predictive maintenance."
+            "TITLE": "Remote-managed infrastructure",
+            "DESCRIPTION": "Lighting and signaling systems that reduce consumption and facilitate predictive maintenance."
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "URBAN TRAFFIC MANAGEMENT PLATFORM (TMS)",
             "DESCRIPTION": "Implementation of a management center that integrates sensors, analytical CCTV, and predictive models to optimize mobility and incident response.",
-            "LOCATE": "Capital City, Mexico",
+            "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
               "/projects/e/img1.webp",
@@ -245,9 +371,9 @@
             ]
           },
           {
-            "TITLE": "PILOT NETWORK OF CHARGING STATIONS AND ELECTRIC MOBILITY",
+            "TITLE": "PILOT NETWORK OF EV CHARGING STATIONS AND ELECTRIC MOBILITY",
             "DESCRIPTION": "Deployment of strategic charging stations, integration with payment systems, and management of public and private fleets.",
-            "LOCATE": "Metropolitan Corridor, Latin America",
+            "LOCATE": "Corredor Metropolitano, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/f/img1.webp",
@@ -258,10 +384,10 @@
       },
       {
         "ICON": "/icons/areas/medioAmbienteInteligente.svg",
-        "TITLE": "<strong>Smart</strong><br>Environment",
+        "TITLE": "<strong>Smart<br>Environment</strong>",
         "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services.",
-        "DESCRIPTION": "<b>We design and implement</b> urban environmental systems: monitoring, energy efficiency, water management, and waste handling supported by data and governance.",
+        "DESCRIPTION": "<b>We design and implement</b> urban environmental systems: monitoring, energy efficiency, water management, and waste management supported by data and governance.",
         "AREA_TEXT_1": "We work so that environmental management is:",
         "AREA1": [
           {
@@ -272,7 +398,7 @@
           {
             "IMG": "",
             "TITLE": "Energy efficient",
-            "DESCRIPTION": "Efficiency programs, telemanagement, and electrification with granular consumption measurement."
+            "DESCRIPTION": "Efficiency programs, remote management, and electrification with granular consumption measurement."
           },
           {
             "IMG": "",
@@ -289,16 +415,16 @@
           {
             "IMG": "",
             "TITLE": "Smart waste management",
-            "DESCRIPTION": "Sensors in containers and route optimization to reduce emissions and operating costs."
+            "DESCRIPTION": "Sensors in containers and route optimization to reduce emissions and operational costs."
           },
           {
             "IMG": "",
-            "TITLE": "Participation in sustainability",
+            "TITLE": "Sustainability participation",
             "DESCRIPTION": "Citizen reporting platforms and education to promote sustainable practices."
           }
         ],
         "AREA_TEXT_2": "We implement technology with an ESG focus and impact measurement.",
-        "TITLE_SERVICE": "Regulatory compliance and corporate/government sustainability",
+        "TITLE_SERVICE": "Regulatory compliance and corporate/governmental sustainability",
         "SERVICE": [
           {
             "IMG": "/icons/consultoria.svg",
@@ -322,15 +448,15 @@
           },
           {
             "IMG": "/icons/residuos.svg",
-            "TITLE": "Waste services optimization",
+            "TITLE": "Waste service optimization",
             "DESCRIPTION": "Dynamic routes and data-based planning for operational efficiency."
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "MUNICIPAL ENVIRONMENTAL MONITORING NETWORK",
-            "DESCRIPTION": "Deployment of air quality sensors, weather stations, and open data platform for environmental management and alerts.",
-            "LOCATE": "Metropolitan Area, Mexico",
+            "DESCRIPTION": "Deployment of air quality sensors, weather stations, and an open data platform for environmental management and alerts.",
+            "LOCATE": "Área Metropolitana, México",
             "DATE": "2024",
             "IMG": [
               "/projects/g/img1.webp",
@@ -340,8 +466,8 @@
           },
           {
             "TITLE": "SMART WATER PROGRAM",
-            "DESCRIPTION": "Network sectorization, telemetry in wells, and early leak detection system to reduce non-billed water losses.",
-            "LOCATE": "Intermediate City, Latin America",
+            "DESCRIPTION": "Network sectorization, well telemetry, and early leak detection system to reduce non-revenue water losses.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/h/img1.webp",
@@ -353,16 +479,16 @@
       },
       {
         "ICON": "/icons/areas/habitatyServicios.svg",
-        "TITLE": "<strong>Smart Habitat and Services</strong>",
+        "TITLE": "<strong>Smart Habitat and<br>Services</strong>",
         "TITLE_TEXT": "Smart Habitat and Services",
-        "SUBTITLE": "Security and Quality of Life.",
-        "DESCRIPTION": "<b>We promote networks and infrastructures</b> that elevate quality of life: connected health, public space management, and people-centered urban services.",
+        "SUBTITLE": "Safety and Quality of Life.",
+        "DESCRIPTION": "<b>We foster networks and infrastructures</b> that enhance quality of life: connected health, public space management, and urban services centered on people.",
         "AREA_TEXT_1": "We work so that the habitat is:",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "Connected health (e-health)",
-            "DESCRIPTION": "Telemedicine, remote monitoring, and coordination between centers to improve access to care."
+            "DESCRIPTION": "Telemedicine, remote monitoring, and coordination between centers to improve accessibility to care."
           },
           {
             "IMG": "",
@@ -378,8 +504,8 @@
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "Security and resilience",
-            "DESCRIPTION": "Integrated analytical surveillance systems, early alerts, and response coordination."
+            "TITLE": "Safety and resilience",
+            "DESCRIPTION": "Integrated analytical surveillance systems, early warnings, and response coordination."
           },
           {
             "IMG": "",
@@ -387,8 +513,8 @@
             "DESCRIPTION": "Kiosks, apps, and services adapted for vulnerable groups and older adults."
           }
         ],
-        "AREA_TEXT_2": "Solutions centered on urban experience and equity.",
-        "TITLE_SERVICE": "Services focused on daily well-being and security",
+        "AREA_TEXT_2": "Solutions focused on urban experience and equity.",
+        "TITLE_SERVICE": "Services focused on daily well-being and safety",
         "SERVICE": [
           {
             "IMG": "/icons/centro_de_comando.svg",
@@ -410,7 +536,7 @@
           {
             "TITLE": "MUNICIPAL TELEMEDICINE CENTER",
             "DESCRIPTION": "Implementation of health kiosks connected to regional hospitals for primary care and remote monitoring of chronic patients.",
-            "LOCATE": "Pilot Municipality, Mexico",
+            "LOCATE": "Municipio Piloto, México",
             "DATE": "2024",
             "IMG": [
               "/projects/i/img1.webp",
@@ -420,7 +546,7 @@
           {
             "TITLE": "SMART WELLNESS PARK",
             "DESCRIPTION": "Transformation of an urban park with adaptive lighting, efficient irrigation, usage sensors, and solar charging stations for citizen devices.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/j/img1.webp"
@@ -430,10 +556,10 @@
       },
       {
         "ICON": "/icons/areas/sociedadInteligente.svg",
-        "TITLE": "<strong>Smart</strong><br>Society",
+        "TITLE": "<strong>Smart<br>Society</strong>",
         "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion.",
-        "DESCRIPTION": "We promote digital inclusion, education, and citizen participation through platforms and programs that bring technology closer to all people.",
+        "DESCRIPTION": "We promote digital inclusion, education, and citizen participation through platforms and programs that bring technology to all people.",
         "AREA_TEXT_1": "We work so that society is:",
         "AREA1": [
           {
@@ -443,13 +569,13 @@
           },
           {
             "IMG": "",
-            "TITLE": "Capable",
-            "DESCRIPTION": "Training programs in digital and STEM skills for local employment."
+            "TITLE": "Trained",
+            "DESCRIPTION": "Training programs in digital skills and STEM for local employment."
           },
           {
             "IMG": "",
             "TITLE": "Creative and participatory",
-            "DESCRIPTION": "Platforms that promote co-creation of public policies and projects."
+            "DESCRIPTION": "Platforms that encourage the co-creation of public policies and projects."
           }
         ],
         "AREA2": [
@@ -460,27 +586,27 @@
           },
           {
             "IMG": "",
-            "TITLE": "Permanent digital education",
+            "TITLE": "Lifelong digital education",
             "DESCRIPTION": "Connected classrooms and resources for distance learning and continuous training."
           }
         ],
-        "AREA_TEXT_2": "Technology with a human face and inclusive focus.",
-        "TITLE_SERVICE": "Technology with a human face and inclusive focus",
+        "AREA_TEXT_2": "Technology with a human face and inclusive approach.",
+        "TITLE_SERVICE": "Technology with a human face and inclusive approach",
         "SERVICE": [
           {
             "IMG": "/icons/wifi.svg",
             "TITLE": "Community connectivity deployment",
-            "DESCRIPTION": "Public access points, infrastructure for telecenters, and mesh networks in low-connectivity areas."
+            "DESCRIPTION": "Public access points, telecenter infrastructure, and mesh networks in areas with low connectivity."
           },
           {
             "IMG": "/icons/accesibilidad.svg",
             "TITLE": "Accessible platforms and services",
-            "DESCRIPTION": "Design of inclusive interfaces and adapted service channels for people with disabilities."
+            "DESCRIPTION": "Design of inclusive interfaces and service channels adapted for people with disabilities."
           },
           {
             "IMG": "/icons/robotica.svg",
             "TITLE": "STEM training centers",
-            "DESCRIPTION": "Laboratories and robotics and programming programs for students and local entrepreneurs."
+            "DESCRIPTION": "Labs and programs in robotics and programming for students and local entrepreneurs."
           },
           {
             "IMG": "/icons/telemedicina.svg",
@@ -492,7 +618,7 @@
           {
             "TITLE": "COMMUNITY DIGITAL INCLUSION PROGRAM",
             "DESCRIPTION": "Network of telecenters and Wi-Fi points managed by the municipality for digital literacy, online procedures, and support for local SMEs.",
-            "LOCATE": "Northern Region, Mexico",
+            "LOCATE": "Región Norte, México",
             "DATE": "2023",
             "IMG": [
               "/projects/k/img1.webp",
@@ -501,8 +627,8 @@
           },
           {
             "TITLE": "CITIZEN PARTICIPATION PLATFORM",
-            "DESCRIPTION": "Digital tool for public consultations, participatory budgets, and commitment tracking, with dashboards for transparency.",
-            "LOCATE": "Capital City, Mexico",
+            "DESCRIPTION": "Digital tool for public consultations, participatory budgets, and monitoring commitments, with dashboards for transparency.",
+            "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
               "/projects/l/img1.webp",
@@ -514,15 +640,14 @@
     ]
   },
   "HERO": {
-    "TEXT_1": "GLACI is an urban innovation consortium that integrates talent, multisectoral collaboration, and financial structuring to turn urban visions into sustainable, viable projects with real impact.",
+    "TEXT_1": "We structure and execute Smart City projects focused on people.",
+    "TEXT_1_1": "We are a strategic consortium that integrates urban vision, financial structuring, and coordinated execution to develop viable, funded, and sustainable projects.",
     "TEXT_2_1": "Smart Cities",
     "TEXT_2_2": "Smart Future",
-    "TEXT_3": "We align governments, private sector, academia, investors, and multilateral organizations to structure and materialize sustainable urban projects, with a human vision and financial solidity.",
-    "TEXT_4": "Cities do not evolve just with ideas, technology, or resources. They evolve when the right talent, conscious collaboration, and well-structured capital move in the same direction.",
     "CENTER_SUBTITLE": "Implementation",
     "CENTER_TITLE": "Smart City",
     "FOOTER_LEFT_LINE1": "Guidance in",
-    "FOOTER_LEFT_LINE2": "normative implementation",
+    "FOOTER_LEFT_LINE2": "regulatory implementation",
     "FOOTER_LEFT_BUTTON": "cities and communities",
     "FOOTER_RIGHT_TEXT": "Follow us on",
     "BUTTON_STRATEGIC_CONVERSATION": "Strategic conversation",
@@ -530,22 +655,22 @@
   },
   "NETWORKS": [
     {
-      "IMG": "/icons/networks/facebook.webp",
+      "IMG": "/icons/networks/facebook.svg",
       "TITLE": "FACEBOOK",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/twitter.webp",
+      "IMG": "/icons/networks/x.svg",
       "TITLE": "TWITTER",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/instagram.webp",
+      "IMG": "/icons/networks/instagram.svg",
       "TITLE": "INSTAGRAM",
       "HREF": ""
     },
     {
-      "IMG": "/icons/networks/linkedin.webp",
+      "IMG": "/icons/networks/linkedin.svg",
       "TITLE": "LINKEDIN",
       "HREF": ""
     }
@@ -556,7 +681,7 @@
     "TEXT1": "A holistic system where human and social capital interact, using ICT-based solutions.",
     "TITLE2": "The purpose of a Smart City is to achieve efficient management",
     "TEXT2": "meeting the needs of the city and its citizens.",
-    "TITLE3": "Consulting and advice on smart city management",
+    "TITLE3": "Consulting and advisory in smart city management",
     "TEXT3": "National and international services with an ethical, sustainable, and innovative approach."
   },
   "CONTACT_FORM": {
@@ -568,9 +693,9 @@
   },
   "INFORMATION": {
     "MISSION_TITLE": "Mission",
-    "MISSION_TEXT": "Devise intelligent solutions for the technological and sustainable development of cities and communities, always seeking inclusion and accessibility for people.",
+    "MISSION_TEXT": "To devise intelligent solutions for the technological and sustainable development of cities and communities, always seeking inclusion and accessibility for people.",
     "VISION_TITLE": "Vision",
-    "VISION_TEXT": "Develop and create city projects and human settlements worldwide, that promote inclusivity and ensure accessibility, security, resource optimization, affordability, and sustainability to achieve prosperity and quality of life.",
+    "VISION_TEXT": "To develop and create city and human settlement projects worldwide that promote inclusiveness and guarantee accessibility, safety, resource optimization, affordability, and sustainability to achieve prosperity and quality of life.",
     "VALUES_TITLE": "Values",
     "VALUES_LIST": [
       "Excellence",
@@ -586,38 +711,38 @@
     {
       "NAV_TITLE": "ISO Certifications",
       "TITLE": "Smart City – Smart Communities",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> accompanies the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow objectively evaluating the development of sustainable cities and communities, through process standardization and with qualitative and quantitative analysis.",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>GLACI Smart Cities, Smart Future </b> accompanies the management and implementation processes of solutions based on ISO standards. <br/> <br/> These allow for the objective evaluation of the development of sustainable cities and communities, through process standardization and with a qualitative and quantitative analysis.",
       "DESCRIPTION_RIGHT": "The International Organization for Standardization, through its technical committee 268 for sustainable cities and communities, has developed the following Standards in this field of application."
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37101</b>",
-      "TITLE": "Sustainable development in communities - Management System for Sustainable Development",
-      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Its main goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Build consensus on sustainable development</li><li>Improve sustainability, smartness, and resilience of all its actions</li><li>Develop cross-sectoral, multidisciplinary, life-cycle value, and total costing approaches.</li><li>Foster synergies</li><li>Increase efficiency and attractiveness of communities</li></ul>",
+      "TITLE": "Sustainable development in communities - Management system for sustainable development",
+      "DESCRIPTION_LEFT": "<b class='text-[var(--color-title)]'>Its main goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Build consensus on sustainable development</li><li>Improve the sustainability, smartness, and resilience of all its actions</li><li>Develop intersectoral, multidisciplinary, life-cycle value, and total costing approaches.</li><li>Foster synergies</li><li>Increase efficiency and attractiveness of communities</li></ul>",
       "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'><li>Applicable to communities of all sizes, structures, and types</li><li>Applicable to developed and developing countries</li><li>Applicable at local, regional, or national level</li><li>Applicable in urban or rural areas</li></ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37120</b>",
       "TITLE": "Sustainable development of communities – Indicators for city services and quality of life",
-      "DESCRIPTION_LEFT": "This standard complements the series of indicators to measure performance in communities; it includes city services and quality of life in smart cities and resilient cities.<br/> <br/> These indicators allow evaluation and in turn planning based on possible future needs and establishes as main goals:<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Measurement of performance management of services and quality over time</li><li>Possibility of comparison to learn about performance measures</li><li>Policy development and priority setting</li></ul>",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Aggregable indicators to very large administrative areas</li> <li>Applicable to the evaluation of city resource efficiency</li> <li>Together with other indicators, it allows a more integral and holistic approach to sustainability analysis</li> </ul>"
+      "DESCRIPTION_LEFT": "This standard complements the series of indicators for measuring performance in communities; it includes city services and quality of life in smart cities and resilient cities.<br/> <br/> These indicators allow evaluation and, in turn, planning based on possible future needs and establishes as main goals:<br/> <br/> <ul class='list-disc list-outside pl-5'><li>Measurement of service performance management and quality over time</li><li>Possibility of comparison to learn about performance measures</li><li>Development of policies and establishment of priorities</li></ul>",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Indicators aggregable to very large administrative areas</li> <li>Applicable to the evaluation of city resource efficiency</li> <li>Together with other indicators, it allows for a more comprehensive and holistic approach to sustainability analysis</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37122</b>",
       "TITLE": "Sustainable cities and communities - Indicators for Smart Cities",
-      "DESCRIPTION_LEFT": "It presents a benchmark for city sustainability, which requires additional indicators to those established to evaluate city services and quality of life. Together with the application of ISO 37120, it helps cities implement policies, programs, and projects for smart cities.<br/> <br/> <b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> Together with ISO 37120, it aims to provide a complete set of indicators to measure progress towards a smart city.",
-      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Its goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Apply collaborative leadership methods</li> <li>Use data information and technologies to provide improvement in services and quality of life</li> <li>Provide a better living environment from smart policies and making technologies available to citizens</li> <li>Generate innovative solutions to environmental and sustainability issues</li> <li>Identify needs and benefits of smart infrastructures</li> <li>Facilitate innovation and growth</li> <li>Build a dynamic and innovative economy that achieves resilience</li> </ul>"
+      "DESCRIPTION_LEFT": "It presents a benchmark for city sustainability, which requires additional indicators to those established to evaluate city services and quality of life. Together with the application of ISO 37120, it helps cities implement policies, programs, and projects for smart cities.<br/> <br/> <b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> Together with ISO 37120, it aims to provide a comprehensive set of indicators to measure progress towards a smart city.",
+      "DESCRIPTION_RIGHT": "<b class='text-[var(--color-title)]'>Its goals are:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Apply collaborative leadership methods</li> <li>Use data information and technologies to improve services and quality of life</li> <li>Provide a better living environment through smart policies and making technologies available to citizens</li> <li>Generate innovative solutions to environmental and sustainability issues</li> <li>Identify needs and benefits of smart infrastructure</li> <li>Facilitate innovation and growth</li> <li>Build a dynamic and innovative economy that becomes resilient</li> </ul>"
     },
     {
       "NAV_TITLE": "ISO <b class='text-[var(--color-title)]'>37123</b>",
       "TITLE": "Sustainable Cities and Communities – Indicators for Resilient Cities",
-      "DESCRIPTION_LEFT": "A resilient city is capable of preparing, recovering, and adapting to shocks and stresses. This standard together with the indicators proposed in ISO 37120 allows the evaluation of Resilient Cities and also taking actions to manage and mitigate human and natural stress in relation to environmental degradation and economic instability that cause persistent negative impacts. <br/> <br/> It presents specific indicators and also structured indicators according to a risk management and disaster management process; monitoring compliance with Sustainable Development Goals and structured in accordance with the Sendai Framework for Disaster Risk Reduction, these aim to help cities:",
-      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepare, recover, and adapt to shocks and stresses</li> <li>Generate learning based on comparison of performance measures and sharing good practices.</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable for measuring resilience in cities</li> <li>Applicable to any city, municipality, or local government</li> <li>Applicable regardless of its size or location</li> </ul>"
+      "DESCRIPTION_LEFT": "A resilient city is capable of preparing for, recovering from, and adapting to shocks and stresses. This standard, together with the indicators set out in ISO 37120, allows for the evaluation of Resilient Cities and also for taking actions to manage and mitigate human and natural stress in relation to environmental degradation and economic instability that cause persistent negative impacts. <br/> <br/> It presents specific indicators and also presents indicators structured according to a risk management and disaster management process; monitoring compliance with Sustainable Development Goals and structured in accordance with the Sendai Framework for Disaster Risk Reduction, these aim to help cities:",
+      "DESCRIPTION_RIGHT": "<ul class='list-disc list-outside pl-5'> <li>Prepare for, recover from, and adapt to shocks and stresses</li> <li>Generate learning based on comparison of performance measures and sharing good practices.</li> </ul> <br/> <br/> <b class='text-[var(--color-title)]'>Scopes:</b> <br/> <br/> <ul class='list-disc list-outside pl-5'> <li>Applicable for measuring resilience in cities</li> <li>Applicable to any city, municipality, or local government</li> <li>Applicable regardless of size or location</li> </ul>"
     }
   ],
   "REGISTER_INFORMATION": {
     "TITLE": "Do you need <br/> information?",
     "SUBTITLE": "At GLACI <br/> we are at your disposal.",
-    "TEXT": "If you are interested in knowing more about the topic or if you have any questions or suggestions, we invite you to fill out the registration form with real data so that we can communicate correctly and provide you with the tools and information you need.",
+    "TEXT": "If you are interested in learning more about the topic or if you have any questions or suggestions, we invite you to fill out the registration form with real data so we can communicate correctly and provide you with the tools and information you need.",
     "WARNING": "* Rest assured that your data will be handled securely.",
     "FORM": {
       "TITLE": "register to request information about a topic of your interest.",
@@ -641,14 +766,15 @@
   },
   "GLACI": {
     "GLACI": "GLACI",
-    "TITLE": "What is",
-    "TEXT_1": "GLACI is a consortium of interdisciplinary talent that drives urban and territorial projects integrating innovation, knowledge, governance, and financial structuring.",
-    "TEXT_2": "We work where complexity requires collective intelligence, institutional sensitivity, and long-term viability.",
+    "TITLE": "What it is",
+    "DESCRIPTION": "GLACI is a <b>strategic consortium specialized in the structuring and execution of Smart City and Territory projects</b>.",
+    "TEXT_1": "We are not just another piece in the process. We are the framework that aligns vision, technical capacity, and financing under a single strategic architecture.",
+    "TEXT_2": "We integrate high-level strategic talent under a single direction to transform urban complexity into structured, financeable, and executable projects.",
     "TITLE_2": "Our Methodology",
     "CARDS": [
       {
         "TITLE": "Deep understanding",
-        "TEXT": "We listen to the territory, its actors, and its real context."
+        "TEXT": "We listen to the territory, its stakeholders, and its real context."
       },
       {
         "TITLE": "Co-creation and structuring",
@@ -663,25 +789,27 @@
   "WORK": {
     "TITLE": "We collaborate with",
     "TEXT": [
-      "Governments with long-term vision and sense of legacy.",
-      "Companies committed to sustainable development.",
-      "Academia and knowledge centers that contribute rigor and applied innovation.",
-      "Investors and multilateral organizations that prioritize impact, transparency, and viability."
+      "National and local governments",
+      "Territorial development agencies",
+      "Multilateral organizations",
+      "Investment and infrastructure funds",
+      "Visionary real estate developers"
     ],
+    "SUB_TEXT": "We act as structuring partner and coordinator of the comprehensive project.",
     "TITLE_2": "CREDENTIALS",
     "TEXT_2": "Our approach aligns with international standards and best practices for sustainable and smart cities, prioritizing governance, indicators, transparency, and continuity."
   },
   "CONSORTIUM": {
     "TITLE": "Consortium",
-    "TEXT": "GLACI is a consortium formed by professionals, organizations, and strategic allies with real experience in urban development, infrastructure, sustainability, finance, and knowledge.",
+    "TEXT": "GLACI is a consortium formed by professionals, organizations, and strategic partners with real experience in urban development, infrastructure, sustainability, finance, and knowledge.",
     "TEXT_2": "We believe that major urban challenges are not solved from a single sector.",
     "TEXT_3": "They are solved through conscious collaboration."
   },
   "GOVERNANCE": {
     "TITLE_1": "Governance",
-    "SUBTITLE": "Lasting transformations begin with clear decisions, reliable institutions, and shared data.",
-    "TEXT_1": "GLACI articulates actors and structures projects to strengthen urban governance in a sustainable way.",
-    "TITLE_2": "Focus",
+    "SUBTITLE": "Lasting transformations begin with clear decisions, trustworthy institutions, and shared data.",
+    "TEXT_1": "GLACI articulates stakeholders and structures projects to strengthen urban governance sustainably.",
+    "TITLE_2": "Approach",
     "TEXT_2_1": "We work so that governance:",
     "CARDS": [
       {
@@ -701,9 +829,9 @@
     "TITLE_3": "What We Enable",
     "ITEMS": [
       "Institutional and multisectoral alignment",
-      "Governance models and decision-making",
-      "Platforms and management support systems",
-      "Indicators and performance metrics"
+      "Governance and decision-making models",
+      "Platforms and systems to support management",
+      "Performance indicators and metrics"
     ],
     "TITLE_4": "Experience / Cases",
     "TEXT_4_1": "We have accompanied urban and territorial projects where governance was key to ensuring continuity, trust, and measurable results."
@@ -736,7 +864,7 @@
       {
         "NAME": "Osvaldo Mireles",
         "POSITION": "Co-Founder",
-        "SEMBLANCE": "Expert in technology and sustainable development, specialized in Smart Cities, BIM, Blockchain, AI and the New Urban Agenda.",
+        "SEMBLANCE": "Expert in technology and sustainable development with specialization in Smart Cities, BIM, Blockchain, AI, and the New Urban Agenda.",
         "IMG": "/team/osvaldo.png",
         "NETWORKS": [
           {
@@ -747,14 +875,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/osvaldo-mireles-501878121",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Hugo Isaak",
         "POSITION": "Co-Founder",
-        "SEMBLANCE": "Smart cities expert with over 17 years of experience in public administration, specialized in smart cities, sustainable habitat and artificial intelligence.",
+        "SEMBLANCE": "Expert in smart cities with over 17 years of experience in public administration, specialized in smart cities, sustainable habitat, and artificial intelligence.",
         "IMG": "/team/hugoI.png",
         "NETWORKS": [
           {
@@ -765,14 +893,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/hugo-isaak/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Ignasi Pérez Arnal",
         "POSITION": "Co-Founder",
-        "SEMBLANCE": "BIM pioneer in Europe, co-founder of BIM Academy Spain and creator of the EUROPEAN BIM SUMMIT. Director of The Rebuild, a leading event in construction and advanced architecture in Spain. He also leads BIM training and digital transformation at prominent institutions, driving innovative projects in sustainability and urbanism.",
+        "SEMBLANCE": "Pioneer of BIM in Europe, co-founder of BIM Academy Spain and creator of the EUROPEAN BIM SUMMIT. He is director of The Rebuild, a leading event in advanced construction and architecture in Spain. Additionally, he leads BIM and digital transformation training at prominent institutions, driving innovative projects in sustainability and urban planning.",
         "IMG": "/team/ignasi.png",
         "NETWORKS": [
           {
@@ -783,14 +911,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ignasiperezarnal",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Jorge Moreno Vargas",
         "POSITION": "Co-Founder",
-        "SEMBLANCE": "Expert in disruptive technologies, MIT-certified. 13 years leading innovation in smart cities, IoT and sustainable projects.",
+        "SEMBLANCE": "Expert in disruptive technologies, MIT Certified. 13 years leading innovation in smart cities, IoT, and sustainable projects.",
         "IMG": "/team/jorge.png",
         "NETWORKS": [
           {
@@ -801,14 +929,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/jorge-moreno-vargas/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Héctor Miranda Martínez",
-        "POSITION": "Road Construction Specialist",
-        "SEMBLANCE": "Expert in road construction with extensive experience in planning, execution and quality control of infrastructure projects in the public and industrial sectors.",
+        "POSITION": "Expert in Land Road Construction",
+        "SEMBLANCE": "Expert in land road construction with extensive experience in planning, execution, and quality control in infrastructure projects in the public and industrial sectors.",
         "IMG": "/team/hector.png",
         "NETWORKS": [
           {
@@ -819,13 +947,13 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/h%C3%A9ctor-mart%C3%ADnez-miranda-b94577147",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Tania Sánchez",
-        "POSITION": "Director of Architecture and Sustainable Urbanism",
+        "POSITION": "Director of Sustainable Architecture and Urbanism",
         "SEMBLANCE": "Senior architect and urban planner with national and international experience. Specialized in sustainable urban design and planning.",
         "IMG": "/team/tania.png",
         "NETWORKS": [
@@ -837,14 +965,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://mx.linkedin.com/in/tania-sanchez-167305128",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Guillermo Sánchez",
         "POSITION": "Chief City Urbanist",
-        "SEMBLANCE": "PhD Architect in Urban and Regional Planning with over 20 years of international experience developing urban, metropolitan and regional development strategies, and researching urban and territorial processes. Expert in strategic urban planning.",
+        "SEMBLANCE": "PhD Architect in Urban and Regional Planning, with over 20 years of international experience in developing urban, metropolitan, and regional strategies, as well as researching urban and territorial processes. Expert in strategic city planning.",
         "IMG": "/team/guillermo.png",
         "NETWORKS": [
           {
@@ -855,14 +983,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Angel Luis Tendero",
         "POSITION": "Chief Project Officer (CPO)",
-        "SEMBLANCE": "Architect and project manager. A leading figure in architecture, he has appeared on the covers of ABC, El Mundo and El País for his career.",
+        "SEMBLANCE": "Architect and project manager. A reference in architecture, he has been featured on the covers of ABC, El Mundo, and El País for his career.",
         "IMG": "/team/angel.png",
         "NETWORKS": [
           {
@@ -873,14 +1001,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://es.linkedin.com/in/altarquitectura",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Yuka Nakasone",
         "POSITION": "International Business Advisor",
-        "SEMBLANCE": "With over 30 years of experience in international business, she excels at helping organizations adapt and thrive in the digital, global era. Originally from Japan and based in Barcelona, she brings deep knowledge of innovation and technology.",
+        "SEMBLANCE": "With over 30 years of experience in international business, she stands out for her ability to help organizations adapt and thrive in the digital and global era. Originally from Japan and based in Barcelona, she is distinguished by her deep knowledge of innovation and technology.",
         "IMG": "/team/yuka.png",
         "NETWORKS": [
           {
@@ -891,14 +1019,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/yukanakasone/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Amaia Celaya Alvarez",
         "POSITION": "Urban Resilience Advisor",
-        "SEMBLANCE": "Advisor on urban resilience, expert in designing resilient cities and managing urban risks.",
+        "SEMBLANCE": "Urban Resilience Advisor, expert in designing resilient cities and urban risk management.",
         "IMG": "/team/amaia.png",
         "NETWORKS": [
           {
@@ -909,7 +1037,7 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/amaia-celaya-alvarez/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
@@ -927,14 +1055,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/ernesto-vald%C3%A9s-arreguin/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Montserrat Armengol Aragonès",
         "POSITION": "Project Manager",
-        "SEMBLANCE": "Founding partner and manager of Coloma+Armengol, a consultancy and training firm specialized in technological innovation processes in the construction sector. Coordinator of the Master's program in BIM Management.",
+        "SEMBLANCE": "Founding partner and manager of Coloma+Armengol, a consulting and training company specialized in technological innovation processes in the construction sector. Coordinator of the Master in BIM Management.",
         "IMG": "/team/montserrat.png",
         "NETWORKS": [
           {
@@ -945,14 +1073,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/montserratarmengolaragones/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Eloi Coloma",
         "POSITION": "BIM & Digital Transformation Specialist",
-        "SEMBLANCE": "Architect, PhD, specialized in BIM and digital transformation. Professor and researcher at the Universitat Politècnica de Catalunya (UPC).",
+        "SEMBLANCE": "PhD Architect specialized in BIM and digital transformation. Professor and researcher at the Universitat Politècnica de Catalunya (UPC).",
         "IMG": "/team/eloi.png",
         "NETWORKS": [
           {
@@ -963,14 +1091,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/eloi-coloma/?originalSubdomain=es",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Gerardo Velasco Gutierrez",
         "POSITION": "General Director MEM and Co-founder of XPLORADN",
-        "RESUMBLANCE": "He has led more than 165 investment projects and strategic roles in regional planning and development, has contributed to emblematic initiatives such as World Bank innovation loans and the National Fishing Plan. Founder of XPLORADN, expert in sustainable financial strategies and innovative development.",
+        "SEMBLANCE": "He has led more than 165 investment projects and strategic roles in regional planning and development, contributing to emblematic initiatives such as the World Bank innovation loans and the National Fisheries Plan. Founder of XPLORADN, expert in sustainable financial strategies and innovative development.",
         "IMG": "/team/gerardo.png",
         "NETWORKS": [
           {
@@ -981,14 +1109,14 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/gerardo-velasco-gutierrez-48950a177/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       },
       {
         "NAME": "Francisco Flores",
         "POSITION": "Director of Urban Laboratories",
-        "RESUMBLANCE": "Designer of Emerging Futures, consultant and expert in urban laboratories, citizen science and grassroots innovation processes. Promoter of the Fab City León initiative, which belongs to a global movement of sustainable cities that promote a change in the urban industrial paradigm.",
+        "SEMBLANCE": "Emerging Futures Designer, consultant and expert in urban laboratories, citizen science, and grassroots innovation processes. Promoter of the Fab City León initiative, which belongs to a global movement of sustainable cities promoting a change in the urban-industrial paradigm.",
         "IMG": "/team/franciscoF.png",
         "NETWORKS": [
           {
@@ -999,7 +1127,7 @@
           {
             "ICON": "/icons/networks/linkedin.svg",
             "HREF": "https://www.linkedin.com/in/francisco-flores-a0846323/",
-            "TITLE": "LinkedIn"
+            "TITLE": "Linkedin"
           }
         ]
       }
@@ -1007,13 +1135,13 @@
   },
   "AREAS_2": {
     "TITLE": "Areas of Impact",
-    "TITLE_1": "Focus",
+    "TITLE_1": "Approach",
     "TITLE_2": "What We Enable",
     "TITLE_3": "Experience / Cases",
     "SUBTITLE": "Urban development does not happen in isolated parts. It happens when systems connect.",
     "TEXT": "We work in key areas of urban and territorial development:",
     "TEXT_2": "Not as independent solutions, but as integrated ecosystems.",
-    "BUTTON": "Request more Information",
+    "BUTTON": "Request more information",
     "SUCCESS_STORIES_LOCATE": "Location",
     "SUCCESS_STORIES_YEAR": "Year",
     "SUCCESS_STORIES_BUTTON": "View related projects",
@@ -1023,19 +1151,19 @@
           "Government and management platforms",
           "Digital transformation",
           "Data for decision-making",
-          "Custom technology architecture"
+          "Custom technological architecture"
         ],
         "ICON": "/icons/areas/gobernanza.svg",
         "TITLE": "<strong>Smart</strong><br>Governance",
         "TITLE_TEXT": "Smart Governance",
         "SUBTITLE": "Digital Government and Transparency.",
-        "DESCRIPTION": "Lasting transformations begin with clear decisions, reliable institutions, and shared data. <br>GLACI articulates actors and structures projects to strengthen urban governance in a sustainable way.",
+        "DESCRIPTION": "Lasting transformations begin with clear decisions, trustworthy institutions, and shared data. <br>GLACI articulates stakeholders and structures projects to strengthen urban governance sustainably.",
         "AREA_TEXT_1": "We work so that governance:",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "Is transparent",
-            "DESCRIPTION": "Ensure open and reliable access to public information through digital tools that strengthen accountability"
+            "DESCRIPTION": "Guarantee open and reliable access to public information through digital tools that strengthen accountability"
           },
           {
             "IMG": "",
@@ -1055,29 +1183,29 @@
           {
             "IMG": "/icons/portal.svg",
             "TITLE": "Institutional and multisectoral alignment",
-            "DESCRIPTION": "We create coordination spaces between institutions, sectors, and key actors to ensure coherence in policies, projects, and development strategies"
+            "DESCRIPTION": "We create coordination spaces between institutions, sectors, and key stakeholders to ensure coherence in policies, projects, and development strategies"
           },
           {
             "IMG": "/icons/plataformas_de_participacion.svg",
-            "TITLE": "Governance models and decision-making",
+            "TITLE": "Governance and decision-making models",
             "DESCRIPTION": "We design governance frameworks that integrate citizen participation, technical evidence, and strategic vision for more legitimate and sustainable decisions"
           },
           {
             "IMG": "/icons/dashboard.svg",
-            "TITLE": "Platforms and management support systems",
+            "TITLE": "Platforms and systems to support management",
             "DESCRIPTION": "We implement digital solutions that facilitate public management, optimize processes, and strengthen institutional response capacity"
           },
           {
             "IMG": "/icons/seguridad.svg",
-            "TITLE": "Indicators and performance metrics",
+            "TITLE": "Performance indicators and metrics",
             "DESCRIPTION": "We define and monitor indicators that allow evaluating results, measuring impact, and ensuring transparency in government management"
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "DIGITAL GOVERNMENT AND OPEN DATA PLATFORM",
-            "DESCRIPTION": "Design and implementation of a comprehensive digital government platform oriented towards transparency and data-based decision-making. The project integrates open data portals, strategic indicator dashboards, and public policy monitoring systems, allowing authorities and citizens to access reliable, updated, and actionable information to strengthen accountability and urban management.",
-            "LOCATE": "Metropolitan Municipality, Mexico",
+            "DESCRIPTION": "Design and implementation of a comprehensive digital government platform aimed at transparency and data-driven decision-making. The project integrates open data portals, strategic indicator dashboards, and public policy monitoring systems, allowing authorities and citizens to access reliable, updated, and actionable information to strengthen accountability and urban management.",
+            "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
               "/projects/a/img1.webp",
@@ -1088,7 +1216,7 @@
           {
             "TITLE": "CITIZEN PARTICIPATION AND COLLABORATIVE MANAGEMENT SYSTEM",
             "DESCRIPTION": "Implementation of a digital citizen participation ecosystem that allows identifying urban problems, prioritizing projects, and co-creating solutions between government and society. The solution integrates public consultation modules, georeferenced citizen reports, and participation analytics, strengthening the legitimacy of decisions and promoting more inclusive and sustainable urban governance.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/b/img1.webp",
@@ -1113,11 +1241,11 @@
           {
             "IMG": "",
             "TITLE": "Local digital market",
-            "DESCRIPTION": "Promotion of platforms and digital channels that connect SMEs, local commerce, and public services to increase their competitiveness."
+            "DESCRIPTION": "Boosting platforms and digital channels that connect SMEs, local commerce, and public services to increase their competitiveness."
           },
           {
             "IMG": "",
-            "TITLE": "Sustainable finances",
+            "TITLE": "Sustainable finance",
             "DESCRIPTION": "Design of financial instruments (green bonds, impact-linked loans) to finance smart infrastructure and services."
           }
         ],
@@ -1125,7 +1253,7 @@
           {
             "IMG": "",
             "TITLE": "Service-based revenue models",
-            "DESCRIPTION": "Transition to OpEx/servitization schemes (infrastructure as a service) to reduce technology adoption barriers."
+            "DESCRIPTION": "Transition to OpEx/servitization schemes (infrastructure as a service) to reduce barriers to technological adoption."
           },
           {
             "IMG": "",
@@ -1134,22 +1262,22 @@
           }
         ],
         "AREA_TEXT_2": "From financial structuring to sustainable operation.",
-        "TITLE_SERVICE": "Financial Services and Structuring",
+        "TITLE_SERVICE": "Financial and Structuring Services",
         "SERVICE": [
           {
             "IMG": "/icons/asociaciones.svg",
             "TITLE": "Structuring of financial vehicles for cities",
-            "DESCRIPTION": "Design of SPV, co-financing schemes, and public-private partnerships to implement smart projects with clear risk and flow."
+            "DESCRIPTION": "Design of SPVs, co-financing schemes, and public-private partnerships to implement smart projects with clear risk and cash flow."
           },
           {
             "IMG": "/icons/energy.svg",
             "TITLE": "Savings models and performance contracting",
-            "DESCRIPTION": "Structuring of projects where savings generated by technology finance the initial investment (efficiency-as-a-service)."
+            "DESCRIPTION": "Structuring of projects where the savings generated by technology finance the initial investment (efficiency-as-a-service)."
           },
           {
             "IMG": "/icons/arrendamiento.svg",
             "TITLE": "Urban Infrastructure as a Service (IaaS)",
-            "DESCRIPTION": "Leasing and subscription solutions for IoT equipment, charging stations, and sensors, reducing initial municipal investment."
+            "DESCRIPTION": "Leasing and subscription solutions for IoT equipment, charging stations, and sensors, reducing the municipality's initial investment."
           },
           {
             "IMG": "/icons/fondos.svg",
@@ -1160,8 +1288,8 @@
         "PROJECTS": [
           {
             "TITLE": "LOCAL URBAN INNOVATION FUND",
-            "DESCRIPTION": "Creation and management of a municipal fund that finances pilots in mobility, energy, and citizen participation with impact metrics and social return.",
-            "LOCATE": "Metropolitan Municipality, Mexico",
+            "DESCRIPTION": "Creation and management of a municipal fund that finances mobility, energy, and citizen participation pilots with impact metrics and social return.",
+            "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
             "IMG": [
               "/projects/c/img1.webp",
@@ -1169,9 +1297,9 @@
             ]
           },
           {
-            "TITLE": "MICROPAYMENTS AND LOCAL ECONOMY PLATFORM",
+            "TITLE": "MICROPAYMENT AND LOCAL ECONOMY PLATFORM",
             "DESCRIPTION": "Deployment of a platform to enable local digital commerce, incentives for sustainable consumption, and traceability of social subsidies.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/d/img1.webp",
@@ -1184,8 +1312,8 @@
         "ICON": "/icons/areas/movilidadInfraestructura.svg",
         "TITLE": "<strong>Smart Mobility and<br>Infrastructure</strong>",
         "TITLE_TEXT": "Smart Mobility and Infrastructure",
-        "SUBTITLE": "Mobility and Connected Infrastructure.",
-        "DESCRIPTION": "<b>We manage transportation systems</b> and critical infrastructure with technologies that optimize flow, reduce emissions, and increase safety and accessibility.",
+        "SUBTITLE": "Connected Mobility and Infrastructure.",
+        "DESCRIPTION": "<b>We manage transport systems</b> and critical infrastructure with technologies that optimize flow, reduce emissions, and increase safety and accessibility.",
         "AREA_TEXT_1": "We work so that mobility is:",
         "AREA1": [
           {
@@ -1202,7 +1330,7 @@
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "Data-based management",
+            "TITLE": "Data-driven management",
             "DESCRIPTION": "Control and analytics systems to optimize routes, reduce congestion, and prioritize public transport."
           }
         ],
@@ -1211,13 +1339,13 @@
         "SERVICE": [
           {
             "IMG": "/icons/semaforo.svg",
-            "TITLE": "Adaptive traffic light control",
+            "TITLE": "Adaptive traffic signal control",
             "DESCRIPTION": "Systems that adjust phases in real time to improve public transport priority and reduce travel times."
           },
           {
             "IMG": "/icons/estacionamiento.svg",
             "TITLE": "Smart parking management",
-            "DESCRIPTION": "Sensors and apps to guide drivers, reduce parking search, and optimize public space use."
+            "DESCRIPTION": "Sensors and apps to guide drivers, reduce parking search, and optimize the use of public space."
           },
           {
             "IMG": "/icons/electromovilidad.svg",
@@ -1226,15 +1354,15 @@
           },
           {
             "IMG": "/icons/alumbrado.svg",
-            "TITLE": "Telemanaged infrastructure",
-            "DESCRIPTION": "Lighting and signage systems that reduce consumption and facilitate predictive maintenance."
+            "TITLE": "Remote-managed infrastructure",
+            "DESCRIPTION": "Lighting and signaling systems that reduce consumption and facilitate predictive maintenance."
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "URBAN TRAFFIC MANAGEMENT PLATFORM (TMS)",
             "DESCRIPTION": "Implementation of a management center that integrates sensors, analytical CCTV, and predictive models to optimize mobility and incident response.",
-            "LOCATE": "Capital City, Mexico",
+            "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
               "/projects/e/img1.webp",
@@ -1242,9 +1370,9 @@
             ]
           },
           {
-            "TITLE": "PILOT NETWORK OF CHARGING STATIONS AND ELECTRIC MOBILITY",
+            "TITLE": "PILOT NETWORK OF EV CHARGING STATIONS AND ELECTRIC MOBILITY",
             "DESCRIPTION": "Deployment of strategic charging stations, integration with payment systems, and management of public and private fleets.",
-            "LOCATE": "Metropolitan Corridor, Latin America",
+            "LOCATE": "Corredor Metropolitano, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/f/img1.webp",
@@ -1255,10 +1383,10 @@
       },
       {
         "ICON": "/icons/areas/medioAmbienteInteligente.svg",
-        "TITLE": "<strong>Smart</strong><br>Environment",
+        "TITLE": "<strong>Smart<br>Environment</strong>",
         "TITLE_TEXT": "Smart Environment",
         "SUBTITLE": "Sustainability and ESG Services.",
-        "DESCRIPTION": "<b>We design and implement</b> urban environmental systems: monitoring, energy efficiency, water management, and waste handling supported by data and governance.",
+        "DESCRIPTION": "<b>We design and implement</b> urban environmental systems: monitoring, energy efficiency, water management, and waste management supported by data and governance.",
         "AREA_TEXT_1": "We work so that environmental management is:",
         "AREA1": [
           {
@@ -1269,7 +1397,7 @@
           {
             "IMG": "",
             "TITLE": "Energy efficient",
-            "DESCRIPTION": "Efficiency programs, telemanagement, and electrification with granular consumption measurement."
+            "DESCRIPTION": "Efficiency programs, remote management, and electrification with granular consumption measurement."
           },
           {
             "IMG": "",
@@ -1286,16 +1414,16 @@
           {
             "IMG": "",
             "TITLE": "Smart waste management",
-            "DESCRIPTION": "Sensors in containers and route optimization to reduce emissions and operating costs."
+            "DESCRIPTION": "Sensors in containers and route optimization to reduce emissions and operational costs."
           },
           {
             "IMG": "",
-            "TITLE": "Participation in sustainability",
+            "TITLE": "Sustainability participation",
             "DESCRIPTION": "Citizen reporting platforms and education to promote sustainable practices."
           }
         ],
         "AREA_TEXT_2": "We implement technology with an ESG focus and impact measurement.",
-        "TITLE_SERVICE": "Regulatory compliance and corporate/government sustainability",
+        "TITLE_SERVICE": "Regulatory compliance and corporate/governmental sustainability",
         "SERVICE": [
           {
             "IMG": "/icons/consultoria.svg",
@@ -1319,15 +1447,15 @@
           },
           {
             "IMG": "/icons/residuos.svg",
-            "TITLE": "Waste services optimization",
+            "TITLE": "Waste service optimization",
             "DESCRIPTION": "Dynamic routes and data-based planning for operational efficiency."
           }
         ],
         "PROJECTS": [
           {
             "TITLE": "MUNICIPAL ENVIRONMENTAL MONITORING NETWORK",
-            "DESCRIPTION": "Deployment of air quality sensors, weather stations, and open data platform for environmental management and alerts.",
-            "LOCATE": "Metropolitan Area, Mexico",
+            "DESCRIPTION": "Deployment of air quality sensors, weather stations, and an open data platform for environmental management and alerts.",
+            "LOCATE": "Área Metropolitana, México",
             "DATE": "2024",
             "IMG": [
               "/projects/g/img1.webp",
@@ -1337,8 +1465,8 @@
           },
           {
             "TITLE": "SMART WATER PROGRAM",
-            "DESCRIPTION": "Network sectorization, telemetry in wells, and early leak detection system to reduce non-billed water losses.",
-            "LOCATE": "Intermediate City, Latin America",
+            "DESCRIPTION": "Network sectorization, well telemetry, and early leak detection system to reduce non-revenue water losses.",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/h/img1.webp",
@@ -1350,16 +1478,16 @@
       },
       {
         "ICON": "/icons/areas/habitatyServicios.svg",
-        "TITLE": "<strong>Smart Habitat and Services</strong>",
+        "TITLE": "<strong>Smart Habitat and<br>Services</strong>",
         "TITLE_TEXT": "Smart Habitat and Services",
-        "SUBTITLE": "Security and Quality of Life.",
-        "DESCRIPTION": "<b>We promote networks and infrastructures</b> that elevate quality of life: connected health, public space management, and people-centered urban services.",
+        "SUBTITLE": "Safety and Quality of Life.",
+        "DESCRIPTION": "<b>We foster networks and infrastructures</b> that enhance quality of life: connected health, public space management, and urban services centered on people.",
         "AREA_TEXT_1": "We work so that the habitat is:",
         "AREA1": [
           {
             "IMG": "",
             "TITLE": "Connected health (e-health)",
-            "DESCRIPTION": "Telemedicine, remote monitoring, and coordination between centers to improve access to care."
+            "DESCRIPTION": "Telemedicine, remote monitoring, and coordination between centers to improve accessibility to care."
           },
           {
             "IMG": "",
@@ -1375,8 +1503,8 @@
         "AREA2": [
           {
             "IMG": "",
-            "TITLE": "Security and resilience",
-            "DESCRIPTION": "Integrated analytical surveillance systems, early alerts, and response coordination."
+            "TITLE": "Safety and resilience",
+            "DESCRIPTION": "Integrated analytical surveillance systems, early warnings, and response coordination."
           },
           {
             "IMG": "",
@@ -1384,8 +1512,8 @@
             "DESCRIPTION": "Kiosks, apps, and services adapted for vulnerable groups and older adults."
           }
         ],
-        "AREA_TEXT_2": "Solutions centered on urban experience and equity.",
-        "TITLE_SERVICE": "Services focused on daily well-being and security",
+        "AREA_TEXT_2": "Solutions focused on urban experience and equity.",
+        "TITLE_SERVICE": "Services focused on daily well-being and safety",
         "SERVICE": [
           {
             "IMG": "/icons/centro_de_comando.svg",
@@ -1407,7 +1535,7 @@
           {
             "TITLE": "MUNICIPAL TELEMEDICINE CENTER",
             "DESCRIPTION": "Implementation of health kiosks connected to regional hospitals for primary care and remote monitoring of chronic patients.",
-            "LOCATE": "Pilot Municipality, Mexico",
+            "LOCATE": "Municipio Piloto, México",
             "DATE": "2024",
             "IMG": [
               "/projects/i/img1.webp",
@@ -1417,7 +1545,7 @@
           {
             "TITLE": "SMART WELLNESS PARK",
             "DESCRIPTION": "Transformation of an urban park with adaptive lighting, efficient irrigation, usage sensors, and solar charging stations for citizen devices.",
-            "LOCATE": "Intermediate City, Latin America",
+            "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
             "IMG": [
               "/projects/j/img1.webp"
@@ -1427,10 +1555,10 @@
       },
       {
         "ICON": "/icons/areas/sociedadInteligente.svg",
-        "TITLE": "<strong>Smart</strong><br>Society",
+        "TITLE": "<strong>Smart<br>Society</strong>",
         "TITLE_TEXT": "Smart Society",
         "SUBTITLE": "Society and Digital Inclusion.",
-        "DESCRIPTION": "We promote digital inclusion, education, and citizen participation through platforms and programs that bring technology closer to all people.",
+        "DESCRIPTION": "We promote digital inclusion, education, and citizen participation through platforms and programs that bring technology to all people.",
         "AREA_TEXT_1": "We work so that society is:",
         "AREA1": [
           {
@@ -1440,13 +1568,13 @@
           },
           {
             "IMG": "",
-            "TITLE": "Capable",
-            "DESCRIPTION": "Training programs in digital and STEM skills for local employment."
+            "TITLE": "Trained",
+            "DESCRIPTION": "Training programs in digital skills and STEM for local employment."
           },
           {
             "IMG": "",
             "TITLE": "Creative and participatory",
-            "DESCRIPTION": "Platforms that promote co-creation of public policies and projects."
+            "DESCRIPTION": "Platforms that encourage the co-creation of public policies and projects."
           }
         ],
         "AREA2": [
@@ -1457,27 +1585,27 @@
           },
           {
             "IMG": "",
-            "TITLE": "Permanent digital education",
+            "TITLE": "Lifelong digital education",
             "DESCRIPTION": "Connected classrooms and resources for distance learning and continuous training."
           }
         ],
-        "AREA_TEXT_2": "Technology with a human face and inclusive focus.",
-        "TITLE_SERVICE": "Technology with a human face and inclusive focus",
+        "AREA_TEXT_2": "Technology with a human face and inclusive approach.",
+        "TITLE_SERVICE": "Technology with a human face and inclusive approach",
         "SERVICE": [
           {
             "IMG": "/icons/wifi.svg",
             "TITLE": "Community connectivity deployment",
-            "DESCRIPTION": "Public access points, infrastructure for telecenters, and mesh networks in low-connectivity areas."
+            "DESCRIPTION": "Public access points, telecenter infrastructure, and mesh networks in areas with low connectivity."
           },
           {
             "IMG": "/icons/accesibilidad.svg",
             "TITLE": "Accessible platforms and services",
-            "DESCRIPTION": "Design of inclusive interfaces and adapted service channels for people with disabilities."
+            "DESCRIPTION": "Design of inclusive interfaces and service channels adapted for people with disabilities."
           },
           {
             "IMG": "/icons/robotica.svg",
             "TITLE": "STEM training centers",
-            "DESCRIPTION": "Laboratories and robotics and programming programs for students and local entrepreneurs."
+            "DESCRIPTION": "Labs and programs in robotics and programming for students and local entrepreneurs."
           },
           {
             "IMG": "/icons/telemedicina.svg",
@@ -1489,7 +1617,7 @@
           {
             "TITLE": "COMMUNITY DIGITAL INCLUSION PROGRAM",
             "DESCRIPTION": "Network of telecenters and Wi-Fi points managed by the municipality for digital literacy, online procedures, and support for local SMEs.",
-            "LOCATE": "Northern Region, Mexico",
+            "LOCATE": "Región Norte, México",
             "DATE": "2023",
             "IMG": [
               "/projects/k/img1.webp",
@@ -1498,8 +1626,8 @@
           },
           {
             "TITLE": "CITIZEN PARTICIPATION PLATFORM",
-            "DESCRIPTION": "Digital tool for public consultations, participatory budgets, and commitment tracking, with dashboards for transparency.",
-            "LOCATE": "Capital City, Mexico",
+            "DESCRIPTION": "Digital tool for public consultations, participatory budgets, and monitoring commitments, with dashboards for transparency.",
+            "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
             "IMG": [
               "/projects/l/img1.webp",
@@ -1509,5 +1637,12 @@
         ]
       }
     ]
+  },
+  "FOOTER": {
+    "TITLE": "Smart Cities.<br>Smart Future",
+    "SUBTITLE": "The future is designed today.",
+    "FOLLOW_US": "Follow us on",
+    "COPYRIGHT": "Copyright © GLACI",
+    "SCROLL_TO_TOP": "Back to top"
   }
 }

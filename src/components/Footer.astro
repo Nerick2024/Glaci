@@ -9,41 +9,40 @@ const i18n = await useTranslation(lang);
 
 <div
   id="footer"
-  class="z-10 px-5 text-white lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full flex flex-col gap-12"
+  class="relative z-10 px-5 text-white lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full flex flex-col gap-12"
 >
-  <div class="flex lg:flex-row flex-col justify-between items-center gap-5">
-    <div class="flex lg:hidden justify-center animate-bounce duration-1000">
-      <a
-        href="#home"
-        class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
-      >
-        <img
-          src="/icons/arrow.svg"
-          alt="arrow"
-          class="w-8 h-auto object-contain"
-        />
-      </a>
+  <button
+    id="scrollToTop"
+    class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 flex items-center justify-center border-2 border-white/25 rounded-full bg-[var(--color-bg-1)] hover:bg-[#15244d] hover:scale-110 transition-all duration-300 z-20 cursor-pointer"
+  >
+    <img src="/icons/arrow.svg" alt="arrow" class="w-6 h-6 object-contain" />
+  </button>
+  <div class="flex flex-col lg:grid lg:grid-cols-3 justify-between items-center gap-8 lg:gap-5">
+    <div class="order-2 lg:order-1 flex justify-center lg:justify-start">
+      <ButtonMoreInformation i18n={i18n} lang={lang} />
     </div>
-    <ButtonMoreInformation i18n={i18n} lang={lang} />
-
-    <div class="hidden lg:flex justify-center animate-bounce duration-1000">
-      <a
-        href="#home"
-        class="px-0.5 py-4 border-[1.8px] border-white rounded-full"
-      >
-        <img
-          src="/icons/arrow.svg"
-          alt="arrow"
-          class="w-8 h-auto object-contain"
-        />
-      </a>
+    <div class="order-1 lg:order-2 flex flex-col items-center gap-6 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold" set:html={i18n.FOOTER.TITLE} />
+      <p class="text-lg text-[var(--color-text2)]">{i18n.FOOTER.SUBTITLE}</p>
+      <img
+        src="/logo/logo_base.webp"
+        alt="GLACI Logo"
+        class="w-32 lg:w-40 h-auto"
+      />
     </div>
-    <div class="flex flex-row justify-end items-center gap-6">
-      <p class="font-light text-white text-sm">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
+    <div class="order-3 flex flex-row justify-center lg:justify-end items-center gap-6">
+      <p class="font-light text-white text-sm">{i18n.FOOTER.FOLLOW_US}</p>
       <Button_Networks i18n={i18n} />
     </div>
   </div>
+
   <div class="flex justify-center items-center gap-6 text-white">
-    <p class="text-sm">Copyright © GLACI {new Date().getFullYear()}</p>
+    <p class="text-sm">{i18n.FOOTER.COPYRIGHT} {new Date().getFullYear()}</p>
   </div>
 </div>
+
+<script>
+  document.getElementById("scrollToTop")?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>

@@ -7,6 +7,8 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
 
+<script src="../scripts/card3d.js"></script>
+
 <div
   id="our-model"
   class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
@@ -29,11 +31,11 @@ const i18n = await translations[lang]();
     <div class="grid grid-cols-4 gap-6">
       {
         i18n.OUR_MODEL.MODELS.map((model, index) => (
-          <div
+            <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay={index * 200}
-            class="relative"
+            class="relative card-3d-wrapper"
           >
             <div class="absolute -top-25 left-1/2 -translate-x-1/2 z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_20px_rgba(0,187,255,0.5)]">
               <span class="text-lg font-bold text-[var(--color-title)]">
@@ -41,7 +43,7 @@ const i18n = await translations[lang]();
               </span>
             </div>
 
-            <div class="glass-effect border h-full border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-transform duration-300 relative">
+            <div class="card-3d relative glass-effect border h-full border-white/25 p-6 rounded-lg transition-transform duration-300 relative">
               {model.ICON && (
                 <div class="w-12 h-12 mb-4 flex items-center justify-center">
                   <img src={model.ICON} alt={model.TITLE} class="w-full h-full object-contain" />
@@ -148,6 +150,48 @@ const i18n = await translations[lang]();
   .rotating-text.exit {
     opacity: 0;
     transform: scale(1.2);
+  }
+
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-3d::before {
+    content: '';
+    position: absolute;
+    top: -150%;
+    left: -150%;
+    width: 400%;
+    height: 400%;
+    background: linear-gradient(
+      var(--angle, 115deg),
+      transparent 30%,
+      rgba(255, 255, 255, 0.04) 47%,
+      rgba(255, 255, 255, 0.07) 50%,
+      rgba(255, 255, 255, 0.04) 53%,
+      transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .card-3d:hover::before {
+    opacity: 1;
+  }
+
+  .card-3d > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  .card-3d > div:last-child {
+    position: absolute !important;
+    z-index: 2;
   }
 </style>
 

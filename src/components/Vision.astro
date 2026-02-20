@@ -5,9 +5,6 @@ import { translations } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
-
-<script src="../scripts/card3d.js"></script>
-
 <div
   id="vision"
   class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"

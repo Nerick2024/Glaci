@@ -32,22 +32,22 @@
     "TITLE": "Un modèle intégral en quatre phases",
     "MODELS": [
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/vision.svg",
         "TITLE": "Vision stratégique",
         "DESCRIPTION": "Nous définissons le cadre territorial, les priorités et la feuille de route."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/structuring.svg",
         "TITLE": "Structuration intégrale",
         "DESCRIPTION": "Nous concevons l'architecture technique, institutionnelle et financière."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/financing.svg",
         "TITLE": "Financement",
         "DESCRIPTION": "Nous structurons des schémas public-privé et des mécanismes d'investissement."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/execution.svg",
         "TITLE": "Exécution coordonnée",
         "DESCRIPTION": "Nous assurons une mise en œuvre alignée sur les résultats."
       }
@@ -63,23 +63,23 @@
     "SUBTITLE": "Nous développons des projets qui :",
     "ITEMS": [
       {
-        "ICON": "",
+        "ICON": "/icons/valor/viable.svg",
         "TITLE": "Sont techniquement, institutionnellement et financièrement viables"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/gobernanza.svg",
         "TITLE": "Intègrent gouvernance, infrastructure et technologie"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/competitividad.svg",
         "TITLE": "Génèrent une compétitivité territoriale"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/calidadDeVida.svg",
         "TITLE": "Améliorent la qualité de vie"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/operativa.svg",
         "TITLE": "Assurent une continuité opérationnelle"
       }
     ],
@@ -101,35 +101,35 @@
     "TEXT": "Nous promouvons des Villes et Territoires Intelligents où :",
     "CARDS": [
       {
-        "ICON": "",
+        "ICON": "/icons/vision/gobernanza.svg",
         "TITLE": "Gouvernance basée sur les données et confiance institutionnelle"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/politicas.svg",
         "TITLE": "Politiques publiques cohérentes garantissant continuité et exécution"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/infraestructuraInteligente.svg",
         "TITLE": "Infrastructure gérée comme un système intelligent"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/movilidad.svg",
         "TITLE": "Mobilité qui connecte inclusion et productivité"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/sostenible.svg",
         "TITLE": "Ressources administrées avec durabilité et résilience"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/inversion.svg",
         "TITLE": "Investissement structuré pour un impact à long terme"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/innovacion.svg",
         "TITLE": "Innovation comme axe de compétitivité territoriale"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/talento.svg",
         "TITLE": "Talent humain prêt à diriger l'avenir"
       }
     ]

@@ -32,22 +32,22 @@
     "TITLE": "Ein integriertes Modell in vier Phasen",
     "MODELS": [
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/vision.svg",
         "TITLE": "Strategische Vision",
         "DESCRIPTION": "Wir definieren den territorialen Rahmen, Prioritäten und die Roadmap."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/structuring.svg",
         "TITLE": "Integrierte Strukturierung",
         "DESCRIPTION": "Wir entwerfen die technische, institutionelle und finanzielle Architektur."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/financing.svg",
         "TITLE": "Finanzierung",
         "DESCRIPTION": "Wir strukturieren öffentlich-private Modelle und Investitionsmechanismen."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/execution.svg",
         "TITLE": "Koordinierte Umsetzung",
         "DESCRIPTION": "Wir sichern eine ergebnisorientierte Implementierung."
       }
@@ -63,23 +63,23 @@
     "SUBTITLE": "Wir entwickeln Projekte, die:",
     "ITEMS": [
       {
-        "ICON": "",
+        "ICON": "/icons/valor/viable.svg",
         "TITLE": "Technisch, institutionell und finanziell tragfähig sind"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/gobernanza.svg",
         "TITLE": "Governance, Infrastruktur und Technologie integrieren"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/competitividad.svg",
         "TITLE": "Territoriale Wettbewerbsfähigkeit generieren"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/calidadDeVida.svg",
         "TITLE": "Die Lebensqualität verbessern"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/operativa.svg",
         "TITLE": "Operative Kontinuität sicherstellen"
       }
     ],
@@ -101,35 +101,35 @@
     "TEXT": "Wir fördern intelligente Städte und Territorien, in denen:",
     "CARDS": [
       {
-        "ICON": "",
+        "ICON": "/icons/vision/gobernanza.svg",
         "TITLE": "Datenbasierte Governance und institutionelles Vertrauen herrschen"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/politicas.svg",
         "TITLE": "Kohärente öffentliche Politiken Kontinuität und Umsetzung gewährleisten"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/infraestructuraInteligente.svg",
         "TITLE": "Infrastruktur als intelligentes System verwaltet wird"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/movilidad.svg",
         "TITLE": "Mobilität Inklusion und Produktivität verbindet"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/sostenible.svg",
         "TITLE": "Ressourcen nachhaltig und resilient verwaltet werden"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/inversion.svg",
         "TITLE": "Strukturierte Investitionen langfristige Wirkung erzielen"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/innovacion.svg",
         "TITLE": "Innovation als Motor territorialer Wettbewerbsfähigkeit dient"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/talento.svg",
         "TITLE": "Menschliche Talente bereit sind, die Zukunft zu gestalten"
       }
     ]

@@ -32,22 +32,22 @@
     "TITLE": "Un modelo integral en cuatro fases",
     "MODELS": [
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/vision.svg",
         "TITLE": "Visión estratégica",
         "DESCRIPTION": "Definimos el marco territorial, prioridades y hoja de ruta."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/structuring.svg",
         "TITLE": "Estructuración integral",
         "DESCRIPTION": "Diseñamos la arquitectura técnica, institucional y financiera."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/financing.svg",
         "TITLE": "Financiamiento",
         "DESCRIPTION": "Estructuramos esquemas público-privados y mecanismos de inversión."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/execution.svg",
         "TITLE": "Ejecución coordinada",
         "DESCRIPTION": "Aseguramos la implementación alineada a resultados."
       }
@@ -63,23 +63,23 @@
     "SUBTITLE": "Desarrollamos proyectos que:",
     "ITEMS": [
       {
-        "ICON": "",
+        "ICON": "/icons/valor/viable.svg",
         "TITLE": "Son técnica, institucional y financieramente viables"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/gobernanza.svg",
         "TITLE": "Integran gobernanza, infraestructura y tecnología"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/competitividad.svg",
         "TITLE": "Generan competitividad territorial"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/calidadDeVida.svg",
         "TITLE": "Mejoran calidad de vida"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/operativa.svg",
         "TITLE": "Aseguran continuidad operativa"
       }
     ],
@@ -101,35 +101,35 @@
     "TEXT": "Impulsamos Ciudades y Territorios Inteligentes donde:",
     "CARDS": [
       {
-        "ICON": "",
+        "ICON": "/icons/vision/gobernanza.svg",
         "TITLE": "Gobernanza basada en datos y confianza institucional"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/politicas.svg",
         "TITLE": "Políticas públicas coherentes que garanticen continuidad y ejecución"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/infraestructuraInteligente.svg",
         "TITLE": "Infraestructura gestionada como sistema inteligente"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/movilidad.svg",
         "TITLE": "Movilidad que conecta inclusión y productividad"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/sostenible.svg",
         "TITLE": "Recursos administrados con sostenibilidad y resiliencia"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/inversion.svg",
         "TITLE": "Inversión estructurada para impacto a largo plazo"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/innovacion.svg",
         "TITLE": "Innovación como eje de competitividad territorial"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/talento.svg",
         "TITLE": "Talento humano preparado para liderar el futuro"
       }
     ]

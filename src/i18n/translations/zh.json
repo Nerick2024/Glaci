@@ -32,22 +32,22 @@
     "TITLE": "四阶段综合模型",
     "MODELS": [
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/vision.svg",
         "TITLE": "战略愿景",
         "DESCRIPTION": "我们界定领土框架、优先事项和路线图。"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/structuring.svg",
         "TITLE": "综合架构",
         "DESCRIPTION": "我们设计技术、制度和金融架构。"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/financing.svg",
         "TITLE": "融资",
         "DESCRIPTION": "我们构建公私合作模式和投资机制。"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/execution.svg",
         "TITLE": "协同执行",
         "DESCRIPTION": "我们确保实施与结果保持一致。"
       }
@@ -63,23 +63,23 @@
     "SUBTITLE": "我们开发的项目：",
     "ITEMS": [
       {
-        "ICON": "",
+        "ICON": "/icons/valor/viable.svg",
         "TITLE": "在技术、制度和财务上均可行"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/gobernanza.svg",
         "TITLE": "整合治理、基础设施和技术"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/competitividad.svg",
         "TITLE": "产生地域竞争力"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/calidadDeVida.svg",
         "TITLE": "提高生活质量"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/operativa.svg",
         "TITLE": "确保运营连续性"
       }
     ],
@@ -101,35 +101,35 @@
     "TEXT": "我们推动的智能城市与区域将实现：",
     "CARDS": [
       {
-        "ICON": "",
+        "ICON": "/icons/vision/gobernanza.svg",
         "TITLE": "基于数据的治理与制度信任"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/politicas.svg",
         "TITLE": "连贯的公共政策，保障连续性与执行"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/infraestructuraInteligente.svg",
         "TITLE": "作为智能系统管理的基础设施"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/movilidad.svg",
         "TITLE": "连接包容性与生产力的交通"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/sostenible.svg",
         "TITLE": "以可持续性和韧性管理资源"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/inversion.svg",
         "TITLE": "结构化投资以实现长期影响"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/innovacion.svg",
         "TITLE": "创新作为地域竞争力的核心"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/talento.svg",
         "TITLE": "准备好引领未来的人才"
       }
     ]

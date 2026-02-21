@@ -32,22 +32,22 @@
     "TITLE": "A comprehensive model in four phases",
     "MODELS": [
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/vision.svg",
         "TITLE": "Strategic Vision",
         "DESCRIPTION": "We define the territorial framework, priorities, and roadmap."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/structuring.svg",
         "TITLE": "Comprehensive Structuring",
         "DESCRIPTION": "We design the technical, institutional, and financial architecture."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/financing.svg",
         "TITLE": "Financing",
         "DESCRIPTION": "We structure public-private schemes and investment mechanisms."
       },
       {
-        "ICON": "",
+        "ICON": "/icons/ourModels/execution.svg",
         "TITLE": "Coordinated Execution",
         "DESCRIPTION": "We ensure implementation aligned with results."
       }
@@ -63,23 +63,23 @@
     "SUBTITLE": "We develop projects that:",
     "ITEMS": [
       {
-        "ICON": "",
+        "ICON": "/icons/valor/viable.svg",
         "TITLE": "Are technically, institutionally, and financially viable"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/gobernanza.svg",
         "TITLE": "Integrate governance, infrastructure, and technology"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/competitividad.svg",
         "TITLE": "Generate territorial competitiveness"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/calidadDeVida.svg",
         "TITLE": "Improve quality of life"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/valor/operativa.svg",
         "TITLE": "Ensure operational continuity"
       }
     ],
@@ -101,35 +101,35 @@
     "TEXT": "We promote Smart Cities and Territories where:",
     "CARDS": [
       {
-        "ICON": "",
+        "ICON": "/icons/vision/gobernanza.svg",
         "TITLE": "Data-based governance and institutional trust"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/politicas.svg",
         "TITLE": "Coherent public policies that ensure continuity and execution"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/infraestructuraInteligente.svg",
         "TITLE": "Infrastructure managed as an intelligent system"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/movilidad.svg",
         "TITLE": "Mobility that connects inclusion and productivity"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/sostenible.svg",
         "TITLE": "Resources managed with sustainability and resilience"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/inversion.svg",
         "TITLE": "Structured investment for long-term impact"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/innovacion.svg",
         "TITLE": "Innovation as a driver of territorial competitiveness"
       },
       {
-        "ICON": "",
+        "ICON": "/icons/vision/talento.svg",
         "TITLE": "Human talent prepared to lead the future"
       }
     ]

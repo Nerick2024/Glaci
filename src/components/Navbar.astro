@@ -48,10 +48,7 @@ const i18n = await useTranslation(lang);
               href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
               class="block hover:bg-[var(--color-title)]/10 p-2 rounded-md hover:text-[var(--color-title)]"
             >
-              <strong>{item.TITLE_TEXT}</strong>
-              <span class="block font-medium text-gray-200 text-base">
-                {item.SUBTITLE}
-              </span>
+              {item.TITLE_TEXT}
             </a>
           ))
         }
@@ -148,10 +145,7 @@ const i18n = await useTranslation(lang);
                 href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
                 class="block p-1 bg-white/70 rounded-full text-[var(--color-bg-1)] text-base leading-5"
               >
-                <strong>{item.TITLE_TEXT}</strong>
-                <span class="block font-medium text-[var(--color-bg-1)] text-sm">
-                  {item.SUBTITLE}
-                </span>
+                {item.TITLE_TEXT}
               </a>
             ))
           }

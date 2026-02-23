@@ -12,7 +12,7 @@
 
 ### Paleta de Colores
 ```css
---color-title: #00bbff          /* Azul cian brillante - Acentos y títulos */
+--color-title: #00ffff          /* Azul cian brillante - Acentos y títulos */
 --color-text: #ffffff           /* Blanco - Texto principal */
 --color-text2: #d5d5d5          /* Gris claro - Texto secundario */
 --color-blue: #000c2e           /* Azul oscuro profundo */
@@ -324,7 +324,7 @@ src/
 **Contexto:** Sitio web para GLACI, consorcio de ciudades inteligentes con enfoque profesional y tecnológico.
 
 **Estilo Visual:**
-- Paleta oscura espacial (azul marino #000c2e) con acentos cian brillante (#00bbff)
+- Paleta oscura espacial (azul marino #000c2e) con acentos cian brillante (#00ffff)
 - Glassmorphism con transparencias y blur effects
 - Tipografía: Google Sans (títulos) + Inter (cuerpo)
 - Animaciones suaves con AOS

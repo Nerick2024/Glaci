@@ -6,7 +6,7 @@
     "TALENT": "Talento",
     "CONTACT": "Contacto",
     "BLOG": "Blog",
-    "INFORMATION": "Recibe más informacion"
+    "INFORMATION": "Contacta con nosotros"
   },
   "CHALLENGE": {
     "TITLE": "El Desafío",
@@ -83,7 +83,7 @@
         "TITLE": "Aseguran continuidad operativa"
       }
     ],
-    "TEXT": "No diseñamos ideas.",
+    "TEXT": "No diseñamos ideas",
     "TEXT_2": "Diseñamos proyectos ejecutables."
   },
   "DIFFERENTIATION": {
@@ -98,7 +98,7 @@
   },
   "VISION": {
     "TITLE": "Visión",
-    "TEXT": "Impulsamos Ciudades y Territorios Inteligentes donde:",
+    "TEXT": "Impulsamos Ciudades y Territorios Inteligentes con:",
     "CARDS": [
       {
         "ICON": "/icons/vision/gobernanza.svg",

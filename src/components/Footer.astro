@@ -31,13 +31,13 @@ const i18n = await useTranslation(lang);
       />
     </div>
     <div class="order-3 flex flex-row justify-center lg:justify-end items-center gap-6">
-      <p class="font-light text-white text-sm">{i18n.FOOTER.FOLLOW_US}</p>
+      <p class="text-white text-base">{i18n.FOOTER.FOLLOW_US}</p>
       <Button_Networks i18n={i18n} />
     </div>
   </div>
 
   <div class="flex justify-center items-center gap-6 text-white">
-    <p class="text-sm">{i18n.FOOTER.COPYRIGHT} {new Date().getFullYear()}</p>
+    <p class="text-base">{i18n.FOOTER.COPYRIGHT} {new Date().getFullYear()}</p>
   </div>
 </div>
 

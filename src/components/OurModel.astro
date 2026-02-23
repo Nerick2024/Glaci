@@ -48,11 +48,11 @@ const i18n = await translations[lang]();
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
                   <img src={model.ICON} alt={model.TITLE} class="w-10 object-contain" />
                 </div>
-                <h3 class="text-xl font-semibold text-[var(--color-title)]">
+                <h3 class="text-xl font-semibold text-white">
                   {model.TITLE}
                 </h3>
               </div>
-              <p class="text-sm leading-relaxed">{model.DESCRIPTION}</p>
+              <p class="text-base lg:text-lg leading-relaxed">{model.DESCRIPTION}</p>
               <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
             </div>
           </div>
@@ -75,14 +75,11 @@ const i18n = await translations[lang]();
             data-aos-delay={index * 150}
             class="relative"
           >
-            <!-- Número del timeline -->
             <div class="absolute -left-[42px] top-4 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_15px_rgba(0,187,255,0.4)] z-10">
               <span class="text-lg font-bold text-[var(--color-title)]">
                 0{index + 1}
               </span>
             </div>
-
-            <!-- Card del timeline -->
             <div class="glass-effect border border-white/25 p-5 rounded-lg relative ml-4">
               <div class="flex items-center gap-3 mb-4">
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-14 h-14 transition-transform duration-300">
@@ -92,7 +89,7 @@ const i18n = await translations[lang]();
                   {model.TITLE}
                 </h3>
               </div>
-              <p class="text-sm leading-relaxed text-white/90">{model.DESCRIPTION}</p>
+              <p class="text-base lg:text-lg leading-relaxed text-white/90">{model.DESCRIPTION}</p>
               <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
             </div>
           </div>
@@ -101,13 +98,8 @@ const i18n = await translations[lang]();
     </div>
   </div>
 
-  <!-- Textos animados con partículas -->
+  <!-- Textos animados -->
   <div class="relative h-48 flex items-center justify-center mt-8 py-12">
-    <canvas
-      id="particles-canvas"
-      class="absolute pointer-events-none"
-      style="left: -100px; right: -100px; top: -50px; bottom: -50px; width: calc(100% + 200px); height: calc(100% + 100px);"
-    ></canvas>
     <div
       id="rotating-texts"
       class="relative z-10 flex items-center justify-center w-full"
@@ -130,31 +122,25 @@ const i18n = await translations[lang]();
 </div>
 
 <style>
-  #particles-canvas {
-    z-index: 1;
-  }
-
   .rotating-text {
     opacity: 0;
     transform: scale(0.8);
     transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     z-index: 10;
+    filter: blur(5px);
   }
 
   .rotating-text.active {
     opacity: 1;
     transform: scale(1);
-    text-shadow:
-      0 0 10px rgba(0, 187, 255, 0.8),
-      0 0 20px rgba(0, 187, 255, 0.6),
-      0 0 30px rgba(0, 187, 255, 0.4),
-      0 0 40px rgba(0, 187, 255, 0.2);
+    filter: blur(0px);
   }
 
   .rotating-text.exit {
     opacity: 0;
     transform: scale(1.2);
+    filter: blur(5px);
   }
 
   .card-3d {
@@ -203,141 +189,22 @@ const i18n = await translations[lang]();
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const texts = document.querySelectorAll(".rotating-text");
-    const canvas = document.getElementById(
-      "particles-canvas",
-    ) as HTMLCanvasElement;
-    const ctx = canvas.getContext("2d");
     let currentIndex = 0;
-    let particles: Array<{
-      x: number;
-      y: number;
-      vx: number;
-      vy: number;
-      life: number;
-      size: number;
-    }> = [];
-    let burst: {
-      x: number;
-      y: number;
-      radius: number;
-      opacity: number;
-    } | null = null;
-
-    function resizeCanvas() {
-      const parent = canvas.parentElement!;
-      canvas.width = parent.offsetWidth + 200;
-      canvas.height = parent.offsetHeight + 100;
-    }
-    resizeCanvas();
-
-    function createParticles(element: Element) {
-      const rect = element.getBoundingClientRect();
-      const parent = canvas.parentElement!;
-      const parentRect = parent.getBoundingClientRect();
-      const centerX = rect.left - parentRect.left + rect.width / 2 + 100;
-      const centerY = rect.top - parentRect.top + rect.height / 2 + 50;
-
-      // Crear burst de resplandor
-      burst = { x: centerX, y: centerY, radius: 0, opacity: 0.8 };
-
-      for (let i = 0; i < 40; i++) {
-        const angle = (Math.PI * 2 * i) / 40;
-        const speed = 2 + Math.random() * 3;
-        particles.push({
-          x: centerX,
-          y: centerY,
-          vx: Math.cos(angle) * speed,
-          vy: Math.sin(angle) * speed,
-          life: 1,
-          size: 1 + Math.random() * 1.2,
-        });
-      }
-    }
-
-    function animate() {
-      ctx!.clearRect(0, 0, canvas.width, canvas.height);
-
-      // Dibujar burst de resplandor
-      if (burst) {
-        burst.radius += 4;
-        burst.opacity -= 0.015;
-
-        if (burst.opacity > 0) {
-          const gradient = ctx!.createRadialGradient(
-            burst.x,
-            burst.y,
-            0,
-            burst.x,
-            burst.y,
-            burst.radius,
-          );
-          gradient.addColorStop(
-            0,
-            `rgba(255, 255, 255, ${burst.opacity * 0.6})`,
-          );
-          gradient.addColorStop(
-            0.2,
-            `rgba(0, 187, 255, ${burst.opacity * 0.4})`,
-          );
-          gradient.addColorStop(
-            0.6,
-            `rgba(0, 187, 255, ${burst.opacity * 0.2})`,
-          );
-          gradient.addColorStop(1, "rgba(0, 187, 255, 0)");
-          ctx!.fillStyle = gradient;
-          ctx!.beginPath();
-          ctx!.arc(burst.x, burst.y, burst.radius, 0, Math.PI * 2);
-          ctx!.fill();
-        } else {
-          burst = null;
-        }
-      }
-
-      particles = particles.filter((p) => {
-        p.x += p.vx;
-        p.y += p.vy;
-        p.life -= 0.012;
-
-        if (p.life > 0) {
-          ctx!.shadowBlur = 25;
-          ctx!.shadowColor = "#00bbff";
-          ctx!.fillStyle = `rgba(0, 187, 255, ${p.life})`;
-          ctx!.beginPath();
-          ctx!.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-          ctx!.fill();
-
-          // Halo adicional
-          ctx!.shadowBlur = 35;
-          ctx!.fillStyle = `rgba(0, 187, 255, ${p.life * 0.5})`;
-          ctx!.beginPath();
-          ctx!.arc(p.x, p.y, p.size * 1.5, 0, Math.PI * 2);
-          ctx!.fill();
-          return true;
-        }
-        return false;
-      });
-
-      requestAnimationFrame(animate);
-    }
 
     function rotateTexts() {
       const current = texts[currentIndex];
       const next = texts[(currentIndex + 1) % texts.length];
 
-      createParticles(current);
       current.classList.add("exit");
       current.classList.remove("active");
 
       setTimeout(() => {
         current.classList.remove("exit");
         next.classList.add("active");
-        createParticles(next);
         currentIndex = (currentIndex + 1) % texts.length;
       }, 1000);
     }
 
-    animate();
     setInterval(rotateTexts, 4000);
-    window.addEventListener("resize", resizeCanvas);
   });
 </script>

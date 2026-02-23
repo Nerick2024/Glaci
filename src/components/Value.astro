@@ -24,7 +24,7 @@ const i18n = await translations[lang]();
   <p
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="text-center text-xl lg:text-2xl font-light"
+    class="text-center text-xl lg:text-2xl"
   >
     {i18n.VALUE.SUBTITLE}
   </p>
@@ -80,7 +80,7 @@ const i18n = await translations[lang]();
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-delay="700"
-          class="text-2xl lg:text-4xl font-light text-white/80 mb-2"
+          class="text-xl lg:text-3xl text-white mb-2"
         >
           {i18n.VALUE.TEXT}
         </p>
@@ -97,116 +97,10 @@ const i18n = await translations[lang]();
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-delay="1000"
-        class="text-3xl lg:text-5xl font-bold text-white glow-text"
+        class="text-3xl lg:text-4xl font-bold text-white"
       >
         {i18n.VALUE.TEXT_2}
       </p>
     </div>
   </div>
 </div>
-
-<style>
-  .value-card {
-    position: relative;
-  }
-
-  .glow-text {
-    text-shadow:
-      0 0 10px rgba(0, 187, 255, 0.8),
-      0 0 20px rgba(0, 187, 255, 0.6),
-      0 0 30px rgba(0, 187, 255, 0.4),
-      0 0 40px rgba(0, 187, 255, 0.2);
-  }
-
-  .floating-element {
-    animation: float 4s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%,
-    100% {
-      transform: translateY(0px) rotate(0deg);
-      opacity: 0.3;
-    }
-    50% {
-      transform: translateY(-20px) rotate(180deg);
-      opacity: 0.8;
-    }
-  }
-
-  #value-particles {
-    width: 100%;
-    height: 100%;
-  }
-</style>
-
-<script is:inline>
-  document.addEventListener("DOMContentLoaded", function () {
-    const canvas = document.getElementById("value-particles");
-    if (!canvas) return;
-
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
-
-    let particles = [];
-
-    function resizeCanvas() {
-      const parent = canvas.parentElement;
-      const rect = parent.getBoundingClientRect();
-      canvas.width = rect.width || 800;
-      canvas.height = rect.height || 200;
-    }
-
-    resizeCanvas();
-
-    // Crear partículas iniciales
-    for (let i = 0; i < 5; i++) {
-      particles.push(createParticle());
-    }
-
-    function createParticle() {
-      return {
-        x: Math.random() * canvas.width,
-        y: canvas.height + 10,
-        vx: (Math.random() - 0.5) * 0.5,
-        vy: -Math.random() * 2 - 0.5,
-        life: 1,
-        size: Math.random() * 2 + 0.5,
-        hue: Math.random() * 60 + 180,
-      };
-    }
-
-    function animate() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      if (Math.random() < 0.3) {
-        particles.push(createParticle());
-      }
-
-      particles = particles.filter(function (p) {
-        p.x += p.vx;
-        p.y += p.vy;
-        p.life -= 0.005;
-
-        if (p.life > 0) {
-          ctx.save();
-          ctx.globalAlpha = p.life * 0.6;
-          ctx.shadowBlur = 15;
-          ctx.shadowColor = "rgba(0, 187, 255, 0.8)";
-          ctx.fillStyle = "rgba(0, 187, 255, 0.6)";
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-          ctx.fill();
-          ctx.restore();
-          return true;
-        }
-        return false;
-      });
-
-      requestAnimationFrame(animate);
-    }
-
-    animate();
-    window.addEventListener("resize", resizeCanvas);
-  });
-</script>

@@ -1,0 +1,53 @@
+---
+import { getLangFromUrl } from "@/i18n/utils";
+import { translations } from "@/i18n";
+import ButtonMoreInformation from "@/components/Button_MoreInformation.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const i18n = await translations[lang]();
+---
+
+<div
+  id="consortium"
+  class="max-w-6xl flex items-start justify-center mx-auto flex-col gap-10 px-6 pt-34"
+>
+  <h1
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    class="mt-4 title-text text-left mb-4"
+  >
+    <span class="decoration text-[var(--color-title)]">+</span>
+    {i18n.CONSORTIUM.TITLE}
+  </h1>
+  <div class="flex flex-row gap-6">
+    <p data-aos="zoom-out" data-aos-duration="1000" class="lg:text-left">
+      {i18n.CONSORTIUM.TEXT}
+    </p>
+  </div>
+  <div
+    class="gap-10 lg:gap-16 grid grid-cols-1 lg:grid-cols-2 w-full h-full mx-auto"
+  >
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      class="glass-effect border border-white/25 rounded-xl flex flex-1 p-4 items-center justify-start h-full"
+    >
+      <p class="px-4 text-center lg:text-left">{i18n.CONSORTIUM.TEXT_2}</p>
+      <div
+        class="absolute left-1/2 -translate-1/2 -bottom-1 h-1 w-2/3 bg-[var(--color-title)] rounded-full"
+      >
+      </div>
+    </div>
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      class="glass-effect border border-white/25 rounded-xl flex flex-1 p-4 items-center justify-start h-full"
+    >
+      <p class="px-4 text-center lg:text-left">{i18n.CONSORTIUM.TEXT_3}</p>
+      <div
+        class="absolute left-1/2 -translate-1/2 -bottom-1 h-1 w-2/3 bg-[var(--color-title)] rounded-full"
+      >
+      </div>
+    </div>
+  </div>
+</div>

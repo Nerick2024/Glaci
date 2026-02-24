@@ -7,7 +7,6 @@ import {
   translations,
   type Locale,
 } from "@/i18n";
-import Stars from "@/components/Stars.astro";
 
 export async function getStaticPaths() {
   const paths = [];
@@ -103,12 +102,12 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
             <a
               data-aos="zoom-in"
               data-aos-duration="1000"
-              href={useTranslatedPath(lang)("/") + "our-team"}
-              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit text-[var(--color-title)] hover: transition-colors"
+              href={useTranslatedPath(lang)("/") + "consortium"}
+              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] hover:text-[var(--color-bg-1)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit text-[var(--color-title)] hover: transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="fill-[var(--color-title)] group-hover:animate-bounce group-hover:fill-white w-5 h-5 -rotate-90 transition-all"
+                class="fill-[var(--color-title)] group-hover:animate-bounce group-hover:fill-[var(--color-bg-1)] w-5 h-5 -rotate-90 transition-all"
                 viewBox="0 0 16 16"
               >
                 <path

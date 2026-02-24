@@ -16,7 +16,7 @@ const i18n = await translations[lang]();
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4  title-text text-center lg:text-left mb-4"
+    class="mt-4 title-text text-center lg:text-left mb-4"
   >
     <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.OUR_MODEL.TITLE}
@@ -25,35 +25,38 @@ const i18n = await translations[lang]();
   <!-- Timeline Horizontal Desktop -->
   <div class="hidden lg:block relative mt-12">
     <!-- Línea horizontal -->
-    <div class="mb-18 left-0 right-0 h-0.5 bg-gradient-to-r from-[var(--color-title)] via-white/30 to-[var(--color-title)]"></div>
+    <div
+      class="mb-18 left-0 right-0 h-0.5 bg-gradient-to-r from-[var(--color-title)]/20 via-[var(--color-title)] to-[var(--color-title)]/20"
+    >
+    </div>
 
     <!-- Cards horizontales -->
     <div class="grid grid-cols-4 gap-6">
       {
         i18n.OUR_MODEL.MODELS.map((model, index) => (
-            <div
+          <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay={index * 200}
             class="relative card-3d-wrapper"
           >
             <div class="absolute -top-25 left-1/2 -translate-x-1/2 z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_20px_rgba(0,187,255,0.5)]">
-              <span class="  text-[var(--color-title)]">
-                0{index + 1}
-              </span>
+              <span class="text-[var(--color-title)]">0{index + 1}</span>
             </div>
 
             <div class="card-3d relative glass-effect border h-full border-white/25 p-6 rounded-lg transition-transform duration-300 relative">
               <div class="flex items-center gap-3 mb-4">
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
-                  <img src={model.ICON} alt={model.TITLE} class="w-10 object-contain" />
+                  <img
+                    src={model.ICON}
+                    alt={model.TITLE}
+                    class="w-10 object-contain"
+                  />
                 </div>
-                <h2 class="!text-xl">
-                  {model.TITLE}
-                </h2>
+                <h2 class="!text-xl">{model.TITLE}</h2>
               </div>
               <p>{model.DESCRIPTION}</p>
-              <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
+              <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-3/4 h-1 bg-[linear-gradient(to_right,transparent,var(--color-title),transparent)]" />
             </div>
           </div>
         ))
@@ -64,8 +67,11 @@ const i18n = await translations[lang]();
   <!-- Timeline Mobile -->
   <div class="lg:hidden relative mt-8 pl-8">
     <!-- Línea vertical del timeline -->
-    <div class="absolute left-3.5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--color-title)] via-white/30 to-[var(--color-title)]"></div>
-    
+    <div
+      class="absolute left-3.5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--color-title)] via-white/30 to-[var(--color-title)]"
+    >
+    </div>
+
     <div class="space-y-8">
       {
         i18n.OUR_MODEL.MODELS.map((model, index) => (
@@ -76,21 +82,23 @@ const i18n = await translations[lang]();
             class="relative"
           >
             <div class="absolute -left-[42px] top-4 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_15px_rgba(0,187,255,0.4)] z-10">
-              <span class=" text-[var(--color-title)]">
-                0{index + 1}
-              </span>
+              <span class=" text-[var(--color-title)]">0{index + 1}</span>
             </div>
             <div class="glass-effect border border-white/25 p-5 rounded-lg relative ml-4">
               <div class="flex items-center gap-3 mb-4">
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-14 h-14 transition-transform duration-300">
-                  <img src={model.ICON} alt={model.TITLE} class="w-8 object-contain" />
+                  <img
+                    src={model.ICON}
+                    alt={model.TITLE}
+                    class="w-8 object-contain"
+                  />
                 </div>
                 <h2 class="!text-lg text-[var(--color-title)]">
                   {model.TITLE}
                 </h2>
               </div>
-              <p class="/90">{model.DESCRIPTION}</p>
-              <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
+              <p>{model.DESCRIPTION}</p>
+              <div class="absolute bottom-1 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
             </div>
           </div>
         ))
@@ -115,10 +123,6 @@ const i18n = await translations[lang]();
       }
     </div>
   </div>
-
-  <!-- <div data-aos="fade-up" data-aos-duration="1000" class="w-fit mx-auto mt-4">
-    <Button_MoreInformation lang={lang} i18n={i18n} />
-  </div> -->
 </div>
 
 <style>
@@ -151,7 +155,7 @@ const i18n = await translations[lang]();
   }
 
   .card-3d::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -150%;
     left: -150%;

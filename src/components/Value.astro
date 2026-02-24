@@ -35,9 +35,8 @@ const i18n = await translations[lang]();
           data-aos-delay={index * 150}
           class="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex"
         >
-          <div class="value-card relative flex justify-center items-center glass-effect border border-white/25 p-6 rounded-lg hover:pl-8 transition-all duration-300 flex-1 group">
-            <div class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-2/3 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 group-hover:h-full transition-all duration-300" />
-
+          <div class="value-card relative flex justify-center items-center glass-effect border border-white/25 p-6 rounded-lg transition-all duration-300 flex-1 group">
+            <div class="absolute top-0 -left-0.5 w-1 h-full rounded-full bg-[linear-gradient(to_bottom,transparent_0%,var(--color-title)_50%,transparent_100%)]" />
             <div class="flex items-center justify-center gap-4">
               <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
                 <img
@@ -65,14 +64,14 @@ const i18n = await translations[lang]();
 
     <div class="relative z-10 text-center space-y-6">
       <div class="relative inline-block">
-        <p
+        <h2
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-delay="700"
-          class="mb-2"
+          class="mb-2 !font-light"
         >
           {i18n.VALUE.TEXT}
-        </p>
+        </h2>
         <div
           data-aos="fade-in"
           data-aos-duration="1000"
@@ -86,7 +85,7 @@ const i18n = await translations[lang]();
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-delay="1000"
-        class=" lg:!text-5xl"
+        class="lg:!text-5xl"
       >
         {i18n.VALUE.TEXT_2}
       </h2>

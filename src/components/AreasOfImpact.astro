@@ -201,7 +201,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
             if (!hoverData || hoverData.length === 0) return;
 
             tooltip.innerHTML =
-              '<ul class="gap-1 p-0 m-0 relative"> <div class="absolute top-0 -left-2.5 rounded-full w-1 h-full bg-[var(--color-title)]"></div>' +
+              '<ul class="gap-1 p-0 m-0 relative"><div class="absolute top-0 -left-2.5 w-1 h-full rounded-full bg-[linear-gradient(to_bottom,transparent_0%,var(--color-title)_50%,transparent_100%)]"></div></div>' +
               hoverData
                 .map(
                   (h, i) =>

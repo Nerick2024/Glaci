@@ -203,7 +203,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PLATAFORMA DE GOBIERNO DIGITAL Y DATOS ABIERTOS",
+            "TITLE": "Plataforma de gobierno digital y datos abiertos",
             "DESCRIPTION": "Diseño e implementación de una plataforma integral de gobierno digital orientada a la transparencia y la toma de decisiones basada en datos. El proyecto integra portales de datos abiertos, tableros de indicadores estratégicos y sistemas de seguimiento a políticas públicas, permitiendo a autoridades y ciudadanía acceder a información confiable, actualizada y accionable para fortalecer la rendición de cuentas y la gestión urbana.",
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
@@ -214,7 +214,7 @@
             ]
           },
           {
-            "TITLE": "SISTEMA DE PARTICIPACIÓN CIUDADANA Y GESTIÓN COLABORATIVA",
+            "TITLE": "Sistema de participación ciudadana y gestión colaborativa",
             "DESCRIPTION": "Implementación de un ecosistema digital de participación ciudadana que permite identificar problemáticas urbanas, priorizar proyectos y co-crear soluciones entre gobierno y sociedad. La solución integra módulos de consulta pública, reportes ciudadanos georreferenciados y analítica de participación, fortaleciendo la legitimidad de las decisiones y promoviendo una gobernanza urbana más inclusiva y sostenible.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -287,7 +287,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "FONDO LOCAL DE INNOVACIÓN URBANA",
+            "TITLE": "Fondo local de innovación urbana",
             "DESCRIPTION": "Creación y gestión de un fondo municipal que financia pilotos de movilidad, energía y participación ciudadana con métricas de impacto y retorno social.",
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
@@ -297,7 +297,7 @@
             ]
           },
           {
-            "TITLE": "PLATAFORMA DE MICROPAGOS Y ECONOMÍA LOCAL",
+            "TITLE": "Plataforma de micropagos y economía local",
             "DESCRIPTION": "Despliegue de una plataforma para habilitar comercio local digital, incentivos a consumo sostenible y trazabilidad de subvenciones sociales.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -360,7 +360,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PLATAFORMA DE GESTIÓN DE TRÁFICO URBANO (TMS)",
+            "TITLE": "Plataforma de gestión de tráfico urbano (tms)",
             "DESCRIPTION": "Implementación de un centro de gestión que integra sensores, CCTV analítico y modelos predictivos para optimizar movilidad y respuesta ante incidentes.",
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
@@ -370,7 +370,7 @@
             ]
           },
           {
-            "TITLE": "RED PILOTO DE ELECTROLINERAS Y MOVILIDAD ELÉCTRICA",
+            "TITLE": "Red piloto de electrolineras y movilidad eléctrica",
             "DESCRIPTION": "Despliegue de estaciones de carga estratégicas, integración con sistemas de pago y gestión de flotas públicas y privadas.",
             "LOCATE": "Corredor Metropolitano, América Latina",
             "DATE": "2023",
@@ -453,7 +453,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "RED MUNICIPAL DE MONITOREO AMBIENTAL",
+            "TITLE": "PARQUE INTELIGENTE DE BIENESTAR",
             "DESCRIPTION": "Despliegue de sensores de calidad del aire, estaciones meteorológicas y plataforma de datos abiertos para gestión ambiental y alertas.",
             "LOCATE": "Área Metropolitana, México",
             "DATE": "2024",
@@ -464,7 +464,7 @@
             ]
           },
           {
-            "TITLE": "PROGRAMA SMART WATER",
+            "TITLE": "Programa smart water",
             "DESCRIPTION": "Sectorización de redes, telemetría en pozos y sistema de detección temprana de fugas para reducir pérdidas no facturadas de agua.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -533,7 +533,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "CENTRO DE TELEMEDICINA MUNICIPAL",
+            "TITLE": "Consorcio",
             "DESCRIPTION": "Implementación de kioscos de salud conectados a hospitales regionales para atención primaria y seguimiento remoto de pacientes crónicos.",
             "LOCATE": "Municipio Piloto, México",
             "DATE": "2024",
@@ -543,7 +543,7 @@
             ]
           },
           {
-            "TITLE": "PARQUE INTELIGENTE DE BIENESTAR",
+            "TITLE": "Parque inteligente de bienestar",
             "DESCRIPTION": "Transformación de un parque urbano con iluminación adaptativa, riego eficiente, sensores de uso y estaciones de carga solar para dispositivos ciudadanos.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -615,7 +615,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PROGRAMA DE INCLUSIÓN DIGITAL COMUNITARIA",
+            "TITLE": "Programa de inclusión digital comunitaria",
             "DESCRIPTION": "Red de telecentros y puntos Wi-Fi gestionados por el municipio para alfabetización digital, trámites en línea y apoyo a PYMEs locales.",
             "LOCATE": "Región Norte, México",
             "DATE": "2023",
@@ -625,7 +625,7 @@
             ]
           },
           {
-            "TITLE": "PLATAFORMA DE PARTICIPACIÓN CIUDADANA",
+            "TITLE": "Plataforma de participación ciudadana",
             "DESCRIPTION": "Herramienta digital para consultas públicas, presupuestos participativos y seguimiento de compromisos, con dashboards para transparencia.",
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
@@ -1202,7 +1202,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PLATAFORMA DE GOBIERNO DIGITAL Y DATOS ABIERTOS",
+            "TITLE": "Plataforma de gobierno digital y datos abiertos",
             "DESCRIPTION": "Diseño e implementación de una plataforma integral de gobierno digital orientada a la transparencia y la toma de decisiones basada en datos. El proyecto integra portales de datos abiertos, tableros de indicadores estratégicos y sistemas de seguimiento a políticas públicas, permitiendo a autoridades y ciudadanía acceder a información confiable, actualizada y accionable para fortalecer la rendición de cuentas y la gestión urbana.",
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
@@ -1213,7 +1213,7 @@
             ]
           },
           {
-            "TITLE": "SISTEMA DE PARTICIPACIÓN CIUDADANA Y GESTIÓN COLABORATIVA",
+            "TITLE": "Sistema de participación ciudadana y gestión colaborativa",
             "DESCRIPTION": "Implementación de un ecosistema digital de participación ciudadana que permite identificar problemáticas urbanas, priorizar proyectos y co-crear soluciones entre gobierno y sociedad. La solución integra módulos de consulta pública, reportes ciudadanos georreferenciados y analítica de participación, fortaleciendo la legitimidad de las decisiones y promoviendo una gobernanza urbana más inclusiva y sostenible.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -1286,7 +1286,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "FONDO LOCAL DE INNOVACIÓN URBANA",
+            "TITLE": "Fondo local de innovación urbana",
             "DESCRIPTION": "Creación y gestión de un fondo municipal que financia pilotos de movilidad, energía y participación ciudadana con métricas de impacto y retorno social.",
             "LOCATE": "Municipio Metropolitano, México",
             "DATE": "2024",
@@ -1296,7 +1296,7 @@
             ]
           },
           {
-            "TITLE": "PLATAFORMA DE MICROPAGOS Y ECONOMÍA LOCAL",
+            "TITLE": "Plataforma de micropagos y economía local",
             "DESCRIPTION": "Despliegue de una plataforma para habilitar comercio local digital, incentivos a consumo sostenible y trazabilidad de subvenciones sociales.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -1359,7 +1359,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PLATAFORMA DE GESTIÓN DE TRÁFICO URBANO (TMS)",
+            "TITLE": "Plataforma de gestión de tráfico urbano (tms)",
             "DESCRIPTION": "Implementación de un centro de gestión que integra sensores, CCTV analítico y modelos predictivos para optimizar movilidad y respuesta ante incidentes.",
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",
@@ -1369,7 +1369,7 @@
             ]
           },
           {
-            "TITLE": "RED PILOTO DE ELECTROLINERAS Y MOVILIDAD ELÉCTRICA",
+            "TITLE": "Red piloto de electrolineras y movilidad eléctrica",
             "DESCRIPTION": "Despliegue de estaciones de carga estratégicas, integración con sistemas de pago y gestión de flotas públicas y privadas.",
             "LOCATE": "Corredor Metropolitano, América Latina",
             "DATE": "2023",
@@ -1452,7 +1452,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "RED MUNICIPAL DE MONITOREO AMBIENTAL",
+            "TITLE": "Red municipal de monitoreo ambiental",
             "DESCRIPTION": "Despliegue de sensores de calidad del aire, estaciones meteorológicas y plataforma de datos abiertos para gestión ambiental y alertas.",
             "LOCATE": "Área Metropolitana, México",
             "DATE": "2024",
@@ -1463,7 +1463,7 @@
             ]
           },
           {
-            "TITLE": "PROGRAMA SMART WATER",
+            "TITLE": "Programa smart water",
             "DESCRIPTION": "Sectorización de redes, telemetría en pozos y sistema de detección temprana de fugas para reducir pérdidas no facturadas de agua.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -1532,7 +1532,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "CENTRO DE TELEMEDICINA MUNICIPAL",
+            "TITLE": "Centro de telemedicina municipal",
             "DESCRIPTION": "Implementación de kioscos de salud conectados a hospitales regionales para atención primaria y seguimiento remoto de pacientes crónicos.",
             "LOCATE": "Municipio Piloto, México",
             "DATE": "2024",
@@ -1542,7 +1542,7 @@
             ]
           },
           {
-            "TITLE": "PARQUE INTELIGENTE DE BIENESTAR",
+            "TITLE": "Parque inteligente de bienestar",
             "DESCRIPTION": "Transformación de un parque urbano con iluminación adaptativa, riego eficiente, sensores de uso y estaciones de carga solar para dispositivos ciudadanos.",
             "LOCATE": "Ciudad Intermedia, América Latina",
             "DATE": "2023",
@@ -1614,7 +1614,7 @@
         ],
         "PROJECTS": [
           {
-            "TITLE": "PROGRAMA DE INCLUSIÓN DIGITAL COMUNITARIA",
+            "TITLE": "Programa de inclusión digital comunitaria",
             "DESCRIPTION": "Red de telecentros y puntos Wi-Fi gestionados por el municipio para alfabetización digital, trámites en línea y apoyo a PYMEs locales.",
             "LOCATE": "Región Norte, México",
             "DATE": "2023",
@@ -1624,7 +1624,7 @@
             ]
           },
           {
-            "TITLE": "PLATAFORMA DE PARTICIPACIÓN CIUDADANA",
+            "TITLE": "Plataforma de participación ciudadana",
             "DESCRIPTION": "Herramienta digital para consultas públicas, presupuestos participativos y seguimiento de compromisos, con dashboards para transparencia.",
             "LOCATE": "Ciudad Capital, México",
             "DATE": "2024",

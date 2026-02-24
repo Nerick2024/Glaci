@@ -13,17 +13,13 @@ const i18n = await translations[lang]();
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4  title-text text-center lg:text-left mb-4"
+    class="mt-4 title-text text-center lg:text-left mb-4"
   >
     <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.CHALLENGE.TITLE}
   </h1>
 
-  <h2
-    data-aos="fade-in"
-    data-aos-duration="1000"
-    class="text-center "
-  >
+  <h2 data-aos="fade-in" data-aos-duration="1000" class="text-center">
     {i18n.CHALLENGE.SUBTITLE}
   </h2>
 
@@ -38,7 +34,7 @@ const i18n = await translations[lang]();
         >
           <div class="relative glass-effect border border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-transform duration-300 flex-1">
             <p class="">{card.TEXT}</p>
-            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
+            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[linear-gradient(to_right,transparent,var(--color-title),transparent)]" />
           </div>
         </div>
       ))
@@ -46,18 +42,14 @@ const i18n = await translations[lang]();
   </div>
 
   <div class="flex flex-col gap-2">
-    <p
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      class="text-center "
-    >
+    <p data-aos="fade-up" data-aos-duration="1000" class="text-center">
       {i18n.CHALLENGE.TEXT}
     </p>
     <h2
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-delay="200"
-      class="text-center  "
+      class="text-center"
     >
       {i18n.CHALLENGE.TEXT_2}
     </h2>

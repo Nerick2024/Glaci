@@ -84,154 +84,159 @@ const { title } = Astro.props;
       0 5px rgb(31, 84, 99);
   }
 
-
   /* Breakpoints:
    sm: up to 767.98px
    md: 768px — 1023.98px
    lg: 1024px and up (tus valores originales)
 */
 
-/* SM (móvil) */
-@media (max-width: 767.98px) {
-  /* TÍTULOS */
-  h1 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 1.05;
+  /* SM (móvil) */
+  @media (max-width: 767.98px) {
+    /* TÍTULOS */
+    h1 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.05;
+    }
+
+    /* SUBTÍTULOS */
+    h2 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    /* TEXTO NORMAL */
+    p,
+    span,
+    li,
+    a,
+    button,
+    input,
+    textarea {
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+    }
+
+    .title-text {
+      font-size: 2.4rem;
+      font-weight: 400;
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important;
+    }
+
+    .decoration {
+      font-size: 2.4rem;
+      font-weight: 400;
+    }
+
+    .smart-ecosystem-title {
+      font-family: "Google Sans", sans-serif;
+      font-size: 1.75rem;
+      font-weight: 800;
+      line-height: 1;
+    }
   }
 
-  /* SUBTÍTULOS */
-  h2 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 1.9rem;
-    font-weight: 600;
-    line-height: 1;
+  /* MD (tableta) */
+  @media (min-width: 768px) and (max-width: 1023.98px) {
+    /* TÍTULOS */
+    h1 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.02;
+    }
+
+    /* SUBTÍTULOS */
+    h2 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 0.98;
+    }
+
+    /* TEXTO NORMAL */
+    p,
+    span,
+    li,
+    a,
+    button,
+    input,
+    textarea {
+      font-family: "Inter", sans-serif;
+      font-size: 1.05rem;
+    }
+
+    .title-text {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important;
+    }
+
+    .decoration {
+      font-size: 3.2rem;
+      font-weight: 400;
+    }
+
+    .smart-ecosystem-title {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 0.98;
+    }
   }
 
-  /* TEXTO NORMAL */
-  p,
-  span,
-  li,
-  a,
-  button,
-  input,
-  textarea {
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-  }
+  /* LG */
+  @media (min-width: 1024px) {
+    /* TÍTULOS */
+    h1 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2.75rem;
+      font-weight: 800;
+      line-height: 1;
+    }
 
-  .title-text {
-    font-size: 2.4rem;
-    font-weight: 400;
-  }
+    /* SUBTÍTULOS */
+    h2 {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2.1rem;
+      font-weight: 600;
+      line-height: 0.95;
+    }
 
-  .decoration {
-    font-size: 2.4rem;
-    font-weight: 400;
-  }
+    /* TEXTO NORMAL */
+    p,
+    span,
+    li,
+    a,
+    button,
+    input,
+    textarea {
+      font-family: "Inter", sans-serif;
+      font-size: 1.2rem;
+    }
 
-  .smart-ecosystem-title {
-    font-family: "Google Sans", sans-serif;
-    font-size: 1.75rem;
-    font-weight: 800;
-    line-height: 1;
-  }
-}
+    .title-text {
+      font-size: 3.75rem;
+      font-weight: 400;
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important;
+    }
 
-/* MD (tableta) */
-@media (min-width: 768px) and (max-width: 1023.98px) {
-  /* TÍTULOS */
-  h1 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2.25rem;
-    font-weight: 800;
-    line-height: 1.02;
-  }
+    .decoration {
+      font-size: 4rem;
+      font-weight: 400;
+    }
 
-  /* SUBTÍTULOS */
-  h2 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 0.98;
+    .smart-ecosystem-title {
+      font-family: "Google Sans", sans-serif;
+      font-size: 2.75rem;
+      font-weight: 800;
+      line-height: 0.95;
+    }
   }
-
-  /* TEXTO NORMAL */
-  p,
-  span,
-  li,
-  a,
-  button,
-  input,
-  textarea {
-    font-family: "Inter", sans-serif;
-    font-size: 1.05rem;
-  }
-
-  .title-text {
-    font-size: 3rem;
-    font-weight: 400;
-  }
-
-  .decoration {
-    font-size: 3.2rem;
-    font-weight: 400;
-  }
-
-  .smart-ecosystem-title {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2.25rem;
-    font-weight: 800;
-    line-height: 0.98;
-  }
-}
-
-/* LG */
-@media (min-width: 1024px) {
-  /* TÍTULOS */
-  h1 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2.75rem;
-    font-weight: 800;
-    line-height: 1;
-  }
-
-  /* SUBTÍTULOS */
-  h2 {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2.1rem;
-    font-weight: 600;
-    line-height: 0.95;
-  }
-
-  /* TEXTO NORMAL */
-  p,
-  span,
-  li,
-  a,
-  button,
-  input,
-  textarea {
-    font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
-  }
-
-  .title-text {
-    font-size: 3.75rem;
-    font-weight: 400;
-  }
-
-  .decoration {
-    font-size: 4rem;
-    font-weight: 400;
-  }
-
-  .smart-ecosystem-title {
-    font-family: "Google Sans", sans-serif;
-    font-size: 2.75rem;
-    font-weight: 800;
-    line-height: 0.95;
-  }
-}
 </style>

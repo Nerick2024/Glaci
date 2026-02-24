@@ -3,7 +3,7 @@ import { getLangFromUrl, useTranslation } from "@/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
-const { service, title } = Astro.props;
+const { service } = Astro.props;
 ---
 
 <section>

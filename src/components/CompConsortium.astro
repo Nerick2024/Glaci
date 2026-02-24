@@ -1,8 +1,6 @@
 ---
 import { getLangFromUrl } from "@/i18n/utils";
 import { translations } from "@/i18n";
-import ButtonMoreInformation from "@/components/Button_MoreInformation.astro";
-
 const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---

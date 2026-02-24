@@ -77,7 +77,7 @@ function getPath(lang: string) {
     class="language-menu top-full backdrop-blur-md left-0 z-20 absolute flex w-full flex-col gap-2 bg-[var(--color-bg-dropdown)] opacity-0 group-hover:opacity-100 shadow-[0_8px_20px_rgba(0,0,0,0.4)] p-[10px] rounded-[8px] transition-all -translate-y-[6px] group-hover:translate-y-0 duration-200 pointer-events-none group-hover:pointer-events-auto"
   >
     {
-      Object.entries(locales).map(([lang, label]) => {
+      Object.entries(locales).map(([lang]) => {
         if (lang !== currentLang) {
           return (
             <a

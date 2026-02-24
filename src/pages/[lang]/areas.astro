@@ -1,16 +1,11 @@
 ---
-import { getLangFromUrl } from "@/i18n/utils";
 import { translations } from "@/i18n";
-import ButtonMoreInformation from "@/components/Button_MoreInformation.astro";
 import Layout from "@/layouts/Layout.astro";
 import SolutionAreasOfImpact from "@/components/Solution_AreasOfImpact.astro";
 
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));
 }
-
-const lang = getLangFromUrl(Astro.url);
-const i18n = await translations[lang]();
 ---
 
 <Layout title="G L A C I">

@@ -1,6 +1,4 @@
 ---
-import { defaultLang } from "@/i18n/config";
-import { useTranslation } from "@/i18n";
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
 import AreasOfImpact from "@/components/AreasOfImpact.astro";
@@ -11,9 +9,6 @@ import OurModel from "@/components/OurModel.astro";
 import Value from "@/components/Value.astro";
 import Differentiation from "@/components/Differentiation.astro";
 import Vision from "@/components/Vision.astro";
-
-const lang = defaultLang;
-const t = await useTranslation(lang as any);
 ---
 
 <Layout title="G L A C I">

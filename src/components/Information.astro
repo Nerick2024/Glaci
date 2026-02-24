@@ -1,6 +1,6 @@
 ---
 import "../styles/nuevo.css";
-import { getLangFromUrl, useTranslation, translatedPathFor } from "@/i18n";
+import { getLangFromUrl, useTranslation } from "@/i18n";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---

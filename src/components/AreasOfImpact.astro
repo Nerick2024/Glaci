@@ -1,6 +1,5 @@
 ---
 import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
-import Button_Networks from "@/components/Button_Networks.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
@@ -171,7 +170,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
       ))
     }
     <div id="areas-tooltip" class="areas-tooltip hidden"></div>
-    <script type="text/javascript">
+    <script type="module">
       (() => {
         const script = document.currentScript;
         if (!script) return;

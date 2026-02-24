@@ -1,7 +1,6 @@
 ---
 import { getLangFromUrl, useTranslation, slugify } from "@/i18n";
 import Button_MoreInformation from "@/components/Button_MoreInformation.astro";
-import Stars from "./Stars.astro";
 const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---

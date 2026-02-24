@@ -8,10 +8,7 @@ const i18n = await translations[lang]();
 
 <script src="../scripts/card3d.js"></script>
 
-<div
-  id="value"
-  class="max-w-6xl h-full mx-auto flex flex-col gap-12 px-6 py-12"
->
+<div id="value" class="max-w-6xl h-full mx-auto flex flex-col gap-8 p-6">
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
@@ -54,41 +51,32 @@ const i18n = await translations[lang]();
   </div>
 
   <!-- Central Message Section -->
-  <div class="relative mt-16 min-h-[150px]">
-    <!-- Animated background particles -->
-    <canvas
-      id="value-particles"
-      class="absolute inset-0 pointer-events-none w-full h-full"
-      width="800"
-      height="200"></canvas>
-
-    <div class="relative z-10 text-center space-y-6">
-      <div class="relative inline-block">
-        <h2
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-delay="700"
-          class="mb-2 !font-light"
-        >
-          {i18n.VALUE.TEXT}
-        </h2>
-        <div
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-delay="600"
-          class="absolute -bottom-2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[var(--color-title)] to-transparent"
-        >
-        </div>
-      </div>
-
+  <div class="relative z-10 text-center space-y-8 mt-8">
+    <div class="relative inline-block">
       <h2
-        data-aos="zoom-in"
+        data-aos="fade-in"
         data-aos-duration="1000"
-        data-aos-delay="1000"
-        class="lg:!text-5xl"
+        data-aos-delay="700"
+        class="mb-2 !font-light"
       >
-        {i18n.VALUE.TEXT_2}
+        {i18n.VALUE.TEXT}
       </h2>
+      <div
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        data-aos-delay="600"
+        class="absolute -bottom-2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[var(--color-title)] to-transparent"
+      >
+      </div>
     </div>
+
+    <h2
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="1000"
+      class="lg:!text-5xl"
+    >
+      {i18n.VALUE.TEXT_2}
+    </h2>
   </div>
 </div>

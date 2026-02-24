@@ -10,7 +10,7 @@ const i18n = await translations[lang]();
 
 <div
   id="vision"
-  class="max-w-6xl h-full mx-auto flex flex-col gap-12 mb-20 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 p-6"
 >
   <h1
     data-aos="fade-up"
@@ -33,7 +33,7 @@ const i18n = await translations[lang]();
   <!-- Cards grid: if translations include VISION.CARDS render them, otherwise render nothing -->
   {
     i18n.VISION.CARDS && i18n.VISION.CARDS.length ? (
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {i18n.VISION.CARDS.map((card, index) => (
           <div
             data-aos="zoom-in"

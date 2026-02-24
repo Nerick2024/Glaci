@@ -10,56 +10,8 @@ const i18n = await translations[lang]();
 
 <div
   id="differentiation"
-  class="max-w-6xl h-full mx-auto flex flex-col gap-12 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 p-6"
 >
-  <!-- <h1
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    class="mt-4  title-text text-center lg:text-left mb-4"
-  >
-    <span class="decoration text-[var(--color-title)]">+</span>
-    {i18n.DIFFERENTIATION.TITLE}
-  </h1>
-  
-  <div class="max-w-4xl mx-auto lg:mx-0 text-center lg:text-left">
-    {i18n.DIFFERENTIATION.SUBTITLE ? (
-      <p
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        class="  /90"
-        set:html={i18n.DIFFERENTIATION.SUBTITLE}
-      />
-    ) : null}
-  </div>
-
-  {i18n.DIFFERENTIATION.ITEMS && i18n.DIFFERENTIATION.ITEMS.length ? (
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      {i18n.DIFFERENTIATION.ITEMS.map((item, index) => (
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay={index * 150}
-          class="flex"
-        >
-          <div class="relative glass-effect bg-white/5 backdrop-blur-sm border border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-xl flex-1 group">
-            <div class="text-center">
-              <h3 class="   mb-4 transition-colors duration-300">
-                {item}
-              </h3>
-            </div>
-            
-            <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
-            
-            <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
-          </div>
-        </div>
-      ))}
-    </div>
-  ) : null}
-      {i18n.DIFFERENTIATION.TEXT ? (
-      <p class="mt-3/80">{i18n.DIFFERENTIATION.TEXT}</p>
-    ) : null} -->
-
   <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
     <div class="flex flex-col lg:w-1/2">
       <h1
@@ -141,7 +93,7 @@ const i18n = await translations[lang]();
       </div>
     </div>
   </div>
-  <p data-aos="fade-in" data-aos-duration="1000" class="mt-3 text-center">
+  <p data-aos="fade-in" data-aos-duration="1000" class="text-center">
     {i18n.DIFFERENTIATION.TEXT}
   </p>
 </div>

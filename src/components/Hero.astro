@@ -7,78 +7,80 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await useTranslation(lang);
 ---
 
-<main id="home" class="relative flex flex-col p-6">
-  <!-- BACKGROUND (igual que antes) -->
-  <div class="-z-10 absolute inset-0 w-full h-full overflow-hidden">
-    <video
-      id="bg-video"
-      class="border-0 w-full h-full object-cover pointer-events-none opacity-75"
-      src="/video/bg4.mp4"
-      poster="/img/bg-fallback.jpg"
-      autoplay
-      muted
-      loop
-      playsinline></video>
-  </div>
-
-  <!-- CONTENT -->
-  <div
-    id="content"
-    class="relative w-full max-w-6xl mx-auto min-h-screen h-full flex-1 flex flex-col items-center justify-center gap-12 lg:gap-16"
-  >
-    <div class="p-5 lg:p-0" data-aos="zoom-in" data-aos-duration="1800">
-      <img
-        loading="lazy"
-        src="/logo/logo.webp"
-        alt="Logo"
-        class="w-full md:w-80 lg:w-80 xl:w-100 h-auto object-contain"
-      />
+<div>
+  <main id="home" class="relative flex flex-col p-6">
+    <!-- BACKGROUND (igual que antes) -->
+    <div class="-z-10 absolute inset-0 w-full h-full overflow-hidden">
+      <video
+        id="bg-video"
+        class="border-0 w-full h-full object-cover pointer-events-none opacity-75"
+        src="/video/bg4.mp4"
+        poster="/img/bg-fallback.jpg"
+        autoplay
+        muted
+        loop
+        playsinline></video>
     </div>
-    <div class="flex flex-col gap-4 lg:absolute lg:bottom-28">
-      <h1
-        data-aos="fade-down"
-        data-aos-duration="1500"
-        data-aos-delay="800"
-        class=" text-center  tracking-wider w-full"
-      >
-        {i18n.HERO.TEXT_1}
-      </h1>
-      <p
+
+    <!-- CONTENT -->
+    <div
+      id="content"
+      class="relative w-full max-w-6xl mx-auto min-h-screen h-full flex-1 flex flex-col items-center justify-center gap-12 lg:gap-16"
+    >
+      <div class="p-5 lg:p-0" data-aos="zoom-in" data-aos-duration="1800">
+        <img
+          loading="lazy"
+          src="/logo/logo.webp"
+          alt="Logo"
+          class="w-full md:w-80 lg:w-80 xl:w-100 h-auto object-contain"
+        />
+      </div>
+      <div class="flex flex-col gap-4 lg:absolute lg:bottom-28">
+        <h1
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+          class="text-center tracking-wider w-full"
+        >
+          {i18n.HERO.TEXT_1}
+        </h1>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1600"
+          class="text-center tracking-wider w-full"
+        >
+          {i18n.HERO.TEXT_1_1}
+        </p>
+      </div>
+    </div>
+    <div
+      class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"
+    >
+    </div>
+  </main>
+  <div class="bg-[var(--color-bg-1)] pt-12 pb-20 px-6">
+    <!-- FOOTER HERO -->
+    <div
+      class="max-w-7xl items-end lg:items-center flex flex-col lg:flex-row justify-between mx-auto gap-6 w-full"
+    >
+      <div
         data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-delay="1600"
-        class=" text-center tracking-wider w-full"
+        data-aos-duration="1000"
+        class="flex justify-center items-center mx-auto lg:mx-0"
       >
-        {i18n.HERO.TEXT_1_1}
-      </p>
-    </div>
-  </div>
-  <div
-    class="bottom-0 left-0 -z-10 absolute bg-gradient-to-t from-[var(--color-bg-1)] to-transparent w-full h-1/6"
-  >
-  </div>
-</main>
-<div class="bg-[var(--color-bg-1)] pt-12 pb-20 px-6">
-  <!-- FOOTER HERO -->
-  <div
-    class="max-w-7xl items-end lg:items-center flex flex-col lg:flex-row justify-between mx-auto gap-6 w-full"
-  >
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      class="flex justify-center items-center mx-auto lg:mx-0"
-    >
-      <Button_MoreInformation i18n={i18n} lang={lang} />
-    </div>
+        <Button_MoreInformation i18n={i18n} lang={lang} />
+      </div>
 
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0"
-    >
-      <p class="">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
-      <Button_Networks i18n={i18n} />
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="flex flex-row justify-end items-center gap-6 mx-auto lg:mx-0"
+      >
+        <p class="">{i18n.HERO.FOOTER_RIGHT_TEXT}</p>
+        <Button_Networks i18n={i18n} />
+      </div>
     </div>
   </div>
+  <div class="border-white/25 border-t"></div>
 </div>
-<div class="border-white/25 border-t"></div>

@@ -2,19 +2,17 @@
 import { getLangFromUrl, useTranslation } from "@/i18n";
 
 const lang = getLangFromUrl(Astro.url);
-const i18n = await useTranslation(lang)
+const i18n = await useTranslation(lang);
 const { service, title } = Astro.props;
 ---
 
 <section>
   <div class="flex justify-center items-center glass-effect py-8">
-    <h1
-      class="title-text text-center"
-    >
+    <h1 class="title-text text-center">
       {i18n.AREAS.TITLE_2}
     </h1>
   </div>
-  <div class="flex flex-wrap justify-center gap-8 mx-auto max-w-6xl px-5 py-24">
+  <div class="flex flex-wrap justify-center gap-8 mx-auto max-w-6xl p-6 mt-14">
     {
       service.map((item: any) => (
         <div
@@ -23,7 +21,7 @@ const { service, title } = Astro.props;
           data-aos-duration="1000"
         >
           <article class="relative flex items-start gap-4 h-full w-full bg-white/8 shadow-lg focus-visible:shadow-[0_0_0_8px_rgba(0,255,255,0.06)] backdrop-blur-md p-6 border border-white/25 rounded-lg focus-visible:outline-none transition hover:-translate-y-2 focus-within:-translate-y-2 duration-300 ease-out transform">
-<div class="absolute -left-0.5 w-1 h-3/4 -translate-y-1/2 top-1/2 rounded-full bg-[linear-gradient(to_bottom,transparent_0%,var(--color-title)_50%,transparent_100%)]"></div>
+            <div class="absolute -left-0.5 w-1 h-3/4 -translate-y-1/2 top-1/2 rounded-full bg-[linear-gradient(to_bottom,transparent_0%,var(--color-title)_50%,transparent_100%)]" />
             <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
               <img
                 src={item.IMG}

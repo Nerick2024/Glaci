@@ -10,14 +10,14 @@ const i18n = await translations[lang]();
 
 <div
   id="vision"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 mb-20 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 mb-20 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4 title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.VISION.TITLE}
   </h1>
 
@@ -25,7 +25,7 @@ const i18n = await translations[lang]();
     <p
       data-aos="fade-up"
       data-aos-duration="1000"
-      class="text-lg lg:text-xl   leading-relaxed text-white/90"
+      class="/90"
       set:html={i18n.VISION.TEXT}
     />
   </div>
@@ -43,28 +43,22 @@ const i18n = await translations[lang]();
           >
             <div class="card-3d relative glass-effect bg-white/5 backdrop-blur-sm border border-white/25 p-6 rounded-lg transition-all duration-300 shadow-lg flex-1 group">
               <div class="flex flex-col items-center text-center space-y-4">
-                <div class="flex items-center justify-center w-16 h-16 rounded-lg bg-[var(--color-title)]/10 border border-[var(--color-title)]/20 group-hover:bg-[var(--color-title)]/20 transition-colors duration-300">
+                <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
                   {card.ICON ? (
                     <img
                       src={card.ICON}
                       alt={card.TITLE}
-                      class="w-8 h-8 object-contain"
+                      class="w-10 object-contain"
                     />
                   ) : (
-                    <div class="text-[var(--color-title)] text-xl font-bold">
-                      +
-                    </div>
+                    <div class="text-[var(--color-title)]  ">+</div>
                   )}
                 </div>
 
-                <h3 class="text-base font-medium text-white/90 group-hover:text-white transition-colors duration-300 leading-tight">
+                <p class=" font-medium/90 group-hover: transition-colors duration-300 leading-tight">
                   {card.TITLE}
-                </h3>
+                </p>
               </div>
-
-              <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
-
-              <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
             </div>
           </div>
         ))}

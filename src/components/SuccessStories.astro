@@ -9,11 +9,11 @@ const i18n = await useTranslation(lang);
 
 <section class="flex flex-col gap-16">
   <div class="flex justify-center items-center glass-effect py-8">
-    <h2
-      class="uppercase font-bold text-white text-4xl sm:text-5xl max-w-5xl text-center"
+    <h1
+      class="title-text text-center"
     >
       {i18n.AREAS.TITLE_3}
-    </h2>
+    </h1>
   </div>
 
   <div class="flex flex-col gap-20 mx-auto px-4 max-w-6xl mb-14">
@@ -30,29 +30,29 @@ const i18n = await useTranslation(lang);
                 isEven ? "lg:order-1" : "lg:order-2",
               ]}
             >
-              <h3
+              <h2
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                class="mb-2 w-full font-bold text-[var(--color-title)] text-2xl lg:text-left text-center"
+                class="mb-2 w-full  text-[var(--color-title)]  lg:text-left text-center"
                 set:html={project.TITLE}
               />
-              <div class="mt-6 text-white text-lg lg:text-left text-center">
+              <div class="mt-6  lg:text-left text-center">
                 {project.DATE && (
                   <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
-                    <strong class="font-bold text-white text-base lg:text-xl">
+                    <strong class=" ">
                       {i18n.AREAS.SUCCESS_STORIES_YEAR}:
                     </strong>
-                    <span class="text-white text-base lg:text-lg">
+                    <span class=" ">
                       {project.DATE}
                     </span>
                   </p>
                 )}
                 {project.LOCATE && (
                   <p data-aos="fade-up" data-aos-duration="1000" class="mb-2">
-                    <strong class="font-bold text-white text-base lg:text-xl">
+                    <strong class=" ">
                       {i18n.AREAS.SUCCESS_STORIES_LOCATE}:
                     </strong>
-                    <span class="text-white text-base lg:text-lg">
+                    <span class=" ">
                       {project.LOCATE}
                     </span>
                   </p>
@@ -61,7 +61,7 @@ const i18n = await useTranslation(lang);
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    class="text-white text-base lg:text-lg"
+                    class=" "
                     set:html={project.DESCRIPTION}
                   />
                 )}
@@ -123,7 +123,7 @@ const i18n = await useTranslation(lang);
     class="relative w-auto max-w-[95%] h-auto max-h-[95vh] scale-95 data-[open=true]:scale-100 transition-all duration-300 ease-out"
   >
     <span
-      class="top-[15px] right-[15px] absolute flex justify-center items-center bg-[var(--color-title)] hover:bg-red-600 p-2 rounded-full w-[45px] h-[45px] font-bold text-[28px] text-white leading-none transition-colors duration-300 cursor-pointer close-button"
+      class="top-[15px] right-[15px] absolute flex justify-center items-center bg-[var(--color-title)] hover:bg-red-600 p-2 rounded-full w-[45px] h-[45px]  text-[28px] leading-none transition-colors duration-300 cursor-pointer close-button"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-full h-full object-contain"

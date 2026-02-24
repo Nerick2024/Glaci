@@ -49,7 +49,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
   >
     <div
       id="semblanza"
-      class="w-screen relative flex flex-col glass-effect text-white left-0"
+      class="w-screen relative flex flex-col glass-effect left-0"
     >
       <div
         class="relative w-full lg:max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-end"
@@ -64,20 +64,19 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
           />
         </div>
         <div class="h-auto w-full lg:w-[60%] p-6">
-          <div class="flex flex-row items-start justify-start gap-4">
-            <span class="text-[var(--color-title)] text-5xl lg:text-6xl">+</span
-            >
+          <div class="flex flex-row items-baseline justify-start gap-4">
+            <span class="decoration text-[var(--color-title)]">+</span>
             <div class="flex flex-col">
-              <h3 class="text-5xl lg:text-7xl font-bold mb-4">
+              <h1 class="mb-4">
                 {NAME}
-              </h3>
-              <h3 class="text-xl font-semibold text-gray-200 mb-2">
+              </h1>
+              <h2 class="!text-base text-gray-200 mb-2">
                 {POSITION}
-              </h3>
+              </h2>
             </div>
           </div>
           <div class="rounded-full w-full h-0.5 bg-white my-4"></div>
-          <p class="text-gray-200 mb-12 lg:mb-24 font-medium text-lg">
+          <p class="text-gray-200 mb-12 lg:mb-24 font-medium">
             {SEMBLANCE}
           </p>
           <div
@@ -88,7 +87,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
                 NETWORKS.map((network: any) => (
                   <a
                     href={network.HREF}
-                    class="group p-3 border-2 border-[var(--color-title)]/75 bg-transparent hover:bg-[var(--color-title)]/50 transition-all hover:scale-110 rounded-full h-14 aspect-square"
+                    class="group p-3 border-2 border-[var(--color-title)]/75 bg-transparent hover:bg-[var(--color-title)]/20 transition-all hover:scale-110 rounded-full h-14 aspect-square"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -105,7 +104,7 @@ const { NAME, POSITION, SEMBLANCE, IMG, NETWORKS } = member;
               data-aos="zoom-in"
               data-aos-duration="1000"
               href={useTranslatedPath(lang)("/") + "our-team"}
-              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit font-semibold text-[var(--color-title)] hover:text-white transition-colors"
+              class="group inline-flex items-center gap-4 hover:bg-[var(--color-title)] mx-auto lg:mx-0 px-6 py-4 border-2 border-[var(--color-title)] rounded-full w-fit text-[var(--color-title)] hover: transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

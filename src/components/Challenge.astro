@@ -8,26 +8,26 @@ const i18n = await translations[lang]();
 
 <div
   id="challenge"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4  title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.CHALLENGE.TITLE}
   </h1>
 
-  <p
+  <h2
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="text-center text-xl lg:text-3xl"
+    class="text-center "
   >
     {i18n.CHALLENGE.SUBTITLE}
-  </p>
+  </h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     {
       i18n.CHALLENGE.CARDS.map((card, index) => (
         <div
@@ -37,7 +37,7 @@ const i18n = await translations[lang]();
           class="flex"
         >
           <div class="relative glass-effect border border-white/25 p-6 rounded-lg hover:-translate-y-2 transition-transform duration-300 flex-1">
-            <p class="text-base lg:text-lg leading-relaxed">{card.TEXT}</p>
+            <p class="">{card.TEXT}</p>
             <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
           </div>
         </div>
@@ -45,21 +45,21 @@ const i18n = await translations[lang]();
     }
   </div>
 
-  <div class="flex flex-col gap-4 mt-8">
+  <div class="flex flex-col gap-2">
     <p
       data-aos="fade-up"
       data-aos-duration="1000"
-      class="text-center text-lg lg:text-xl"
+      class="text-center "
     >
       {i18n.CHALLENGE.TEXT}
     </p>
-    <p
+    <h2
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-delay="200"
-      class="text-center text-xl lg:text-3xl font-semibold text-white"
+      class="text-center  "
     >
       {i18n.CHALLENGE.TEXT_2}
-    </p>
+    </h2>
   </div>
 </div>

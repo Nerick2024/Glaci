@@ -11,14 +11,14 @@ const i18n = await translations[lang]();
 
 <div
   id="our-model"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4  title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.OUR_MODEL.TITLE}
   </h1>
 
@@ -38,7 +38,7 @@ const i18n = await translations[lang]();
             class="relative card-3d-wrapper"
           >
             <div class="absolute -top-25 left-1/2 -translate-x-1/2 z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_20px_rgba(0,187,255,0.5)]">
-              <span class="text-lg font-bold text-[var(--color-title)]">
+              <span class="  text-[var(--color-title)]">
                 0{index + 1}
               </span>
             </div>
@@ -48,11 +48,11 @@ const i18n = await translations[lang]();
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
                   <img src={model.ICON} alt={model.TITLE} class="w-10 object-contain" />
                 </div>
-                <h3 class="text-xl font-semibold text-white">
+                <h2 class="!text-xl">
                   {model.TITLE}
-                </h3>
+                </h2>
               </div>
-              <p class="text-base lg:text-lg leading-relaxed">{model.DESCRIPTION}</p>
+              <p>{model.DESCRIPTION}</p>
               <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
             </div>
           </div>
@@ -76,7 +76,7 @@ const i18n = await translations[lang]();
             class="relative"
           >
             <div class="absolute -left-[42px] top-4 flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-bg-1)] border-2 border-[var(--color-title)] shadow-[0_0_15px_rgba(0,187,255,0.4)] z-10">
-              <span class="text-lg font-bold text-[var(--color-title)]">
+              <span class=" text-[var(--color-title)]">
                 0{index + 1}
               </span>
             </div>
@@ -85,11 +85,11 @@ const i18n = await translations[lang]();
                 <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-14 h-14 transition-transform duration-300">
                   <img src={model.ICON} alt={model.TITLE} class="w-8 object-contain" />
                 </div>
-                <h3 class="text-lg font-semibold text-[var(--color-title)]">
+                <h2 class="!text-lg text-[var(--color-title)]">
                   {model.TITLE}
-                </h3>
+                </h2>
               </div>
-              <p class="text-base lg:text-lg leading-relaxed text-white/90">{model.DESCRIPTION}</p>
+              <p class="/90">{model.DESCRIPTION}</p>
               <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
             </div>
           </div>
@@ -106,8 +106,8 @@ const i18n = await translations[lang]();
     >
       {
         i18n.OUR_MODEL.TEXT.map((text, index) => (
-          <p
-            class={`rotating-text absolute text-center shadow-text text-3xl lg:text-5xl font-bold px-4 text-white ${index === 0 ? "active" : ""}`}
+          <h2
+            class={`rotating-text absolute text-center shadow-text !text-5xl !font-black  px-4 ${index === 0 ? "active" : ""}`}
             data-index={index}
             set:html={text}
           />

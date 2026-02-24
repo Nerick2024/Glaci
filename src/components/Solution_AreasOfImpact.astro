@@ -88,15 +88,15 @@ const overlays = smartEcosystemItems.map((item, index) => {
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mb-5 text-center lg:text-left font-normal text-[32px] text-white md:text-[45px]"
+    class="mb-5 text-center lg:text-left  title-text"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.AREAS_2.TITLE}
   </h1>
   <p
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="text-white text-center text-xl lg:text-3xl"
+    class=" text-center "
   >
     {i18n.AREAS_2.TEXT}
   </p>
@@ -156,11 +156,11 @@ const overlays = smartEcosystemItems.map((item, index) => {
             class="block w-full h-full"
           >
             <div class={o.layout.divClass} style="width:100%; height:100%;">
-              <span class="font-bold text-[#ffffff] text-[12px]">
+              <span class=" text-[#ffffff] text-[12px]">
                 0{o.index + 1}.
               </span>
               <span
-                class="block text-white text-[18px] 2xl:text-[20px] leading-5"
+                class="block text-[18px] 2xl:text-[20px] leading-5"
                 set:html={o.item.TITLE}
               />
               <div class="w-12 h-12 mx-auto border border-[var(--color-title)] rounded-full p-2">
@@ -206,7 +206,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
             tooltip.innerHTML =
               '<ul class="gap-1 p-0 m-0 relative"> <div class="absolute top-0 -left-2.5 rounded-full w-1 h-full bg-[var(--color-title)]"></div>' +
               hoverData
-                .map((h, i) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 bg-white rounded-full mt-2 mr-2'></div><p class='font-semibold m-0 p-0 text-sm ${i % 2 === 0 ? "text-white" : "text-[var(--color-title)]"}'>${h}</p></li>`)
+                .map((h, i) => `<li class='flex flex-row'><div class='w-1.5 h-1.5 bg-white rounded-full mt-2 mr-2'></div><p class=' m-0 p-0  ${i % 2 === 0 ? "" : "text-[var(--color-title)]"}'>${h}</p></li>`)
                 .join("") +
               "</ul>";
             tooltip.classList.remove("hidden");
@@ -270,7 +270,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
       <p
         data-aos="fade-in"
         data-aos-duration="1000"
-        class="center-title text-3d-center text-white font-extrabold lg:text-4xl 2xl:text-6xl"
+        class="center-title text-3d-center font-extrabold"
       >
         {i18n.HERO.CENTER_TITLE}
       </p>
@@ -279,9 +279,9 @@ const overlays = smartEcosystemItems.map((item, index) => {
 
   <!-- MOBILE/TABLET VIEW -->
   <div
-    class="lg:hidden flex flex-col justify-center items-center m-auto p-10 w-full h-fit text-white"
+    class="lg:hidden flex flex-col justify-center items-center m-auto p-10 w-full h-fit"
   >
-    <p class="center-title text-3d-center text-6xl font-extrabold mb-6">
+    <p class="center-title text-3d-center  font-extrabold mb-6">
       {i18n.HERO.CENTER_TITLE}
     </p>
     <div class="flex flex-wrap gap-4 w-full justify-center max-w-md">
@@ -291,7 +291,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
             href={`/${lang}/${slugify(item.TITLE_TEXT)}`}
             class="relative flex bg-white/5 hover:bg-white/20 backdrop-blur-sm px-5 py-2.5 border border-white/20 rounded-lg transition-colors duration-300 w-[45%] items-center justify-center"
           >
-            <p class="font-semibold text-center">{item.TITLE_TEXT} </p>
+            <p class=" text-center">{item.TITLE_TEXT} </p>
             <div class="absolute bg-[var(--color-title)] h-0.5 w-2/3 rounded-full -bottom-0.5" />
           </a>
         ))
@@ -301,7 +301,7 @@ const overlays = smartEcosystemItems.map((item, index) => {
   <p
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="text-center font-bold text-[var(--color-title)] text-xl lg:text-3xl"
+    class="text-center  text-[var(--color-title)] "
   >
     {i18n.AREAS_2.TEXT_2}
   </p>

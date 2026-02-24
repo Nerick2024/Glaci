@@ -8,11 +8,11 @@ const { service, title } = Astro.props;
 
 <section class="">
   <div class="flex justify-center items-center glass-effect py-8">
-    <h2
-      class="uppercase font-bold text-white text-4xl sm:text-5xl max-w-5xl text-center"
+    <h1
+      class="title-text text-center"
     >
       {i18n.AREAS.TITLE_2}
-    </h2>
+    </h1>
   </div>
   <div class="flex flex-wrap justify-center gap-8 mx-auto max-w-6xl px-5 py-24">
     {
@@ -34,10 +34,10 @@ const { service, title } = Astro.props;
             </div>
 
             <div class="flex-1">
-              <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              <h2 class="mb-2 !text-2xl text-[var(--color-title)] ">
                 {item.TITLE}
-              </h3>
-              <p class="text-white text-base lg:text-lg">{item.DESCRIPTION}</p>
+              </h2>
+              <p class=" ">{item.DESCRIPTION}</p>
             </div>
           </article>
         </div>

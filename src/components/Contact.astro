@@ -6,14 +6,13 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
 
-<div id="contact" class="bg-transparent text-white py-12 px-4">
-  <div class="max-w-4xl mx-auto text-center">
+<div id="contact" class="bg-transparent py-12 px-4">
+  <div class="max-w-4xl mx-auto text-center ">
     <p class="mb-8 text-gray-300" set:html={i18n.CONTACT_FORM.HEADING} />
-
     <!-- Añadí id/name al form e inputs para que el fetch funcione -->
     <form
       id="contactForm"
-      class="flex flex-col lg:flex-row items-center justify-center gap-4"
+      class="flex flex-col lg:flex-row items-center justify-center gap-4 "
       novalidate
     >
       <input
@@ -21,7 +20,7 @@ const i18n = await translations[lang]();
         id="cf-name"
         type="text"
         placeholder={i18n.CONTACT_FORM.NAME_PLACEHOLDER}
-        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:"
       />
 
       <input
@@ -29,7 +28,7 @@ const i18n = await translations[lang]();
         id="cf-email"
         type="email"
         placeholder={i18n.CONTACT_FORM.EMAIL_PLACEHOLDER}
-        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:"
       />
 
       <input
@@ -37,13 +36,13 @@ const i18n = await translations[lang]();
         id="cf-message"
         type="text"
         placeholder={i18n.CONTACT_FORM.MESSAGE_PLACEHOLDER}
-        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:text-lg placeholder:font-semibold"
+        class="w-full lg:w-auto bg-transparent border-2 border-[var(--color-title)] rounded-full px-6 py-3 text-[var(--color-title)] placeholder-[var(--color-title)] focus:outline-none focus:ring-2 focus:ring-[var(--color-title)] text-center placeholder:"
       />
 
       <button
         id="cf-submit"
         type="submit"
-        class="w-full lg:w-auto bg-white text-black rounded-full px-8 py-3 font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
+        class="w-full lg:w-auto bg-white text-black rounded-full px-8 py-3  hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
       >
         {i18n.CONTACT_FORM.SUBMIT_BUTTON}
         <svg
@@ -61,7 +60,7 @@ const i18n = await translations[lang]();
     </form>
 
     <!-- Mensajes de estado -->
-    <p id="contactMsg" class="mt-4 text-base text-gray-300" aria-live="polite">
+    <p id="contactMsg" class="mt-4  text-gray-300" aria-live="polite">
     </p>
   </div>
 </div>

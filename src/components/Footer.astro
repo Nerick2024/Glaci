@@ -9,7 +9,7 @@ const i18n = await useTranslation(lang);
 
 <div
   id="footer"
-  class="relative z-10 px-5 text-white lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full flex flex-col gap-12"
+  class="relative z-10 px-5 lg:px-28 py-10 border-t border-white/25 bg-white/1 backdrop-blur-sm w-full flex flex-col gap-12"
 >
   <button
     id="scrollToTop"
@@ -22,8 +22,8 @@ const i18n = await useTranslation(lang);
       <ButtonMoreInformation i18n={i18n} lang={lang} />
     </div>
     <div class="order-1 lg:order-2 flex flex-col items-center gap-6 text-center">
-      <h2 class="text-3xl lg:text-4xl font-bold" set:html={i18n.FOOTER.TITLE} />
-      <p class="text-lg text-[var(--color-text2)]">{i18n.FOOTER.SUBTITLE}</p>
+      <h2 class=" " set:html={i18n.FOOTER.TITLE} />
+      <p class=" text-[var(--color-text2)]">{i18n.FOOTER.SUBTITLE}</p>
       <img
         src="/logo/logo_base.webp"
         alt="GLACI Logo"
@@ -31,13 +31,13 @@ const i18n = await useTranslation(lang);
       />
     </div>
     <div class="order-3 flex flex-row justify-center lg:justify-end items-center gap-6">
-      <p class="text-white text-base">{i18n.FOOTER.FOLLOW_US}</p>
+      <p class=" ">{i18n.FOOTER.FOLLOW_US}</p>
       <Button_Networks i18n={i18n} />
     </div>
   </div>
 
-  <div class="flex justify-center items-center gap-6 text-white">
-    <p class="text-base">{i18n.FOOTER.COPYRIGHT} {new Date().getFullYear()}</p>
+  <div class="flex justify-center items-center gap-6">
+    <p class="">{i18n.FOOTER.COPYRIGHT} {new Date().getFullYear()}</p>
   </div>
 </div>
 

@@ -70,7 +70,7 @@ const i18n = await translations[lang]();
 
 <div
   id="work"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 lg:gap-20 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 lg:gap-20 px-6 py-12"
 >
   <!-- PRIMER BLOQUE -->
   <div class="flex flex-col lg:flex-row gap-8 items-center">
@@ -78,12 +78,12 @@ const i18n = await translations[lang]();
       <h1
         data-aos="fade-up"
         data-aos-duration="1000"
-        class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+        class="mt-4  title-text text-center lg:text-left mb-4"
       >
-        <span class="text-[var(--color-title)]">+</span>
+        <span class="decoration text-[var(--color-title)]">+</span>
         {i18n.WORK.TITLE}
       </h1>
-      <ul class="space-y-2 text-lg pl-5">
+      <ul class="space-y-2  pl-5">
         {
           i18n.WORK.TEXT.map((value) => (
             <li
@@ -133,7 +133,7 @@ const i18n = await translations[lang]();
   <p
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="mx-auto text-base lg:text-xl"
+    class="mx-auto "
   >
     {i18n.WORK.SUB_TEXT}
   </p>
@@ -144,15 +144,15 @@ const i18n = await translations[lang]();
       <h1
         data-aos="fade-up"
         data-aos-duration="1000"
-        class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-right mb-4"
+        class="mt-4  title-text text-center lg:text-right mb-4"
       >
         {i18n.WORK.TITLE_2}
-        <span class="text-[var(--color-title)]">+</span>
+        <span class="decoration text-[var(--color-title)]">+</span>
       </h1>
       <p
         data-aos="fade-left"
         data-aos-duration="1000"
-        class="text-center lg:text-right text-lg"
+        class="text-center lg:text-right "
       >
         {i18n.WORK.TEXT_2}
       </p>

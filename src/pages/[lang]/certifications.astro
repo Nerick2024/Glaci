@@ -4,9 +4,6 @@ import { translations } from "@/i18n/config";
 
 import Layout from "@/layouts/Layout.astro";
 
-import Contact from "@/components/Contact.astro";
-import Stars from "@/components/Stars.astro";
-
 export function getStaticPaths() {
   return Object.keys(translations).map((lang) => ({ params: { lang } }));
 }
@@ -17,12 +14,12 @@ const i18n = await translations[lang]();
 
 <Layout title="G L A C I">
   <section
-    class="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
+    class="relative min-h-screen flex items-center justify-center overflow-hidden"
   >
     <div class="w-full md:max-w-5xl mx-auto px-8 py-24 mt-12 md:mt-0">
       <!-- Menú superior -->
       <nav
-        class="flex justify-center gap-2 md:gap-10 text-base pb-6 mb-16 border-b-2 border-white/25"
+        class="flex justify-center gap-2 md:gap-10  pb-6 mb-16 border-b-2 border-white/25"
       >
         {
           i18n.CERTIFICATIONS.map((cert, index) => (
@@ -45,12 +42,12 @@ const i18n = await translations[lang]();
         <div class="w-full">
           <h2
             id="cert-nav-title"
-            class="text-4xl   mb-4"
+            class="   mb-4"
             set:html={i18n.CERTIFICATIONS[0].NAV_TITLE}
           />
-          <h3
+          <h2
             id="cert-title"
-            class="text-3xl   text-[var(--color-title)] mb-8 md:mb-16"
+            class="   text-[var(--color-title)] mb-8 md:mb-16"
             set:html={i18n.CERTIFICATIONS[0].TITLE}
           />
           <div
@@ -63,12 +60,12 @@ const i18n = await translations[lang]();
         <div class="flex flex-col md:flex-row gap-12 md:gap-24 text-justify">
           <div
             id="cert-desc-left"
-            class="text-base leading-relaxed text-white/90 w-full lg:w-1/2"
+            class="/90 w-full lg:w-1/2"
             set:html={i18n.CERTIFICATIONS[0].DESCRIPTION_LEFT}
           />
           <div
             id="cert-desc-right"
-            class="text-base leading-relaxed text-white/90 w-full lg:w-1/2"
+            class="/90 w-full lg:w-1/2"
             set:html={i18n.CERTIFICATIONS[0].DESCRIPTION_RIGHT}
           />
         </div>

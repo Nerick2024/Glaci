@@ -27,12 +27,9 @@ interface Props {
       <div
         data-aos="zoom-in"
         data-aos-duration="1000"
-        class="relative flex justify-center items-center bg-[var(--color-bg-1)] shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-title)] rounded-full h-[240px] md:h-[260px] aspect-square"
+        class="relative flex justify-center items-center bg-[var(--color-bg-1)] shadow-[inset_0_0_20px_var(--color-blue)] p-4 px-4 border-[5px] border-[var(--color-title)] rounded-full h-[240px] md:h-[300px] aspect-square"
       >
-        <h3
-          class="text-white text-3xl md:text-4xl text-center smart-ecosystem-title"
-          set:html={item.TITLE}
-        />
+        <h1 class="text-center smart-ecosystem-title" set:html={item.TITLE} />
       </div>
     </div>
     <div
@@ -41,7 +38,7 @@ interface Props {
       class="flex justify-start items-center pt-10 lg:mt-0 px-4 w-full lg:w-1/2"
     >
       <p
-        class="text-white text-lg lg:text-left text-center"
+        class=" lg:text-left text-center"
         set:html={item.DESCRIPTION}
       />
     </div>

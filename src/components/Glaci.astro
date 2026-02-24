@@ -8,24 +8,24 @@ const i18n = await translations[lang]();
 
 <div
   id="about"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-6 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-6 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4  title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     ¿{i18n.GLACI.TITLE}
     <span
-      class="text-white font-bold hover:text-[var(--color-title)] transition-colors"
+      class=" !text-6xl !font-bold hover:text-[var(--color-title)] transition-colors"
       >{i18n.GLACI.GLACI}</span
     >?
   </h1>
   <p
     data-aos="fade-in"
     data-aos-duration="1000"
-    class="text-center lg:text-left text-base lg:text-xl"
+    class="text-center lg:text-left "
     set:html={i18n.GLACI.DESCRIPTION}
   />
   <div class="gap-10 lg:gap-16 p-5 flex flex-col lg:flex-row justify-center">
@@ -38,7 +38,7 @@ const i18n = await translations[lang]();
         class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
       >
       </div>
-      <p class="text-base lg:text-lg text-center lg:text-left">
+      <p class=" text-center lg:text-left">
         {i18n.GLACI.TEXT_1}
       </p>
     </div>
@@ -51,7 +51,7 @@ const i18n = await translations[lang]();
         class="block -bottom-0.5 left-1/2 -translate-x-1/2 absolute bg-[var(--color-title)] rounded-md w-2/3 h-1 pointer-events-none"
       >
       </div>
-      <p class="text-base lg:text-lg text-center lg:text-left">
+      <p class=" text-center lg:text-left">
         {i18n.GLACI.TEXT_2}
       </p>
     </div>

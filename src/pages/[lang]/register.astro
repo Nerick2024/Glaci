@@ -18,11 +18,9 @@ const i18n = await translations[lang]();
 <Layout title="G L A C I">
   <div class="min-h-screen">
     <!-- CABECERA AZUL (full width) -->
-    <header class="w-full pt-24 sm:pt-36 max-w-7xl mx-auto px-6 pb-8 sm:pb-16">
-      <p
-        class="text-[var(--color-title))] font-semibold text-4xl sm:text-6xl leading-tight"
-        set:html={i18n.REGISTER_INFORMATION.TITLE}
-      />
+    <header class="w-full pt-24 flex flex-row sm:pt-36 max-w-7xl mx-auto px-6 pb-8 sm:pb-16">
+      <span class="decoration text-[var(--color-title)]">+</span>
+      <h1 class="title-text" set:html={i18n.REGISTER_INFORMATION.TITLE} />
     </header>
 
     <section class="w-full md:-mt-8 pb-20">
@@ -32,15 +30,15 @@ const i18n = await translations[lang]();
             class="w-full md:w-2/5 pt-0 md:pt-12 px-2 flex flex-col justify-center"
           >
             <p
-              class="text-white font-semibold text-2xl sm:text-3xl mb-8"
+              class=" mb-8"
               set:html={i18n.REGISTER_INFORMATION.SUBTITLE}
             />
             <p
-              class="text-white/75 mb-12 md:mb-24 font-medium text-lg"
+              class="mb-12 md:mb-24 font-medium"
               set:html={i18n.REGISTER_INFORMATION.TEXT}
             />
             <p
-              class="text-lg font-semibold text-white"
+              class=""
               set:html={i18n.REGISTER_INFORMATION.WARNING}
             />
           </div>
@@ -50,12 +48,12 @@ const i18n = await translations[lang]();
             <!-- Card: negative margin para solapar el header (ajusta -mt según necesites) -->
             <div class="relative z-20 md:-mt-24">
               <div class="bg-white rounded-xl shadow-2xl p-8 sm:p-10 sm:px-12">
-                <h3
-                  class="text-[var(--color-blue)] font-semibold text-3xl text-center mb-4"
+                <h2
+                  class="text-[var(--color-blue)]  text-center mb-4"
                 >
                   {i18n.REGISTER_INFORMATION.FORM.TITLE}
-                </h3>
-                <p class="text-gray-400 mb-8 text-lg text-center">
+                </h2>
+                <p class="text-gray-400 mb-8 text-center">
                   {i18n.REGISTER_INFORMATION.FORM.SUBTITLE}
                 </p>
                 <RegisterInfo i18n={i18n} lang={lang} />

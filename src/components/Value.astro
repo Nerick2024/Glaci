@@ -10,27 +10,23 @@ const i18n = await translations[lang]();
 
 <div
   id="value"
-  class="max-w-6xl h-full text-white mx-auto flex flex-col gap-12 px-6 py-12"
+  class="max-w-6xl h-full mx-auto flex flex-col gap-12 px-6 py-12"
 >
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4 title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.VALUE.TITLE}
   </h1>
 
-  <p
-    data-aos="fade-in"
-    data-aos-duration="1000"
-    class="text-center text-xl lg:text-2xl"
-  >
+  <p data-aos="fade-in" data-aos-duration="1000" class="text-center">
     {i18n.VALUE.SUBTITLE}
   </p>
 
   <!-- Value Items Flex -->
-  <div class="flex flex-wrap justify-center gap-6 mt-6">
+  <div class="flex flex-wrap justify-center gap-6">
     {
       i18n.VALUE.ITEMS.map((item, index) => (
         <div
@@ -39,26 +35,19 @@ const i18n = await translations[lang]();
           data-aos-delay={index * 150}
           class="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex"
         >
-          <div class="value-card relative glass-effect border border-white/25 bg-gradient-to-br from-[var(--color-bg-2)]/30 to-transparent p-6 rounded-lg hover:pl-8 transition-all duration-300 flex-1 group">
+          <div class="value-card relative flex justify-center items-center glass-effect border border-white/25 bg-gradient-to-br from-[var(--color-bg-2)]/30 to-transparent p-6 rounded-lg hover:pl-8 transition-all duration-300 flex-1 group">
             <div class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-2/3 bg-[var(--color-title)] rounded-full opacity-60 group-hover:opacity-100 group-hover:h-full transition-all duration-300" />
 
-            <div class="flex items-center gap-4">
-              <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-md bg-[var(--color-title)]/10 border border-[var(--color-title)]/20 group-hover:bg-[var(--color-title)]/20 transition-colors duration-300">
+            <div class="flex items-center justify-center gap-4">
+              <div class="flex flex-shrink-0 justify-center items-center shadow-inner border border-white/15 rounded-lg w-16 h-16 transition-transform duration-300">
                 <img
                   src={item.ICON}
                   alt={item.TITLE}
-                  class="w-6 h-6 object-contain"
+                  class="w-10 object-contain"
                 />
               </div>
-
-              <div class="flex-1">
-                <h3 class="text-base font-medium leading-relaxed text-white/90 group-hover:text-white transition-colors duration-300">
-                  {item.TITLE}
-                </h3>
-              </div>
+              <p>{item.TITLE}</p>
             </div>
-
-            <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-title)]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-md" />
           </div>
         </div>
       ))
@@ -80,7 +69,7 @@ const i18n = await translations[lang]();
           data-aos="fade-in"
           data-aos-duration="1000"
           data-aos-delay="700"
-          class="text-xl lg:text-3xl text-white mb-2"
+          class="mb-2"
         >
           {i18n.VALUE.TEXT}
         </p>
@@ -93,14 +82,14 @@ const i18n = await translations[lang]();
         </div>
       </div>
 
-      <p
+      <h2
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-delay="1000"
-        class="text-3xl lg:text-4xl font-bold text-white"
+        class=" lg:!text-5xl"
       >
         {i18n.VALUE.TEXT_2}
-      </p>
+      </h2>
     </div>
   </div>
 </div>

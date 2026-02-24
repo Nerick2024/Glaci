@@ -11,19 +11,19 @@ const area2 = item.AREA2 || [];
 const placeUnder = area1.length <= area2.length ? "area1" : "area2";
 ---
 
-<section id="areas" class="text-white">
+<section id="areas" class="">
   <div class="flex justify-center items-center glass-effect py-8">
     <h2
-      class="uppercase font-bold text-white text-4xl sm:text-5xl max-w-5xl text-center"
+      class="title-text text-center"
     >
       {i18n.AREAS.TITLE_1}
     </h2>
   </div>
-  <p
-    class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold px-6 mx-auto max-w-5xl mt-16 text-center my-16"
+  <h2
+    class="text-[var(--color-title))] px-6 mx-auto max-w-5xl mt-16 text-center my-16"
   >
     {item.AREA_TEXT_1}
-  </p>
+  </h2>
   <div class="px-6">
     <div
       class="gap-x-16 gap-y-8 grid grid-cols-1 md:grid-cols-2 mx-auto max-w-6xl md:text-left text-center"
@@ -32,23 +32,23 @@ const placeUnder = area1.length <= area2.length ? "area1" : "area2";
         {
           area1.map((area: any, index: number) => (
             <div data-aos="fade-right" data-aos-duration="1000">
-              <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              <h2 class="mb-2  text-[var(--color-title)] ">
                 {area.TITLE}
-              </h3>
-              <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
+              </h2>
+              <p class=" ">{area.DESCRIPTION}</p>
             </div>
           ))
         }
 
         {
           placeUnder === "area1" ? (
-            <p
+            <h2
               data-aos="fade-right"
               data-aos-duration="1000"
-              class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold mx-auto max-w-5xl text-center lg:text-left"
+              class=" text-[var(--color-title))]  mx-auto max-w-5xl text-center lg:text-left"
             >
               {item.AREA_TEXT_2}
-            </p>
+            </h2>
           ) : null
         }
         <div class="mb-16 w-fit" data-aos="zoom-in" data-aos-duration="1000">
@@ -60,22 +60,22 @@ const placeUnder = area1.length <= area2.length ? "area1" : "area2";
         {
           area2.map((area: any, index: number) => (
             <div data-aos="fade-left" data-aos-duration="1000">
-              <h3 class="mb-2 font-semibold text-[var(--color-title)] text-2xl">
+              <h2 class="mb-2  text-[var(--color-title)] ">
                 {area.TITLE}
-              </h3>
-              <p class="text-white text-base lg:text-lg">{area.DESCRIPTION}</p>
+              </h2>
+              <p>{area.DESCRIPTION}</p>
             </div>
           ))
         }
         {
           placeUnder === "area2" ? (
-            <p
+            <h2
               data-aos="fade-left"
               data-aos-duration="1000"
-              class="text-2xl lg:text-4xl text-[var(--color-title))] font-semibold mx-auto max-w-5xl text-center lg:text-left"
+              class=" text-[var(--color-title))]  mx-auto max-w-5xl text-center lg:text-left"
             >
               {item.AREA_TEXT_2}
-            </p>
+            </h2>
           ) : null
         }
       </div>

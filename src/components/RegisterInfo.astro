@@ -2,7 +2,7 @@
 const { i18n } = Astro.props;
 ---
 
-<form id="registerInfoForm" class="flex flex-col" novalidate>
+<form id="registerInfoForm" class="flex flex-col text-gray-800" novalidate>
   <div class="mt-4">
     <input
       name="name"
@@ -42,7 +42,7 @@ const { i18n } = Astro.props;
   </div>
 
   <div class="flex flex-row mt-4 items-center justify-center">
-    <p class="block text-[var(--color-blue)] w-2/5 text-lg font-semibold">
+    <p class="block text-[var(--color-blue)] w-2/5  ">
       {i18n.REGISTER_INFORMATION.FORM.INTEREST_LABEL}
     </p>
     <select
@@ -76,7 +76,7 @@ const { i18n } = Astro.props;
       data-default={i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
       data-sending="Enviando..."
       data-sent="Enviado"
-      class="bg-[var(--color-bg-1)] hover:bg-[var(--color-title)] hover:scale-105 transition-all transform gradient-shineButton w-full py-4 rounded-full text-2xl font-semibold text-white"
+      class="bg-[var(--color-bg-1)] hover:bg-[var(--color-title)] hover:scale-105 transition-all transform gradient-shineButton w-full py-4 rounded-full  "
       aria-live="polite"
     >
       {i18n.REGISTER_INFORMATION.FORM.SUBMIT_BUTTON}
@@ -86,7 +86,7 @@ const { i18n } = Astro.props;
   <!-- Mensajes de estado -->
   <p
     id="registerMsg"
-    class="mt-4 mx-auto text-center text-base text-cyan-600"
+    class="mt-4 mx-auto text-center  text-cyan-600"
     aria-live="polite"
   >
   </p>

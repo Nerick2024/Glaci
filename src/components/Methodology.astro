@@ -7,13 +7,13 @@ const lang = getLangFromUrl(Astro.url);
 const i18n = await translations[lang]();
 ---
 
-<div class="max-w-6xl h-full text-white mx-auto flex flex-col gap-6 px-6 py-12">
+<div class="max-w-6xl h-full mx-auto flex flex-col gap-6 px-6 py-12">
   <h1
     data-aos="fade-up"
     data-aos-duration="1000"
-    class="mt-4 font-normal text-[32px] text-white md:text-[45px] text-center lg:text-left mb-4"
+    class="mt-4  title-text text-center lg:text-left mb-4"
   >
-    <span class="text-[var(--color-title)]">+</span>
+    <span class="decoration text-[var(--color-title)]">+</span>
     {i18n.GLACI.TITLE_2}
   </h1>
   <div class="flex flex-col lg:flex-row gap-6">
@@ -21,10 +21,10 @@ const i18n = await translations[lang]();
       i18n.GLACI.CARDS.map((card) => (
         <div data-aos="zoom-in" data-aos-duration="1000" class="flex flex-1">
           <div class="bg-white/5 backdrop-blur-sm relative border hover:-translate-y-2 transition-transform duration-300 border-white/25 flex-1 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <p class="font-semibold text-xl lg:text-2xl mb-2 text-[var(--color-title)]">
+            <p class="  mb-2 text-[var(--color-title)]">
               {card.TITLE}
             </p>
-            <p class="text-base leading-snug">{card.TEXT}</p>
+            <p class=" leading-snug">{card.TEXT}</p>
             <div class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[var(--color-title)] rounded-full" />
           </div>
         </div>

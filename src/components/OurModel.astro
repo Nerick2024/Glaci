@@ -107,7 +107,7 @@ const i18n = await translations[lang]();
       {
         i18n.OUR_MODEL.TEXT.map((text, index) => (
           <h2
-            class={`rotating-text absolute text-center shadow-text !text-5xl !font-black  px-4 ${index === 0 ? "active" : ""}`}
+            class={`rotating-text absolute text-center shadow-text !text-4xl lg:!text-5xl !font-black  px-4 ${index === 0 ? "active" : ""}`}
             data-index={index}
             set:html={text}
           />

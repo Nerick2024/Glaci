@@ -10,7 +10,7 @@ const i18n = await translations[lang]();
 
 <div
   id="differentiation"
-  class="max-w-6xl h-full mx-auto flex flex-col gap-12 p-6"
+  class="max-w-6xl relative h-full mx-auto flex flex-col gap-12 p-6"
 >
   <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
     <div class="flex flex-col lg:w-1/2">
@@ -93,9 +93,19 @@ const i18n = await translations[lang]();
       </div>
     </div>
   </div>
-  <p data-aos="fade-in" data-aos-duration="1000" class="text-center">
+  <h2
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-center !font-normal"
+  >
     {i18n.DIFFERENTIATION.TEXT}
-  </p>
+  </h2>
+  <div
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[linear-gradient(to_right,transparent,var(--color-title),transparent)]"
+  >
+  </div>
 </div>
 <style>
   .scene {

@@ -69,7 +69,7 @@ const i18n = await translations[lang]();
 
 <div
   id="work"
-  class="max-w-6xl h-full mx-auto flex flex-col gap-12 lg:gap-20 p-6"
+  class="max-w-6xl relative h-full mx-auto flex flex-col gap-12 lg:gap-20 p-6"
 >
   <!-- PRIMER BLOQUE -->
   <div class="flex flex-col lg:flex-row gap-8 items-center">
@@ -147,9 +147,19 @@ const i18n = await translations[lang]();
       </div>
     </div>
   </div>
-  <p data-aos="fade-in" data-aos-duration="1000" class="mx-auto">
+  <h2
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="text-center !font-normal"
+  >
     {i18n.WORK.SUB_TEXT}
-  </p>
+  </h2>
+  <div
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    class="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-[linear-gradient(to_right,transparent,var(--color-title),transparent)]"
+  >
+  </div>
 
   <!-- SEGUNDO BLOQUE -->
   <!-- <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">

@@ -87,6 +87,12 @@ const { title } = Astro.props;
         font-family: "Titillium Web", sans-serif;
       }
 
+      /* ═══════════════════════════════════════════
+         DIFY CHATBOT — estilos globales
+         Deben estar en <head> con is:global para
+         que afecten elementos inyectados por el script
+      ═══════════════════════════════════════════ */
+
       /* — Bolita: gradiente metálico + pulso — */
       #dify-chatbot-bubble-button {
         background: linear-gradient(145deg, #9ca3af, #6b7280, #374151) !important;
@@ -94,6 +100,12 @@ const { title } = Astro.props;
 
       #dify-chatbot-bubble-button:hover {
         transform: scale(1.12) !important;
+      }
+
+      @keyframes metalPulse {
+        0%   { box-shadow: 0 4px 15px rgba(0,0,0,0.35), 0 0 0 0   rgba(107,114,128,0.55), inset 0 1px 1px rgba(255,255,255,0.25); }
+        50%  { box-shadow: 0 4px 15px rgba(0,0,0,0.35), 0 0 0 10px rgba(107,114,128,0),    inset 0 1px 1px rgba(255,255,255,0.25); }
+        100% { box-shadow: 0 4px 15px rgba(0,0,0,0.35), 0 0 0 0   rgba(107,114,128,0),    inset 0 1px 1px rgba(255,255,255,0.25); }
       }
 
       /* — Ventana: fixed para que siga la cámara — */
@@ -127,7 +139,7 @@ const { title } = Astro.props;
   </body>
 </html>
 
-<script>
+<script type="">
   import AOS from "aos";
   import "aos/dist/aos.css";
 

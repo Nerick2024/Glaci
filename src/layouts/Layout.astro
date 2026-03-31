@@ -23,14 +23,111 @@ const { title } = Astro.props;
     <link rel="icon" type="image/webp" href="/logo/icon.ico" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+
+    <style is:global>
+      @import url("https://fonts.googleapis.com/css?family=Montserrat:300,900|Titillium+Web:400,600,700&display=swap");
+
+      :root {
+        --color-title: #b6b6b6;
+        --color-text: #ffff;
+        --color-text2: #bebebe;
+        --color-blue: #747474;
+        --color-bg-1: #000000;
+        --color-bg-2: #011377;
+        --color-bg-3: #050653;
+        --color-bg-dropdown: #343434;
+      }
+
+      html,
+      body {
+        font-family: "Titillium Web", sans-serif;
+        overflow-x: hidden;
+      }
+
+      html {
+        background-color: var(--color-bg-1);
+        scroll-behavior: smooth;
+      }
+
+      h1,
+      h2 {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .text-metal {
+        font-weight: 900;
+        background: linear-gradient(
+          110deg,
+          #b8bdc2 0%,
+          #9aa0a6 20%,
+          #7d8389 35%,
+          rgba(255, 255, 255, 0.95) 45%,
+          rgba(255, 255, 255, 0.95) 48%,
+          #7d8389 52%,
+          #9aa0a6 68%,
+          #b8bdc2 100%
+        );
+        background-size: 450% 450%;
+        animation: metal-shine 9s ease-in-out infinite alternate;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        filter: brightness(1.25);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+      }
+
+      @keyframes metal-shine {
+        0%,
+        70% { background-position: 0% 50%; }
+        85% { background-position: 100% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+
+      h3, h4, h5, h6, p, span, li, a, button, input, textarea {
+        font-family: "Titillium Web", sans-serif;
+      }
+
+      /* — Bolita: gradiente metálico + pulso — */
+      #dify-chatbot-bubble-button {
+        background: linear-gradient(145deg, #9ca3af, #6b7280, #374151) !important;
+      }
+
+      #dify-chatbot-bubble-button:hover {
+        transform: scale(1.12) !important;
+      }
+
+      /* — Ventana: fixed para que siga la cámara — */
+      #dify-chatbot-bubble-window {
+        position: fixed !important;
+        overflow: hidden !important;
+        z-index: 99999 !important;
+      }
+    </style>
   </head>
+
   <body>
     <Navbar />
     <slot />
     <Footer />
+
+    <!-- Dify Chatbot -->
+    <script is:inline>
+      window.difyChatbotConfig = {
+        token: 'bb5YecT0cfxy2qC8',
+        inputs: {},
+        systemVariables: {},
+        userVariables: {},
+      }
+    </script>
+    <script
+      src="https://udify.app/embed.min.js"
+      id="bb5YecT0cfxy2qC8"
+      defer>
+    </script>
   </body>
 </html>
-<script type="">
+
+<script>
   import AOS from "aos";
   import "aos/dist/aos.css";
 
@@ -38,85 +135,3 @@ const { title } = Astro.props;
     AOS.init();
   });
 </script>
-<style is:global>
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:300,900|Titillium+Web:400,600,700&display=swap");
-
-  :root {
-    --color-title: #b6b6b6;
-    --color-text: #ffff;
-    --color-text2: #bebebe;
-    --color-blue: #747474;
-    --color-bg-1: #000000;
-    --color-bg-2: #011377;
-    --color-bg-3: #050653;
-    --color-bg-dropdown: #343434;
-  }
-  html,
-  body {
-    font-family: "Titillium Web", sans-serif;
-    overflow-x: hidden;
-  }
-
-  html {
-    background-color: var(--color-bg-1);
-    scroll-behavior: smooth;
-  }
-  /* TÍTULOS */
-  h1,
-  h2 {
-    font-family: "Montserrat", sans-serif;
-  }
-  .text-metal {
-    font-weight: 900;
-    background: linear-gradient(
-      110deg,
-      #b8bdc2 0%,
-      #9aa0a6 20%,
-      #7d8389 35%,
-
-      rgba(255, 255, 255, 0.95) 45%,
-      rgba(255, 255, 255, 0.95) 48%,
-
-      #7d8389 52%,
-      #9aa0a6 68%,
-      #b8bdc2 100%
-    );
-
-    background-size: 450% 450%;
-    animation: metal-shine 9s ease-in-out infinite alternate;
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    filter: brightness(1.25);
-
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  }
-
-  @keyframes metal-shine {
-    0%,
-    70% {
-      background-position: 0% 50%;
-    }
-    85% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
-
-  /* TEXTO NORMAL */
-  h3,
-  h4,
-  h5,
-  h6p,
-  span,
-  li,
-  a,
-  button,
-  input,
-  textarea {
-    font-family: "Titillium Web", sans-serif;
-  }
-</style>

@@ -969,24 +969,6 @@
         ]
       },
       {
-        "NAME": "Guillermo Sánchez",
-        "POSITION": "Chief City Urbanist",
-        "SEMBLANCE": "Doctor Arquitecto en Planificación Urbana y Regional, con una experiencia internacional de más de 20 años en la elaboración de estrategias de desarrollo urbano, metropolitano y regional, así como en la investigación de procesos urbanos y territoriales. Experto en planificación estratégica de ciudades.",
-        "IMG": "/team/guillermo.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "Correo Electronico"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "Linkedin"
-          }
-        ]
-      },
-      {
         "NAME": "Angel Luis Tendero",
         "POSITION": "Chief Project Officer (CPO)",
         "SEMBLANCE": "Arquitecto y gestor de proyectos. Referente en arquitectura, ha sido portada en ABC, El Mundo y El País por su trayectoria.",

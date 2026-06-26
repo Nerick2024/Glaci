@@ -969,24 +969,6 @@
         ]
       },
       {
-        "NAME": "Guillermo Sánchez",
-        "POSITION": "首席城市设计师",
-        "SEMBLANCE": "城市与区域规划建筑学博士，拥有超过20年的城市、大都市和区域发展战略制定以及城市和区域过程研究的国际经验。城市战略规划专家。",
-        "IMG": "/team/guillermo.png",
-        "NETWORKS": [
-          {
-            "ICON": "/icons/networks/mail.svg",
-            "HREF": "",
-            "TITLE": "电子邮箱"
-          },
-          {
-            "ICON": "/icons/networks/linkedin.svg",
-            "HREF": "https://www.linkedin.com/in/guillermo-sanchez-rueda/",
-            "TITLE": "领英"
-          }
-        ]
-      },
-      {
         "NAME": "Angel Luis Tendero",
         "POSITION": "首席项目官",
         "SEMBLANCE": "建筑师和项目经理。建筑领域的标杆人物，因其职业生涯曾被 ABC、El Mundo 和 El País 报道。",

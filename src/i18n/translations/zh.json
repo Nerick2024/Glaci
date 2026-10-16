@@ -1111,6 +1111,24 @@
             "TITLE": "领英"
           }
         ]
+      },
+      {
+        "NAME": "Jose Vicente Ruiz",
+        "POSITION": "Social Labs 和 Industry Labs 创始人兼首席执行官",
+        "SEMBLANCE": "企业家及商业领袖，专注于技术创新、软件开发、人工智能和数字化转型。他拥有超过 20 年的国际经验，致力于创办企业、领导团队以及开发技术解决方案，以推动创新和企业增长。",
+        "IMG": "/team/JoseV.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "电子邮箱"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/josevicenteruiz/",
+            "TITLE": "LinkedIn"
+          }
+        ]
       }
     ]
   },

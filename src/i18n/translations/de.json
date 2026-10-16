@@ -1111,6 +1111,24 @@
             "TITLE": "Linkedin"
           }
         ]
+      },
+      {
+        "NAME": "Jose Vicente Ruiz",
+        "POSITION": "Gründer und CEO von Social Labs und Industry Labs",
+        "SEMBLANCE": "Unternehmer und Führungskraft mit Spezialisierung auf technologische Innovation, Softwareentwicklung, künstliche Intelligenz und digitale Transformation. Er verfügt über mehr als 20 Jahre internationale Erfahrung im Aufbau von Unternehmen, in der Führung von Teams und in der Entwicklung technologischer Lösungen zur Förderung von Innovation und Unternehmenswachstum.",
+        "IMG": "/team/JoseV.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "E-Mail"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/josevicenteruiz/",
+            "TITLE": "LinkedIn"
+          }
+        ]
       }
     ]
   },

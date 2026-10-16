@@ -1111,6 +1111,24 @@
             "TITLE": "Linkedin"
           }
         ]
+      },
+      {
+        "NAME": "Jose Vicente Ruiz",
+        "POSITION": "Fondateur et PDG de Social Labs et Industry Labs",
+        "SEMBLANCE": "Entrepreneur et dirigeant spécialisé dans l'innovation technologique, le développement logiciel, l'intelligence artificielle et la transformation numérique. Il possède plus de 20 ans d'expérience internationale dans la création d'entreprises, la direction d'équipes et le développement de solutions technologiques visant à stimuler l'innovation et la croissance des entreprises.",
+        "IMG": "/team/JoseV.png",
+        "NETWORKS": [
+          {
+            "ICON": "/icons/networks/mail.svg",
+            "HREF": "",
+            "TITLE": "E-mail"
+          },
+          {
+            "ICON": "/icons/networks/linkedin.svg",
+            "HREF": "https://www.linkedin.com/in/josevicenteruiz/",
+            "TITLE": "LinkedIn"
+          }
+        ]
       }
     ]
   },
